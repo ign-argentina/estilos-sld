@@ -5,9 +5,9 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" 
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>area_de_limites.geom</se:Name>
+        <se:Name>provincia</se:Name>
         <UserStyle>
-            <se:Name>area_de_limites.geom</se:Name>
+            <se:Name>provincias_etiquetas_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <!--FeatureRendererV2 nullSymbol not implemented yet-->
                 <se:Rule>

@@ -3,7 +3,7 @@
   <NamedLayer>
     <se:Name>ne_10m_bathymetry_j_1000</se:Name>
     <UserStyle>
-      <se:Name>ne_10m_bathymetry_j_1000</se:Name>
+      <se:Name>batimetria_1000_capa_base</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Batimetría 1000</se:Name>

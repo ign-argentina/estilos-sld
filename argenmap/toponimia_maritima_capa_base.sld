@@ -7,7 +7,7 @@
     <NamedLayer>
         <se:Name>toponimia_maritima</se:Name>
         <UserStyle>
-            <se:Name>toponimia_maritima</se:Name>
+            <se:Name>toponimia_maritima_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <!--FeatureRendererV2 nullSymbol not implemented yet-->
                 <se:Rule>

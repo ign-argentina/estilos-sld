@@ -5,12 +5,12 @@
     xmlns:se="http://www.opengis.net/se" 
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
-        <se:Name>lineas_de_aguas_continentales.geom</se:Name>
+        <se:Name>lineas_de_aguas_continentales</se:Name>
         <UserStyle>
-            <se:Name>lineas_de_aguas_continentales.geom</se:Name>
+            <se:Name>lineas_aguas_continentales_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>linea_agua_perenne_5000000</se:Name>
+                    <se:Name>lineas_aguas_continentales_capa_base</se:Name>
                     <se:Description>
                         <se:Title>linea_agua_perenne_5000000</se:Title>
                     </se:Description>
@@ -34,7 +34,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>linea_agua_perenne_500000</se:Name>
+                    <se:Name>lineas_aguas_continentales_capa_base</se:Name>
                     <se:Description>
                         <se:Title>linea_agua_perenne_500000</se:Title>
                     </se:Description>
@@ -58,7 +58,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>linea_agua_perenne_5000000</se:Name>
+                    <se:Name>lineas_aguas_continentales_capa_base</se:Name>
                     <se:Description>
                         <se:Title>linea_agua_perenne_5000000</se:Title>
                     </se:Description>
@@ -81,7 +81,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>linea_agua_intermitente_5000000</se:Name>
+                    <se:Name>lineas_aguas_continentales_capa_base</se:Name>
                     <se:Description>
                         <se:Title>linea_agua_intermitente_5000000</se:Title>
                     </se:Description>

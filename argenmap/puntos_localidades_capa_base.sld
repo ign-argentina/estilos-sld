@@ -5,9 +5,9 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" 
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>puntos_de_asentamientos_y_edificios.geom</se:Name>
+        <se:Name>puntos_de_asentamientos_y_edificios</se:Name>
         <UserStyle>
-            <se:Name>puntos_de_asentamientos_y_edificios.geom</se:Name>            
+            <se:Name>puntos_localidades_capa_base</se:Name>            
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Capital de Provincia</se:Name>
@@ -102,7 +102,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Localidad</se:Name>
+                    <se:Name>puntos_localidades_capa_base</se:Name>
                     <se:Description>
                         <se:Title>Localidad</se:Title>
                     </se:Description>

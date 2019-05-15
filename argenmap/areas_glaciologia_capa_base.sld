@@ -5,9 +5,9 @@
     xmlns:se="http://www.opengis.net/se" 
     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <se:Name>areas_de_glaciologia_capa_base</se:Name>
+        <se:Name>areas_de_glaciologia</se:Name>
         <UserStyle>
-            <se:Name>areas_de_glaciologia_capa_base</se:Name>
+            <se:Name>areas_glaciologia_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Barrera de hielo</se:Name>
@@ -37,7 +37,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Glaciar</se:Name>
+                    <se:Name>areas_glaciologia_capa_base</se:Name>
                     <se:Description>
                         <se:Title>Glaciar</se:Title>
                     </se:Description>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:ogc="http://www.opengis.net/ogc">
   <NamedLayer>
-    <se:Name>ideign2015_dbo_ne_10m_bathymetry_a_10000.geom</se:Name>
+    <se:Name>ne_10m_bathymetry_a_10000</se:Name>
     <UserStyle>
-      <se:Name>ideign2015_dbo_ne_10m_bathymetry_a_10000.geom</se:Name>
+      <se:Name>batimetria_10000_capa_base</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Batimetría 10000</se:Name>

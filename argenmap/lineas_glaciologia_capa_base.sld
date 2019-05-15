@@ -5,9 +5,9 @@
     xmlns:se="http://www.opengis.net/se" 
     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <se:Name>lineas_de_glaciologia.geom</se:Name>
+        <se:Name>lineas_de_glaciologia</se:Name>
         <UserStyle>
-            <se:Name>lineas_de_glaciologia.geom</se:Name>
+            <se:Name>lineas_glaciologia_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Borde de hielo</se:Name>
@@ -60,7 +60,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Morena</se:Name>
+                    <se:Name>lineas_glaciologia_capa_base</se:Name>
                     <se:Description>
                         <se:Title>Morena</se:Title>
                     </se:Description>

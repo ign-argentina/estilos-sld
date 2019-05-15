@@ -7,10 +7,10 @@
     <NamedLayer>
         <se:Name>area_protegida</se:Name>
         <UserStyle>
-            <se:Name>area_protegida</se:Name>
+            <se:Name>area_protegida_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>area_protegida</se:Name>
+                    <se:Name>area_protegida_capa_base</se:Name>
                     <se:Description>
                         <se:Title>area_protegida</se:Title>
                     </se:Description>

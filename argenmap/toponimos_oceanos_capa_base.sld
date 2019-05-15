@@ -7,7 +7,7 @@
     <NamedLayer>
         <se:Name>toponimos_oceano</se:Name>
         <UserStyle>
-            <se:Name>toponimos_oceano</se:Name>
+            <se:Name>toponimos_oceanos_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <!--FeatureRendererV2 nullSymbol not implemented yet-->
                 <se:Rule>

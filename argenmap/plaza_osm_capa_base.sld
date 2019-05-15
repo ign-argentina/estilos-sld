@@ -5,9 +5,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" 
     xmlns:ogc="http://www.opengis.net/ogc">
     <NamedLayer>
-        <se:Name>dbo_plazas_osm</se:Name>
+        <se:Name>osm_plazas</se:Name>
         <UserStyle>
-            <se:Name>dbo_plazas_osm</se:Name>
+            <se:Name>plaza_osm_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Plazas OSM</se:Name>

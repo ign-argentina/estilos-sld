@@ -5,9 +5,9 @@
     xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" 
     xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <se:Name>areas_de_asentamientos_y_edificios.geom</se:Name>
+        <se:Name>areas_de_asentamientos_y_edificios</se:Name>
         <UserStyle>
-            <se:Name>areas_de_asentamientos_y_edificios.geom</se:Name>
+            <se:Name>area_asentamiento_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Ejido Urbano</se:Name>
@@ -244,7 +244,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Ruinas</se:Name>
+                    <se:Name>area_asentamiento_capa_base</se:Name>
                     <se:Description>
                         <se:Title>Ruinas</se:Title>
                     </se:Description>

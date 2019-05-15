@@ -5,9 +5,9 @@
     xmlns:se="http://www.opengis.net/se" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <NamedLayer>
-        <se:Name>lineas_de_geomorfologia.geom</se:Name>
+        <se:Name>lineas_de_geomorfologia</se:Name>
         <UserStyle>
-            <se:Name>lineas_de_geomorfologia.geom</se:Name>
+            <se:Name>linea_geomorfologia_capa_base</se:Name>
             <se:FeatureTypeStyle>                <!--FeatureRendererV2 nullSymbol not implemented yet-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">

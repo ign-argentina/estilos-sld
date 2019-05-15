@@ -5,12 +5,12 @@
     xmlns:se="http://www.opengis.net/se" 
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
-        <se:Name>isla.geom</se:Name>
+        <se:Name>areas_de_zona_costera</se:Name>
         <UserStyle>
-            <se:Name>isla.geom</se:Name>
+            <se:Name>isla_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>isla</se:Name>
+                    <se:Name>isla_capa_base</se:Name>
                     <se:Description>
                         <se:Title>isla</se:Title>
                     </se:Description>
@@ -40,7 +40,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>isla</se:Name>
+                    <se:Name>isla_capa_base</se:Name>
                     <se:Description>
                         <se:Title>isla</se:Title>
                     </se:Description>

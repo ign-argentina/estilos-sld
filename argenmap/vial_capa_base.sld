@@ -5,9 +5,9 @@
     xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
     xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0">
     <NamedLayer>
-        <se:Name>vial.geom</se:Name>
+        <se:Name>vial</se:Name>
         <UserStyle>
-            <se:Name>vial.geom</se:Name>
+            <se:Name>vial_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Camino de tierra</se:Name>
@@ -333,7 +333,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>Autopista</se:Name>
+                    <se:Name>vial_capa_base</se:Name>
                     <se:Description>
                         <se:Title>Autopista</se:Title>
                     </se:Description>
@@ -355,7 +355,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>Autopista</se:Name>
+                    <se:Name>vial_capa_base</se:Name>
                     <se:Description>
                         <se:Title>Autopista</se:Title>
                     </se:Description>
@@ -377,7 +377,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>Huella</se:Name>
+                    <se:Name>vial_capa_base</se:Name>
                     <se:Description>
                         <se:Title>Huella</se:Title>
                     </se:Description>
@@ -432,7 +432,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>Picada</se:Name>
+                    <se:Name>vial_capa_base</se:Name>
                     <se:Description>
                         <se:Title>Picada</se:Title>
                     </se:Description>

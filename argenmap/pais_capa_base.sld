@@ -5,9 +5,9 @@
     xmlns:ogc="http://www.opengis.net/ogc" 
     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <se:Name>area_de_limites.geom</se:Name>
+        <se:Name>pais</se:Name>
         <UserStyle>
-            <se:Name>area_de_limites.geom</se:Name>
+            <se:Name>pais_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Países</se:Name>

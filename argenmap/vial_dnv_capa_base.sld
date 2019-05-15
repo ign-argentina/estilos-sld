@@ -5,9 +5,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>red_vial_nacional_dnv_2018.geom</se:Name>
+        <se:Name>red_vial_nacional_dnv_2018</se:Name>
         <UserStyle>
-            <se:Name>red_vial_nacional_dnv_2018.geom</se:Name>
+            <se:Name>vial_dnv_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Rutas Nacionales DNV</se:Name>

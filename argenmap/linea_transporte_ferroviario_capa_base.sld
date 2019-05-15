@@ -5,9 +5,9 @@
     xmlns:ogc="http://www.opengis.net/ogc" 
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
-        <se:Name>lineas_de_transporte_ferroviario.geom</se:Name>
+        <se:Name>lineas_de_transporte_ferroviario</se:Name>
         <UserStyle>
-            <se:Name>lineas_de_transporte_ferroviario.geom</se:Name>
+            <se:Name>linea_transporte_ferroviario_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Línea ferroviario</se:Name>

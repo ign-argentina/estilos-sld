@@ -7,10 +7,10 @@
     <NamedLayer>
         <se:Name>areas_de_aguas_continentales</se:Name>
         <UserStyle>
-            <se:Name>areas_de_aguas_continentales</se:Name>
+            <se:Name>areas_aguas_continentales_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>area_corriente_agua_5000000</se:Name>
+                    <se:Name>areas_aguas_continentales_capa_base</se:Name>
                     <se:Description>
                         <se:Title>area_corriente_agua_5000000</se:Title>
                     </se:Description>

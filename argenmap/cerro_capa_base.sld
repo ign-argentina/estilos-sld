@@ -5,9 +5,9 @@
     xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>puntos_de_geomorfologia.geom</se:Name>
+        <se:Name>puntos_de_geomorfologia</se:Name>
         <UserStyle>
-            <se:Name>puntos_de_geomorfologia.geom</se:Name>
+            <se:Name>cerro_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Puntos Geomorfología</se:Name>

@@ -5,9 +5,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>osm_vial</se:Name>
+        <se:Name>osm_vial_vista</se:Name>
         <UserStyle>
-            <se:Name>osm_vial</se:Name>
+            <se:Name>osm_vial_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:MaxScaleDenominator>8000</se:MaxScaleDenominator>

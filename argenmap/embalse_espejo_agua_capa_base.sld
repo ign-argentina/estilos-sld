@@ -7,10 +7,10 @@
     <NamedLayer>
         <se:Name>areas_de_aguas_continentales</se:Name>
         <UserStyle>
-            <se:Name>areas_de_aguas_continentales</se:Name>
+            <se:Name>embalse_espejo_agua_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>area_embalse_5000000</se:Name>
+                    <se:Name>embalse_espejo_agua_capa_base</se:Name>
                     <se:Description>
                         <se:Title>area_embalse_5000000</se:Title>
                     </se:Description>
@@ -35,7 +35,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>area_espejo_agua_5000000</se:Name>
+                    <se:Name>embalse_espejo_agua_capa_base</se:Name>
                     <se:Description>
                         <se:Title>area_espejo_agua_5000000</se:Title>
                     </se:Description>
@@ -61,7 +61,7 @@
             <!--
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>canal_100.000</se:Name>
+          <se:Name>embalse_espejo_agua_capa_base</se:Name>
           <se:Description>
             <se:Title>canal_100.000</se:Title>
           </se:Description>
