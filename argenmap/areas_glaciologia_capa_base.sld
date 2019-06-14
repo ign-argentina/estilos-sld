@@ -52,14 +52,9 @@
                         <se:Fill>
                             <se:GraphicFill>
                                 <se:Graphic>
-                                    <!--Parametric SVG-->
-                                    <se:ExternalGraphic>
-                                        <se:OnlineResource xlink:type="simple" xlink:href="/styles/glaciar.svg?fill=%236ed4bc&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=1"/>
-                                        <se:Format>image/svg+xml</se:Format>
-                                    </se:ExternalGraphic>
                                     <!--Plain SVG fallback, no parameters-->
                                     <se:ExternalGraphic>
-                                        <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/glaciar.svg"/>
+                                        <se:OnlineResource xlink:type="simple" xlink:href="glaciar.svg"/>
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <!--Well known marker fallback-->
@@ -106,14 +101,9 @@
                         <se:Fill>
                             <se:GraphicFill>
                                 <se:Graphic>
-                                    <!--Parametric SVG-->
-                                    <se:ExternalGraphic>
-                                        <se:OnlineResource xlink:type="simple" xlink:href="/styles/morena_morrena.svg?fill=%23c3f9b3&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=1"/>
-                                        <se:Format>image/svg+xml</se:Format>
-                                    </se:ExternalGraphic>
                                     <!--Plain SVG fallback, no parameters-->
                                     <se:ExternalGraphic>
-                                        <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/morena_morrena.svg"/>
+                                        <se:OnlineResource xlink:type="simple" xlink:href="morena_morrena.svg"/>
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <!--Well known marker fallback-->

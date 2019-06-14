@@ -82,14 +82,9 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Graphic>
-                            <!--Parametric SVG-->
-                            <se:ExternalGraphic>
-                                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/rn_pavimentada.svg?fill=%23ffffff&amp;fill-opacity=1&amp;outline=%23808080&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                                <se:Format>image/svg+xml</se:Format>
-                            </se:ExternalGraphic>
                             <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/rn_pavimentada.svg"/>
+                                <se:OnlineResource xlink:type="simple" xlink:href="rn_pavimentada.svg"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <!--Well known marker fallback-->

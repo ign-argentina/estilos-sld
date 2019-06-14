@@ -17,14 +17,9 @@
           <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg?fill=%230dc3a8&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="edificio_educativo_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -51,14 +46,9 @@
           <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg?fill=%23a58c67&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="edificio_educativo_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -84,14 +74,9 @@
           <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg?fill=%235a8a1a&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="edificio_educativo_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -126,14 +111,9 @@
           <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg?fill=%230dc3a8&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="edificio_educativo_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -160,14 +140,9 @@
           <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg?fill=%23a58c67&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="edificio_educativo_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -193,14 +168,9 @@
           <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg?fill=%235a8a1a&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_educativo_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="edificio_educativo_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->

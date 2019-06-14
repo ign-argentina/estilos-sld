@@ -14,14 +14,9 @@
           <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/institucion_penitenciaria.svg?fill=%230dc3a8&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/institucion_penitenciaria.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="institucion_penitenciaria.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -48,14 +43,9 @@
           <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/institucion_penitenciaria.svg?fill=%23a58c67&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/institucion_penitenciaria.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="institucion_penitenciaria.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -81,14 +71,9 @@
           <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/institucion_penitenciaria.svg?fill=%235a8a1a&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/institucion_penitenciaria.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="institucion_penitenciaria.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
