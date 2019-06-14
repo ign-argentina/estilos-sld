@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <se:Name>puntos_de_comunicacion.geom</se:Name>
+    <se:Name>cuartel_bomberos_visor</se:Name>
     <UserStyle>
-      <se:Name>puntos_de_comunicacion.geom</se:Name>
+      <se:Name>cuartel_bomberos_visor</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Objeto 50.000.000 a 9.000.001</se:Name>
@@ -16,12 +16,12 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_seguridad_visor.svg?fill=%230dc3a8&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/bomberos_visor.svg?fill=%230dc3a8&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_seguridad_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/bomberos_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -50,12 +50,12 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_seguridad_visor.svg?fill=%23a58c67&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/bomberos_visor.svg?fill=%23a58c67&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_seguridad_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/bomberos_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -83,12 +83,12 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_seguridad_visor.svg?fill=%235a8a1a&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/bomberos_visor.svg?fill=%235a8a1a&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_seguridad_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/bomberos_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->

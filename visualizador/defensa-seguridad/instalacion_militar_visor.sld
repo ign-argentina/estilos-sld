@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" version="1.1.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:se="http://www.opengis.net/se" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
   <NamedLayer>
-    <se:Name>edificio_educativo</se:Name>
+    <se:Name>instalacion_militar _visor</se:Name>
     <UserStyle>
-      <se:Name>edificio_educativo</se:Name>
+      <se:Name>instalacion_militar _visor</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Objeto 50.000.000 a 9.000.001</se:Name>
@@ -16,12 +16,12 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_salud_visor.svg?fill=%230dc3a8&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/instalacion_militar.svg?fill=%230dc3a8&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_salud_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/instalacion_militar.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -50,12 +50,12 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_salud_visor.svg?fill=%23a58c67&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/instalacion_militar.svg?fill=%23a58c67&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_salud_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/instalacion_militar.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -83,12 +83,12 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_salud_visor.svg?fill=%235a8a1a&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/instalacion_militar.svg?fill=%235a8a1a&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="http://wms.ign.gob.ar/geoserver/styles/edificio_salud_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="http://wms.ign.gob.ar/geoserver/styles/instalacion_militar.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->

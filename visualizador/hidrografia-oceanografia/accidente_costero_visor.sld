@@ -3,7 +3,7 @@
   <NamedLayer>
     <se:Name>accidente_costero_visor</se:Name>
     <UserStyle>
-      <se:Name>accidente_costero_visore</se:Name>
+      <se:Name>accidente_costero_visor</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>accidente_costero_visor</se:Name>
