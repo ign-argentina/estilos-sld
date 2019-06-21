@@ -24,7 +24,7 @@
                     </PointSymbolizer>
                     <TextSymbolizer>
                         <Label>
-                            <ogc:PropertyName>codigo_de_estacion_ramsac</ogc:PropertyName>
+                            <ogc:PropertyName>nomenclatura</ogc:PropertyName>
                         </Label>
                         <Font>
                             <CssParameter name="font-family">Arial</CssParameter>
