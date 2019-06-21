@@ -46,7 +46,7 @@
                     <PointSymbolizer>
                         <Graphic>
                             <ExternalGraphic>
-                                <OnlineResource xlink:type="simple" xlink:href="/styles/PF_Topografica.png" />
+                                <OnlineResource xlink:type="simple" xlink:href="/styles/PF_Topografica.svg" />
                                 <Format>image/png</Format>
                             </ExternalGraphic>
                             <Size>20</Size>
