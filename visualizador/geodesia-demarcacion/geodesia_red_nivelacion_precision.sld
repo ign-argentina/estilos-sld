@@ -46,8 +46,8 @@
                     <PointSymbolizer>
                         <Graphic>
                             <ExternalGraphic>
-                                <OnlineResource xlink:type="simple" xlink:href="/styles/PF_Precision.svg" />
-                                <Format>image/png</Format>
+                                <OnlineResource xlink:type="simple" xlink:href="PF_Precision.svg" />
+                                <Format>image/svg</Format>
                             </ExternalGraphic>
                             <Size>20</Size>
                         </Graphic>
