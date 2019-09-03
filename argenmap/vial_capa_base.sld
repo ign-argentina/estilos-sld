@@ -164,7 +164,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ccb8dd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.60000000000000009</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -204,7 +204,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#af69e2</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.80000000000000004</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -348,7 +348,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#c60202</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.19999999999999996</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -370,7 +370,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#c60202</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.60000000000000009</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -524,7 +524,7 @@
                         <se:Graphic>
                             <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:href="rp_pavimentada.svg" xlink:type="simple"/>
+                                <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <!--Well known marker fallback-->
