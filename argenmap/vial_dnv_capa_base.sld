@@ -21,10 +21,10 @@
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>9000001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>18000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>11000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ec2027</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#f04d52</se:SvgParameter>
                             <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
@@ -49,9 +49,9 @@
                     <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ec2027</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#f04d52</se:SvgParameter>
                             <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.39999999999999991</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -84,7 +84,7 @@
                         <se:Graphic>
                             <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="rn_pavimentada.svg"/>
+                                <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional.svg"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <!--Well known marker fallback-->
