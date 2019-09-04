@@ -68,7 +68,7 @@
                         <se:Graphic>
                             <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:href="rp_pavimentada.svg" xlink:type="simple"/>
+                                <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <!--Well known marker fallback-->
@@ -119,7 +119,7 @@
                         <se:Graphic>
                             <!--Parametric SVG-->
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:href="rn_pavimentada.svg?fill=%23ffffff&amp;fill-opacity=1&amp;outline=%23808080&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
+                                <se:OnlineResource xlink:href="numeracion_rutanacional.svg?fill=%23ffffff&amp;fill-opacity=1&amp;outline=%23808080&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <!--Plain SVG fallback, no parameters-->
