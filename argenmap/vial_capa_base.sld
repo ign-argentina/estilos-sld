@@ -507,7 +507,7 @@
                             <ogc:PropertyName>nr</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Arimo</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
