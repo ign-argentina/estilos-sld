@@ -5,9 +5,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>osm_vial_vista</se:Name>
+        <se:Name>osm_vial</se:Name>
         <UserStyle>
-            <se:Name>osm_vial_capa_base</se:Name>
+            <se:Name>osm_vial</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:MaxScaleDenominator>8000</se:MaxScaleDenominator>
@@ -16,7 +16,7 @@
                             <ogc:PropertyName>name</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">13</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -28,7 +28,7 @@
                         <se:Halo>
                             <se:Radius>2</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#fffff2</se:SvgParameter>
+                                <se:SvgParameter name="fill">#fffbf7</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
@@ -117,14 +117,9 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Graphic>
-                            <!--Parametric SVG-->
-                            <se:ExternalGraphic>
-                                <se:OnlineResource xlink:href="numeracion_rutanacional.svg?fill=%23ffffff&amp;fill-opacity=1&amp;outline=%23808080&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                                <se:Format>image/svg+xml</se:Format>
-                            </se:ExternalGraphic>
                             <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:href="rn_pavimentada.svg" xlink:type="simple"/>
+                                <se:OnlineResource xlink:href="numeracion_rutanacional.svg" xlink:type="simple"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <!--Well known marker fallback-->
@@ -153,7 +148,6 @@
             <!-- tunnel tertiary -->
 
             <!-- fin tunnel tertiary -->
-            <!-- tunnel secondary -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>túneles secondary,secondary_link</se:Name>
@@ -187,31 +181,6 @@
                             <se:SvgParameter name="stroke-dasharray">6 3</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>túneles en secondary,secondary_link</se:Name>
-                    <se:Description>
-                        <se:Title>túneles en secondary,secondary_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>tunnel</ogc:PropertyName>
-                                <ogc:Literal>yes</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#dbdbbb</se:SvgParameter>
@@ -224,8 +193,6 @@
                 <!-- <se:VendorOption name="sortBy">layer</se:VendorOption> -->
                 <!-- <se:VendorOption name="sortByGroup">layer</se:VendorOption> -->
             </se:FeatureTypeStyle>
-            <!-- fin tunnel secondary -->
-            <!-- tunnel primary -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>túneles primary,primary_link</se:Name>
@@ -254,36 +221,11 @@
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#717171</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">10</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">12</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">6 3</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>túneles en primary,primary_link</se:Name>
-                    <se:Description>
-                        <se:Title>túneles en primary,primary_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>primary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>primary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>tunnel</ogc:PropertyName>
-                                <ogc:Literal>yes</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
@@ -296,8 +238,6 @@
                 <!-- <se:VendorOption name="sortBy">layer</se:VendorOption> -->
                 <!-- <se:VendorOption name="sortByGroup">layer</se:VendorOption> -->
             </se:FeatureTypeStyle>
-            <!-- fin tunnel primary -->
-            <!-- tunnel trunk -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>túneles en trunk , trunk_link</se:Name>
@@ -332,32 +272,6 @@
                             <se:SvgParameter name="stroke-dasharray">6 3</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>túneles en trunk, trunk_link</se:Name>
-                    <se:Description>
-                        <se:Title>Túneles en trunk, trunk_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>trunk</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>trunk_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>tunnel</ogc:PropertyName>
-                                <ogc:Literal>yes</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>5001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fbb299</se:SvgParameter>
@@ -401,32 +315,7 @@
                             <se:SvgParameter name="stroke-dasharray">6 3</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>túneles en trunk, trunk_link</se:Name>
-                    <se:Description>
-                        <se:Title>Túneles en trunk, trunk_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>trunk</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>trunk_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>tunnel</ogc:PropertyName>
-                                <ogc:Literal>yes</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fbb299</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">10</se:SvgParameter>
@@ -436,8 +325,6 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <!-- fin tunnel trunk -->
-            <!-- tunnel motorway -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>túneles en motorway, motorway_link</se:Name>
@@ -471,32 +358,7 @@
                             <se:SvgParameter name="stroke-dasharray">2 2</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>túneles en motorway, motorway_link</se:Name>
-                    <se:Description>
-                        <se:Title>Túneles en motorway, motorway_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>motorway</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>motorway_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>tunnel</ogc:PropertyName>
-                                <ogc:Literal>yes</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ea91a0</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>
@@ -508,7 +370,6 @@
                 <!-- <se:VendorOption name="sortBy">layer</se:VendorOption> -->
                 <!-- <se:VendorOption name="sortByGroup">layer</se:VendorOption> -->
             </se:FeatureTypeStyle>
-            <!-- fin tunnel motorway -->
             <!-- Fin tunnel -->
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -930,25 +791,16 @@
                         <se:Title>secondary,secondary_link</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>tunnel</ogc:PropertyName>
-                                <ogc:Literal>yes</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNull>
-                                <ogc:PropertyName>bridge</ogc:PropertyName>
-                            </ogc:PropertyIsNull>
-                        </ogc:And>
+                        <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>secondary</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>secondary_link</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>5001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
@@ -969,25 +821,16 @@
                         <se:Title>secondary,secondary_link</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>tunnel</ogc:PropertyName>
-                                <ogc:Literal>yes</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNull>
-                                <ogc:PropertyName>bridge</ogc:PropertyName>
-                            </ogc:PropertyIsNull>
-                        </ogc:And>
+                        <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>secondary</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>secondary_link</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1396,7 +1239,6 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <!-- bridge living_street, pedestrian, raceway , residential , unclassified -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
@@ -1438,50 +1280,11 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
-                    <se:Description>
-                        <se:Title>living_street, pedestrian, raceway , residential , unclassified</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>living_street</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>pedestrian</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>residential</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>unclassified</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>raceway</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>5001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -1532,51 +1335,13 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
-                    <se:Description>
-                        <se:Title>living_street, pedestrian, raceway , residential , unclassified</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>living_street</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>pedestrian</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>residential</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>unclassified</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>raceway</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                      <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">12</se:SvgParameter>
@@ -1618,38 +1383,11 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>tertiary, tertiary_link</se:Name>
-                    <se:Description>
-                        <se:Title>tertiary, tertiary_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>tertiary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>tertiary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>5001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#f3c3f4</se:SvgParameter>
@@ -1688,38 +1426,12 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>tertiary, tertiary_link</se:Name>
-                    <se:Description>
-                        <se:Title>tertiary, tertiary_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>tertiary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>tertiary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#f3c3f4</se:SvgParameter>
@@ -1762,38 +1474,11 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>secondary,secondary_link</se:Name>
-                    <se:Description>
-                        <se:Title>secondary,secondary_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>5001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#dbdbbb</se:SvgParameter>
@@ -1832,39 +1517,13 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>secondary,secondary_link</se:Name>
-                    <se:Description>
-                        <se:Title>secondary,secondary_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>secondary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#dbdbbb</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">12</se:SvgParameter>
@@ -1906,38 +1565,11 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>primary,primary_link</se:Name>
-                    <se:Description>
-                        <se:Title>primary,primary_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>primary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>primary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>5001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
@@ -1976,39 +1608,13 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>primary,primary_link</se:Name>
-                    <se:Description>
-                        <se:Title>primary,primary_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>primary</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>primary_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">12</se:SvgParameter>
@@ -2050,38 +1656,11 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>trunk , trunk_link</se:Name>
-                    <se:Description>
-                        <se:Title>trunk , trunk_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>trunk</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>trunk_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>5001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fbb299</se:SvgParameter>
@@ -2120,38 +1699,12 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">11</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>trunk , trunk_link</se:Name>
-                    <se:Description>
-                        <se:Title>trunk , trunk_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>trunk</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>trunk_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fbb299</se:SvgParameter>
@@ -2194,40 +1747,13 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>puentes en motorway, motorway_link</se:Name>
-                    <se:Description>
-                        <se:Title>Puentes en motorway, motorway_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>motorway</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>motorway_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>5001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer>
+                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ea91a0</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">6</se:SvgParameter>
@@ -2265,38 +1791,12 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">black</se:SvgParameter>
+                            <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">14</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>puentes en motorway, motorway_link</se:Name>
-                    <se:Description>
-                        <se:Title>Puentes en motorway, motorway_link</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>motorway</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>highway</ogc:PropertyName>
-                                    <ogc:Literal>motorway_link</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:Not>
-                                <ogc:PropertyIsNull>
-                                    <ogc:PropertyName>bridge</ogc:PropertyName>
-                                </ogc:PropertyIsNull>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ea91a0</se:SvgParameter>
