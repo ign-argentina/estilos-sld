@@ -16,7 +16,7 @@
             <se:Graphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="central_electrica_amarillo.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="central_electrica_visor.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -45,7 +45,7 @@
             <se:Graphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="central_electrica_amarillo.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="central_electrica_visor.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -73,7 +73,7 @@
             <se:Graphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="central_electrica_amarillo.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="central_electrica_visor.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
