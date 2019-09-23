@@ -3,14 +3,23 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
-<path fill="#B5343A" d="M12.141,0.051C7.813-0.029,4.24,3.418,4.164,7.748c-0.043,2.41,1.004,4.581,2.689,6.049l-0.015,0.004
-	c2.028,1.824,3.904,3.497,4.161,7.057c-1.264,0.166-2.203,0.746-2.216,1.466c-0.013,0.866,1.318,1.598,2.976,1.628
-	c1.658,0.027,3.015-0.653,3.031-1.52c0.015-0.742-0.961-1.379-2.278-1.564c0.381-3.462,2.237-5.069,4.28-6.774
-	c1.815-1.405,3.002-3.589,3.045-6.062C19.915,3.701,16.468,0.128,12.141,0.051"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12" y1="1.972" x2="12" y2="5.226"/>
-<path fill="#FFFFFF" d="M12.283,1.955c0,0,0.911,0.536,1.946-0.321c0,0,0.786,0.022,0.855,0.243c0.071,0.221,0,1.72,0,1.72
-	s-0.629-0.5-1.386,0c0,0-0.651,0.463-1.417,0"/>
-<rect x="8.032" y="5.531" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="7.937" height="5.896"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="6.332" y1="12" x2="17.669" y2="12"/>
-<path fill="#AA3639" d="M12.029,8.682c-0.409,0-0.74,0.129-0.74,0.289v2.545h1.48V8.971C12.769,8.811,12.437,8.682,12.029,8.682z"/>
+<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="12.001" cy="10.25" r="9"/>
+<g id="Capa_1_1_" display="none">
+	<circle display="inline" fill="#9A7D22" cx="12" cy="10.4" r="10"/>
+</g>
+<g id="Capa_3">
+	<path fill="#B5343A" d="M11.997,0.001L11.997,0.001c-5.66-0.085-10.315,4.434-10.4,10.093c0,0.044,0,0.089,0,0.133
+		c0,3.126,1.311,5.527,3.563,7.753c2.972,2.929,5.813,5.599,5.813,5.599c0.311,0.3,0.736,0.45,1.167,0.412v-0.412l0,0V24
+		c0.367-0.079,0.715-0.232,1.021-0.455c0,0,2.741-2.74,5.696-5.652c2.254-2.221,3.547-4.533,3.547-7.677
+		C22.376,4.547,17.759-0.027,12.09,0C12.06,0,12.028,0,11.997,0.001z M11.997,19c-4.946,0.003-8.957-4.004-8.959-8.949
+		c-0.003-4.945,4.003-8.956,8.948-8.959c4.944-0.002,8.956,4.003,8.958,8.949c0,0.003,0,0.007,0,0.011
+		C20.939,14.995,16.936,19,11.991,19H11.997z"/>
+</g>
+<line fill="none" stroke="#B5343A" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.999" y1="3.24" x2="11.999" y2="6.971"/>
+<path fill="#B5343A" d="M12.324,3.219c0,0,1.043,0.615,2.231-0.368c0,0,0.902,0.026,0.98,0.279c0.081,0.253,0,1.973,0,1.973
+	s-0.721-0.573-1.589,0c0,0-0.747,0.531-1.625,0"/>
+<rect x="7.449" y="7.32" fill="#B5343A" stroke="#B5343A" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="9.101" height="6.76"/>
+<line fill="none" stroke="#B5343A" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="5.5" y1="14.738" x2="18.5" y2="14.738"/>
+<path fill="#FFFFFF" d="M12.033,10.933c-0.469,0-0.849,0.148-0.849,0.332v2.918h1.698v-2.918
+	C12.882,11.081,12.501,10.933,12.033,10.933z"/>
 </svg>
