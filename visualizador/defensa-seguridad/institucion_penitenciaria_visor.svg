@@ -1,58 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
-	 height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
-<g id="Capa_1">
-	<g id="Capa_1_1_">
-		<path fill="#20547E" d="M12.141,0.051C7.813-0.029,4.24,3.418,4.164,7.748c-0.043,2.41,1.004,4.581,2.689,6.049l-0.015,0.004
-			c2.028,1.824,3.904,3.497,4.161,7.057c-1.264,0.166-2.203,0.746-2.216,1.465c-0.013,0.867,1.318,1.599,2.976,1.629
-			c1.658,0.027,3.015-0.653,3.031-1.52c0.015-0.742-0.961-1.379-2.278-1.564c0.381-3.463,2.237-5.069,4.28-6.774
-			c1.815-1.405,3.002-3.589,3.045-6.062C19.915,3.701,16.468,0.128,12.141,0.051"/>
-	</g>
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="12.001" cy="10.25" r="9"/>
+<g id="Capa_1_1_" display="none">
+	<circle display="inline" fill="#9A7D22" cx="12" cy="10.4" r="10"/>
 </g>
-<g id="Institucion_penitenciaria" display="none">
-	
-		<image display="inline" overflow="visible" width="900" height="520" xlink:href="19A23DCD.jpg"  transform="matrix(0.0333 0 0 0.0333 -2 1.3335)">
-	</image>
-	
-		<image display="inline" overflow="visible" width="245" height="245" xlink:href="19A23DCF.jpg"  transform="matrix(0.0816 0 0 0.0816 0.5 -0.5)">
-	</image>
-	
-		<image display="inline" overflow="visible" width="225" height="225" xlink:href="19A23DCA.jpg"  transform="matrix(0.0889 0 0 0.0889 0.5 -0.5)">
-	</image>
+<g id="Capa_3">
+	<path fill="#20547E" d="M11.997,0.001L11.997,0.001c-5.66-0.085-10.315,4.434-10.4,10.093c0,0.044,0,0.089,0,0.133
+		c0,3.126,1.311,5.527,3.563,7.753c2.972,2.929,5.813,5.599,5.813,5.599c0.311,0.3,0.736,0.45,1.167,0.412v-0.412l0,0V24
+		c0.367-0.079,0.715-0.232,1.021-0.455c0,0,2.741-2.74,5.696-5.652c2.254-2.221,3.547-4.533,3.547-7.677
+		C22.376,4.547,17.759-0.027,12.09,0C12.06,0,12.028,0,11.997,0.001z M11.997,19c-4.946,0.003-8.957-4.004-8.959-8.949
+		c-0.003-4.945,4.003-8.956,8.948-8.959c4.944-0.002,8.956,4.003,8.958,8.949c0,0.003,0,0.007,0,0.011
+		C20.939,14.995,16.936,19,11.991,19H11.997z"/>
 </g>
-<g id="Instalacion_militar" display="none">
-	
-		<image display="inline" overflow="visible" width="320" height="157" xlink:href="19A23DCB.jpg"  transform="matrix(0.0938 0 0 0.0938 -2 3.1406)">
-	</image>
-</g>
-<g id="Capa_4" display="none">
-	<polyline display="inline" fill="none" stroke="#FB5CFF" stroke-width="0.5" stroke-miterlimit="10" points="5.438,5.188 
-		5.438,1.844 15.531,1.844 15.531,5.234 	"/>
-	<polyline display="inline" fill="none" stroke="#FB5CFF" stroke-width="0.5" stroke-miterlimit="10" points="5.438,13.75 
-		5.438,17.094 15.531,17.094 15.531,13.734 	"/>
-	<path display="inline" fill="none" stroke="#FB5CFF" stroke-miterlimit="10" d="M5.391,5.344c0.906,0,1.641,1.847,1.641,4.125
-		s-0.734,4.125-1.641,4.125"/>
-	<path display="inline" fill="none" stroke="#FB5CFF" stroke-miterlimit="10" d="M15.586,5.344c-0.906,0-1.641,1.847-1.641,4.125
-		s0.734,4.125,1.641,4.125"/>
-</g>
-<g id="Capa_5">
-	<g>
-		<path fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" d="M11.564,2.327h-0.878v1.495H9.405V2.327H8.25
-			v2.689c0,0,2.576,2.577,0,6.136v2.671h3.748h0.175h3.577v-2.671c-2.575-3.559,0-6.136,0-6.136V2.327h-1.154v1.495h-1.281V2.327
-			h-0.51H11.564z"/>
-		<line fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" x1="8.323" y1="3.951" x2="15.556" y2="3.951"/>
-		<line fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" x1="8.694" y1="5.6" x2="15.417" y2="5.6"/>
-		<line fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" x1="8.706" y1="10.547" x2="15.417" y2="10.547"/>
-		<line fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" x1="8.43" y1="12.196" x2="15.662" y2="12.196"/>
-		<line fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" x1="10.042" y1="3.951" x2="10.042" y2="5.6"/>
-		<line fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" x1="13.988" y1="3.951" x2="13.988" y2="5.6"/>
-		<line fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" x1="13.988" y1="10.53" x2="13.988" y2="12.178"/>
-		
-			<line fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" x1="10.042" y1="10.529" x2="10.042" y2="12.178"/>
-		<line fill="none" stroke="#FFFFFF" stroke-width="0.45" stroke-miterlimit="10" x1="12" y1="12.195" x2="12" y2="13.845"/>
-		<ellipse fill="#FFFFFF" cx="12" cy="7.996" rx="1.418" ry="2.396"/>
-	</g>
-</g>
+<path fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" d="M11.478,3.241h-1.055v1.793H8.886V3.241H7.5
+	v3.227c0,0,3.091,3.092,0,7.363v3.205h4.498h0.21H16.5v-3.205c-3.091-4.271,0-7.363,0-7.363V3.241h-1.386v1.793h-1.537V3.241h-0.611
+	H11.478z"/>
+<line fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" x1="7.588" y1="5.189" x2="16.269" y2="5.189"/>
+<line fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" x1="8.033" y1="7.168" x2="16.101" y2="7.168"/>
+<line fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" x1="8.047" y1="13.104" x2="16.101" y2="13.104"/>
+<line fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" x1="7.716" y1="15.083" x2="16.395" y2="15.083"/>
+<line fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" x1="9.65" y1="5.189" x2="9.65" y2="7.168"/>
+<line fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" x1="14.386" y1="5.189" x2="14.386" y2="7.168"/>
+<line fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" x1="14.386" y1="13.084" x2="14.386" y2="15.062"/>
+<line fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" x1="9.65" y1="13.084" x2="9.65" y2="15.062"/>
+<line fill="none" stroke="#20547E" stroke-width="0.45" stroke-miterlimit="10" x1="12" y1="15.083" x2="12" y2="17.063"/>
+<ellipse fill="#20547E" cx="12" cy="10.044" rx="1.702" ry="2.875"/>
 </svg>
