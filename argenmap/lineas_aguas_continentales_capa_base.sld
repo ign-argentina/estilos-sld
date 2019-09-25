@@ -17,7 +17,7 @@
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>13</ogc:Literal>
+                            <ogc:Literal>12</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>500001</se:MinScaleDenominator>
@@ -41,7 +41,7 @@
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>13</ogc:Literal>
+                            <ogc:Literal>12</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>250001</se:MinScaleDenominator>
@@ -65,7 +65,7 @@
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>13</ogc:Literal>
+                            <ogc:Literal>12</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
@@ -88,7 +88,7 @@
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>14</ogc:Literal>
+                            <ogc:Literal>13</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
@@ -109,7 +109,7 @@
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>
+                                <ogc:Literal>12</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:Not>
                                 <ogc:Or>
