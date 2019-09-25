@@ -26,14 +26,9 @@
           <se:MaxScaleDenominator>600000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://172.20.205.70/geoserver/styles/bahra/localidad.svg?fill=%23000000&amp;fill-opacity=1&amp;outline=%23ffffff&amp;outline-opacity=1&amp;outline-width=0"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://172.20.205.70/geoserver/styles/bahra/localidad.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="localidad.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -65,14 +60,9 @@
           <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
+             <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://172.20.205.70/geoserver/styles/bahra/localidad.svg?fill=%23000000&amp;fill-opacity=1&amp;outline=%23ffffff&amp;outline-opacity=1&amp;outline-width=0"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://172.20.205.70/geoserver/styles/bahra/localidad.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="localidad.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -103,14 +93,9 @@
           <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
+                            <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://172.20.205.70/geoserver/styles/bahra/localidad.svg?fill=%23000000&amp;fill-opacity=1&amp;outline=%23ffffff&amp;outline-opacity=1&amp;outline-width=0"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="http://172.20.205.70/geoserver/styles/bahra/localidad.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="localidad.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
