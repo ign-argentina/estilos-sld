@@ -21,7 +21,7 @@
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>7000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:Mark>
