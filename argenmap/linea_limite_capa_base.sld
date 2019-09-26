@@ -242,7 +242,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ae9bb9</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
@@ -274,7 +274,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ae9bb9</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
@@ -329,7 +329,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ae9bb9</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
