@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" 
-    xmlns:se="http://www.opengis.net/se" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<StyledLayerDescriptor
+    xmlns="http://www.opengis.net/sld"
+    xmlns:se="http://www.opengis.net/se"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
         <se:Name>linea_de_limite.geom</se:Name>
@@ -14,7 +15,8 @@
                     <se:Description>
                         <se:Title>Límite Interdepartamental</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>9</ogc:Literal>
@@ -44,7 +46,8 @@
                     <se:Description>
                         <se:Title>Límite Interprovincial</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>10</ogc:Literal>
@@ -69,7 +72,8 @@
                     <se:Description>
                         <se:Title>Límite Interprovincial</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>10</ogc:Literal>
@@ -101,7 +105,8 @@
                     <se:Description>
                         <se:Title>Límite de la Plataforma Continental</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>7</ogc:Literal>
@@ -132,7 +137,8 @@
                     <se:Description>
                         <se:Title>Límite del Mar Territorial Argentino</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>4</ogc:Literal>
@@ -155,7 +161,8 @@
                     <se:Description>
                         <se:Title>Línea de base</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>3</ogc:Literal>
@@ -178,7 +185,8 @@
                     <se:Description>
                         <se:Title>Límite de la Zona Económica Exclusiva Argentina</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>6</ogc:Literal>
@@ -201,7 +209,8 @@
                     <se:Description>
                         <se:Title>Límite de la Zona Contigua Argentina</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>5</ogc:Literal>
@@ -224,7 +233,8 @@
                     <se:Description>
                         <se:Title>Límite del lecho y subsuelo</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
@@ -232,7 +242,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#999999</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#ae9bb9</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
@@ -255,7 +265,8 @@
                     <se:Description>
                         <se:Title>Límite lateral marítimo</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>2</ogc:Literal>
@@ -263,7 +274,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#999999</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#ae9bb9</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
@@ -286,7 +297,8 @@
                     <se:Description>
                         <se:Title>linea de costa</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>0</ogc:Literal>
@@ -308,7 +320,8 @@
                     <se:Description>
                         <se:Title>Límite internacional</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>11</ogc:Literal>
@@ -316,7 +329,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#999999</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#ae9bb9</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
@@ -325,7 +338,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">4 2 1 2</se:SvgParameter>
@@ -335,7 +348,8 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Or>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
@@ -399,7 +413,8 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>11</ogc:Literal>
