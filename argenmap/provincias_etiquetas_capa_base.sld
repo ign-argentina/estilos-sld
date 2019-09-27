@@ -9,7 +9,6 @@
         <UserStyle>
             <se:Name>provincias_etiquetas_capa_base</se:Name>
             <se:FeatureTypeStyle>
-                <!--FeatureRendererV2 nullSymbol not implemented yet-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsNotEqualTo>
@@ -19,11 +18,6 @@
                     </ogc:Filter>
                     <se:MaxScaleDenominator>7000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
-                        <se:Geometry>
-                            <ogc:Function name="centroid">
-                                <ogc:PropertyName>geom</ogc:PropertyName>
-                            </ogc:Function>
-                        </se:Geometry>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
