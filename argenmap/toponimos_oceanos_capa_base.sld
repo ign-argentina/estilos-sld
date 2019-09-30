@@ -119,6 +119,10 @@
                                 <ogc:PropertyName>nombre</ogc:PropertyName>
                                 <ogc:Literal>Isla Martín García (Arg.)</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nombre</ogc:PropertyName>
+                                <ogc:Literal>Isla Apipé (Arg.)</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
@@ -242,6 +246,10 @@
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>nombre</ogc:PropertyName>
                                     <ogc:Literal>Isla Martín García (Arg.)</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>nombre</ogc:PropertyName>
+                                    <ogc:Literal>Isla Apipé (Arg.)</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>nombre</ogc:PropertyName>
