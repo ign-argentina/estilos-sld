@@ -8,6 +8,11 @@
                 <se:Rule>
                     <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
+                        <se:Geometry>
+                            <ogc:Function name="centroid">
+                                <ogc:PropertyName>geom</ogc:PropertyName>
+                            </ogc:Function>
+                        </se:Geometry>
                         <se:Label>
                             <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
                         </se:Label>
@@ -41,6 +46,11 @@
           <se:MinScaleDenominator>1000001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
+                        <se:Geometry>
+                            <ogc:Function name="centroid">
+                                <ogc:PropertyName>geom</ogc:PropertyName>
+                            </ogc:Function>
+                        </se:Geometry>
                         <se:Label>
                             <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
                         </se:Label>
