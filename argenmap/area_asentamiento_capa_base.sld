@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" 
-    xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" 
+<StyledLayerDescriptor
+    xmlns="http://www.opengis.net/sld"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0"
     xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
         <se:Name>areas_de_asentamientos_y_edificios</se:Name>
@@ -14,7 +15,8 @@
                     <se:Description>
                         <se:Title>Ejido Urbano</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>3</ogc:Literal>
@@ -24,10 +26,10 @@
                     <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ffbebe</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffcbcb</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffbebe</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#ffcbcb</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
@@ -40,7 +42,8 @@
                     <se:Description>
                         <se:Title>Ejido Urbano</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>3</ogc:Literal>
@@ -66,7 +69,8 @@
                     <se:Description>
                         <se:Title>Ejido Urbano</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>3</ogc:Literal>
@@ -92,7 +96,8 @@
                     <se:Description>
                         <se:Title>Planta Urbana</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>2</ogc:Literal>
@@ -102,10 +107,10 @@
                     <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ffbebe</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffcbcb</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffbebe</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#ffcbcb</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
@@ -118,7 +123,8 @@
                     <se:Description>
                         <se:Title>Planta Urbana</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>2</ogc:Literal>
@@ -144,7 +150,8 @@
                     <se:Description>
                         <se:Title>Planta Urbana</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>2</ogc:Literal>
@@ -170,7 +177,8 @@
                     <se:Description>
                         <se:Title>Otros asentamientos</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
@@ -180,10 +188,10 @@
                     <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ffbebe</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffcbcb</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffbebe</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#ffcbcb</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
@@ -196,7 +204,8 @@
                     <se:Description>
                         <se:Title>Otros asentamientos</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
@@ -222,7 +231,8 @@
                     <se:Description>
                         <se:Title>Otros asentamientos</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
@@ -248,7 +258,8 @@
                     <se:Description>
                         <se:Title>Ruinas</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>4</ogc:Literal>
@@ -273,7 +284,8 @@
                     <se:Description>
                         <se:Title>Sitio de Interés</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>0</ogc:Literal>
