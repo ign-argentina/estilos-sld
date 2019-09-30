@@ -9,18 +9,14 @@
           <se:Name>provincias</se:Name>
           <se:PolygonSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke">#c1c0e8</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
           <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#aed2f5</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.20</se:SvgParameter>
-            </se:Fill>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#8c7d7d</se:SvgParameter>
+              <se:SvgParameter name="stroke">#595959</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-dasharray">4 2</se:SvgParameter>
