@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<StyledLayerDescriptor version="1.0.0" 
-    xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" 
-    xmlns="http://www.opengis.net/sld" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://www.opengis.net/se">
   <NamedLayer>
-    <Name>Default Line</Name>
+    <se:Name>line_ign</se:Name>
     <UserStyle>
-      <Title>A boring default style</Title>
-      <Abstract>A sample style that just prints out a green line</Abstract>
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Rule 1</Name>
-          <Title>Green Line</Title>
-          <Abstract>A green line with a 2 pixel width</Abstract>
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#226a1a</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-        </FeatureTypeStyle>
+      <se:Name>line_ign</se:Name>
+      <se:FeatureTypeStyle>
+        <se:Rule>
+          <se:Name>line_ign</se:Name>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#3434b5</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>
+      </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

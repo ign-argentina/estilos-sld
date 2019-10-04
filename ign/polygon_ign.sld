@@ -1,32 +1,25 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<StyledLayerDescriptor version="1.0.0" 
-    xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" 
-    xmlns="http://www.opengis.net/sld" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://www.opengis.net/se">
   <NamedLayer>
-    <Name>Default Polygon</Name>
+    <se:Name>polygon_ig</se:Name>
     <UserStyle>
-      <Title>A boring default style</Title>
-      <Abstract>A sample style that just prints out a transparent red interior with a red outline</Abstract>
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Rule 1</Name>
-          <Title>GRAYFill BLUEOutline</Title>
-          <Abstract>50% transparent red fill with a red outline 1 pixel in width</Abstract>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#AAAAAA</CssParameter>
-              <CssParameter name="fill-opacity">0.5</CssParameter>
-            </Fill>
-            <Stroke>
-              <CssParameter name="stroke">#226afa</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>
-          </PolygonSymbolizer>
-        </Rule>
-        </FeatureTypeStyle>
+      <se:Name>polygon_ign</se:Name>
+      <se:FeatureTypeStyle>
+        <se:Rule>
+          <se:Name>polygon_ig</se:Name>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#dadada</se:SvgParameter>
+              <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#3636ba</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+      </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

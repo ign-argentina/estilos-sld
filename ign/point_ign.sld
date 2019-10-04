@@ -1,32 +1,29 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<StyledLayerDescriptor version="1.0.0" 
-		xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" 
-		xmlns="http://www.opengis.net/sld" 
-		xmlns:ogc="http://www.opengis.net/ogc" 
-		xmlns:xlink="http://www.w3.org/1999/xlink" 
-		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<NamedLayer>
-		<Name>Default Point</Name>
-		<UserStyle>
-			<Title>A boring default style</Title>
-			<Abstract>A sample style that just prints out a purple square</Abstract>
-			<FeatureTypeStyle>
-				<Rule>
-					<Name>Rule 1</Name>
-					<Title>RedSquare</Title>
-					<PointSymbolizer>
-						<Graphic>
-							<Mark>
-								<WellKnownName>circle</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#FF8300</CssParameter>
-								</Fill>
-							</Mark>
-							<Size>6</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-		    </FeatureTypeStyle>
-		</UserStyle>
-	</NamedLayer>
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://www.opengis.net/se">
+  <NamedLayer>
+    <se:Name>point_ign</se:Name>
+    <UserStyle>
+      <se:Name>point_ign</se:Name>
+      <se:FeatureTypeStyle>
+        <se:Rule>
+          <se:Name>point_ign</se:Name>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>circle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#ff9e17</se:SvgParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>7</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+      </se:FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
 </StyledLayerDescriptor>
