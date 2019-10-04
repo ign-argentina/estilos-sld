@@ -6,9 +6,9 @@
       <se:Name>geodesia_planimetria</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>Posgar07</se:Name>
+          <se:Name>PASMA</se:Name>
           <se:Description>
-            <se:Title>Posgar07</se:Title>
+            <se:Title>PASMA</se:Title>
           </se:Description>
           <se:MinScaleDenominator>2000001</se:MinScaleDenominator>
           <se:PointSymbolizer>
