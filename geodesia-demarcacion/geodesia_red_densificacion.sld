@@ -1,87 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" 
-    xmlns="http://www.opengis.net/sld" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <NamedLayer>
-        <Name>geodesia_red_densificacion</Name>
-        <UserStyle>
-            <Name>geodesia_red_densificacion</Name>
-            <FeatureTypeStyle>
-                <Rule>
-                    <Name>Red Densificación</Name>
-                    <MinScaleDenominator>2000001</MinScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <Mark>
-                                <WellKnownName>triangle</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">#01DF74</CssParameter>
-                                </Fill>
-                            </Mark>
-                            <Size>8</Size>
-                        </Graphic>
-                    </PointSymbolizer>
-                </Rule>
-                <Rule>
-                    <Title>Red densificación</Title>
-                    <MinScaleDenominator>500001</MinScaleDenominator>
-                    <MaxScaleDenominator>2000000</MaxScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <Mark>
-                                <WellKnownName>triangle</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">#01DF74</CssParameter>
-                                </Fill>
-                            </Mark>
-                            <Size>12</Size>
-                        </Graphic>
-                    </PointSymbolizer>
-                </Rule>
-                <Rule>
-                    <Title>Red densificación</Title>
-                    <MaxScaleDenominator>500000</MaxScaleDenominator>
-                    <PointSymbolizer>
-                        <Graphic>
-                            <Mark>
-                                <WellKnownName>triangle</WellKnownName>
-                                <Fill>
-                                    <CssParameter name="fill">#01DF74</CssParameter>
-                                </Fill>
-                            </Mark>
-                            <Size>14</Size>
-                        </Graphic>
-                    </PointSymbolizer>
-                    <TextSymbolizer>
-                        <Label>
-                            <ogc:PropertyName>nomenclatura</ogc:PropertyName>
-                        </Label>
-                        <Font>
-                            <CssParameter name="font-family">Arial</CssParameter>
-                            <CssParameter name="font-size">10</CssParameter>
-                            <CssParameter name="font-style">normal</CssParameter>
-                            <CssParameter name="font-weight">bold</CssParameter>
-                        </Font>
-                        <LabelPlacement>
-                            <PointPlacement>
-                                <AnchorPoint>
-                                    <AnchorPointX>0.5</AnchorPointX>
-                                    <AnchorPointY>0.0</AnchorPointY>
-                                </AnchorPoint>
-                                <Displacement>
-                                    <DisplacementX>0</DisplacementX>
-                                    <DisplacementY>10</DisplacementY>
-                                </Displacement>
-                            </PointPlacement>
-                        </LabelPlacement>
-                        <Fill>
-                            <CssParameter name="fill">#000000</CssParameter>
-                        </Fill>
-                    </TextSymbolizer>
-                </Rule>
-            </FeatureTypeStyle>
-        </UserStyle>
-    </NamedLayer>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NamedLayer>
+    <se:Name>geodesia_red_densificacion</se:Name>
+    <UserStyle>
+      <se:Name>geodesia_red_densificacion</se:Name>
+      <se:FeatureTypeStyle>
+        <se:Rule>
+          <se:Name>Red Densificación</se:Name>
+          <se:Description>
+            <se:Title>Red Densificación</se:Title>
+          </se:Description>
+          <se:MinScaleDenominator>2000001</se:MinScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>triangle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#01DF74</se:SvgParameter>
+                </se:Fill>
+              </se:Mark>
+              <se:Size>8</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Red Densificación</se:Name>
+          <se:Description>
+            <se:Title>Red Densificación</se:Title>
+          </se:Description>
+          <se:MinScaleDenominator>500001</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>triangle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#01DF74</se:SvgParameter>
+                </se:Fill>
+              </se:Mark>
+              <se:Size>12</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Red Densificación</se:Name>
+          <se:Description>
+            <se:Title>Red Densificación</se:Title>
+          </se:Description>
+          <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>triangle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#01DF74</se:SvgParameter>
+                </se:Fill>
+              </se:Mark>
+              <se:Size>14</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:TextSymbolizer>
+            <se:Label>
+              <ogc:PropertyName>nomenclatura</ogc:PropertyName>
+            </se:Label>
+            <se:Font>
+              <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+              <se:SvgParameter name="font-size">12</se:SvgParameter>
+              <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+            </se:Font>
+            <se:LabelPlacement>
+              <se:PointPlacement>
+                <se:AnchorPoint>
+                  <se:AnchorPointX>0.5</se:AnchorPointX>
+                  <se:AnchorPointY>0.0</se:AnchorPointY>
+                </se:AnchorPoint>
+                <se:Displacement>
+                  <se:DisplacementX>0</se:DisplacementX>
+                  <se:DisplacementY>10</se:DisplacementY>
+                </se:Displacement>
+              </se:PointPlacement>
+            </se:LabelPlacement>
+            <se:Fill>
+              <se:SvgParameter name="fill">#000000</se:SvgParameter>
+            </se:Fill>
+          </se:TextSymbolizer>
+        </se:Rule>
+      </se:FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
 </StyledLayerDescriptor>
