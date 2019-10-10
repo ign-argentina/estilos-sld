@@ -12,7 +12,7 @@
           </se:Description>
     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tipo</ogc:PropertyName>
+              <ogc:PropertyName>tipo_asentamiento</ogc:PropertyName>
               <ogc:Literal>Entidad</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -41,11 +41,11 @@
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                 <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tipo</ogc:PropertyName>
+                <ogc:PropertyName>tipo_asentamiento</ogc:PropertyName>
                 <ogc:Literal>Localidad simple</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tipo</ogc:PropertyName>
+                <ogc:PropertyName>tipo_asentamiento</ogc:PropertyName>
                 <ogc:Literal>Componente de localidad compuesta</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -74,7 +74,7 @@
           </se:Description>
              <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tipo</ogc:PropertyName>
+              <ogc:PropertyName>tipo_asentamiento</ogc:PropertyName>
               <ogc:Literal>Entidad</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -103,11 +103,11 @@
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tipo</ogc:PropertyName>
+                <ogc:PropertyName>tipo_asentamiento</ogc:PropertyName>
                 <ogc:Literal>Localidad simple</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tipo</ogc:PropertyName>
+                <ogc:PropertyName>tipo_asentamiento</ogc:PropertyName>
                 <ogc:Literal>Componente de localidad compuesta</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -136,7 +136,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>tipo</ogc:PropertyName>
+              <ogc:PropertyName>tipo_asentamiento</ogc:PropertyName>
               <ogc:Literal>Entidad</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -164,11 +164,11 @@
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tipo</ogc:PropertyName>
+                <ogc:PropertyName>tipo_asentamiento</ogc:PropertyName>
                 <ogc:Literal>Localidad simple</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>tipo</ogc:PropertyName>
+                <ogc:PropertyName>tipo_asentamiento</ogc:PropertyName>
                 <ogc:Literal>Componente de localidad compuesta</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
