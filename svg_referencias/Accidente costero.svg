@@ -4,11 +4,12 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
 <g id="Capa_2" display="none">
-	
-		<image display="inline" overflow="visible" enable-background="new    " width="21" height="21" xlink:href="../../../COMPU VIEJA/User - Geocarto-03/Geoportal/PNG/SVG/47F1FC8C.jpg"  transform="matrix(0.9524 0 0 0.9524 2.0005 1.9995)">
-	</image>
 </g>
-<g id="Capa_1_1_">
-	<circle fill="#6677FF" stroke="#6677FF" stroke-miterlimit="10" cx="12" cy="12" r="7.086"/>
+<g>
+	
+		<text transform="matrix(1 0 0 1 4 19.3906)" fill="#000071" stroke="#D3FBF3" stroke-width="0.5" stroke-miterlimit="10" font-family="'TimesNewRomanPS-ItalicMT'" font-size="32">a</text>
+	
+		<text transform="matrix(1 0 0 1 4 19.3906)" fill="none" stroke="#D3FBF3" stroke-width="2" stroke-miterlimit="10" font-family="'TimesNewRomanPS-ItalicMT'" font-size="32">a</text>
+	<text transform="matrix(1 0 0 1 4 19.3906)" fill="#000071" font-family="'TimesNewRomanPS-ItalicMT'" font-size="32">a</text>
 </g>
 </svg>
