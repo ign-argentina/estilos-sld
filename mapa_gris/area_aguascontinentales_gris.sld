@@ -11,11 +11,17 @@
             <se:Title>area_corriente_agua_5000000</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:Not>
-              <ogc:PropertyIsNull>
-                <ogc:PropertyName>fna</ogc:PropertyName>
-              </ogc:PropertyIsNull>
-            </ogc:Not>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>entidad</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Not>
+                <ogc:PropertyIsNull>
+                  <ogc:PropertyName>fna</ogc:PropertyName>
+                </ogc:PropertyIsNull>
+              </ogc:Not>
+            </ogc:And>
           </ogc:Filter>
           <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
