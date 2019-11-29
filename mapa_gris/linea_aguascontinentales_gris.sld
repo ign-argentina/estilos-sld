@@ -14,12 +14,19 @@
                     <se:Description>
                         <se:Title>linea_agua_perenne_5000000</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>13</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
+                        <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                            <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>12</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                             <ogc:Not>
+                            <ogc:PropertyIsNull>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                            </ogc:PropertyIsNull>
+                            </ogc:Not>
+                            </ogc:And>
+                      </ogc:Filter>
                     <se:MinScaleDenominator>500001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
@@ -38,12 +45,19 @@
                     <se:Description>
                         <se:Title>linea_agua_perenne_500000</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>13</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
+                        <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                            <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>12</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                             <ogc:Not>
+                            <ogc:PropertyIsNull>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                            </ogc:PropertyIsNull>
+                            </ogc:Not>
+                            </ogc:And>
+                      </ogc:Filter>
                     <se:MinScaleDenominator>250001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
@@ -58,16 +72,23 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>linea_agua_perenne_5000000</se:Name>
+                    <se:Name>linea_agua_perenne_250000</se:Name>
                     <se:Description>
-                        <se:Title>linea_agua_perenne_5000000</se:Title>
+                        <se:Title>linea_agua_perenne_2500000</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>13</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
+                        <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                            <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>12</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                             <ogc:Not>
+                            <ogc:PropertyIsNull>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                            </ogc:PropertyIsNull>
+                            </ogc:Not>
+                            </ogc:And>
+                      </ogc:Filter>
                     <se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -85,12 +106,19 @@
                     <se:Description>
                         <se:Title>linea_agua_intermitente_5000000</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>14</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
+                        <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                            <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>13</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                             <ogc:Not>
+                            <ogc:PropertyIsNull>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                            </ogc:PropertyIsNull>
+                            </ogc:Not>
+                            </ogc:And>
+                      </ogc:Filter>
                     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -101,72 +129,6 @@
                             <se:SvgParameter name="stroke-dasharray">10 5</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
-                <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:Not>
-                                <ogc:Or>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>fna</ogc:PropertyName>
-                                        <ogc:Literal>,</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>fna</ogc:PropertyName>
-                                        <ogc:Literal>-</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>fna</ogc:PropertyName>
-                                        <ogc:Literal>-1</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>fna</ogc:PropertyName>
-                                        <ogc:Literal>-2</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>fna</ogc:PropertyName>
-                                        <ogc:Literal>AAAA</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                </ogc:Or>
-                            </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
-                    <se:TextSymbolizer>
-                        <se:Label>
-                            <ogc:PropertyName>fna</ogc:PropertyName>
-                        </se:Label>
-                        <se:Font>
-                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
-                            <se:SvgParameter name="font-style">italic</se:SvgParameter>
-                        </se:Font>
-                        <se:LabelPlacement>
-                            <se:LinePlacement>
-                                <se:GeneralizeLine>true</se:GeneralizeLine>
-                            </se:LinePlacement>
-                        </se:LabelPlacement>
-                        <se:Halo>
-                            <se:Radius>1</se:Radius>
-                            <se:Fill>
-                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-                            </se:Fill>
-                        </se:Halo>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#333333</se:SvgParameter>
-                        </se:Fill>
-                        <se:VendorOption name="followLine">true</se:VendorOption>
-                        <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
-                        <se:VendorOption name="group">yes</se:VendorOption>
-                        <se:VendorOption name="charSpacing">3</se:VendorOption>
-                        <se:VendorOption name="wordSpacing">8</se:VendorOption>
-                    </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
         </UserStyle>
