@@ -61,7 +61,7 @@
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>8000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>cod_rn</ogc:PropertyName>
