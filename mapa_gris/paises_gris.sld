@@ -20,7 +20,7 @@
                             <se:SvgParameter name="fill">#f0f0f0</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#dddedb</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#c2c2c2</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
