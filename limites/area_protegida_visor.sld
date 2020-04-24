@@ -7,15 +7,23 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>area_protegida</se:Name>
+         <se:PolygonSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
           <se:PolygonSymbolizer>
             <se:Fill>
-              <se:SvgParameter name="fill">#0ddcba</se:SvgParameter>
+              <se:SvgParameter name="fill">#18793c</se:SvgParameter>
               <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>
             </se:Fill>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#0ddcba</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke">#89cd66</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">4 2</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
