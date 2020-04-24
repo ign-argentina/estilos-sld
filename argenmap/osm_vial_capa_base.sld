@@ -66,12 +66,10 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Graphic>
-                            <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
-                            <!--Well known marker fallback-->
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
@@ -117,12 +115,10 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Graphic>
-                            <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:href="numeracion_rutanacional.svg" xlink:type="simple"/>
                                 <se:Format>image/svg+xml</se:Format>
-                            </se:ExternalGraphic>
-                            <!--Well known marker fallback-->
+                            </se:ExternalGraphic>                
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
@@ -143,10 +139,8 @@
             </se:FeatureTypeStyle>
             <!-- tunnel -->
             <!-- tunnel residential y menores -->
-
             <!-- fin tunnel residential y menores -->
             <!-- tunnel tertiary -->
-
             <!-- fin tunnel tertiary -->
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -190,8 +184,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <!-- <se:VendorOption name="sortBy">layer</se:VendorOption> -->
-                <!-- <se:VendorOption name="sortByGroup">layer</se:VendorOption> -->
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -235,8 +227,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <!-- <se:VendorOption name="sortBy">layer</se:VendorOption> -->
-                <!-- <se:VendorOption name="sortByGroup">layer</se:VendorOption> -->
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -281,12 +271,10 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>túneles en trunk , trunk_link</se:Name>
                     <se:Description>
-                        <se:Title>Túneles en trunk , trunk_link</se:Title>
+                        <se:Title>Túneles en trunk , trunk_link 5000</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>
@@ -367,8 +355,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <!-- <se:VendorOption name="sortBy">layer</se:VendorOption> -->
-                <!-- <se:VendorOption name="sortByGroup">layer</se:VendorOption> -->
             </se:FeatureTypeStyle>
             <!-- Fin tunnel -->
             <se:FeatureTypeStyle>
@@ -400,7 +386,6 @@
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <!-- <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> -->
                             <se:SvgParameter name="stroke-dasharray">4 3</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -432,7 +417,6 @@
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <!-- <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> -->
                             <se:SvgParameter name="stroke-dasharray">10 5</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -468,7 +452,7 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>50001</se:MinScaleDenominator>
+                    <se:MinScaleDenominator>33001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -479,8 +463,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
                     <se:Description>
@@ -511,7 +493,7 @@
                         </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>10001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>33000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -521,8 +503,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
                     <se:Description>
@@ -563,8 +543,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
                     <se:Description>
@@ -634,8 +612,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>tertiary, tertiary_link</se:Name>
                     <se:Description>
@@ -664,8 +640,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>tertiary, tertiary_link</se:Name>
                     <se:Description>
@@ -694,8 +668,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>tertiary, tertiary_link</se:Name>
                     <se:Description>
@@ -722,7 +694,7 @@
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
+                </se:Rule>                
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -753,8 +725,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>secondary,secondary_link</se:Name>
                     <se:Description>
@@ -783,8 +753,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>secondary,secondary_link</se:Name>
                     <se:Description>
@@ -813,8 +781,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>secondary,secondary_link</se:Name>
                     <se:Description>
@@ -872,8 +838,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>primary,primary_link</se:Name>
                     <se:Description>
@@ -902,8 +866,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>primary,primary_link</se:Name>
                     <se:Description>
@@ -937,8 +899,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>primary,primary_link</se:Name>
                     <se:Description>
@@ -1004,8 +964,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>trunk , trunk_link</se:Name>
                     <se:Description>
@@ -1034,8 +992,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>trunk , trunk_link</se:Name>
                     <se:Description>
@@ -1072,8 +1028,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>trunk , trunk_link</se:Name>
                     <se:Description>
@@ -1139,8 +1093,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>motorway, motorway_link</se:Name>
                     <se:Description>
@@ -1169,8 +1121,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>motorway, motorway_link</se:Name>
                     <se:Description>
@@ -1203,9 +1153,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
+                </se:Rule>  
                 <se:Rule>
                     <se:Name>motorway, motorway_link</se:Name>
                     <se:Description>
@@ -1237,8 +1185,9 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
+                </se:Rule>              
             </se:FeatureTypeStyle>
+            <!-- bridge -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
@@ -1273,7 +1222,7 @@
                                 <ogc:PropertyIsNull>
                                     <ogc:PropertyName>bridge</ogc:PropertyName>
                                 </ogc:PropertyIsNull>
-                            </ogc:Not>
+                            </ogc:Not>  
                         </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>5001</se:MinScaleDenominator>
@@ -1294,8 +1243,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
                     <se:Description>
@@ -1329,7 +1276,7 @@
                                 <ogc:PropertyIsNull>
                                     <ogc:PropertyName>bridge</ogc:PropertyName>
                                 </ogc:PropertyIsNull>
-                            </ogc:Not>
+                            </ogc:Not> 
                         </ogc:And>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
@@ -1338,7 +1285,6 @@
                             <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
                       <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1350,10 +1296,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <se:VendorOption name="sortBy">layer</se:VendorOption>
-            </se:FeatureTypeStyle>
-            <!-- fin bridge living_street, pedestrian, raceway , residential , unclassified -->
-            <!-- bridge tertiary -->
+            </se:FeatureTypeStyle>            
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>tertiary, tertiary_link</se:Name>
@@ -1397,8 +1340,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>tertiary, tertiary_link</se:Name>
                     <se:Description>
@@ -1429,7 +1370,6 @@
                             <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1441,10 +1381,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <se:VendorOption name="sortBy">layer</se:VendorOption>
             </se:FeatureTypeStyle>
-            <!-- fin bridge tertiary -->
-            <!-- bridge secondary -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>secondary,secondary_link</se:Name>
@@ -1488,8 +1425,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>secondary,secondary_link</se:Name>
                     <se:Description>
@@ -1520,7 +1455,6 @@
                             <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
                      <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1532,10 +1466,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <se:VendorOption name="sortBy">layer</se:VendorOption>
             </se:FeatureTypeStyle>
-            <!-- fin bridge secondary -->
-            <!-- bridge primary -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>primary,primary_link</se:Name>
@@ -1579,8 +1510,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>primary,primary_link</se:Name>
                     <se:Description>
@@ -1611,7 +1540,6 @@
                             <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
                      <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1623,10 +1551,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <se:VendorOption name="sortBy">layer</se:VendorOption>
             </se:FeatureTypeStyle>
-            <!-- fin bridge primary -->
-            <!-- bridge trunk -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>trunk , trunk_link</se:Name>
@@ -1670,8 +1595,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>trunk , trunk_link</se:Name>
                     <se:Description>
@@ -1702,7 +1625,6 @@
                             <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">11</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1714,10 +1636,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <se:VendorOption name="sortBy">layer</se:VendorOption>
             </se:FeatureTypeStyle>
-            <!-- fin bridge trunk -->
-            <!-- bridge motorway -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>puentes en motorway, motorway_link</se:Name>
@@ -1750,7 +1669,6 @@
                             <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                            <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
                      <se:LineSymbolizer>
@@ -1762,8 +1680,6 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>puentes en motorway, motorway_link</se:Name>
                     <se:Description>
@@ -1794,7 +1710,6 @@
                             <se:SvgParameter name="stroke">988e97</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">14</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <!-- <se:SvgParameter name="stroke-linecap">square</se:SvgParameter> -->
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1806,10 +1721,8 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <se:VendorOption name="sortBy">layer</se:VendorOption>
-                <!-- <se:VendorOption name="sortByGroup">layer</se:VendorOption> -->
             </se:FeatureTypeStyle>
-            <!-- Fin bridge motorway -->
+            <!-- Fin bridge -->
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>
