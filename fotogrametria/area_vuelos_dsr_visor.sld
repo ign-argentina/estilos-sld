@@ -7,6 +7,8 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>area_vuelos_dsr</se:Name>
+          <se:MinScaleDenominator>500001</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#001cff</se:SvgParameter>
@@ -16,6 +18,18 @@
               <se:SvgParameter name="stroke">#001cff</se:SvgParameter>
               <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>area_vuelos_dsr</se:Name>
+          <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#001cff</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
