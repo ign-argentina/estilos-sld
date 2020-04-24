@@ -35,7 +35,7 @@
           <se:Description>
             <se:Title>area_vuelos_vant</se:Title>
           </se:Description>
-          <se:MinScaleDenominator>100001</se:MinScaleDenominator>
+          <se:MinScaleDenominator>500001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
@@ -60,16 +60,12 @@
           <se:Description>
             <se:Title>area_vuelos_vant</se:Title>
           </se:Description>
-          <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#001cff</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>
-            </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#001cff</se:SvgParameter>
               <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
