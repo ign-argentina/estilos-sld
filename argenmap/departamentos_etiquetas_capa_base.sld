@@ -9,7 +9,6 @@
         <UserStyle>
             <se:Name>area_de_limites.geom</se:Name>
             <se:FeatureTypeStyle>
-                <!--FeatureRendererV2 nullSymbol not implemented yet-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Not>
@@ -77,7 +76,7 @@
                             </ogc:Or>
                         </ogc:Not>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>550000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="centroid">
