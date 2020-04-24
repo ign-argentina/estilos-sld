@@ -128,8 +128,8 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
