@@ -64,7 +64,7 @@
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>cod_rn</ogc:PropertyName>
+                            <ogc:PropertyName>nam</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
