@@ -272,38 +272,6 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>5001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">4 3</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>construction , service , track</se:Name>
-                    <se:Description>
-                        <se:Title>construction , service , track</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>highway</ogc:PropertyName>
-                                <ogc:Literal>construction</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>highway</ogc:PropertyName>
-                                <ogc:Literal>service</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>highway</ogc:PropertyName>
-                                <ogc:Literal>track</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:Or>
-                    </ogc:Filter>
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
@@ -311,48 +279,6 @@
                             <se:SvgParameter name="stroke-width">5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">10 5</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
-                <se:Rule>
-                    <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
-                    <se:Description>
-                        <se:Title>living_street, pedestrian, raceway , residential , unclassified</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>highway</ogc:PropertyName>
-                                <ogc:Literal>living_street</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>highway</ogc:PropertyName>
-                                <ogc:Literal>pedestrian</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>highway</ogc:PropertyName>
-                                <ogc:Literal>residential</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>highway</ogc:PropertyName>
-                                <ogc:Literal>unclassified</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>highway</ogc:PropertyName>
-                                <ogc:Literal>raceway</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:Or>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>33001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#b4b4a2</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
