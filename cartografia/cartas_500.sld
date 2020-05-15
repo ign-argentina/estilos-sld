@@ -8,10 +8,6 @@
         <se:Rule>
           <se:Name>cartas_500</se:Name>
           <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#4a8336</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.16</se:SvgParameter>
-            </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#387f49</se:SvgParameter>
               <se:SvgParameter name="stroke-opacity">0.43</se:SvgParameter>
