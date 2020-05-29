@@ -12,11 +12,6 @@
               <se:SvgParameter name="fill">#6f92ad</se:SvgParameter>
               <se:SvgParameter name="fill-opacity">0.35</se:SvgParameter>
             </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#000001</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
