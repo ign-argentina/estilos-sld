@@ -6,7 +6,7 @@
       <se:Name>plataforma_completa</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>Single symbol</se:Name>
+          <se:Name>Plataforma</se:Name>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#6f92ad</se:SvgParameter>
