@@ -84,55 +84,6 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
-                <se:Rule>
-                    <se:Name>Morena, morrena</se:Name>
-                    <se:Description>
-                        <se:Title>Morena, morrena</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>3</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
-                    <se:PolygonSymbolizer>
-                        <se:Fill>
-                            <se:GraphicFill>
-                                <se:Graphic>
-                                    <!--Plain SVG fallback, no parameters-->
-                                    <se:ExternalGraphic>
-                                        <se:OnlineResource xlink:type="simple" xlink:href="morena_morrena.svg"/>
-                                        <se:Format>image/svg+xml</se:Format>
-                                    </se:ExternalGraphic>
-                                    <!--Well known marker fallback-->
-                                    <se:Mark>
-                                        <se:WellKnownName>square</se:WellKnownName>
-                                        <se:Fill>
-                                            <se:SvgParameter name="fill">#c3f9b3</se:SvgParameter>
-                                        </se:Fill>
-                                        <se:Stroke>
-                                            <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                                        </se:Stroke>
-                                    </se:Mark>
-                                    <se:Size>71</se:Size>
-                                </se:Graphic>
-                            </se:GraphicFill>
-                        </se:Fill>
-                    </se:PolygonSymbolizer>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#6b3e3a</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">1 2</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                </se:Rule>
-            </se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>
