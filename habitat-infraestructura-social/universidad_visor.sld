@@ -15,7 +15,7 @@
           <se:PointSymbolizer>
             <se:Graphic>
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="universidad_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="universidad.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <se:Mark>
@@ -42,7 +42,7 @@
           <se:PointSymbolizer>
             <se:Graphic>
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="universidad_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="universidad.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <se:Mark>
@@ -68,7 +68,7 @@
           <se:PointSymbolizer>
             <se:Graphic>
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="universidad_visor.svg" xlink:type="simple"/>
+                <se:OnlineResource xlink:href="universidad.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <se:Mark>
