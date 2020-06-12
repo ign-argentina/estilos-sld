@@ -15,15 +15,5 @@
 		c-0.003-4.945,4.003-8.956,8.948-8.959c4.944-0.002,8.956,4.003,8.958,8.949c0,0.003,0,0.007,0,0.011
 		C20.939,14.995,16.936,19,11.991,19H11.997z"/>
 </g>
-<line fill="none" stroke="#666666" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11.972" y1="2.688" x2="11.972" y2="5.406"/>
-<path fill="#666666" d="M12.208,2.674c0,0,0.761,0.448,1.625-0.268c0,0,0.655,0.018,0.715,0.203s0,1.438,0,1.438
-	s-0.526-0.418-1.157,0c0,0-0.545,0.387-1.185,0"/>
-<rect x="6.772" y="7.874" fill="#666666" stroke="#666666" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="10.4" height="6.761"/>
-<line fill="none" stroke="#666666" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="5.472" y1="15.293" x2="18.473" y2="15.293"/>
-<path fill="#FFFFFF" d="M8.866,8.894c-0.468,0-0.848,0.261-0.848,0.583V14.6h1.696V9.477C9.714,9.155,9.334,8.894,8.866,8.894z"/>
-<path fill="#FFFFFF" d="M11.972,8.894c-0.469,0-0.849,0.261-0.849,0.583V14.6h1.697V9.477C12.82,9.155,12.44,8.894,11.972,8.894z"/>
-<path fill="#FFFFFF" d="M15.255,8.894c-0.468,0-0.848,0.261-0.848,0.583V14.6h1.696V9.477C16.104,9.155,15.725,8.894,15.255,8.894z"
-	/>
-<polygon fill="#666666" stroke="#666666" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-	9.251,7.556 12.001,5.355 14.75,7.556 "/>
+<circle fill="#666666" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" cx="12" cy="10.25" r="5.5"/>
 </svg>
