@@ -10,7 +10,7 @@
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">2.2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
@@ -18,7 +18,7 @@
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#ee1c25</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1.8</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
