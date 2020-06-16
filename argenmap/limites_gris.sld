@@ -72,15 +72,15 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Límite de la Plataforma Continental(pendiente)</se:Name>
+                    <se:Name>Límite exterior de la Plataforma Continental (presentado ante la CLPC)</se:Name>
                     <se:Description>
-                        <se:Title>Límite de la Plataforma Continental(pendiente)</se:Title>
+                        <se:Title>Límite exterior de la Plataforma Continental (presentado ante la CLPC)</se:Title>
                     </se:Description>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>nam</ogc:PropertyName>
-                            <ogc:Literal>Límite de la Plataforma Continental (pendiente)</ogc:Literal>
+                            <ogc:Literal>Límite exterior de la Plataforma Continental (presentado ante la CLPC)</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -102,15 +102,15 @@
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>Límite de la Plataforma Continental</se:Name>
+                    <se:Name>Límite exterior de la Plataforma Continental</se:Name>
                     <se:Description>
-                        <se:Title>Límite de la Plataforma Continental</se:Title>
+                        <se:Title>Límite exterior de la Plataforma Continental</se:Title>
                     </se:Description>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>nam</ogc:PropertyName>
-                            <ogc:Literal>Límite de la Plataforma Continental</ogc:Literal>
+                            <ogc:Literal>Límite exterior de la Plataforma Continental</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -149,7 +149,7 @@
                             <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">4 2 1 2 1 2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">4 3 1 3 1 3</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -313,7 +313,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
+              <!--  <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>linea de costa</se:Name>
                     <se:Description>
@@ -334,7 +334,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
+            </se:FeatureTypeStyle> -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Límite internacional</se:Name>
@@ -474,6 +474,10 @@
                                 <ogc:PropertyName>nam</ogc:PropertyName> 
                                 <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nam</ogc:PropertyName> 
+                                <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
@@ -515,10 +519,16 @@
                                     <ogc:Literal>11</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             <ogc:Not>
+                              <ogc:Or>  
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>nam</ogc:PropertyName>
                                     <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>nam</ogc:PropertyName> 
+                                    <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                              </ogc:Or>
                             </ogc:Not>
                         </ogc:And>
                     </ogc:Filter>
