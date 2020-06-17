@@ -18,7 +18,7 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nam</ogc:PropertyName>
+                            <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
                             <ogc:Literal>Límite exterior de la Plataforma Continental</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -47,7 +47,7 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nam</ogc:PropertyName>
+                            <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
                             <ogc:Literal>Límite exterior de la Plataforma Continental (presentado ante la CLPC)</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -330,7 +330,7 @@
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nam</ogc:PropertyName>
+                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                             <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -379,8 +379,8 @@
                                 <ogc:Literal>4</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName> 
-                                <ogc:Literal>3</ogc:Literal>                 
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>3</ogc:Literal>                
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
@@ -395,7 +395,7 @@
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>objeto</ogc:PropertyName>
+                            <ogc:PropertyName>leyenda</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
@@ -426,11 +426,11 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Or>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName> 
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>7</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>nam</ogc:PropertyName> 
+                                <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                                 <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
@@ -438,7 +438,7 @@
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>nam</ogc:PropertyName>
+                            <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
