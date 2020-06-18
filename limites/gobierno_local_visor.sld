@@ -6,12 +6,12 @@
       <se:Name>gobierno local</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>Objeto 50.000.000 a 9.000.001</se:Name>
+          <se:Name>Objeto 6.000.000.000_9.000.000</se:Name>
           <se:Description>
-            <se:Title>Objeto 50.000.000 a 9.000.001</se:Title>
+            <se:Title>Objeto 6.000.000.000_9.000.000</se:Title>
           </se:Description>
           <se:MinScaleDenominator>9000001</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>600000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:ExternalGraphic>
@@ -28,7 +28,7 @@
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>20</se:Size>
+              <se:Size>7</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -55,7 +55,7 @@
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>29</se:Size>
+              <se:Size>12</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -81,7 +81,7 @@
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>54</se:Size>
+              <se:Size>16</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
