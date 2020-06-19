@@ -18,7 +18,7 @@
                                 </ogc:PropertyIsEqualTo>
                             <ogc:Not>
                                 <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName>
+                                    <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                                     <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             </ogc:Not>
@@ -57,7 +57,7 @@
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nam</ogc:PropertyName>
+                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                             <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -87,11 +87,11 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Or>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>nam</ogc:PropertyName> 
+                                <ogc:PropertyName>termino_especifico</ogc:PropertyName> 
                                 <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>nam</ogc:PropertyName> 
+                                <ogc:PropertyName>termino_especifico</ogc:PropertyName> 
                                 <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
@@ -99,7 +99,7 @@
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>nam</ogc:PropertyName>
+                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
@@ -137,11 +137,11 @@
                             <ogc:Not>
                               <ogc:Or>  
                                 <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName>
+                                    <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                                     <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                                 <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName> 
+                                    <ogc:PropertyName>termino_especifico</ogc:PropertyName> 
                                     <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                               </ogc:Or>
@@ -151,7 +151,7 @@
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>objeto</ogc:PropertyName>
+                            <ogc:PropertyName>leyenda</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
