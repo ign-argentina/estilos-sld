@@ -395,7 +395,7 @@
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>leyenda</ogc:PropertyName>
+                            <ogc:PropertyName>objeto</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
