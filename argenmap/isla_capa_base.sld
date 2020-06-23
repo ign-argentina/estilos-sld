@@ -30,11 +30,11 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#fff5ea</se:SvgParameter>
                         </se:Fill>
-                        <se:Stroke>
+                        <!--<se:Stroke>
                             <se:SvgParameter name="stroke">#fff5ea</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                        </se:Stroke>
+                        </se:Stroke> -->
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
