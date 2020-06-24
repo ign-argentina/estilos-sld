@@ -6,6 +6,34 @@
       <se:Name>area_de_limites.centroide</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+           <ogc:Or>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>nam</ogc:PropertyName>
+              <ogc:Literal>Brasil</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>nam</ogc:PropertyName>
+              <ogc:Literal>Paraguay</ogc:Literal>
+            </ogc:PropertyIsEqualTo>           
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>nam</ogc:PropertyName>
+              <ogc:Literal>Uruguay</ogc:Literal>
+            </ogc:PropertyIsEqualTo>           
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>nam</ogc:PropertyName>
+              <ogc:Literal>Bolivia</ogc:Literal>
+            </ogc:PropertyIsEqualTo>           
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>nam</ogc:PropertyName>
+              <ogc:Literal>Chile</ogc:Literal>
+            </ogc:PropertyIsEqualTo>  
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>nam</ogc:PropertyName>
+              <ogc:Literal>Argentina</ogc:Literal>
+            </ogc:PropertyIsEqualTo> 
+           </ogc:Or>
+          </ogc:Filter>        
           <se:MaxScaleDenominator>35000000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Geometry>
