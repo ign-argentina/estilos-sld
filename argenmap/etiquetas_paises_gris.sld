@@ -28,10 +28,6 @@
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Chile</ogc:Literal>
             </ogc:PropertyIsEqualTo>  
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>nam</ogc:PropertyName>
-              <ogc:Literal>Argentina</ogc:Literal>
-            </ogc:PropertyIsEqualTo> 
            </ogc:Or>
           </ogc:Filter>        
           <se:MaxScaleDenominator>35000000</se:MaxScaleDenominator>
