@@ -20,7 +20,7 @@
           </se:PointSymbolizer>
           <se:TextSymbolizer>
             <se:Label>
-              <ogc:PropertyName>codigo_est</ogc:PropertyName>
+              <ogc:PropertyName>codigo_estacion</ogc:PropertyName>
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
