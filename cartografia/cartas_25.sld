@@ -9,8 +9,8 @@
           <se:Name>cartas_25</se:Name>
           <se:PolygonSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#F3F3F3</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0.29</se:SvgParameter>
+              <se:SvgParameter name="stroke">#F04158</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.30</se:SvgParameter>
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
