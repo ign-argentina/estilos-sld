@@ -5,7 +5,6 @@
     <UserStyle>
       <se:Name>etiquetas_paises</se:Name>
       <se:FeatureTypeStyle>
-        <!--FeatureRendererV2 nullSymbol not implemented yet-->
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
            <ogc:Or>
@@ -31,7 +30,7 @@
             </ogc:PropertyIsEqualTo>                    
            </ogc:Or>
           </ogc:Filter>
-          <se:MaxScaleDenominator>20000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>35000000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>nam</ogc:PropertyName>
@@ -49,7 +48,7 @@
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Halo>
-              <se:Radius>2</se:Radius>
+              <se:Radius>1.5</se:Radius>
               <se:Fill>
                 <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
               </se:Fill>
@@ -58,8 +57,8 @@
               <se:SvgParameter name="fill">#605c58</se:SvgParameter>
             </se:Fill>
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
-                        <se:VendorOption name="autoWrap">100</se:VendorOption>
-                        <se:VendorOption name="group">true</se:VendorOption>
+            <se:VendorOption name="autoWrap">100</se:VendorOption>
+            <se:VendorOption name="group">true</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>

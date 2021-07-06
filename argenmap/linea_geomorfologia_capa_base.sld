@@ -8,7 +8,7 @@
         <se:Name>lineas_de_geomorfologia</se:Name>
         <UserStyle>
             <se:Name>linea_geomorfologia_capa_base</se:Name>
-            <se:FeatureTypeStyle>                <!--FeatureRendererV2 nullSymbol not implemented yet-->
+            <se:FeatureTypeStyle>                
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>

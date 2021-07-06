@@ -5,9 +5,9 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" 
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>area_de_limites.geom</se:Name>
+        <se:Name>area_de_limites</se:Name>
         <UserStyle>
-            <se:Name>area_de_limites.geom</se:Name>
+            <se:Name>departamentos_etiquetas_capabase</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">

@@ -3,7 +3,7 @@
   <NamedLayer>
     <se:Name>area_de_limites.centroide</se:Name>
     <UserStyle>
-      <se:Name>area_de_limites.centroide</se:Name>
+      <se:Name>etiquetas_paises_gris</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -43,13 +43,13 @@
               </ogc:Function>
             </se:Label>
             <se:Font>
-              <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">11</se:SvgParameter>              
+              <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
+              <se:SvgParameter name="font-size">14</se:SvgParameter>              
             </se:Font>
             <se:LabelPlacement>
               <se:PointPlacement>
                 <se:AnchorPoint>
-                  <se:AnchorPointX>0.8</se:AnchorPointX>
+                  <se:AnchorPointX>0.5</se:AnchorPointX>
                   <se:AnchorPointY>0.5</se:AnchorPointY>
                 </se:AnchorPoint>
               </se:PointPlacement>

@@ -7,7 +7,7 @@
     <NamedLayer>
         <se:Name>osm_plazas</se:Name>
         <UserStyle>
-            <se:Name>plaza_osm_capa_base</se:Name>
+            <se:Name>plaza_osm_gris</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Plazas OSM</se:Name>
@@ -38,7 +38,7 @@
                             <ogc:PropertyName>name</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
                             <se:SvgParameter name="font-style">normal</se:SvgParameter>
                         </se:Font>

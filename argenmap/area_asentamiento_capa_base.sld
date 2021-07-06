@@ -11,7 +11,7 @@
             <se:Name>area_asentamiento_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Ejido, planta, otros </se:Name>
+                    <se:Name>Ejido, planta, otros</se:Name>
                     <se:Description>
                         <se:Title>Ejido Urbano, Planta Urbana, Otros asentamientos</se:Title>
                     </se:Description>
@@ -47,7 +47,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Ejido, planta, otros </se:Name>
+                    <se:Name>Ejido, planta, otros</se:Name>
                     <se:Description>
                         <se:Title>Ejido Urbano, Planta Urbana, Otros asentamientos</se:Title>
                     </se:Description>
@@ -83,7 +83,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Ejido, planta, otros </se:Name>
+                    <se:Name>Ejido, planta, otros</se:Name>
                     <se:Description>
                         <se:Title>Ejido Urbano, Planta Urbana, Otros asentamientos</se:Title>
                     </se:Description>
