@@ -177,16 +177,16 @@
                         <ogc:PropertyName>entidad</ogc:PropertyName>
                         <ogc:Literal>14</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-                </ogc:Filter>
-                <se:LineSymbolizer>
+                 </ogc:Filter>
+                 <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">3</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                         </se:Stroke>
-                </se:LineSymbolizer>
-                <se:LineSymbolizer>
+                 </se:LineSymbolizer>
+                 <se:LineSymbolizer>
                     <se:Stroke>
                         <se:SvgParameter name="stroke">#596685</se:SvgParameter>
                         <se:SvgParameter name="stroke-width">1</se:SvgParameter>
@@ -194,7 +194,7 @@
                         <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         <se:SvgParameter name="stroke-dasharray">4 2</se:SvgParameter>
                     </se:Stroke>
-                </se:LineSymbolizer>
+                 </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
