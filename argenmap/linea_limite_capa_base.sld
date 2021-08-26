@@ -121,7 +121,7 @@
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">4 4 1 4 1 4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">4 4 1</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -151,7 +151,7 @@
                 </se:Rule>
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
-                <se:Rule>
+            <!--<se:Rule>
                     <se:Name>Línea de base</se:Name>
                     <se:Description>
                         <se:Title>Línea de base</se:Title>
@@ -172,7 +172,7 @@
                             <se:SvgParameter name="stroke-dasharray">2 4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
+                </se:Rule> -->
                 <se:Rule>
                     <se:Name>Límite exterior del Río de la Plata</se:Name>
                     <se:Description>
@@ -237,7 +237,7 @@
                         <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                         <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-                        <se:SvgParameter name="stroke-dasharray">4 2</se:SvgParameter>
+                        <se:SvgParameter name="stroke-dasharray">4 3</se:SvgParameter>
                     </se:Stroke>
                 </se:LineSymbolizer>
                 </se:Rule>
