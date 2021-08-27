@@ -7,7 +7,7 @@
     <NamedLayer>
         <se:Name>linea_de_limite.geom</se:Name>
         <UserStyle>
-            <se:Name>linea_de_limite.geom</se:Name>
+            <se:Name>linea_de_limite_geom</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Límite Interdepartamental</se:Name>
@@ -97,7 +97,7 @@
                             <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">4 2 1 2 1 2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">4 4 1</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -155,7 +155,7 @@
                 </se:Rule>
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
-                <se:Rule>
+            <!--<se:Rule>
                     <se:Name>Línea de base</se:Name>
                     <se:Description>
                         <se:Title>Línea de base</se:Title>
@@ -175,7 +175,7 @@
                             <se:SvgParameter name="stroke-dasharray">1 2</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>
+                </se:Rule> -->
                 <se:Rule>
                     <se:Name>Límite exterior del Río de la Plata</se:Name>
                     <se:Description>
@@ -193,7 +193,7 @@
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">10 4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">8 4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -232,16 +232,16 @@
                         <ogc:PropertyName>entidad</ogc:PropertyName>
                         <ogc:Literal>14</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-                </ogc:Filter>
-                <se:LineSymbolizer>
+                    </ogc:Filter>
+                 <se:LineSymbolizer>
                     <se:Stroke>
                         <se:SvgParameter name="stroke">#c1c1c1</se:SvgParameter>
                         <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                         <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-                        <se:SvgParameter name="stroke-dasharray">4 2</se:SvgParameter>
+                        <se:SvgParameter name="stroke-dasharray">4 3</se:SvgParameter>
                     </se:Stroke>
-                </se:LineSymbolizer>
+                 </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>            
             <se:FeatureTypeStyle>
@@ -262,7 +262,7 @@
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">5 2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">11 7 3 7</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -281,11 +281,19 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#929292</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#dddedb</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">3 2</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#929292</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">5 4 1 4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -304,16 +312,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#929292</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#dddedb</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">10 4</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#929292</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">5 4 1 4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-              <!--  <se:FeatureTypeStyle>
+        <!--<se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>linea de costa</se:Name>
                     <se:Description>
@@ -350,7 +366,7 @@
                             <ogc:Not>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>nam</ogc:PropertyName>
-                                    <ogc:Literal>Límite argentino-chileno</ogc:Literal>
+                                    <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             </ogc:Not>
                         </ogc:And>
@@ -374,23 +390,22 @@
                     </se:LineSymbolizer>                    
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>Limite argchile</se:Name>
+                    <se:Name>Limite sector antartico</se:Name>
                     <se:Description>
-                        <se:Title>Limite argchile</se:Title>
+                        <se:Title>Limite sector antartico</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>nam</ogc:PropertyName>
-                            <ogc:Literal>Límite argentino-chileno</ogc:Literal>
+                            <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#929292</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#757474</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">10 4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
