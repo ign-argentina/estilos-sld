@@ -8,7 +8,7 @@
     <NamedLayer>
         <se:Name>red_vial_nacional_dnv_2018</se:Name>
         <UserStyle>
-            <se:Name>vial_dnv_capa_base</se:Name>
+            <se:Name>vial_dnv_capabase_gris</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Rutas Nacionales DNV</se:Name>
@@ -19,7 +19,7 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
+                            <ogc:Literal>Nacional</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
@@ -44,7 +44,7 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
+                            <ogc:Literal>Nacional</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
@@ -65,7 +65,7 @@
                     <se:MaxScaleDenominator>8000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>nam</ogc:PropertyName>
+                            <ogc:PropertyName>rtn</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
