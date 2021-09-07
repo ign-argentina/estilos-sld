@@ -7,11 +7,31 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>mde_5m</se:Name>
+          <se:Description>
+            <se:Title>mde_5m</se:Title>
+          </se:Description>
+          <se:MinScaleDenominator>3000001</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#18d385</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.3</se:SvgParameter>
-            </se:Fill>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#18d385</se:SvgParameter>
+                  <se:SvgParameter name="fill-opacity">0.3</se:SvgParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#18d385</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0.3</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                  <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>mde_5m</se:Name>
+          <se:Description>
+            <se:Title>mde_5m</se:Title>
+          </se:Description>
+          <se:MaxScaleDenominator>3000001</se:MaxScaleDenominator>
+          <se:PolygonSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#18d385</se:SvgParameter>
               <se:SvgParameter name="stroke-opacity">0.3</se:SvgParameter>
