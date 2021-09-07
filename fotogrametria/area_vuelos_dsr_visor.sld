@@ -7,7 +7,7 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>area_vuelos_dsr</se:Name>
-          <se:MinScaleDenominator>500001</se:MinScaleDenominator>
+          <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
@@ -24,7 +24,7 @@
         </se:Rule>
         <se:Rule>
           <se:Name>area_vuelos_dsr</se:Name>
-          <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#001cff</se:SvgParameter>
