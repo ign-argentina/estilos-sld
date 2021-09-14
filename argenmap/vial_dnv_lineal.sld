@@ -18,8 +18,8 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>Nacional</ogc:Literal>
+                            <ogc:PropertyName>rst</ogc:PropertyName>
+                            <ogc:Literal>Pavimentada</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
@@ -27,6 +27,52 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fc8d91</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>Rutas Nacionales DNV</se:Name>
+                    <se:Description>
+                        <se:Title>Rutas Nacionales DNV</se:Title>
+                    </se:Description>
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>rst</ogc:PropertyName>
+                            <ogc:Literal>Consolidada</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>11000000</se:MaxScaleDenominator>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#d8bbf0</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>Rutas Nacionales DNV</se:Name>
+                    <se:Description>
+                        <se:Title>Rutas Nacionales DNV</se:Title>
+                    </se:Description>
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>rst</ogc:PropertyName>
+                            <ogc:Literal>Tierra</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>11000000</se:MaxScaleDenominator>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#ffa754</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
@@ -43,8 +89,8 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>Nacional</ogc:Literal>
+                            <ogc:PropertyName>rst</ogc:PropertyName>
+                            <ogc:Literal>Pavimentada</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
@@ -52,6 +98,52 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fc8d91</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>Rutas Nacionales DNV</se:Name>
+                    <se:Description>
+                        <se:Title>Rutas Nacionales DNV</se:Title>
+                    </se:Description>
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>rst</ogc:PropertyName>
+                            <ogc:Literal>Consolidada</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>100001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#d8bbf0</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>Rutas Nacionales DNV</se:Name>
+                    <se:Description>
+                        <se:Title>Rutas Nacionales DNV</se:Title>
+                    </se:Description>
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>rst</ogc:PropertyName>
+                            <ogc:Literal>Tierra</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>100001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#ffa754</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
@@ -83,12 +175,10 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Graphic>
-                            <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional.svg"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
-                            <!--Well known marker fallback-->
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>

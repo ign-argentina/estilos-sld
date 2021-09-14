@@ -83,12 +83,10 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Graphic>
-                            <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional.svg"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
-                            <!--Well known marker fallback-->
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
