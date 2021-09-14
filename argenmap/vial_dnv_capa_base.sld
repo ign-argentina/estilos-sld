@@ -19,7 +19,7 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
+                            <ogc:Literal>Nacional</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>9000001</se:MinScaleDenominator>
@@ -45,7 +45,7 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
+                            <ogc:Literal>Nacional</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
@@ -67,7 +67,7 @@
                     <se:MaxScaleDenominator>8000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>cod_rn</ogc:PropertyName>
+                            <ogc:PropertyName>rtn</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
@@ -85,12 +85,10 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Graphic>
-                            <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional.svg"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
-                            <!--Well known marker fallback-->
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
