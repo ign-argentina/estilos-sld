@@ -11,18 +11,10 @@
                         <se:Title>Límite internacional</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>entidad</ogc:PropertyName>
                                     <ogc:Literal>11</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
-                            <ogc:Not>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>termino_especifico</ogc:PropertyName>
-                                    <ogc:Literal>Límite argentino-chileno</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Not>
-                        </ogc:And>
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -47,36 +39,6 @@
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">5 4 1 4</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <se:Name>Limite argchile</se:Name>
-                    <se:Description>
-                        <se:Title>Limite argchile</se:Title>
-                    </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
-                            <ogc:Literal>Límite argentino-chileno</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">10 4</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#2fa6b3</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">10 4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -131,11 +93,19 @@
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#2fa6b3</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">10 4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">5 4 1 4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -161,11 +131,19 @@
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#2fa6b3</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">10 4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">5 4 1 4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -173,5 +151,3 @@
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
-
-
