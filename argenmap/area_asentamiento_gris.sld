@@ -45,7 +45,7 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
+            <!-- <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>area_asentamiento_capa_base</se:Name>
                     <se:Description>
@@ -70,7 +70,7 @@
                         </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
+            </se:FeatureTypeStyle> -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Sitio de Interés</se:Name>

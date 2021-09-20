@@ -117,7 +117,7 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
+            <!-- <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Ruinas</se:Name>
                     <se:Description>
@@ -142,7 +142,7 @@
                         </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
+            </se:FeatureTypeStyle> -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Sitio de Interés</se:Name>
