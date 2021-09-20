@@ -10,7 +10,7 @@
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#97dbf2</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.3</se:SvgParameter>
+              <se:SvgParameter name="fill-opacity">0.4</se:SvgParameter>
             </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#97dbf2</se:SvgParameter>
