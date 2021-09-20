@@ -18,7 +18,7 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#25cc71</se:SvgParameter>
-                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>
+                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#767676</se:SvgParameter>
