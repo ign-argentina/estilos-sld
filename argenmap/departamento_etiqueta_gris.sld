@@ -98,12 +98,6 @@
                                 </se:AnchorPoint>
                             </se:PointPlacement>
                         </se:LabelPlacement>
-                        <se:Halo>
-                            <se:Radius>1</se:Radius>
-                            <se:Fill>
-                                <se:SvgParameter name="fill">##f7f7f7</se:SvgParameter>
-                            </se:Fill>
-                        </se:Halo>
                         <se:Fill>
                             <se:SvgParameter name="fill">#333333</se:SvgParameter>
                         </se:Fill>
