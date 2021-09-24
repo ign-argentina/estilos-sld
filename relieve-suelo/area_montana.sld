@@ -12,7 +12,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CAM</ogc:PropertyName>
+              <ogc:PropertyName>clasificacion_area</ogc:PropertyName>
               <ogc:Literal>Alta montaña</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -34,7 +34,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CAM</ogc:PropertyName>
+              <ogc:PropertyName>clasificacion_area</ogc:PropertyName>
               <ogc:Literal>Altiplano</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -56,7 +56,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CAM</ogc:PropertyName>
+              <ogc:PropertyName>clasificacion_area</ogc:PropertyName>
               <ogc:Literal>Colina</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -78,7 +78,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CAM</ogc:PropertyName>
+              <ogc:PropertyName>clasificacion_area</ogc:PropertyName>
               <ogc:Literal>Montaña</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -100,7 +100,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CAM</ogc:PropertyName>
+              <ogc:PropertyName>clasificacion_area</ogc:PropertyName>
               <ogc:Literal>Sierra</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
