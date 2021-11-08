@@ -38,7 +38,7 @@
                             <ogc:PropertyName>name</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
                             <se:SvgParameter name="font-style">normal</se:SvgParameter>
                         </se:Font>

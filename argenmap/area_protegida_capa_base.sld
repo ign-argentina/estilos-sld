@@ -7,10 +7,10 @@
     <NamedLayer>
         <se:Name>area_protegida</se:Name>
         <UserStyle>
-            <se:Name>area_protegida_capa_base</se:Name>
+            <se:Name>area_protegida</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>area_protegida_capa_base</se:Name>
+                    <se:Name>area_protegida</se:Name>
                     <se:Description>
                         <se:Title>area_protegida</se:Title>
                     </se:Description>
@@ -18,13 +18,13 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#25cc71</se:SvgParameter>
-                            <se:SvgParameter name="fill-opacity">0.06</se:SvgParameter>
+                            <se:SvgParameter name="fill-opacity">0.07</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#25cc71</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#767676</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">1 2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">2 2 1 2 1 2 1 2 1 2</se:SvgParameter>
                         </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
@@ -56,8 +56,8 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -114,8 +114,8 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>

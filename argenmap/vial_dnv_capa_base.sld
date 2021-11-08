@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<StyledLayerDescriptor
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
         <se:Name>red_vial_nacional_dnv_2018</se:Name>
@@ -14,19 +15,20 @@
                     <se:Description>
                         <se:Title>Rutas Nacionales DNV</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
+                            <ogc:Literal>Nacional</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>9000001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>18000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>11000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ec2027</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#f04d52</se:SvgParameter>
                             <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -39,19 +41,20 @@
                     <se:Description>
                         <se:Title>Rutas Nacionales DNV</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
+                            <ogc:Literal>Nacional</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ec2027</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#f04d52</se:SvgParameter>
                             <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.39999999999999991</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -64,7 +67,7 @@
                     <se:MaxScaleDenominator>8000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>cod_rn</ogc:PropertyName>
+                            <ogc:PropertyName>rtn</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
@@ -82,12 +85,10 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Graphic>
-                            <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="rn_pavimentada.svg"/>
+                                <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional.svg"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
-                            <!--Well known marker fallback-->
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
@@ -103,6 +104,8 @@
                         <se:VendorOption name="group">yes</se:VendorOption>
                         <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
                         <se:VendorOption name="graphic-margin">8 8</se:VendorOption>
+                        <se:VendorOption name="spaceAround">35</se:VendorOption>
+                        <se:VendorOption name="conflictResolution">true</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

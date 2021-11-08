@@ -5,11 +5,10 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" 
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>departamento</se:Name>
+        <se:Name>area_de_limites</se:Name>
         <UserStyle>
-            <se:Name>departamentos_etiquetas_capa_base</se:Name>
+            <se:Name>departamentos_etiquetas_capabase</se:Name>
             <se:FeatureTypeStyle>
-                <!--FeatureRendererV2 nullSymbol not implemented yet-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Not>
@@ -77,7 +76,7 @@
                             </ogc:Or>
                         </ogc:Not>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>550000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="centroid">
@@ -88,7 +87,7 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Arimo</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -190,7 +189,7 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Arimo</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>

@@ -23,17 +23,15 @@
                     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
-                            <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:href="cerro_capa_base.svg" xlink:type="simple"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
-                            <!--Well known marker fallback-->
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Stroke>
                                     <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                                    <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
                             <se:Size>10</se:Size>
@@ -63,7 +61,7 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Chaparral Pro Light</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
