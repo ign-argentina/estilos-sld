@@ -30,7 +30,7 @@
             </ogc:PropertyIsEqualTo>                    
            </ogc:Or>
           </ogc:Filter>
-          <se:MaxScaleDenominator>35000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>17000000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>nam</ogc:PropertyName>
