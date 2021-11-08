@@ -58,33 +58,6 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <!--
-      <se:FeatureTypeStyle>
-        <se:Rule>
-          <se:Name>embalse_espejo_agua_capa_base</se:Name>
-          <se:Description>
-            <se:Title>canal_100.000</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>entidad</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#c8e8f8</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#c8e8f8</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-      </se:FeatureTypeStyle>
--->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -129,7 +102,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -153,6 +126,8 @@
                         <se:VendorOption name="autoWrap">50</se:VendorOption>
                         <se:VendorOption name="charSpacing">3</se:VendorOption>
                         <se:VendorOption name="wordSpacing">8</se:VendorOption>
+            			<se:VendorOption name="goodnessOfFit">1</se:VendorOption>
+            			<se:VendorOption name="conflictResolution">true</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
