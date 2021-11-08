@@ -104,6 +104,8 @@
                         <se:VendorOption name="group">yes</se:VendorOption>
                         <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
                         <se:VendorOption name="graphic-margin">8 8</se:VendorOption>
+                        <se:VendorOption name="spaceAround">35</se:VendorOption>
+                        <se:VendorOption name="conflictResolution">true</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
