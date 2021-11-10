@@ -17,8 +17,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">13</se:SvgParameter>
-                            <se:SvgParameter name="font-style">italic</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement>
@@ -26,13 +25,13 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>2</se:Radius>
+                            <se:Radius>1</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#fffbf7</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#404040</se:SvgParameter>
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="group">yes</se:VendorOption>
                         <se:VendorOption name="followLine">true</se:VendorOption>
@@ -52,7 +51,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">13</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
                             <se:PointPlacement>
@@ -101,7 +100,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">13</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
                             <se:PointPlacement>
@@ -136,8 +135,45 @@
                         <se:VendorOption name="graphic-margin">8 8</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
+                <se:Rule>
+                    <se:Name>sentido de circulación</se:Name>
+                      <se:Description>
+                        <se:Title>sentido de circulación</se:Title>
+                      </se:Description>
+                      <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                          <ogc:PropertyName>oneway</ogc:PropertyName>
+                          <ogc:Literal>yes</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                      </ogc:Filter>
+                      <se:MaxScaleDenominator>9000</se:MaxScaleDenominator>
+                      <se:TextSymbolizer>
+                        <se:Label>
+                          <ogc:Literal>&#x2192;</ogc:Literal>
+                        </se:Label>
+                        <se:Font>
+                          <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                          <se:SvgParameter name="font-size">12</se:SvgParameter>
+                        </se:Font>
+                        <se:Halo>
+                          <se:Radius>1</se:Radius>
+                          <se:Fill>
+                            <se:SvgParameter name="fill">#999999</se:SvgParameter>
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>
+                          </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                          <se:SvgParameter name="fill">#0e0d0d</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="followLine">true</se:VendorOption>
+                        <se:VendorOption name="forceLeftToRight">false</se:VendorOption>
+                        <se:VendorOption name="spaceAround">100</se:VendorOption>
+                        <se:VendorOption name="goodnessOfFit">1</se:VendorOption>
+                        <se:VendorOption name="conflictResolution">true</se:VendorOption>
+                      </se:TextSymbolizer>
+                </se:Rule>
             </se:FeatureTypeStyle>
-                        <!-- Principio tunnel -->
+            <!-- Principio tunnel -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>túneles</se:Name>
@@ -360,7 +396,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -816,14 +852,14 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">11</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">10</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -873,14 +909,14 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#606060</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -1152,14 +1188,14 @@
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#606060</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">11</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">10</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
