@@ -434,7 +434,7 @@
                         </ogc:Or>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                    <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
@@ -961,14 +961,14 @@
                         </ogc:And>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                    <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#606060</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                      <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                      <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
@@ -1081,14 +1081,14 @@
                         </ogc:And>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                    <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#606060</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                    <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
@@ -1185,14 +1185,14 @@
                         </ogc:And>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                    <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#606060</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                    <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+                    <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
