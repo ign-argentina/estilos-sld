@@ -10,7 +10,7 @@
           <se:Description>
             <se:Title>mde_mdt_vant</se:Title>
           </se:Description>
-          <se:MinScaleDenominator>2000001</se:MinScaleDenominator>
+          <se:MinScaleDenominator>1000001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
@@ -35,7 +35,7 @@
           <se:Description>
             <se:Title>mde_mdt_vant</se:Title>
           </se:Description>
-          <se:MaxScaleDenominator>2000001</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#0c8567</se:SvgParameter>
