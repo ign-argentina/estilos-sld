@@ -14,8 +14,8 @@
             </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#26fd1f</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0.3</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
