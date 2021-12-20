@@ -19,7 +19,7 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>Nacional</ogc:Literal>
+                            <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
@@ -44,7 +44,7 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>Nacional</ogc:Literal>
+                            <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
