@@ -6,14 +6,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>red_vial_nacional_dnv_2018</se:Name>
+        <se:Name>red_vial_nacional</se:Name>
         <UserStyle>
             <se:Name>vial_dnv_capabase_gris</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Rutas Nacionales DNV</se:Name>
+                    <se:Name>Rutas Nacionales</se:Name>
                     <se:Description>
-                        <se:Title>Rutas Nacionales DNV</se:Title>
+                        <se:Title>Rutas Nacionales</se:Title>
                     </se:Description>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
@@ -36,9 +36,9 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Rutas Nacionales DNV</se:Name>
+                    <se:Name>Rutas Nacionales</se:Name>
                     <se:Description>
-                        <se:Title>Rutas Nacionales DNV</se:Title>
+                        <se:Title>Rutas Nacionales</se:Title>
                     </se:Description>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
