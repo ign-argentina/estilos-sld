@@ -6,20 +6,20 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
-        <se:Name>red_vial_nacional_dnv_2018</se:Name>
+        <se:Name>red_vial_nacional</se:Name>
         <UserStyle>
-            <se:Name>vial_dnv_capa_base</se:Name>
+            <se:Name>red_vial_nacional_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Rutas Nacionales DNV</se:Name>
+                    <se:Name>Rutas Nacionales</se:Name>
                     <se:Description>
-                        <se:Title>Rutas Nacionales DNV</se:Title>
+                        <se:Title>Rutas Nacionales</se:Title>
                     </se:Description>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>Nacional</ogc:Literal>
+                            <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>9000001</se:MinScaleDenominator>
@@ -37,15 +37,15 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Rutas Nacionales DNV</se:Name>
+                    <se:Name>Rutas Nacionale</se:Name>
                     <se:Description>
-                        <se:Title>Rutas Nacionales DNV</se:Title>
+                        <se:Title>Rutas Nacionale</se:Title>
                     </se:Description>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>Nacional</ogc:Literal>
+                            <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
