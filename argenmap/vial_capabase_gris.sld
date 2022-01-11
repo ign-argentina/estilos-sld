@@ -474,7 +474,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
+          <!--  <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>
@@ -545,7 +545,7 @@
                         <se:VendorOption name="graphic-margin">8 8</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
+            </se:FeatureTypeStyle> -->
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>
