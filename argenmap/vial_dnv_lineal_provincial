@@ -72,7 +72,7 @@
               </ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>rst</ogc:PropertyName>
-                <ogc:Literal>2</ogc:Literal>
+                <ogc:Literal>19</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
@@ -101,7 +101,7 @@
               </ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>rst</ogc:PropertyName>
-                <ogc:Literal>3</ogc:Literal>
+                <ogc:Literal>13</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
