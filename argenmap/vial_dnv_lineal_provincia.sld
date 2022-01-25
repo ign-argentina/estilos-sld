@@ -95,6 +95,7 @@
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:And>
+                <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>hct</ogc:PropertyName>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
