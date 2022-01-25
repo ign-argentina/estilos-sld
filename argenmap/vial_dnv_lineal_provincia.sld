@@ -12,12 +12,10 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:And>
                 <ogc:PropertyIsEqualTo>
                   <ogc:PropertyName>hct</ogc:PropertyName>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-              </ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>rst</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
@@ -64,12 +62,10 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:And>
                 <ogc:PropertyIsEqualTo>
                   <ogc:PropertyName>hct</ogc:PropertyName>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-              </ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>rst</ogc:PropertyName>
                 <ogc:Literal>19</ogc:Literal>
@@ -94,12 +90,10 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:And>
                 <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>hct</ogc:PropertyName>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-              </ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>rst</ogc:PropertyName>
                 <ogc:Literal>13</ogc:Literal>
@@ -116,8 +110,8 @@
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule> 
-      </se:FeatureTypeStyle>  
+        </se:Rule>
+      </se:FeatureTypeStyle>    
       <se:FeatureTypeStyle>
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
