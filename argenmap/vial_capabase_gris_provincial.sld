@@ -260,34 +260,16 @@
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>hct</ogc:PropertyName>
                                 <ogc:Literal>2</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>nr</ogc:PropertyName>
-                                <ogc:Literal>-1</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>nr</ogc:PropertyName>
-                                <ogc:Literal>-17</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>nr</ogc:PropertyName>
-                                <ogc:Literal>-2</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>nr</ogc:PropertyName>
-                                <ogc:Literal>0</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                        </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>nr</ogc:PropertyName>
+                            <ogc:PropertyName>rst</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
