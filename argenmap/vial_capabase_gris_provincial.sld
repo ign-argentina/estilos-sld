@@ -128,28 +128,10 @@
                         <se:Title>Camino consolidado</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>rst</ogc:PropertyName>
                                 <ogc:Literal>19</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>1</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>2</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>3</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>5</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                        </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
@@ -168,28 +150,10 @@
                         <se:Title>Caminos pavimentados</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>rst</ogc:PropertyName>
                                 <ogc:Literal>1</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>1</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>2</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>3</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>5</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                        </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>500001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
@@ -209,28 +173,10 @@
                         <se:Title>Caminos pavimentados</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>rst</ogc:PropertyName>
                                 <ogc:Literal>1</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>1</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>2</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>3</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>5</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                        </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>250001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
@@ -250,28 +196,10 @@
                         <se:Title>Caminos pavimentados</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>rst</ogc:PropertyName>
                                 <ogc:Literal>1</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>1</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>2</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>3</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>5</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                        </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
@@ -377,12 +305,10 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Graphic>
-                            <!--Plain SVG fallback, no parameters-->
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
-                            <!--Well known marker fallback-->
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
