@@ -29,10 +29,10 @@
                     <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#343536</se:SvgParameter>
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#979b9c</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>

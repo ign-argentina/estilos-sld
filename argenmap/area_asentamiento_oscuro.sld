@@ -35,14 +35,14 @@
                     <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
                      <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#e1e1dd</se:SvgParameter>
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>
+                            <se:SvgParameter name="fill">#6C6C6A</se:SvgParameter>
+                            <se:SvgParameter name="fill-opacity">0.28</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#e1e1dd</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6C6C6A</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
                         </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
@@ -63,13 +63,14 @@
                     <se:MaxScaleDenominator>7000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#d3c4b6</se:SvgParameter>
+                            <se:SvgParameter name="fill">#B9B8B6</se:SvgParameter>
                             <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#d3c4b6</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#B9B8B6</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>
                         </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>

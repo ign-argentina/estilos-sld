@@ -32,10 +32,10 @@
           <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
-              <se:SvgParameter name="fill">#4f4d4d</se:SvgParameter>
+              <se:SvgParameter name="fill">#262627</se:SvgParameter>
             </se:Fill>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#4f4d4d</se:SvgParameter>
+              <se:SvgParameter name="stroke">#262627</se:SvgParameter>
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
