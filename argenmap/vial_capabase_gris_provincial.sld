@@ -107,7 +107,7 @@
                           </ogc:PropertyIsEqualTo>
                           <ogc:PropertyIsEqualTo>
                               <ogc:PropertyName>rst</ogc:PropertyName>
-                              <ogc:Literal>19</ogc:Literal>
+                              <ogc:Literal>2</ogc:Literal>
                           </ogc:PropertyIsEqualTo>
                       </ogc:And>
                     </ogc:Filter>
@@ -130,7 +130,7 @@
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>rst</ogc:PropertyName>
-                                <ogc:Literal>19</ogc:Literal>
+                                <ogc:Literal>2</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
