@@ -11,16 +11,9 @@
             <se:Title>Ruta provincial pavimentada</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:And>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>hct</ogc:PropertyName>
-                  <ogc:Literal>2</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>rst</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
-            </ogc:And>
           </ogc:Filter>
           <se:MinScaleDenominator>100001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
@@ -61,16 +54,10 @@
             <se:Title>Ruta provincial consolidado</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:And>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>hct</ogc:PropertyName>
-                  <ogc:Literal>2</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>rst</ogc:PropertyName>
-                <ogc:Literal>19</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
+                <ogc:Literal>2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>100001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
@@ -89,16 +76,10 @@
             <se:Title>Ruta provincial de tierra</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:And>
                 <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>hct</ogc:PropertyName>
-                  <ogc:Literal>2</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>rst</ogc:PropertyName>
-                <ogc:Literal>13</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
+                <ogc:Literal>3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>100001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
