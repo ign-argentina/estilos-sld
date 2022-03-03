@@ -11,6 +11,7 @@
             <se:Title>Ruta provincial pavimentada</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+              <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>rst</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
