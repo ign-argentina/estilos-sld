@@ -27,6 +27,7 @@
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
+       <se:VendorOption name="sortBy">gid D</se:VendorOption>
       </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
