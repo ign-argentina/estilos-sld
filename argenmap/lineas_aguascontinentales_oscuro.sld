@@ -10,9 +10,9 @@
             <se:Name>lineas_de_aguas_continentales_oscuro</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>linea_agua_perenne_3000000</se:Name>
+                    <se:Name>linea_agua_perenne_1.5m</se:Name>
                     <se:Description>
-                        <se:Title>linea_agua_perenne_3000000</se:Title>
+                        <se:Title>linea_agua_perenne_1.5m</se:Title>
                     </se:Description>
                         <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                             <ogc:And>
@@ -28,11 +28,11 @@
                             </ogc:And>
                       </ogc:Filter>
                     <se:MinScaleDenominator>500001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>1500000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#4f4d4d</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#262627</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -62,8 +62,8 @@
                     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#4f4d4d</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#262627</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -92,8 +92,8 @@
                     <se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#4f4d4d</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#262627</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -122,8 +122,8 @@
                     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#4f4d4d</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#262627</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">10 5</se:SvgParameter>

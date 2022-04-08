@@ -8,27 +8,19 @@
     <NamedLayer>
         <se:Name>red_vial_nacional</se:Name>
         <UserStyle>
-            <se:Name>red_vial_nacional_capa_base</se:Name>
+            <se:Name>vial_nacional_capabase_oscuro</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Rutas Nacionales</se:Name>
+                    <se:Name>Rutas Nacionales 11m</se:Name>
                     <se:Description>
                         <se:Title>Rutas Nacionales</se:Title>
                     </se:Description>
-                    <ogc:Filter
-                        xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>9000001</se:MinScaleDenominator>
+                    <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>11000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#f04d52</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -37,31 +29,23 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Rutas Nacionale</se:Name>
+                    <se:Name>Rutas Nacionales 4m</se:Name>
                     <se:Description>
-                        <se:Title>Rutas Nacionale</se:Title>
+                        <se:Title>Rutas Nacionales</se:Title>
                     </se:Description>
-                    <ogc:Filter
-                        xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>hct</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#f04d52</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
+          <!--  <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>8000000</se:MaxScaleDenominator>
@@ -92,7 +76,7 @@
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#f7f7f7</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
                                     <se:SvgParameter name="stroke">#808080</se:SvgParameter>
@@ -104,11 +88,9 @@
                         <se:VendorOption name="group">yes</se:VendorOption>
                         <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
                         <se:VendorOption name="graphic-margin">8 8</se:VendorOption>
-                        <se:VendorOption name="spaceAround">35</se:VendorOption>
-                        <se:VendorOption name="conflictResolution">true</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
+            </se:FeatureTypeStyle> -->
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>

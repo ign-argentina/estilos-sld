@@ -11,16 +11,46 @@
             <se:Name>paises_oscuro</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
+                    <se:Name>Argentina</se:Name>
+                    <se:Description>
+                        <se:Title>Argentina</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>nam</ogc:PropertyName>
+                            <ogc:Literal>Argentina</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                        </se:Stroke>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+            </se:FeatureTypeStyle>
+            <se:FeatureTypeStyle>
+                <se:Rule>
                     <se:Name>Países</se:Name>
                     <se:Description>
                         <se:Title>Países</se:Title>
                     </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                          <ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyName>nam</ogc:PropertyName>
+                            <ogc:Literal>Argentina</ogc:Literal>
+                          </ogc:PropertyIsNotEqualTo>
+                    </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#343536</se:SvgParameter>
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#979b9c</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#454343</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>

@@ -5,7 +5,7 @@
     <UserStyle>
       <se:Name>vial</se:Name>
       <se:FeatureTypeStyle>
-        <se:Rule>
+      <!--  <se:Rule>
           <se:Name>RP pavimentada</se:Name>
           <se:Description>
             <se:Title>Ruta provincial pavimentada</se:Title>
@@ -38,7 +38,7 @@
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>
+        </se:Rule> -->
         <se:Rule>
           <se:Name>Autopista</se:Name>
           <se:Description>
@@ -61,7 +61,7 @@
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        <se:Rule>
+      <!--  <se:Rule>
           <se:Name>RP consolidado</se:Name>
           <se:Description>
             <se:Title>Ruta provincial consolidado</se:Title>
@@ -128,7 +128,7 @@
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>
+        </se:Rule> -->
         <se:Rule>
           <se:Name>Camino terciario</se:Name>
           <se:Description>
@@ -235,7 +235,7 @@
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      <se:FeatureTypeStyle>
+     <!-- <se:FeatureTypeStyle>
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
@@ -305,7 +305,7 @@
             <se:VendorOption name="spaceAround">35</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
-      </se:FeatureTypeStyle>
+      </se:FeatureTypeStyle> -->
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

@@ -3,7 +3,7 @@
   <NamedLayer>
     <se:Name>puntos_de_transporte_aereo</se:Name>
     <UserStyle>
-      <se:Name>puntos_de_transporte_aereo</se:Name>
+      <se:Name>helipuerto</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Objeto 50.000.000 a 9.000.001</se:Name>
@@ -14,12 +14,10 @@
           <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
                 <se:OnlineResource xlink:href="helipuerto_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
-              <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
@@ -30,7 +28,7 @@
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>20</se:Size>
+              <se:Size>15</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -43,12 +41,10 @@
           <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
                 <se:OnlineResource xlink:href="helipuerto_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
-              <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
@@ -59,7 +55,7 @@
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>29</se:Size>
+              <se:Size>25</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -71,12 +67,10 @@
           <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
                 <se:OnlineResource xlink:href="helipuerto_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
-              <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
@@ -87,7 +81,7 @@
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>54</se:Size>
+              <se:Size>50</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>

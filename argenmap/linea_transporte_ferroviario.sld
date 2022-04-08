@@ -7,6 +7,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
         <se:Name>lineas_de_transporte_ferroviario</se:Name>
+         <!-- Para oscuro2 -->
         <UserStyle>
             <se:Name>linea_transporte_ferroviario_oscuro</se:Name>
             <se:FeatureTypeStyle>

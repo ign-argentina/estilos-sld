@@ -64,7 +64,7 @@
           <se:PolygonSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#001cff</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.6</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>

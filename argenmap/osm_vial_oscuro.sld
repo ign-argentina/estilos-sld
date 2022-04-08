@@ -27,17 +27,17 @@
                         <se:Halo>
                             <se:Radius>1</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#fffbf7</se:SvgParameter>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                            <se:SvgParameter name="fill">#8F8E8B</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="group">yes</se:VendorOption>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-                <se:Rule>
+         <!--       <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsLike wildCard="%" singleChar="_" escapeChar="\">
                             <ogc:PropertyName>ref</ogc:PropertyName>
@@ -134,7 +134,7 @@
                         <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
                         <se:VendorOption name="graphic-margin">8 8</se:VendorOption>
                     </se:TextSymbolizer>
-                </se:Rule>
+                </se:Rule> -->
                 <se:Rule>
                     <se:Name>sentido de circulación</se:Name>
                       <se:Description>
@@ -163,7 +163,7 @@
                           </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                          <se:SvgParameter name="fill">#0e0d0d</se:SvgParameter>
+                          <se:SvgParameter name="fill">#a6a6a2</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="forceLeftToRight">false</se:VendorOption>
@@ -225,16 +225,16 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#606060</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">6 3</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -269,7 +269,7 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#606060</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">6 3</se:SvgParameter>
@@ -277,8 +277,8 @@
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                         </se:Stroke>
@@ -311,8 +311,8 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">10 5</se:SvgParameter>
                         </se:Stroke>
@@ -353,8 +353,8 @@
                     <se:MaxScaleDenominator>33000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -395,8 +395,8 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -436,8 +436,8 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                         </se:Stroke>
@@ -482,15 +482,15 @@
                     <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -535,15 +535,15 @@
                     <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -588,15 +588,15 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -640,15 +640,15 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -693,15 +693,15 @@
                     <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -746,15 +746,15 @@
                     <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -799,15 +799,15 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -851,15 +851,15 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                         </se:Stroke>
@@ -908,15 +908,15 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#606060</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -963,15 +963,15 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#606060</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                       <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -1024,15 +1024,15 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#606060</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#fffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -1083,15 +1083,15 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#606060</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -1136,15 +1136,15 @@
                     <se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#606060</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -1187,15 +1187,15 @@
                     <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#606060</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#6b6b6a</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#3B3B3A</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
