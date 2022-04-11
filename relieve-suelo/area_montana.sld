@@ -8,7 +8,7 @@
         <se:Rule>
           <se:Name>altamontana</se:Name>
           <se:Description>
-            <se:Title>altamontana</se:Title>
+            <se:Title>Alta montaña</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -30,7 +30,7 @@
         <se:Rule>
           <se:Name>altiplano</se:Name>
           <se:Description>
-            <se:Title>altiplano</se:Title>
+            <se:Title>Altiplano</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -52,7 +52,7 @@
         <se:Rule>
           <se:Name>colina</se:Name>
           <se:Description>
-            <se:Title>colina</se:Title>
+            <se:Title>Colina</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -72,7 +72,7 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>montana</se:Name>
+          <se:Name>Montaña</se:Name>
           <se:Description>
             <se:Title>montana</se:Title>
           </se:Description>
@@ -94,7 +94,7 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>sierra</se:Name>
+          <se:Name>Sierra</se:Name>
           <se:Description>
             <se:Title>sierra</se:Title>
           </se:Description>
