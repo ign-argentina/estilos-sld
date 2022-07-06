@@ -350,7 +350,7 @@
       </ogc:Or>
      </ogc:Filter>
      <se:MinScaleDenominator>10001</se:MinScaleDenominator>
-     <se:MaxScaleDenominator>70000</se:MaxScaleDenominator>
+     <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
      <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#B9B6B6</se:SvgParameter>
@@ -479,11 +479,11 @@
       </ogc:Or>
      </ogc:Filter>
      <se:MinScaleDenominator>50001</se:MinScaleDenominator>
-     <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+     <se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
      <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-       <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
+       <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
        <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
       </se:Stroke>
      </se:LineSymbolizer>
@@ -690,7 +690,7 @@
       </ogc:And>
      </ogc:Filter>
      <se:MinScaleDenominator>50001</se:MinScaleDenominator>
-     <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+     <se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
      <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
@@ -1207,3 +1207,5 @@
  </NamedLayer>
 </StyledLayerDescriptor>
 <!-- Fin bridge -->
+
+
