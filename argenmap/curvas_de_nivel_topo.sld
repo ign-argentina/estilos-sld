@@ -9,7 +9,7 @@
   <UserStyle>
    <se:Name>curvas_de_nivel_mapabase_relieve</se:Name>
    <se:FeatureTypeStyle>
-    <se:Rule>
+     <se:Rule>
      <se:Name>Primaria zoom 10</se:Name>
      <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
       <ogc:Or>
@@ -49,7 +49,7 @@
      </ogc:Filter>
      <se:MinScaleDenominator>400000</se:MinScaleDenominator>
      <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
-     <se:LineSymbolizer>
+       <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#565656</se:SvgParameter>
        <se:SvgParameter name="stroke-width">0.25</se:SvgParameter>
@@ -115,7 +115,7 @@
      </ogc:Filter>
      <se:MinScaleDenominator>400000</se:MinScaleDenominator>
      <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
-     <se:LineSymbolizer>
+       <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#565656</se:SvgParameter>
        <se:SvgParameter name="stroke-width">0.25</se:SvgParameter>
@@ -202,7 +202,7 @@
      </ogc:Filter>
      <se:MinScaleDenominator>60000</se:MinScaleDenominator>
      <se:MaxScaleDenominator>300000</se:MaxScaleDenominator>
-     <se:LineSymbolizer>
+       <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#565656</se:SvgParameter>
        <se:SvgParameter name="stroke-width">0.35</se:SvgParameter>
@@ -272,7 +272,7 @@
      </ogc:Filter>
      <se:MinScaleDenominator>60000</se:MinScaleDenominator>
      <se:MaxScaleDenominator>300000</se:MaxScaleDenominator>
-     <se:LineSymbolizer>
+       <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#565656</se:SvgParameter>
        <se:SvgParameter name="stroke-width">0.35</se:SvgParameter>
@@ -573,12 +573,12 @@
         <ogc:PropertyName>cota</ogc:PropertyName>
         <ogc:Literal>6900</ogc:Literal>
        </ogc:PropertyIsEqualTo>
-      </ogc:Or>
+        </ogc:Or>
      </ogc:Filter>
-
+     
      <se:MinScaleDenominator>50000</se:MinScaleDenominator>
      <se:MaxScaleDenominator>300000</se:MaxScaleDenominator>
-     <se:LineSymbolizer>
+       <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#565656</se:SvgParameter>
        <se:SvgParameter name="stroke-width">0.45</se:SvgParameter>
@@ -596,7 +596,7 @@
        <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
        <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
       </se:Stroke>
-
+       
       <se:PerpendicularOffset>0.0</se:PerpendicularOffset>
      </se:LineSymbolizer>
     </se:Rule>
