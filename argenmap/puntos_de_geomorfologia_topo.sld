@@ -9,7 +9,7 @@
   <UserStyle>
    <se:Name>cerro_capa_base</se:Name>
    <se:FeatureTypeStyle>
-    <se:Rule>
+  <!--  <se:Rule>
      <se:Name>Puntos Geomorfología</se:Name>
      <se:Description>
       <se:Title>Puntos Geomorfología</se:Title>
@@ -20,7 +20,7 @@
        <ogc:Literal>2</ogc:Literal>
       </ogc:PropertyIsEqualTo>
      </ogc:Filter>
-     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+    <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
      <se:PointSymbolizer>
       <se:Graphic>
        <se:ExternalGraphic>
@@ -41,9 +41,9 @@
        </se:Displacement>
       </se:Graphic>
      </se:PointSymbolizer>
-    </se:Rule>
+    </se:Rule> -->
     <se:Rule>
-     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc"> 
       <ogc:And>
        <ogc:PropertyIsEqualTo>
         <ogc:PropertyName>entidad</ogc:PropertyName>
@@ -55,32 +55,34 @@
        </ogc:PropertyIsNotEqualTo>
       </ogc:And>
      </ogc:Filter>
-     <se:MaxScaleDenominator>136000</se:MaxScaleDenominator>
+     <se:MaxScaleDenominator>200000</se:MaxScaleDenominator>  <!-- 136000 -->
      <se:TextSymbolizer>
       <se:Label>
        <ogc:PropertyName>fna</ogc:PropertyName>
       </se:Label>
       <se:Font>
-       <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+       <se:SvgParameter name="font-family">Trebuchet</se:SvgParameter>
        <se:SvgParameter name="font-size">10</se:SvgParameter>
+       <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
        <se:SvgParameter name="font-style">italic</se:SvgParameter>
       </se:Font>
       <se:LabelPlacement>
        <se:PointPlacement>
         <se:AnchorPoint>
-         <se:AnchorPointX>0.5</se:AnchorPointX>
+         <se:AnchorPointX>0.3</se:AnchorPointX>
          <se:AnchorPointY>1</se:AnchorPointY>
         </se:AnchorPoint>
        </se:PointPlacement>
       </se:LabelPlacement>
       <se:Halo>
-       <se:Radius>2</se:Radius>
+       <se:Radius>1.5</se:Radius>
        <se:Fill>
         <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+        <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
        </se:Fill>
       </se:Halo>
       <se:Fill>
-       <se:SvgParameter name="fill">#4a0a0a</se:SvgParameter>
+       <se:SvgParameter name="fill">#0c343d</se:SvgParameter>  <!-- 4a0a0a -->
       </se:Fill>
      </se:TextSymbolizer>
     </se:Rule>
