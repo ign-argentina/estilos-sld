@@ -5,7 +5,7 @@
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:se="http://www.opengis.net/se">
  <NamedLayer>
-  <se:Name>curvas_de_nivel_mapabase_relieve</se:Name>
+  <se:Name>curvas_de_nivel_2019</se:Name>
   <UserStyle>
    <se:Name>curvas_de_nivel_mapabase_relieve</se:Name>
    <se:FeatureTypeStyle>
