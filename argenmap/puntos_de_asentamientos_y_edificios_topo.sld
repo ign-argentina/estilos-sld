@@ -224,7 +224,7 @@
      </se:PointSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
-   <se:FeatureTypeStyle>
+   <!--<se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>puntos_localidades_capa_base</se:Name>
      <se:Description>
@@ -274,7 +274,7 @@
       </se:Graphic>
      </se:PointSymbolizer>
     </se:Rule>
-   </se:FeatureTypeStyle>
+   </se:FeatureTypeStyle>-->
    <se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>puntos_localidades_capa_base</se:Name>
