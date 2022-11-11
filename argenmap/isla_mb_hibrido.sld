@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
     xmlns:ogc="http://www.opengis.net/ogc" 
     xmlns:se="http://www.opengis.net/se" 
+=======
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:se="http://www.opengis.net/se"
+>>>>>>> Stashed changes
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
         <se:Name>areas_de_zona_costera</se:Name>
@@ -76,7 +83,11 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
+<<<<<<< Updated upstream
                             <se:SvgParameter name="font-family">Tahoma</se:SvgParameter>
+=======
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+>>>>>>> Stashed changes
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -88,7 +99,11 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                       <se:Halo>
+<<<<<<< Updated upstream
                             <se:Radius>1</se:Radius>
+=======
+                            <se:Radius>0.7</se:Radius>
+>>>>>>> Stashed changes
                             <se:Fill>
                                 <se:SvgParameter name="fill">#000000</se:SvgParameter>
                             </se:Fill>
@@ -99,6 +114,10 @@
                         <se:VendorOption name="maxDisplacement">1</se:VendorOption>
                         <se:VendorOption name="autoWrap">70</se:VendorOption>
                         <se:VendorOption name="group">true</se:VendorOption>
+<<<<<<< Updated upstream
+=======
+                        <se:VendorOption name="charSpacing">0.5</se:VendorOption>
+>>>>>>> Stashed changes
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
@@ -176,7 +195,11 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
+<<<<<<< Updated upstream
                             <se:SvgParameter name="font-family">Tahoma</se:SvgParameter>
+=======
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+>>>>>>> Stashed changes
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -188,7 +211,11 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                       <se:Halo>
+<<<<<<< Updated upstream
                             <se:Radius>1</se:Radius>
+=======
+                            <se:Radius>0.7</se:Radius>
+>>>>>>> Stashed changes
                             <se:Fill>
                                 <se:SvgParameter name="fill">#000000</se:SvgParameter>
                             </se:Fill>
@@ -199,6 +226,10 @@
                         <se:VendorOption name="maxDisplacement">1</se:VendorOption>
                         <se:VendorOption name="autoWrap">70</se:VendorOption>
                         <se:VendorOption name="group">true</se:VendorOption>
+<<<<<<< Updated upstream
+=======
+                        <se:VendorOption name="charSpacing">0.5</se:VendorOption>
+>>>>>>> Stashed changes
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

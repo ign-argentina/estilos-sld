@@ -10,7 +10,26 @@
           <se:Description>
             <se:Title>Posgar07</se:Title>
           </se:Description>
+          <se:MinScaleDenominator>15000000</se:MinScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>triangle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#2e64fe</se:SvgParameter>
+                </se:Fill>
+              </se:Mark>
+              <se:Size>5</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Posgar07</se:Name>
+          <se:Description>
+            <se:Title>Posgar07</se:Title>
+          </se:Description>
           <se:MinScaleDenominator>2000001</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
@@ -61,13 +80,14 @@
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
+         <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>nomenclatura</ogc:PropertyName>
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">12</se:SvgParameter>
+              <se:SvgParameter name="font-size">11</se:SvgParameter>
               <se:SvgParameter name="font-weight">bold</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
@@ -83,7 +103,7 @@
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Fill>
-              <se:SvgParameter name="fill">#000000</se:SvgParameter>
+              <se:SvgParameter name="fill">#444444</se:SvgParameter>
             </se:Fill>
           </se:TextSymbolizer>
         </se:Rule>

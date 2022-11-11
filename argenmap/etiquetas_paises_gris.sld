@@ -3,7 +3,7 @@
   <NamedLayer>
     <se:Name>area_de_limites.centroide</se:Name>
     <UserStyle>
-      <se:Name>etiquetas_paises_gris</se:Name>
+      <se:Name>etiquetas_paises_gris_v2</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -15,28 +15,28 @@
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Paraguay</ogc:Literal>
-            </ogc:PropertyIsEqualTo>           
+            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Uruguay</ogc:Literal>
-            </ogc:PropertyIsEqualTo>           
+            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Bolivia</ogc:Literal>
-            </ogc:PropertyIsEqualTo>           
+            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Chile</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
+            </ogc:PropertyIsEqualTo>
            </ogc:Or>
-          </ogc:Filter>        
+          </ogc:Filter>
           <se:MaxScaleDenominator>34000000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
-            <se:Geometry>
+         <!--   <se:Geometry>
               <ogc:Function name="centroid">
               <ogc:PropertyName>geom</ogc:PropertyName>
               </ogc:Function>
-            </se:Geometry>
+            </se:Geometry> -->
             <se:Label>
               <ogc:Function name="strToUpperCase">
               <ogc:PropertyName>nam</ogc:PropertyName>
@@ -44,7 +44,7 @@
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
-              <se:SvgParameter name="font-size">14</se:SvgParameter>              
+              <se:SvgParameter name="font-size">13</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
               <se:PointPlacement>
@@ -55,7 +55,7 @@
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Halo>
-              <se:Radius>1.5</se:Radius>
+              <se:Radius>0.5</se:Radius>
               <se:Fill>
                 <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
               </se:Fill>
@@ -66,6 +66,7 @@
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
             <se:VendorOption name="autoWrap">100</se:VendorOption>
             <se:VendorOption name="group">true</se:VendorOption>
+            <se:VendorOption name="goodnessOfFit">1</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>

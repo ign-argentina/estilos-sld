@@ -10,7 +10,7 @@
           <se:Description>
             <se:Title>Precision</se:Title>
           </se:Description>
-          <se:MinScaleDenominator>2000001</se:MinScaleDenominator>
+          <se:MinScaleDenominator>15000000</se:MinScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
@@ -19,7 +19,26 @@
                   <se:SvgParameter name="fill">#36C427</se:SvgParameter>
                 </se:Fill>
               </se:Mark>
-              <se:Size>5</se:Size>
+              <se:Size>1</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>Precision</se:Name>
+          <se:Description>
+            <se:Title>Precision</se:Title>
+          </se:Description>
+          <se:MinScaleDenominator>2000001</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>circle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#36C427</se:SvgParameter>
+                </se:Fill>
+              </se:Mark>
+              <se:Size>3</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -66,14 +85,14 @@
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">12</se:SvgParameter>
+              <se:SvgParameter name="font-size">11</se:SvgParameter>
               <se:SvgParameter name="font-weight">bold</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
               <se:PointPlacement>
                 <se:AnchorPoint>
                   <se:AnchorPointX>0.5</se:AnchorPointX>
-                  <se:AnchorPointY>0.5</se:AnchorPointY>
+                  <se:AnchorPointY>0</se:AnchorPointY>
                 </se:AnchorPoint>
                 <se:Displacement>
                   <se:DisplacementX>0</se:DisplacementX>
@@ -83,7 +102,10 @@
             </se:LabelPlacement>
             <se:Fill>
               <se:SvgParameter name="fill">#000000</se:SvgParameter>
+              <se:SvgParameter name="fill-opacity">0.7</se:SvgParameter>
             </se:Fill>
+            <se:VendorOption name="labelObstacle">true</se:VendorOption>
+            <se:VendorOption name="spaceAround">20</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>

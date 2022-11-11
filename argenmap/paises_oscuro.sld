@@ -27,7 +27,7 @@
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.05</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:PolygonSymbolizer>
@@ -49,11 +49,6 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#454343</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                        </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

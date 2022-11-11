@@ -7,6 +7,47 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>gravimetrica_segundo_orden</se:Name>
+          <se:MinScaleDenominator>15000000</se:MinScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>circle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#9268eb</se:SvgParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#9268eb</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>1</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>gravimetrica_segundo_orden</se:Name>
+          <se:MinScaleDenominator>1500000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>circle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#9268eb</se:SvgParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#9268eb</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>3</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>gravimetrica_segundo_orden</se:Name>
+          <se:MinScaleDenominator>0</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>1400000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>

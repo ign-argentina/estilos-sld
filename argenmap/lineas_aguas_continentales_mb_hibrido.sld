@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
     xmlns:ogc="http://www.opengis.net/ogc" 
     xmlns:se="http://www.opengis.net/se" 
+=======
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:se="http://www.opengis.net/se"
+>>>>>>> Stashed changes
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
         <se:Name>lineas_de_aguas_continentales.geom</se:Name>
@@ -18,7 +25,15 @@
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
+<<<<<<< Updated upstream
                                 <ogc:Literal>12</ogc:Literal>
+=======
+                                <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>hyp</ogc:PropertyName>
+                                <ogc:Literal>1</ogc:Literal>
+>>>>>>> Stashed changes
                             </ogc:PropertyIsEqualTo>
                             <ogc:Not>
                                 <ogc:Or>
@@ -45,7 +60,11 @@
                                     <ogc:PropertyIsEqualTo>
                                         <ogc:PropertyName>fna</ogc:PropertyName>
                                         <ogc:Literal>null</ogc:Literal>
+<<<<<<< Updated upstream
                                     </ogc:PropertyIsEqualTo>                                    
+=======
+                                    </ogc:PropertyIsEqualTo>
+>>>>>>> Stashed changes
                                 </ogc:Or>
                             </ogc:Not>
                         </ogc:And>
@@ -70,10 +89,21 @@
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
+<<<<<<< Updated upstream
                             <ogc:Literal>12</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>                    
+=======
+                            <ogc:Literal>2</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>hyp</ogc:PropertyName>
+                            <ogc:Literal>1</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+>>>>>>> Stashed changes
                     <se:MaxScaleDenominator>350000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -85,7 +115,11 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
+<<<<<<< Updated upstream
             </se:FeatureTypeStyle> 
+=======
+            </se:FeatureTypeStyle>
+>>>>>>> Stashed changes
   <!--          <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>linea_agua_intermitente_5000000</se:Name>
@@ -98,7 +132,11 @@
                             <ogc:Literal>13</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+<<<<<<< Updated upstream
                     <se:MinScaleDenominator>0</se:MinScaleDenominator> 
+=======
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+>>>>>>> Stashed changes
                     <se:MaxScaleDenominator>200000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -117,7 +155,15 @@
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
+<<<<<<< Updated upstream
                                 <ogc:Literal>12</ogc:Literal>
+=======
+                                <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>hyp</ogc:PropertyName>
+                                <ogc:Literal>1</ogc:Literal>
+>>>>>>> Stashed changes
                             </ogc:PropertyIsEqualTo>
                             <ogc:Not>
                                 <ogc:Or>
@@ -145,17 +191,28 @@
                             </ogc:Not>
                         </ogc:And>
                     </ogc:Filter>
+<<<<<<< Updated upstream
                     <se:MinScaleDenominator>0</se:MinScaleDenominator> 
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
+=======
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>200000</se:MaxScaleDenominator>
+>>>>>>> Stashed changes
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
+<<<<<<< Updated upstream
                             <se:SvgParameter name="font-size">12</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                             <se:SvgParameter name="font-weight">bold</se:SvgParameter> 
+=======
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-style">normal</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+>>>>>>> Stashed changes
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement>
@@ -163,6 +220,7 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
+<<<<<<< Updated upstream
                             <se:Radius>0.9</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#243d53</se:SvgParameter>
@@ -170,12 +228,27 @@
                         </se:Halo>
                         <se:Fill>
                             <se:SvgParameter name="fill">#d8e8f7</se:SvgParameter>
+=======
+                            <se:Radius>2</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#d3e9fc</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.60</se:SvgParameter> <!-- 79B0DE  243d53 d3e9fc-->
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#584B83</se:SvgParameter>
+>>>>>>> Stashed changes
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
+<<<<<<< Updated upstream
                         <se:VendorOption name="charSpacing">2.5</se:VendorOption>
                         <se:VendorOption name="wordSpacing">3.5</se:VendorOption>
+=======
+                        <se:VendorOption name="charSpacing">2.3</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">3</se:VendorOption>
+>>>>>>> Stashed changes
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

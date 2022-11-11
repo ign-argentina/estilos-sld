@@ -15,21 +15,21 @@
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Paraguay</ogc:Literal>
-            </ogc:PropertyIsEqualTo>           
+            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Uruguay</ogc:Literal>
-            </ogc:PropertyIsEqualTo>           
+            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Bolivia</ogc:Literal>
-            </ogc:PropertyIsEqualTo>           
+            </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Chile</ogc:Literal>
-            </ogc:PropertyIsEqualTo>  
+            </ogc:PropertyIsEqualTo>
            </ogc:Or>
-          </ogc:Filter>        
+          </ogc:Filter>
           <se:MaxScaleDenominator>34000000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Geometry>
@@ -44,7 +44,7 @@
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
-              <se:SvgParameter name="font-size">14</se:SvgParameter>              
+              <se:SvgParameter name="font-size">12</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
               <se:PointPlacement>

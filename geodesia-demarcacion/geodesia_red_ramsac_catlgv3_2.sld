@@ -6,7 +6,8 @@
       <se:Name>geodesia_ramsac_web</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:MaxScaleDenominator>20000000</se:MaxScaleDenominator>
+          <se:MinScaleDenominator>0</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
@@ -30,19 +31,23 @@
             <se:LabelPlacement>
               <se:PointPlacement>
                 <se:AnchorPoint>
-                  <se:AnchorPointX>0.5</se:AnchorPointX>
-                  <se:AnchorPointY>0.0</se:AnchorPointY>
+                  <se:AnchorPointX>1.1</se:AnchorPointX>
+                  <se:AnchorPointY>1.7</se:AnchorPointY>
                 </se:AnchorPoint>
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Fill>
-              <se:SvgParameter name="fill">#333FFF</se:SvgParameter>
+              <se:SvgParameter name="fill">#6065bd</se:SvgParameter>
             </se:Fill>
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
+            <se:VendorOption name="labelObstacle">true</se:VendorOption>
+            <se:VendorOption name="spaceAround">20</se:VendorOption>
+            <se:VendorOption name="displacementMode">NE, NW, SW, SE</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:MinScaleDenominator>20000001</se:MinScaleDenominator>
+          <se:MinScaleDenominator>8000000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>80000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
@@ -51,7 +56,7 @@
                   <se:SvgParameter name="fill">#ff9333</se:SvgParameter>
                 </se:Fill>
               </se:Mark>
-              <se:Size>8</se:Size>
+              <se:Size>4</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>

@@ -7,7 +7,10 @@
     <NamedLayer>
         <se:Name>puntos_de_asentamientos_y_edificios</se:Name>
         <UserStyle>
-            <se:Name>puntos_localidades_capa_base</se:Name>            
+            <se:Name>puntos_localidades_capa_base</se:Name>
+          
+           <!-- PUNTOS CAPITAL DE PARTIDO -->
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Capital de Provincia</se:Name>
@@ -27,14 +30,14 @@
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#515150</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
-                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
                                     <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
-                            <se:Size>12</se:Size>
+                            <se:Size>6.5</se:Size>
                         </se:Graphic>
                     </se:PointSymbolizer>
                     <se:PointSymbolizer>
@@ -42,18 +45,21 @@
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#000000</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
-                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                                     <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
-                            <se:Size>5.3</se:Size>
+                            <se:Size>4</se:Size>
                         </se:Graphic>
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
+          <!-- PUNTOS CABECERA DE PARTIDO -->
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Cabecera de Departamento o Partido</se:Name>
@@ -73,14 +79,14 @@
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#515150</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#918D8D</se:SvgParameter> 
                                 </se:Fill>
                                 <se:Stroke>
-                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                                     <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
-                            <se:Size>12</se:Size>
+                            <se:Size>8</se:Size>
                         </se:Graphic>
                     </se:PointSymbolizer>
                     <se:PointSymbolizer>
@@ -88,18 +94,23 @@
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#515150</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#918D8D</se:SvgParameter> 
                                 </se:Fill>
                                 <se:Stroke>
-                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                                     <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
-                            <se:Size>5.3</se:Size>
+                            <se:Size>4</se:Size>
                         </se:Graphic>
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
+          <!-- PUNTOS LOCALIDADES CAPA BASE -->
+          
+                 <!-- PUNTOS LOCALIDADES -->
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>puntos_localidades_capa_base</se:Name>
@@ -133,24 +144,27 @@
                         </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>20000</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>40000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#515150</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#BCB8B8</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
-                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke">#918D8D</se:SvgParameter>
                                     <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
-                            <se:Size>6</se:Size>
+                            <se:Size>3</se:Size>
                         </se:Graphic>
                     </se:PointSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>                      
+            </se:FeatureTypeStyle>
+          
+                     <!-- PUNTOS PARAJE -->
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>puntos_localidades_capa_base</se:Name>
@@ -182,6 +196,9 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
+                    <!-- PUNTOS BASES ANTÁRTICAS -->
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Bases Antárticas</se:Name>
@@ -200,10 +217,10 @@
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#515150</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#918D8D</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
-                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                                     <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
@@ -212,6 +229,9 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
+                         <!-- PUNTOS CAPITAL DE NACIÓN -->
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Capital de Nación</se:Name>
@@ -231,11 +251,11 @@
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#515150</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#918D8D</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
                                     <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                                    <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
                             <se:Size>16</se:Size>
@@ -246,11 +266,11 @@
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#515150</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#918D8D</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
                                     <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                                    <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
                             <se:Size>11.1</se:Size>
@@ -273,6 +293,11 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
+          
+                        <!-- ETIQUETAS -->
+                        <!-- PUNTOS CAPITAL DE PROVINCIA -->
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -288,7 +313,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13</se:SvgParameter>
                             <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -306,12 +331,66 @@
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#5c5c5c</se:SvgParameter>
+                            <se:SvgParameter name="fill">#C7C7C7</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                    
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
+           
+                <!-- ETIQUETAS -->
+                <!-- PUNTO  CABA -->
+          
+            <se:FeatureTypeStyle>
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ca1</ogc:PropertyName>
+                            <ogc:Literal>3</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>600000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0</se:AnchorPointX>
+                                    <se:AnchorPointY>0</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#C7C7C7</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                    
+                    </se:TextSymbolizer>
+                </se:Rule>
+            </se:FeatureTypeStyle>
+          
+          
+                    <!-- PUNTOS LOCALIDADES -->
+                    <!-- ca=1 zoom 11 y 12 -->
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -328,7 +407,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -346,51 +425,113 @@
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#5c5c5c</se:SvgParameter>
+                            <se:SvgParameter name="fill">#979797</se:SvgParameter>
                         </se:Fill>
-                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="autoWrap">80</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
+              
+         <!-- PUNTOS LOCALIDADES -->
+         <!-- ca=1 zoom 13 o más -->     
+              
+              
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>entidad</ogc:PropertyName>
-                                    <ogc:Literal>8</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>entidad</ogc:PropertyName>
-                                    <ogc:Literal>9</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>entidad</ogc:PropertyName>
-                                    <ogc:Literal>3</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>ahb</ogc:PropertyName>
-                                <ogc:Literal>2</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                        </ogc:And>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ca1</ogc:PropertyName>
+                            <ogc:Literal>1</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>100001</se:MaxScaleDenominator>
+                    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
                             <se:PointPlacement>
                                 <se:AnchorPoint>
                                     <se:AnchorPointX>0.5</se:AnchorPointX>
-                                    <se:AnchorPointY>1.7</se:AnchorPointY>
+                                    <se:AnchorPointY>1.5</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                             <se:Fill>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#c7c7c7</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="autoWrap">80</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+          </se:FeatureTypeStyle>    
+              
+              <!-- ca=1 filtrados zoom 11 a 8 -->
+              
+            
+          
+           <!-- Etiquetas localidades zoom 14 y 15 -->
+            
+          <se:FeatureTypeStyle>
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:And>
+                            <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>entidad</ogc:PropertyName>
+                                    <ogc:Literal>8</ogc:Literal> 
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>entidad</ogc:PropertyName>
+                                    <ogc:Literal>9</ogc:Literal> 
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>entidad</ogc:PropertyName>
+                                    <ogc:Literal>3</ogc:Literal>  
+                                </ogc:PropertyIsEqualTo>
+                            </ogc:Or>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ahb</ogc:PropertyName>
+                                <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ca1</ogc:PropertyName>
+                                <ogc:Literal>1</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ca1</ogc:PropertyName> 
+                                <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>20000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>60000</se:MaxScaleDenominator> 
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.5</se:AnchorPointY>
                                 </se:AnchorPoint>
                             </se:PointPlacement>
                         </se:LabelPlacement>
@@ -401,13 +542,18 @@
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#5c5c5c</se:SvgParameter>
+                            <se:SvgParameter name="fill">#C7C7C7</se:SvgParameter>
                         </se:Fill>
-                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="autoWrap">80</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
+            
+          
+            <!-- Etiquetas localidades zoom 17 -->
+          
+            
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -422,7 +568,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
                             <se:PointPlacement>
@@ -439,12 +585,17 @@
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#5c5c5c</se:SvgParameter>
+                            <se:SvgParameter name="fill">#C7C7C7</se:SvgParameter>
                         </se:Fill>
-                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="autoWrap">80</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-        </UserStyle>
-    </NamedLayer>
+         
+          
+          
+    </UserStyle>
+  </NamedLayer>
 </StyledLayerDescriptor>

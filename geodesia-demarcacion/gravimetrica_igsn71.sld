@@ -12,10 +12,10 @@
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#21ff89</se:SvgParameter>
+                  <se:SvgParameter name="fill">#34e100</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#21ff89</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#34e100</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>

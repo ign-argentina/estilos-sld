@@ -36,7 +36,11 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
+<<<<<<< Updated upstream
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+=======
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
+>>>>>>> Stashed changes
                             <se:SvgParameter name="font-size">9</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -97,7 +101,11 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
+<<<<<<< Updated upstream
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+=======
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
+>>>>>>> Stashed changes
                             <se:SvgParameter name="font-size">9</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -150,7 +158,11 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
+<<<<<<< Updated upstream
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+=======
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
+>>>>>>> Stashed changes
                             <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -204,7 +216,11 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
+<<<<<<< Updated upstream
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+=======
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
+>>>>>>> Stashed changes
                             <se:SvgParameter name="font-size">12</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -260,7 +276,11 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
+<<<<<<< Updated upstream
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+=======
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
+>>>>>>> Stashed changes
                             <se:SvgParameter name="font-size">14</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -333,7 +353,11 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
+<<<<<<< Updated upstream
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+=======
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
+>>>>>>> Stashed changes
                             <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -346,14 +370,27 @@
                             <se:Radius>1</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#031450</se:SvgParameter>
+<<<<<<< Updated upstream
+=======
+                              <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
+>>>>>>> Stashed changes
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
                             <se:SvgParameter name="fill">#d2edf5</se:SvgParameter>
+<<<<<<< Updated upstream
+=======
+                          <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
+>>>>>>> Stashed changes
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
+<<<<<<< Updated upstream
+=======
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
+>>>>>>> Stashed changes
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
