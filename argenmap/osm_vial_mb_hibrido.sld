@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< Updated upstream
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
-xmlns:xlink="http://www.w3.org/1999/xlink" 
-xmlns:ogc="http://www.opengis.net/ogc" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-=======
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
->>>>>>> Stashed changes
 xmlns:se="http://www.opengis.net/se">
   <NamedLayer>
     <se:Name>osm_vial</se:Name>
@@ -32,11 +25,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e1dfd9</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">0.9</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -58,11 +47,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e1dfd9</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -84,11 +69,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e1dfd9</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -114,11 +95,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-<<<<<<< Updated upstream
-        </se:Rule>                
-=======
         </se:Rule>
->>>>>>> Stashed changes
       </se:FeatureTypeStyle>
       <se:FeatureTypeStyle>
         <se:Rule>
@@ -137,11 +114,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e4e4e4</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">0.9</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -163,11 +136,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e4e4e4</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.7</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -189,11 +158,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e4e4e4</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">3</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">2</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -214,11 +179,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <se:Stroke>
               <se:SvgParameter name="stroke">#e4e4e4</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -242,11 +203,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -268,11 +225,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -299,11 +252,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -356,11 +305,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -382,11 +327,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -416,11 +357,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -473,11 +410,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -499,11 +432,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -530,20 +459,12 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-<<<<<<< Updated upstream
-        </se:Rule>  
-=======
         </se:Rule>
->>>>>>> Stashed changes
         <se:Rule>
           <se:Name>motorway_link</se:Name>
           <se:Description>
@@ -564,20 +485,12 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">11</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">9</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-<<<<<<< Updated upstream
-        </se:Rule>              
-=======
         </se:Rule>
->>>>>>> Stashed changes
       </se:FeatureTypeStyle>
       <se:FeatureTypeStyle>
         <se:Rule>
@@ -603,11 +516,7 @@ xmlns:se="http://www.opengis.net/se">
             <se:Halo>
               <se:Radius>1</se:Radius>
               <se:Fill>
-<<<<<<< Updated upstream
-                <se:SvgParameter name="fill">#999999</se:SvgParameter>
-=======
                 <se:SvgParameter name="fill">#cccccc</se:SvgParameter>
->>>>>>> Stashed changes
                 <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>
               </se:Fill>
             </se:Halo>
@@ -633,11 +542,7 @@ xmlns:se="http://www.opengis.net/se">
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="font-size">11</se:SvgParameter>
-=======
               <se:SvgParameter name="font-size">11.5</se:SvgParameter>
->>>>>>> Stashed changes
             </se:Font>
             <se:LabelPlacement>
               <se:LinePlacement>
@@ -645,18 +550,6 @@ xmlns:se="http://www.opengis.net/se">
               </se:LinePlacement>
             </se:LabelPlacement>
             <se:Halo>
-<<<<<<< Updated upstream
-              <se:Radius>1</se:Radius>
-              <se:Fill>
-                <se:SvgParameter name="fill">#fffbf7</se:SvgParameter>
-              </se:Fill>
-            </se:Halo>
-            <se:Fill>
-              <se:SvgParameter name="fill">#000000</se:SvgParameter>
-            </se:Fill>
-            <se:VendorOption name="group">yes</se:VendorOption>
-            <se:VendorOption name="followLine">true</se:VendorOption>
-=======
               <se:Radius>1.3</se:Radius>
               <se:Fill>
                 <se:SvgParameter name="fill">#000000</se:SvgParameter>
@@ -669,7 +562,6 @@ xmlns:se="http://www.opengis.net/se">
             <se:VendorOption name="followLine">true</se:VendorOption>
             <se:VendorOption name="charSpacing">0.6</se:VendorOption>
             <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
->>>>>>> Stashed changes
           </se:TextSymbolizer>
         </se:Rule>
         <se:Rule>
@@ -705,17 +597,10 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="fill">#f3f6f4</se:SvgParameter>
             </se:Fill>
             <se:Graphic>
-<<<<<<< Updated upstream
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-=======
               <!--<se:ExternalGraphic>
                 <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic> -->
->>>>>>> Stashed changes
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
@@ -771,15 +656,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Fill>
             <se:Graphic>
               <se:ExternalGraphic>
-<<<<<<< Updated upstream
-                <se:OnlineResource xlink:href="numeracion_rutanacional.svg" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>                
-=======
                 <se:OnlineResource xlink:href="numeracion_rutanacional_mb_h.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
->>>>>>> Stashed changes
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
@@ -917,11 +796,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#717171</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">7</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-dasharray">6 3</se:SvgParameter>
             </se:Stroke>
@@ -929,11 +804,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3.2</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -1245,11 +1116,7 @@ xmlns:se="http://www.opengis.net/se">
             <se:Stroke>
               <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-<<<<<<< Updated upstream
-               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-=======
                <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
@@ -1272,11 +1139,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e1dfd9</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">0.9</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1298,11 +1161,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e1dfd9</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1350,11 +1209,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-<<<<<<< Updated upstream
-        </se:Rule>                
-=======
         </se:Rule>
->>>>>>> Stashed changes
       </se:FeatureTypeStyle>
       <se:FeatureTypeStyle>
         <se:Rule>
@@ -1373,11 +1228,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e4e4e4</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">0.9</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1399,11 +1250,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e4e4e4</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.7</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1433,11 +1280,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e4e4e4</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">2</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1466,11 +1309,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <se:Stroke>
               <se:SvgParameter name="stroke">#e4e4e4</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -1494,11 +1333,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1520,11 +1355,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1551,11 +1382,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1608,11 +1435,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1.1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1634,11 +1457,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1668,11 +1487,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
@@ -1725,11 +1540,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1.1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -1751,11 +1562,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -1782,20 +1589,12 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-<<<<<<< Updated upstream
-        </se:Rule>  
-=======
         </se:Rule>
->>>>>>> Stashed changes
         <se:Rule>
           <se:Name>motorway</se:Name>
           <se:Description>
@@ -1821,11 +1620,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-<<<<<<< Updated upstream
-        </se:Rule>              
-=======
         </se:Rule>
->>>>>>> Stashed changes
       </se:FeatureTypeStyle>
       <!-- bridge -->
 <!--      <se:FeatureTypeStyle>
@@ -1862,11 +1657,7 @@ xmlns:se="http://www.opengis.net/se">
                 <ogc:PropertyIsNull>
                   <ogc:PropertyName>bridge</ogc:PropertyName>
                 </ogc:PropertyIsNull>
-<<<<<<< Updated upstream
-              </ogc:Not>  
-=======
               </ogc:Not>
->>>>>>> Stashed changes
             </ogc:And>
           </ogc:Filter>
           <se:MinScaleDenominator>5001</se:MinScaleDenominator>
@@ -1920,11 +1711,7 @@ xmlns:se="http://www.opengis.net/se">
                 <ogc:PropertyIsNull>
                   <ogc:PropertyName>bridge</ogc:PropertyName>
                 </ogc:PropertyIsNull>
-<<<<<<< Updated upstream
-              </ogc:Not> 
-=======
               </ogc:Not>
->>>>>>> Stashed changes
             </ogc:And>
           </ogc:Filter>
           <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
@@ -1975,22 +1762,14 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#0d0a0a</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">7</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#CAC3AC</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
@@ -2068,11 +1847,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#0d0a0a</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">7</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
@@ -2157,22 +1932,14 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#0d0a0a</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">7</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#fdd7a1</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
@@ -2250,22 +2017,14 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#0d0a0a</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">7</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3.2</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#fbb299</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
@@ -2343,23 +2102,14 @@ xmlns:se="http://www.opengis.net/se">
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#0d0a0a</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">7</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">3.2</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer>
             <se:Stroke>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke">#ea91a0</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
@@ -2399,11 +2149,7 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
           <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <se:Stroke>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke">#ea91a0</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke">#f1c232</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-width">13</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>

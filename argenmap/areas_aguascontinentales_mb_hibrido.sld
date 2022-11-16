@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< Updated upstream
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:se="http://www.opengis.net/se" 
-=======
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
     xmlns:ogc="http://www.opengis.net/ogc"
     xmlns:se="http://www.opengis.net/se"
->>>>>>> Stashed changes
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
        <se:Name>areas_de_aguas_continentales</se:Name>
@@ -75,11 +68,8 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle> -->
-<<<<<<< Updated upstream
-=======
 
           <!-- Representacion de los lagos - opacidad cero para que solo se vean las etiquetas -->
->>>>>>> Stashed changes
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>embalse_espejo_agua_capa_base</se:Name>
@@ -115,19 +105,12 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#c6dff5</se:SvgParameter>
-<<<<<<< Updated upstream
-                          <se:SvgParameter name="fill-opacity">0</se:SvgParameter> 
-                      </se:Fill>
-                    </se:PolygonSymbolizer>
-                </se:Rule>
-=======
                           <se:SvgParameter name="fill-opacity">0</se:SvgParameter>
                       </se:Fill>
                     </se:PolygonSymbolizer>
                 </se:Rule>
 
 
->>>>>>> Stashed changes
                 <se:Rule>
                     <se:Name>embalse_espejo_agua_capa_base</se:Name>
                     <se:Description>
@@ -143,14 +126,6 @@
                     <se:MaxScaleDenominator>273000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-<<<<<<< Updated upstream
-                            <se:SvgParameter name="fill">#c6dff5</se:SvgParameter> 
-                            <se:SvgParameter name="fill-opacity">0</se:SvgParameter>                 
-                      </se:Fill>
-                    </se:PolygonSymbolizer>
-                </se:Rule>
-            </se:FeatureTypeStyle>
-=======
                             <se:SvgParameter name="fill">#c6dff5</se:SvgParameter>
                             <se:SvgParameter name="fill-opacity">0</se:SvgParameter>
                       </se:Fill>
@@ -316,7 +291,6 @@
 
 <!-- etiquetas -->
 
->>>>>>> Stashed changes
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -349,11 +323,7 @@
                             </ogc:Not>
                         </ogc:And>
                     </ogc:Filter>
-<<<<<<< Updated upstream
-                    <se:MaxScaleDenominator>400000</se:MaxScaleDenominator>
-=======
                     <se:MaxScaleDenominator>140000</se:MaxScaleDenominator>
->>>>>>> Stashed changes
                     <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="centroid">
@@ -394,11 +364,8 @@
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-<<<<<<< Updated upstream
-=======
 
 
->>>>>>> Stashed changes
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>

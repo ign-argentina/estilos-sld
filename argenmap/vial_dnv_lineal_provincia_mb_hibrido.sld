@@ -82,11 +82,7 @@
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-<<<<<<< Updated upstream
-        </se:Rule> 
-=======
         </se:Rule>
->>>>>>> Stashed changes
         <se:Rule>
           <se:Name>RP tierra</se:Name>
           <se:Description>
@@ -115,11 +111,7 @@
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-<<<<<<< Updated upstream
-      </se:FeatureTypeStyle>    
-=======
       </se:FeatureTypeStyle>
->>>>>>> Stashed changes
       <se:FeatureTypeStyle>
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -175,19 +167,11 @@
             <se:Fill>
               <se:SvgParameter name="fill">#000000</se:SvgParameter>
             </se:Fill>
-<<<<<<< Updated upstream
-            <se:Graphic>
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple" />
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-=======
            <se:Graphic>
          <!--      <se:ExternalGraphic>
                 <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple" />
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic> -->
->>>>>>> Stashed changes
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
@@ -203,11 +187,7 @@
             <se:VendorOption name="group">yes</se:VendorOption>
             <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
             <se:VendorOption name="graphic-margin">8 8</se:VendorOption>
-<<<<<<< Updated upstream
-            <se:VendorOption name="spaceAround">30</se:VendorOption>
-=======
             <se:VendorOption name="spaceAround">100</se:VendorOption>
->>>>>>> Stashed changes
           </se:TextSymbolizer>
         </se:Rule>
         <se:Rule>
@@ -265,17 +245,10 @@
               <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
             </se:Fill>
             <se:Graphic>
-<<<<<<< Updated upstream
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple" />
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-=======
            <!--   <se:ExternalGraphic>
                 <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple" />
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic> -->
->>>>>>> Stashed changes
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
@@ -292,11 +265,7 @@
             <se:VendorOption name="group">yes</se:VendorOption>
             <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
             <se:VendorOption name="graphic-margin">6 6</se:VendorOption>
-<<<<<<< Updated upstream
-            <se:VendorOption name="spaceAround">30</se:VendorOption>
-=======
             <se:VendorOption name="spaceAround">50</se:VendorOption>
->>>>>>> Stashed changes
           </se:TextSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>

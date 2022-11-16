@@ -28,11 +28,7 @@
                             <se:SvgParameter name="stroke">#C09B07</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.50</se:SvgParameter>
                           <se:SvgParameter name="stroke-opacity">0.50</se:SvgParameter>
-<<<<<<< Updated upstream
-                          
-=======
 
->>>>>>> Stashed changes
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -64,11 +60,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#f7f7f7</se:SvgParameter>
-<<<<<<< Updated upstream
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-=======
                             <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
->>>>>>> Stashed changes
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">3 2</se:SvgParameter>
@@ -92,11 +84,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#f7f7f7</se:SvgParameter>
-<<<<<<< Updated upstream
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>   
-=======
                             <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
->>>>>>> Stashed changes
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">3 1.5</se:SvgParameter>
@@ -120,11 +108,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#f7f7f7</se:SvgParameter>
-<<<<<<< Updated upstream
-                            <se:SvgParameter name="stroke-width">0.005</se:SvgParameter>
-=======
                             <se:SvgParameter name="stroke-width">0.05</se:SvgParameter>
->>>>>>> Stashed changes
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">3 1</se:SvgParameter>
@@ -359,11 +343,7 @@
                         <ogc:Literal>14</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-<<<<<<< Updated upstream
-            
-=======
 
->>>>>>> Stashed changes
                  <se:LineSymbolizer>
                     <se:Stroke>
                         <se:SvgParameter name="stroke">#8f9ec1</se:SvgParameter>
@@ -538,13 +518,6 @@
                             </ogc:Not>
                         </ogc:And>
                     </ogc:Filter>
-<<<<<<< Updated upstream
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#160024</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
-=======
                     <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>75000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
@@ -592,22 +565,15 @@
                             <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
                             <se:SvgParameter name="stroke-opacity">0.3</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1.8</se:SvgParameter>
->>>>>>> Stashed changes
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-<<<<<<< Updated upstream
-                            <se:SvgParameter name="stroke">#5f0b99</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>
-=======
                             <se:SvgParameter name="stroke">#5f0b99</se:SvgParameter> <!--5f0b99 160024 -->
                             <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1.6</se:SvgParameter>
->>>>>>> Stashed changes
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -660,18 +626,6 @@
                                 <ogc:Literal>4</ogc:Literal> <!-- Mar territorial arg. -->
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-<<<<<<< Updated upstream
-                                <ogc:PropertyName>entidad</ogc:PropertyName>  
-                                <ogc:Literal>3</ogc:Literal>  <!-- Aguas interiores -->               
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>2</ogc:Literal>  <!-- Lateral argentino uruguayo --> 
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>1</ogc:Literal> <!-- Lecho y subsuelo del R. de la Plata --> 
-=======
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>3</ogc:Literal>  <!-- Aguas interiores -->
                             </ogc:PropertyIsEqualTo>
@@ -682,7 +636,6 @@
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>1</ogc:Literal> <!-- Lecho y subsuelo del R. de la Plata -->
->>>>>>> Stashed changes
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
@@ -720,17 +673,6 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Or>
                             <ogc:PropertyIsEqualTo>
-<<<<<<< Updated upstream
-                                <ogc:PropertyName>entidad</ogc:PropertyName> 
-                                <ogc:Literal>7</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>nam</ogc:PropertyName> 
-                                <ogc:Literal>Límite argentino-chileno</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>nam</ogc:PropertyName> 
-=======
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>7</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
@@ -740,7 +682,6 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>nam</ogc:PropertyName>
->>>>>>> Stashed changes
                                 <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
@@ -784,30 +725,18 @@
                                     <ogc:Literal>11</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             <ogc:Not>
-<<<<<<< Updated upstream
-                              <ogc:Or>  
-=======
                               <ogc:Or>
->>>>>>> Stashed changes
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>nam</ogc:PropertyName>
                                     <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                                 <ogc:PropertyIsEqualTo>
-<<<<<<< Updated upstream
-                                    <ogc:PropertyName>nam</ogc:PropertyName> 
-=======
                                     <ogc:PropertyName>nam</ogc:PropertyName>
->>>>>>> Stashed changes
                                     <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                               </ogc:Or>
                             </ogc:Not>
-<<<<<<< Updated upstream
-                        </ogc:And>                            
-=======
                         </ogc:And>
->>>>>>> Stashed changes
                     </ogc:Filter>
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>

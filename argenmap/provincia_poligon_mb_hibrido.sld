@@ -21,37 +21,21 @@
                             <se:SvgParameter name="font-size">12</se:SvgParameter>
                           <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
-<<<<<<< Updated upstream
-                        <se:LabelPlacement>
-                            <se:LinePlacement>
-                                <se:PerpendicularOffset>10</se:PerpendicularOffset>
-                            </se:LinePlacement>
-                        </se:LabelPlacement>
-=======
                       <!--  <se:LabelPlacement>
                             <se:LinePlacement>
                                 <se:PerpendicularOffset>10</se:PerpendicularOffset>
                             </se:LinePlacement>
                         </se:LabelPlacement> -->
->>>>>>> Stashed changes
                         <se:Halo>
                             <se:Radius>0.95</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#343434</se:SvgParameter>
-<<<<<<< Updated upstream
-                                <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
-=======
                                 <se:SvgParameter name="fill-opacity">0</se:SvgParameter>
->>>>>>> Stashed changes
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
                             <se:SvgParameter name="fill">#cfcfcf</se:SvgParameter>
-<<<<<<< Updated upstream
-                            <se:SvgParameter name="fill-opacity">0.95</se:SvgParameter>
-=======
                             <se:SvgParameter name="fill-opacity">0</se:SvgParameter>
->>>>>>> Stashed changes
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
