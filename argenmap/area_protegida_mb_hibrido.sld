@@ -5,12 +5,9 @@
     <UserStyle>
       <se:Name>area_protegida</se:Name>
       <se:FeatureTypeStyle>
-<<<<<<< Updated upstream
-=======
 
         <!--Poligono areas nacionales desde z7 - 4M -->
 
->>>>>>> Stashed changes
         <se:Rule>
           <se:Name>nacional</se:Name>
           <se:Description>
@@ -22,12 +19,8 @@
               <ogc:Literal>%Nacional%</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-<<<<<<< Updated upstream
-          <se:MaxScaleDenominator>10000000</se:MaxScaleDenominator>
-=======
           <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
           <se:MaxScaleDenominator>4500000</se:MaxScaleDenominator>
->>>>>>> Stashed changes
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#becf50</se:SvgParameter>
@@ -42,19 +35,6 @@
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
-<<<<<<< Updated upstream
-        <se:Rule>
-          <se:Name>provincial</se:Name>
-          <se:Description>
-            <se:Title>provincial</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" escapeChar="\" singleChar="_">
-              <ogc:PropertyName>fna</ogc:PropertyName>
-              <ogc:Literal>%Provincial%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-=======
 
         <!--Poligono areas nacionales desde z8 - 2M-->
 
@@ -105,7 +85,6 @@
           </ogc:Filter>
           <se:MinScaleDenominator>900000</se:MinScaleDenominator>
           <se:MaxScaleDenominator>1400000</se:MaxScaleDenominator>
->>>>>>> Stashed changes
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#becf50</se:SvgParameter>
@@ -114,31 +93,21 @@
             <se:Stroke>
               <se:SvgParameter name="stroke">#c3f0b3</se:SvgParameter>
               <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
-<<<<<<< Updated upstream
-              <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
-=======
               <se:SvgParameter name="stroke-width">0.29999999999999999</se:SvgParameter>
->>>>>>> Stashed changes
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-dasharray">4 2</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
-<<<<<<< Updated upstream
-=======
 
         <!--Poligono desde z10 - 545M-->
->>>>>>> Stashed changes
         <se:Rule>
           <se:Name>resto</se:Name>
           <se:Description>
             <se:Title>resto</se:Title>
           </se:Description>
-<<<<<<< Updated upstream
-=======
            <se:MinScaleDenominator>0</se:MinScaleDenominator>
            <se:MaxScaleDenominator>850000</se:MaxScaleDenominator>
->>>>>>> Stashed changes
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#becf50</se:SvgParameter>
@@ -152,9 +121,6 @@
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
-<<<<<<< Updated upstream
-        <se:Rule>
-=======
 
         <!--Etiquetas z10 nacionales y provinciales - 545k-->
         <se:Rule>
@@ -241,7 +207,6 @@
                </ogc:Not>
            </ogc:Filter>
           <se:MaxScaleDenominator>350000</se:MaxScaleDenominator>
->>>>>>> Stashed changes
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>fna</ogc:PropertyName>
@@ -265,31 +230,20 @@
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Halo>
-<<<<<<< Updated upstream
-              <se:Radius>0.8</se:Radius>
-              <se:Fill>
-                <se:SvgParameter name="fill">#084008</se:SvgParameter>
-=======
               <se:Radius>1</se:Radius>
               <se:Fill>
                 <se:SvgParameter name="fill">#000000</se:SvgParameter> <!-- 084008-->
->>>>>>> Stashed changes
               </se:Fill>
             </se:Halo>
             <se:Fill>
               <se:SvgParameter name="fill">#e0ece0</se:SvgParameter>
             </se:Fill>
             <se:VendorOption name="group">yes</se:VendorOption>
-<<<<<<< Updated upstream
-            <se:VendorOption name="autoWrap">100</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">1</se:VendorOption>
-=======
             <se:VendorOption name="group">true</se:VendorOption>
             <se:VendorOption name="autoWrap">100</se:VendorOption>
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
             <se:VendorOption name="charSpacing">0.7</se:VendorOption>
             <se:VendorOption name="wordSpacing">0.5</se:VendorOption>
->>>>>>> Stashed changes
           </se:TextSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
