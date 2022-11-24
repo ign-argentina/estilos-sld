@@ -6,7 +6,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <se:Name>linea_de_limite_topo/se:Name>
+        <se:Name>linea_de_limite_topo</se:Name>
         <UserStyle>
             <se:Name>linea_de_limite_topo</se:Name>
             <se:FeatureTypeStyle>
