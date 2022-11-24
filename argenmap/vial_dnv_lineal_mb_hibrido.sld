@@ -26,11 +26,7 @@
                     <se:MaxScaleDenominator>11000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-<<<<<<< Updated upstream
                             <se:SvgParameter name="stroke">#ffc000</se:SvgParameter>
-=======
-                            <se:SvgParameter name="stroke">#ffc000</se:SvgParameter> <!-- ffc000 -->
->>>>>>> Stashed changes
                             <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                           <se:SvgParameter name="stroke-opacity">0.55</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
@@ -80,11 +76,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffc000</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-<<<<<<< Updated upstream
                             <se:SvgParameter name="stroke-opacity">0.65</se:SvgParameter>          
-=======
-                            <se:SvgParameter name="stroke-opacity">0.65</se:SvgParameter>
->>>>>>> Stashed changes
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -189,15 +181,9 @@
                         </se:Fill>
                         <se:Graphic>
                             <se:ExternalGraphic>
-<<<<<<< Updated upstream
                                 <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional.svg"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic> 
-=======
-                                <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional_mb_h.svg"/>
-                                <se:Format>image/svg+xml</se:Format>
-                            </se:ExternalGraphic>
->>>>>>> Stashed changes
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
