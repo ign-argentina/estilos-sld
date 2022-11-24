@@ -44,3 +44,6 @@
           </se:PolygonSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
