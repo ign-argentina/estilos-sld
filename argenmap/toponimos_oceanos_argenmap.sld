@@ -10,7 +10,7 @@
         <UserStyle>
             <se:Name>toponimos_oceanos_capa_base</se:Name>
             <se:FeatureTypeStyle>
-              
+
               <!-- Etiquetas Islas Malvinas y orcadas-->
                 <se:Rule>
                     <ogc:Filter
@@ -27,7 +27,7 @@
                         </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>17500001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>35000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>18000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="centroid">
@@ -118,7 +118,7 @@
                             <se:SvgParameter name="fill">#031450</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
-                      <se:VendorOption name="group">yes</se:VendorOption>    
+                      <se:VendorOption name="group">yes</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
               <se:Rule>

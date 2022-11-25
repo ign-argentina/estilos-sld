@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" 
-    xmlns:ogc="http://www.opengis.net/ogc" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" 
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
+    xmlns:ogc="http://www.opengis.net/ogc" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
         <se:Name>puntos_de_asentamientos_y_edificios</se:Name>
         <UserStyle>
             <se:Name>puntos_localidades_capa_base</se:Name>
-          
+
            <!-- PUNTOS CAPITAL DE PARTIDO -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Capital de Provincia</se:Name>
@@ -57,9 +57,9 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
           <!-- PUNTOS CABECERA DE PARTIDO -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Cabecera de Departamento o Partido</se:Name>
@@ -79,7 +79,7 @@
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#918D8D</se:SvgParameter> 
+                                    <se:SvgParameter name="fill">#918D8D</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
                                     <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -94,7 +94,7 @@
                             <se:Mark>
                                 <se:WellKnownName>circle</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#918D8D</se:SvgParameter> 
+                                    <se:SvgParameter name="fill">#918D8D</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
                                     <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -106,11 +106,11 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
           <!-- PUNTOS LOCALIDADES CAPA BASE -->
-          
+
                  <!-- PUNTOS LOCALIDADES -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>puntos_localidades_capa_base</se:Name>
@@ -162,9 +162,9 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
                      <!-- PUNTOS PARAJE -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>puntos_localidades_capa_base</se:Name>
@@ -184,7 +184,7 @@
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
-                                    <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                                    <se:SvgParameter name="fill">#dee2e6</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
                                     <se:SvgParameter name="stroke">#918D8D</se:SvgParameter>
@@ -196,9 +196,53 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+            <se:FeatureTypeStyle>
+              <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ahb</ogc:PropertyName>
+                            <ogc:Literal>5</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">Bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.7</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#dee2e6</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+
+            </se:FeatureTypeStyle>
+
                     <!-- PUNTOS BASES ANTÁRTICAS -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Bases Antárticas</se:Name>
@@ -229,9 +273,9 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
                          <!-- PUNTOS CAPITAL DE NACIÓN -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Capital de Nación</se:Name>
@@ -293,11 +337,11 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
-          
+
+
                         <!-- ETIQUETAS -->
                         <!-- PUNTOS CAPITAL DE PROVINCIA -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -335,15 +379,15 @@
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.2</se:VendorOption>
-                    
+
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
-           
+
+
                 <!-- ETIQUETAS -->
                 <!-- PUNTO  CABA -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -382,15 +426,15 @@
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.2</se:VendorOption>
-                    
+
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
-          
+
+
                     <!-- PUNTOS LOCALIDADES -->
                     <!-- ca=1 zoom 11 y 12 -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -432,11 +476,11 @@
                         <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
          <!-- PUNTOS LOCALIDADES -->
-         <!-- ca=1 zoom 13 o más -->     
-              
-              
+         <!-- ca=1 zoom 13 o más -->
+
+
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -477,14 +521,14 @@
                         <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-          </se:FeatureTypeStyle>    
-              
+          </se:FeatureTypeStyle>
+
               <!-- ca=1 filtrados zoom 11 a 8 -->
-              
-            
-          
+
+
+
            <!-- Etiquetas localidades zoom 14 y 15 -->
-            
+
           <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -492,15 +536,15 @@
                             <ogc:Or>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>entidad</ogc:PropertyName>
-                                    <ogc:Literal>8</ogc:Literal> 
+                                    <ogc:Literal>8</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>entidad</ogc:PropertyName>
-                                    <ogc:Literal>9</ogc:Literal> 
+                                    <ogc:Literal>9</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>entidad</ogc:PropertyName>
-                                    <ogc:Literal>3</ogc:Literal>  
+                                    <ogc:Literal>3</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             </ogc:Or>
                             <ogc:PropertyIsNotEqualTo>
@@ -512,13 +556,13 @@
                                 <ogc:Literal>1</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>ca1</ogc:PropertyName> 
+                                <ogc:PropertyName>ca1</ogc:PropertyName>
                                 <ogc:Literal>2</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
                         </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>20000</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>60000</se:MaxScaleDenominator> 
+                    <se:MaxScaleDenominator>60000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
@@ -549,11 +593,11 @@
                         <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-            
-          
+
+
             <!-- Etiquetas localidades zoom 17 -->
-          
-            
+
+
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -593,9 +637,9 @@
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-         
-          
-          
+
+
+
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

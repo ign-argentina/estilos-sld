@@ -187,6 +187,50 @@
                     </se:PointSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+            <se:FeatureTypeStyle>
+              <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ahb</ogc:PropertyName> 
+                            <ogc:Literal>5</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">Bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.7</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#464646</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+
+            </se:FeatureTypeStyle>
 
           <!-- Bases Antárticas -->
             <se:FeatureTypeStyle>
