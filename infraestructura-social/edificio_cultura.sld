@@ -17,7 +17,7 @@
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#cc3333</se:SvgParameter>
+                  <se:SvgParameter name="fill">#945A36</se:SvgParameter> 
                   <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
                 </se:Fill>
                 <!--<se:Stroke>
@@ -41,11 +41,11 @@
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#cc3333</se:SvgParameter>
+                  <se:SvgParameter name="fill">#945A36</se:SvgParameter>
                   <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
                 </se:Fill>
                   <se:Stroke>
-                  <se:SvgParameter name="stroke">#cc3333</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#945A36</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.02</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
@@ -65,11 +65,11 @@
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#cc3333</se:SvgParameter>
+                  <se:SvgParameter name="fill">#945A36</se:SvgParameter>
                   <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
                 </se:Fill>
                   <se:Stroke>
-                  <se:SvgParameter name="stroke">#cc3333</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#945A36</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.06</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
