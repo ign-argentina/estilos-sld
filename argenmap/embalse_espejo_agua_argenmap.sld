@@ -89,10 +89,10 @@
                                 </ogc:PropertyIsEqualTo>
                             <ogc:Not>
                                 <ogc:Or>
-                                    <ogc:PropertyIsEqualTo>
+                                    <!-- <ogc:PropertyIsEqualTo>
                                         <ogc:PropertyName>fna</ogc:PropertyName>
                                         <ogc:Literal>&lt;Nulo></ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
+                                    </ogc:PropertyIsEqualTo> -->
                                     <ogc:PropertyIsEqualTo>
                                         <ogc:PropertyName>fna</ogc:PropertyName>
                                         <ogc:Literal>-1</ogc:Literal>
@@ -163,12 +163,11 @@
                         <se:Title>area_espejo_agua_273k</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
                           <ogc:PropertyIsEqualTo>
                               <ogc:PropertyName>entidad</ogc:PropertyName>
                               <ogc:Literal>3</ogc:Literal>
                           </ogc:PropertyIsEqualTo>
-                              <ogc:Not>
+                      <!--        <ogc:Not>
                                   <ogc:Or>
                                        <ogc:PropertyIsEqualTo>
                                           <ogc:PropertyName>fna</ogc:PropertyName>
@@ -183,8 +182,7 @@
                                           <ogc:Literal>-2</ogc:Literal>
                                       </ogc:PropertyIsEqualTo> 
                                   </ogc:Or>
-                              </ogc:Not>
-                        </ogc:And>
+                              </ogc:Not> -->
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>273000</se:MaxScaleDenominator>

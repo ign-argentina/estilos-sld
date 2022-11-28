@@ -11,12 +11,13 @@
             <se:Name>area_asentamiento_capa_base</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Ejido, planta, otros</se:Name>
+                    <se:Name>ejido, planta, otros</se:Name>
                     <se:Description>
                         <se:Title>Ejido Urbano, Planta Urbana, Otros asentamientos</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:Or>
+
+                           <ogc:Or>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>3</ogc:Literal>
@@ -29,13 +30,21 @@
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
-                        </ogc:Or>
+                       <ogc:PropertyIsGreaterThan>
+                                    <ogc:Function name="area">
+                                    <ogc:PropertyName>geom</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>5000000000000</ogc:Literal>
+                           </ogc:PropertyIsGreaterThan>
+                          </ogc:Or>
+
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#ffcbcb</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">0.7</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffcbcb</se:SvgParameter>
@@ -47,7 +56,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Ejido, planta, otros</se:Name>
+                    <se:Name>ejido, planta, otros</se:Name>
                     <se:Description>
                         <se:Title>Ejido Urbano, Planta Urbana, Otros asentamientos</se:Title>
                     </se:Description>
@@ -65,7 +74,14 @@
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
-                        </ogc:Or>
+
+                       <ogc:PropertyIsGreaterThan>
+                                    <ogc:Function name="area">
+                                    <ogc:PropertyName>geom</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>5000000000000</ogc:Literal>
+                           </ogc:PropertyIsGreaterThan>
+                          </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>24001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
@@ -83,7 +99,7 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>Ejido, planta, otros</se:Name>
+                    <se:Name>ejido, planta, otros</se:Name>
                     <se:Description>
                         <se:Title>Ejido Urbano, Planta Urbana, Otros asentamientos</se:Title>
                     </se:Description>
@@ -101,7 +117,13 @@
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
-                        </ogc:Or>
+                        <ogc:PropertyIsGreaterThan>
+                                    <ogc:Function name="area">
+                                    <ogc:PropertyName>geom</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>5000000000000</ogc:Literal>
+                           </ogc:PropertyIsGreaterThan>
+                          </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>24000</se:MaxScaleDenominator>
@@ -117,33 +139,6 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <!-- <se:FeatureTypeStyle>
-                <se:Rule>
-                    <se:Name>Ruinas</se:Name>
-                    <se:Description>
-                        <se:Title>Ruinas</se:Title>
-                    </se:Description>
-                    <ogc:Filter
-                        xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>4</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>7000</se:MaxScaleDenominator>
-                    <se:PolygonSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#d8de92</se:SvgParameter>
-                        </se:Fill>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#d8de92</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                        </se:Stroke>
-                    </se:PolygonSymbolizer>
-                </se:Rule>
-            </se:FeatureTypeStyle> -->
-          
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>

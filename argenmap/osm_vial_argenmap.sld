@@ -607,14 +607,15 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="fill">#444444</se:SvgParameter>
             </se:Fill>
             <se:Graphic>
-              <se:ExternalGraphic>
+         <!--     <se:ExternalGraphic>
                 <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
+              </se:ExternalGraphic> -->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
                   <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                  <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#808080</se:SvgParameter>
@@ -625,7 +626,7 @@ xmlns:se="http://www.opengis.net/se">
             </se:Graphic>
             <se:VendorOption name="group">yes</se:VendorOption>
             <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
-            <se:VendorOption name="graphic-margin">6 6</se:VendorOption>
+            <se:VendorOption name="graphic-margin">4 6</se:VendorOption>
             <se:VendorOption name="spaceAround">30</se:VendorOption>
             <se:VendorOption name="goodnessOfFit">1</se:VendorOption>
             <se:VendorOption name="conflictResolution">true</se:VendorOption>
