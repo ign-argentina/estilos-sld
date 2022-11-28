@@ -72,6 +72,7 @@
                         <se:Title>linea_agua_perenne_273k</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                       <ogc:And>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>2</ogc:Literal>
@@ -80,6 +81,7 @@
                             <ogc:PropertyName>hyp</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
+                      </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>                    
                     <se:MaxScaleDenominator>350000</se:MaxScaleDenominator>
@@ -100,6 +102,7 @@
                         <se:Title>linea_agua_intermitente_5000000</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                       <ogc:And>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>2</ogc:Literal>
@@ -108,6 +111,7 @@
                             <ogc:PropertyName>hyp</ogc:PropertyName>
                             <ogc:Literal>2</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
+                      </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator> 
                     <se:MaxScaleDenominator>200000</se:MaxScaleDenominator>
