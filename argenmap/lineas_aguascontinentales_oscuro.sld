@@ -24,11 +24,7 @@
                                 <ogc:PropertyName>hyp</ogc:PropertyName>
                                 <ogc:Literal>1</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
-                             <ogc:Not>
-                            <ogc:PropertyIsNull>
-                            <ogc:PropertyName>fna</ogc:PropertyName>
-                            </ogc:PropertyIsNull>
-                            </ogc:Not>
+                          
                             </ogc:And>
                       </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
@@ -123,11 +119,7 @@
                                 <ogc:PropertyName>hyp</ogc:PropertyName>
                                 <ogc:Literal>2</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
-                             <ogc:Not>
-                            <ogc:PropertyIsNull>
-                            <ogc:PropertyName>fna</ogc:PropertyName>
-                            </ogc:PropertyIsNull>
-                            </ogc:Not>
+
                             </ogc:And>
                       </ogc:Filter>
                     <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
