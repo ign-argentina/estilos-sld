@@ -5,31 +5,7 @@
     <UserStyle>
       <se:Name>areas_aguascontinentales_oscuro</se:Name>
       <se:FeatureTypeStyle>
-        <se:Rule>
-                   <se:Description>
-                        <se:Title>Rios del delta del Paraná</se:Title>
-                   </se:Description>
-                  <ogc:Filter>
-
-                      <ogc:PropertyIsEqualTo><ogc:PropertyName>delta</ogc:PropertyName><ogc:Literal> Delta </ogc:Literal></ogc:PropertyIsEqualTo>
-
-                  </ogc:Filter>
-                  <se:MinScaleDenominator>500000</se:MinScaleDenominator>
-                  <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
-                  <se:PolygonSymbolizer>
-                    <se:Fill>
-                      <se:SvgParameter name="fill">#242424</se:SvgParameter>
-                      <!-- <se:SvgParameter name="fill">#6E6E73</se:SvgParameter>-->
-                      <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                      <!--<se:SvgParameter name="fill-opacity">0</se:SvgParameter>-->
-                    </se:Fill>
-                    <se:Stroke>
-                      <!-- <se:SvgParameter name="stroke">#272641</se:SvgParameter> -->
-
-                      <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            		</se:Stroke>
-                  </se:PolygonSymbolizer>
-        </se:Rule>
+    
 
 		<se:Rule>
                   <se:Name/>
