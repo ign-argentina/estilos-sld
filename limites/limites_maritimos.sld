@@ -18,7 +18,7 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
+                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                             <ogc:Literal>Límite exterior de la Plataforma Continental</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -47,7 +47,7 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
+                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                             <ogc:Literal>Límite exterior de la Plataforma Continental (presentado ante la CLPC)</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -79,7 +79,7 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
+                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                             <ogc:Literal>Límite del Mar Territorial Argentino</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -111,7 +111,7 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
+                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                             <ogc:Literal>Límite de aguas interiores</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -138,12 +138,12 @@
                 <se:Rule>
                     <se:Name>Límite de la Zona Económica Exclusiva Argentina</se:Name>
                     <se:Description>
-                        <se:Title>Límite de la Zona Económica Exclusiva Argentina</se:Title>
+                        <se:Title>Límite de la Zona Económica Exclusiva</se:Title>
                     </se:Description>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
+                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
                             <ogc:Literal>Límite de la Zona Económica Exclusiva</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -174,8 +174,8 @@
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                     <ogc:PropertyIsEqualTo>
-                        <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
-                        <ogc:Literal>200 M desde costa Sector Antártico Argentino</ogc:Literal>
+                        <ogc:PropertyName>termino_especifico</ogc:PropertyName>
+                        <ogc:Literal>200 M desde la costa del Sector Antártico Argentino</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                  </ogc:Filter>
                  <se:LineSymbolizer>
@@ -206,8 +206,8 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>nombre_geografico</ogc:PropertyName>
-                            <ogc:Literal>Límite de la Zona Contigua Argentina</ogc:Literal>
+                            <ogc:PropertyName>termino_especifico</ogc:PropertyName>
+                            <ogc:Literal>Límite de la Zona Contigua</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>

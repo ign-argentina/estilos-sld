@@ -552,36 +552,32 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                           <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite exterior del rio de la plata campo a etiquetar: nam u objeto -->
                                 <ogc:Literal>15</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>14</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- zona economica exclusiva nam u objeto igual-->
                                 <ogc:Literal>6</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite de la zona contigua nam u objeto igual-->
                                 <ogc:Literal>5</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:PropertyName>entidad</ogc:PropertyName><!--limite mar territorial argentino nam u objeto igual -->
                                 <ogc:Literal>4</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:PropertyName>entidad</ogc:PropertyName> <!-- limite de aguas interiores nam u objeto igual -->
                                 <ogc:Literal>3</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite lateral maritimo argentino-uruguayo a etiquetar: objeto-->
                                 <ogc:Literal>2</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite del lecho y subsuelo del rio de la plata a etiquetar: objeto-->
                                 <ogc:Literal>1</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
@@ -619,17 +615,21 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Or>
+                              <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>7</ogc:Literal> <!-- limite exterior de la plataforma continental  -->
+                            </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>7</ogc:Literal>
+                                <ogc:Literal>14</ogc:Literal> <!-- 200 millas desde la costa del sector antartico argentino-->
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
+                          <!--   <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>nam</ogc:PropertyName>
                                 <ogc:Literal>Límite argentino-chileno</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            </ogc:PropertyIsEqualTo> -->
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>nam</ogc:PropertyName>
-                                <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                                <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
@@ -680,6 +680,10 @@
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>nam</ogc:PropertyName>
                                     <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>nam</ogc:PropertyName>
+                                    <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                               </ogc:Or>
                             </ogc:Not>

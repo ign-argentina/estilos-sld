@@ -572,13 +572,18 @@
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>7</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
+
                             <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>14</ogc:Literal> <!-- 200 millas desde la costa del sector antartico argentino-->
+                            </ogc:PropertyIsEqualTo>
+                          <!--   <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>nam</ogc:PropertyName>
                                 <ogc:Literal>Límite argentino-chileno</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            </ogc:PropertyIsEqualTo> -->
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>nam</ogc:PropertyName>
-                                <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                                <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
@@ -634,6 +639,10 @@
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>nam</ogc:PropertyName>
                                     <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>nam</ogc:PropertyName>
+                                    <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                               </ogc:Or>
                             </ogc:Not>

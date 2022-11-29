@@ -12,8 +12,8 @@
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                                 <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>entidad</ogc:PropertyName>
-                                    <ogc:Literal>11</ogc:Literal>
+                                    <ogc:PropertyName>objeto</ogc:PropertyName>
+                                    <ogc:Literal>Límite internacional</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -49,8 +49,8 @@
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>15</ogc:Literal>
+                            <ogc:PropertyName>objeto</ogc:PropertyName>
+                            <ogc:Literal>Límite exterior del Río de la Plata</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -79,8 +79,8 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
+                            <ogc:PropertyName>objeto</ogc:PropertyName>
+                            <ogc:Literal>Límite del lecho y subsuelo del Río de la Plata</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -117,8 +117,8 @@
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>2</ogc:Literal>
+                            <ogc:PropertyName>objeto</ogc:PropertyName>
+                            <ogc:Literal>Límite lateral marítimo argentino-uruguayo</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
