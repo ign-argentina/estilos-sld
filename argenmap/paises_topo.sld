@@ -6,31 +6,16 @@
       <se:Name>pais</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>Argentina</se:Name>
+          <se:Name>Resto</se:Name>
           <se:Description>
-            <se:Title>Argentina</se:Title>
+            <se:Title>Resto</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsNotEqualTo>
               <ogc:PropertyName>nam</ogc:PropertyName>
               <ogc:Literal>Argentina</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+            </ogc:PropertyIsNotEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#cb2298</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.92857</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name></se:Name>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#e9e9e9</se:SvgParameter>
@@ -38,7 +23,7 @@
             <se:Stroke>
               <se:SvgParameter name="stroke">#232323</se:SvgParameter>
               <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.10000000000000001</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
