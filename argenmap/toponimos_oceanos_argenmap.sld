@@ -38,7 +38,7 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter> <!-- SansSerif - DejaVu Sans -Verdana -Times New Roman -->
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter> 
                             <se:SvgParameter name="font-size">9</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -58,6 +58,7 @@
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
+                      <se:VendorOption name="charSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
                <!-- Etiquetas Islas Malvinas,orcadas,sandwich,shetland,georgias-->
@@ -119,12 +120,21 @@
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                       <se:VendorOption name="group">yes</se:VendorOption>
+                      <se:VendorOption name="charSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
               <se:Rule>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Or>
+                             <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nombre</ogc:PropertyName>
+                                <ogc:Literal>ISLAS MALVINAS (Arg.)</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nombre</ogc:PropertyName>
+                                <ogc:Literal>ISLAS ORCADAS DEL SUR (Arg.)</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>nombre</ogc:PropertyName>
                                 <ogc:Literal>ISLAS SANDWICH DEL SUR (Arg.)</ogc:Literal>
@@ -174,6 +184,7 @@
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
                         <se:VendorOption name="spaceAround">-1</se:VendorOption>
+                      <se:VendorOption name="charSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

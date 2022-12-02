@@ -208,7 +208,7 @@
                 </se:Rule>
            </se:FeatureTypeStyle>
 
-		   <se:FeatureTypeStyle>
+           <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Límite exterior de la Plataforma Continental (presentado ante la CLPC)</se:Name>
                     <se:Description>
@@ -682,7 +682,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -703,6 +703,7 @@
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
                       <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                      <se:VendorOption name="wordSpacing">0.05</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
@@ -734,7 +735,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11.5</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -743,7 +744,7 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>0.5</se:Radius>
+                            <se:Radius>0.6</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#bebebe</se:SvgParameter>
                             </se:Fill>
@@ -755,6 +756,7 @@
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
                       <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                      <se:VendorOption name="wordSpacing">0.05</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
@@ -764,7 +766,7 @@
                         <ogc:And>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>entidad</ogc:PropertyName> <!-- Limite internacional -->
-                                    <ogc:Literal>11</ogc:Literal>
+                                    <ogc:Literal>11.5</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             <ogc:Not>
                               <ogc:Or>
@@ -800,7 +802,7 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>0.5</se:Radius>
+                            <se:Radius>0.6</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#bebebe</se:SvgParameter>
                             </se:Fill>

@@ -21,13 +21,21 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#25cc71</se:SvgParameter> 
                             <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>
-                        </se:Fill>                       
+                        </se:Fill>         
+                      <se:Stroke>
+                            <se:SvgParameter name="stroke">#385638</se:SvgParameter>
+                        <se:SvgParameter name="stroke-opacity">0.1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">2 2 1 2 1 2 1 2 1 2</se:SvgParameter>
+                        </se:Stroke>
+
                   </se:PolygonSymbolizer>   
                 </se:Rule>
             </se:FeatureTypeStyle>
           <se:FeatureTypeStyle>
             
-        <!--Etiquetas z10 nacionales y provinciales - 545k-->
+        <!--Etiquetas z10 nacionales y provinciales + sitios ramsar  - 545k-->
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
              <ogc:Or>
@@ -51,6 +59,14 @@
                       <ogc:PropertyName>fna</ogc:PropertyName>
                       <ogc:Literal>Parque Provincial%</ogc:Literal>
                  </ogc:PropertyIsLike>
+                 <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                      <ogc:Literal>Sitio%</ogc:Literal>
+                 </ogc:PropertyIsLike>
+                 <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                      <ogc:Literal>Sitios%</ogc:Literal>
+                 </ogc:PropertyIsLike>                
               </ogc:Or>
            </ogc:Filter>         
           <se:MinScaleDenominator>400000</se:MinScaleDenominator>
@@ -60,7 +76,7 @@
                  <ogc:Function name="centroid">
                    <ogc:PropertyName>geom</ogc:PropertyName>
                  </ogc:Function>
-              </se:Geometry>
+              </se:Geometry> 
             <se:Label>
               <ogc:PropertyName>fna</ogc:PropertyName>
             </se:Label>
@@ -78,9 +94,9 @@
                 <se:Displacement>
                   <se:DisplacementX>0.5</se:DisplacementX>
                   <se:DisplacementY>0.5</se:DisplacementY>
-                </se:Displacement>
+                </se:Displacement> 
                 <se:Rotation>360</se:Rotation>
-              </se:PointPlacement>
+              </se:PointPlacement> 
             </se:LabelPlacement>
             <se:Halo>
               <se:Radius>0.8</se:Radius>
@@ -97,11 +113,12 @@
            <!-- <se:VendorOption name="maxDisplacement">1</se:VendorOption> -->
             <se:VendorOption name="charSpacing">0.6</se:VendorOption>
             <se:VendorOption name="wordSpacing">0.3</se:VendorOption>
-            <se:VendorOption name="labelAllGroup">true</se:VendorOption>
+            <se:VendorOption name="labelAllGroup">true</se:VendorOption> 
+           <!-- <se:VendorOption name="goodnessOfFit">0.3</se:VendorOption> -->
           </se:TextSymbolizer>
         </se:Rule>
-        
-        <!--Etiquetas z11 - 273k-->
+            
+            <!--Etiquetas z11 - 273k-->
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
               <ogc:Not>
@@ -138,15 +155,15 @@
                   <se:AnchorPointX>0.5</se:AnchorPointX>
                   <se:AnchorPointY>0.5</se:AnchorPointY>
                 </se:AnchorPoint>
-                <se:Displacement>
+          <!--      <se:Displacement>
                   <se:DisplacementX>0.5</se:DisplacementX>
                   <se:DisplacementY>0.5</se:DisplacementY>
-                </se:Displacement>
+                </se:Displacement> -->
                 <se:Rotation>360</se:Rotation>
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Halo>
-              <se:Radius>0.8</se:Radius>
+              <se:Radius>1</se:Radius>
               <se:Fill>
                 <se:SvgParameter name="fill">#ffffff</se:SvgParameter> <!-- 084008-->
               </se:Fill>
@@ -154,34 +171,65 @@
             <se:Fill>
               <se:SvgParameter name="fill">#385638</se:SvgParameter>
             </se:Fill>
-            <se:VendorOption name="group">yes</se:VendorOption>
+          <!--  <se:VendorOption name="group">yes</se:VendorOption> -->
             <se:VendorOption name="group">true</se:VendorOption>
             <se:VendorOption name="autoWrap">100</se:VendorOption>
-          <se:VendorOption name="maxDisplacement">10</se:VendorOption>
-            <se:VendorOption name="charSpacing">0.6</se:VendorOption>
-            <se:VendorOption name="wordSpacing">0.2</se:VendorOption>
+         <!-- <se:VendorOption name="maxDisplacement">60</se:VendorOption> -->
+            <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+            <se:VendorOption name="wordSpacing">0.1</se:VendorOption>
+            <se:VendorOption name="goodnessOfFit">0.3</se:VendorOption>
+            <se:VendorOption name="maxDisplacement">1</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
-            
-          <!--  Etiquetas mayor area - z10 -->
+          
+                   <!--   Etiquetas mayor area - z10 -->
           
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                            <ogc:PropertyIsGreaterThan>
+                   <ogc:And>
+                      <ogc:PropertyIsGreaterThan>
                                     <ogc:Function name="area">
                                     <ogc:PropertyName>geom</ogc:PropertyName>
                                     </ogc:Function>
-                                    <ogc:Literal>600000000</ogc:Literal>
+                                    <ogc:Literal>990000000</ogc:Literal>
                              </ogc:PropertyIsGreaterThan>
+                           <ogc:Not>
+                      <ogc:Or>
+                 <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                      <ogc:Literal>Reserva Nacional%</ogc:Literal>
+                 </ogc:PropertyIsLike>
+                 <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                      <ogc:Literal>Parque Nacional%</ogc:Literal>
+                 </ogc:PropertyIsLike>
+                 <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                      <ogc:Literal>Reserva Provincial%</ogc:Literal>
+                 </ogc:PropertyIsLike>
+                 <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                      <ogc:Literal>Parque Natural Provincial%</ogc:Literal>
+                 </ogc:PropertyIsLike>
+                 <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                      <ogc:Literal>Parque Provincial%</ogc:Literal>
+                 </ogc:PropertyIsLike>
+                 <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                      <ogc:Literal>Sitio%</ogc:Literal>
+                 </ogc:PropertyIsLike>
+                 <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                      <ogc:Literal>Sitios%</ogc:Literal>
+                 </ogc:PropertyIsLike>
+              </ogc:Or>
+                      </ogc:Not>
+                        </ogc:And>   
                     </ogc:Filter>
                     <se:MinScaleDenominator>400000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>850000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
-                            <se:Geometry>
-                            <ogc:Function name="centroid">
-                                <ogc:PropertyName>geom</ogc:PropertyName>
-                            </ogc:Function>
-                        </se:Geometry>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
@@ -205,7 +253,7 @@
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#385638</se:SvgParameter>
+                            <se:SvgParameter name="fill">#385638</se:SvgParameter> 
                         </se:Fill>
                         <se:VendorOption name="maxDisplacement">1</se:VendorOption>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
@@ -213,9 +261,8 @@
                         <se:VendorOption name="labelAllGroup">true</se:VendorOption>
                       <se:VendorOption name="charSpacing">0.6</se:VendorOption>
                     </se:TextSymbolizer>
-                </se:Rule> 
-      </se:FeatureTypeStyle>
-
+                </se:Rule>  
+</se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>

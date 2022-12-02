@@ -324,7 +324,6 @@
                 </se:Rule>
             </se:FeatureTypeStyle>
 
-
             <se:FeatureTypeStyle>
               <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -334,7 +333,7 @@
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
@@ -353,10 +352,10 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>0.8</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
-                              <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.55</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
@@ -366,10 +365,8 @@
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
-                </se:Rule>
-
+                </se:Rule> 
             </se:FeatureTypeStyle>
-
 
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -626,6 +623,220 @@
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
+              
+               <!--Etiquetas capitales provinciales corrientes z7-->
+
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                      <ogc:And>
+                      <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
+                            <ogc:Literal>2</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> <!-- zoom 7-->
+                            <ogc:Literal>Corrientes</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>4500000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">Bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.7</se:AnchorPointY>
+                                </se:AnchorPoint>
+                                <se:Displacement>
+                                    <se:DisplacementX>25</se:DisplacementX>
+                                    <se:DisplacementY>25</se:DisplacementY>
+                                </se:Displacement> 
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#464646</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+               <!--Etiquetas capitales provinciales corrientes z8-->
+
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                      <ogc:And>
+                      <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
+                            <ogc:Literal>2</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> <!-- zoom 7-->
+                            <ogc:Literal>Corrientes</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>900000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.7</se:AnchorPointY>
+                                </se:AnchorPoint>
+                                <se:Displacement>
+                                    <se:DisplacementX>25</se:DisplacementX>
+                                    <se:DisplacementY>30</se:DisplacementY>
+                                </se:Displacement> 
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1.1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#464646</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+              
+                <!--Etiquetas capitales provinciales parana z7-->
+
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                      <ogc:And>
+                      <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
+                            <ogc:Literal>2</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> <!-- zoom 7-->
+                            <ogc:Literal>Paraná</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>4500000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">Bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.7</se:AnchorPointY>
+                                </se:AnchorPoint>
+                                <se:Displacement>
+                                    <se:DisplacementX>25</se:DisplacementX>
+                                    <se:DisplacementY>25</se:DisplacementY>
+                                </se:Displacement> 
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#464646</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+              
+                <!--Etiquetas capitales provinciales SMT z7-->
+
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                      <ogc:And>
+                      <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
+                            <ogc:Literal>2</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> <!-- zoom 7-->
+                            <ogc:Literal>San Miguel de Tucumán</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>4500000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">Bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.7</se:AnchorPointY>
+                                </se:AnchorPoint>
+                                <se:Displacement>
+                                    <se:DisplacementX>15</se:DisplacementX>
+                                    <se:DisplacementY>55</se:DisplacementY>
+                                </se:Displacement> 
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#464646</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+              
               <!--Etiquetas capitales provinicales desde z8-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -784,7 +995,6 @@
                 </se:Rule>
             </se:FeatureTypeStyle>
 
-
             <!-- Etiquetas localidades zoom 11 -->
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -807,6 +1017,10 @@
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>ahb</ogc:PropertyName>
                                 <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ahb</ogc:PropertyName>
+                                <ogc:Literal>5</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>ca1</ogc:PropertyName>
@@ -855,7 +1069,6 @@
                 </se:Rule>
             </se:FeatureTypeStyle>
 
-
             <!-- Etiquetas localidades zoom 12 -->
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -878,6 +1091,10 @@
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>ahb</ogc:PropertyName>
                                 <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ahb</ogc:PropertyName>
+                                <ogc:Literal>5</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>ca1</ogc:PropertyName>
@@ -948,6 +1165,10 @@
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>ahb</ogc:PropertyName>
                                 <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ahb</ogc:PropertyName>
+                                <ogc:Literal>5</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
                         </ogc:And>
                     </ogc:Filter>
@@ -1026,8 +1247,6 @@
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-
-
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>

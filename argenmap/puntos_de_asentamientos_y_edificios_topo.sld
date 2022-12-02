@@ -8,6 +8,9 @@
   <se:Name>puntos_de_asentamientos_y_edificios</se:Name>
   <UserStyle>
    <se:Name>puntos_localidades_capa_base</se:Name>
+
+
+
    <se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>Capital de Provincia</se:Name>
@@ -37,6 +40,9 @@
        <se:Size>7</se:Size>
       </se:Graphic>
      </se:PointSymbolizer>
+
+
+
      <se:PointSymbolizer>
       <se:Graphic>
        <se:Mark>
@@ -98,6 +104,9 @@
      </se:PointSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
+
+
+
    <se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>Cabecera de Departamento o Partido</se:Name>
@@ -143,6 +152,9 @@
       </se:Graphic>
      </se:PointSymbolizer>
     </se:Rule>
+
+
+
     <se:Rule>
      <se:Name>Cabecera de Departamento o Partido</se:Name>
      <se:Description>
@@ -224,6 +236,9 @@
      </se:PointSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
+
+
+
    <!--<se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>puntos_localidades_capa_base</se:Name>
@@ -275,6 +290,9 @@
      </se:PointSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>-->
+
+
+
    <se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>puntos_localidades_capa_base</se:Name>
@@ -294,10 +312,10 @@
        <se:Mark>
         <se:WellKnownName>square</se:WellKnownName>
         <se:Fill>
-         <se:SvgParameter name="fill">#000000</se:SvgParameter>
+         <se:SvgParameter name="fill">#464646</se:SvgParameter>
         </se:Fill>
         <se:Stroke>
-         <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+         <se:SvgParameter name="stroke">#000000</se:SvgParameter>
          <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
         </se:Stroke>
        </se:Mark>
@@ -306,6 +324,52 @@
      </se:PointSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
+
+   <se:FeatureTypeStyle>
+              <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ahb</ogc:PropertyName>
+                            <ogc:Literal>5</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.7</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>0.8</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#464646</se:SvgParameter>
+
+                        </se:Fill>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+     </se:FeatureTypeStyle>
+
+
    <se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>Bases Antárticas</se:Name>
@@ -336,6 +400,9 @@
      </se:PointSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
+
+
+
    <se:FeatureTypeStyle>
     <se:Rule>
      <se:Name>Capital de Nación</se:Name>
@@ -396,6 +463,8 @@
       </se:Graphic>
      </se:PointSymbolizer>
     </se:Rule>
+
+
     <se:Rule>
      <se:Name>Capital de Nación</se:Name>
      <se:Description>
@@ -455,6 +524,8 @@
       </se:Graphic>
      </se:PointSymbolizer>
     </se:Rule>
+
+
     <se:Rule>
      <se:Name>Capital de Nación</se:Name>
      <se:Description>
@@ -515,6 +586,11 @@
      </se:PointSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
+
+     <!-- ETIQUETAS -->
+                        <!-- PUNTOS CAPITAL DE PROVINCIA -->
+
+
    <se:FeatureTypeStyle>
     <se:Rule>
      <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -554,6 +630,12 @@
      </se:TextSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
+
+      <!-- PUNTOS LOCALIDADES -->
+                    <!-- ca=1 zoom 11 y 12 -->
+
+
+
    <se:FeatureTypeStyle>
     <se:Rule>
      <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -570,7 +652,7 @@
       </se:Label>
       <se:Font>
        <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-       <se:SvgParameter name="font-size">13</se:SvgParameter>
+       <se:SvgParameter name="font-size">12</se:SvgParameter>
        <se:SvgParameter name="font-weight">bold</se:SvgParameter>
       </se:Font>
       <se:LabelPlacement>
@@ -593,6 +675,8 @@
       <se:VendorOption name="autoWrap">100</se:VendorOption>
      </se:TextSymbolizer>
     </se:Rule>
+
+
     <se:Rule>
      <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
       <ogc:And>
@@ -668,6 +752,9 @@
      </se:TextSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
+
+
+
    <se:FeatureTypeStyle>
     <se:Rule>
      <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -687,9 +774,21 @@
         </ogc:PropertyIsEqualTo>
        </ogc:Or>
        <ogc:PropertyIsNotEqualTo>
-        <ogc:PropertyName>ahb</ogc:PropertyName>
-        <ogc:Literal>2</ogc:Literal>
-       </ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ahb</ogc:PropertyName>
+                                <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ahb</ogc:PropertyName>
+                                <ogc:Literal>5</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ca1</ogc:PropertyName>
+                                <ogc:Literal>1</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>ca1</ogc:PropertyName>
+                                <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
       </ogc:And>
      </ogc:Filter>
      <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
@@ -699,7 +798,7 @@
       </se:Label>
       <se:Font>
        <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-       <se:SvgParameter name="font-size">13</se:SvgParameter>
+       <se:SvgParameter name="font-size">11</se:SvgParameter>
        <se:SvgParameter name="font-weight">bold</se:SvgParameter>
       </se:Font>
       <se:LabelPlacement>
@@ -723,6 +822,10 @@
      </se:TextSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
+
+
+
+
    <se:FeatureTypeStyle>
     <se:Rule>
      <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -762,6 +865,9 @@
      </se:TextSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>
+
+
+
   </UserStyle>
  </NamedLayer>
 </StyledLayerDescriptor>

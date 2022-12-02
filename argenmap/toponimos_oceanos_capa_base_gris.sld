@@ -8,7 +8,7 @@
     <NamedLayer>
         <se:Name>toponimos_oceano</se:Name>
         <UserStyle>
-            <se:Name>toponimos_oceanos_capa_base_gris_v2</se:Name>
+            <se:Name>toponimos_oceanos_capa_base_gris</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter
@@ -36,8 +36,8 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
+                            <se:SvgParameter name="font-size">9</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -56,7 +56,8 @@
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
-                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                      <se:VendorOption name="wordSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
@@ -89,8 +90,8 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
+                            <se:SvgParameter name="font-size">9</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -143,7 +144,7 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
                             <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -200,7 +201,7 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
                             <se:SvgParameter name="font-size">14</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -274,7 +275,7 @@
                             <ogc:PropertyName>nombre</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Verdana</se:SvgParameter>
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
