@@ -4,12 +4,9 @@
     <se:Name>zona_de_frontera</se:Name>
     <UserStyle>
       <se:Name>zona_de_frontera</se:Name>
-      <!--Zoom nivel 3 a 5-->
-          <se:MinScaleDenominator>15000000</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>600000000</se:MaxScaleDenominator>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>zona_de_frontera</se:Name>
+          <se:Name>Zona de frontera</se:Name>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#fecf8c</se:SvgParameter>
@@ -22,24 +19,8 @@
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
-        <se:Rule>
-          <se:Name>zona_de_frontera</se:Name>
-            <!--Zoom desde nivel 6 -->
-            <se:MinScaleDenominator>0</se:MinScaleDenominator>
-            <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#fecf8c</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.25</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#e58f15</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-      </se:FeatureTypeStyle>
+       </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
+
