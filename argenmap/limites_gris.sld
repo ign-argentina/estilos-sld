@@ -591,7 +591,7 @@
                             <ogc:Not>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>nam</ogc:PropertyName>
-                                    <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                                    <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             </ogc:Not>
                         </ogc:And>
@@ -625,7 +625,7 @@
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>nam</ogc:PropertyName>
-                            <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                            <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
