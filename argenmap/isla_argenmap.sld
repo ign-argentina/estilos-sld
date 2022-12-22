@@ -15,34 +15,25 @@
                         <se:Title>isla</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>3</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>Isla Grande de Tierra del Fuego</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                        </ogc:And>
                     </ogc:Filter>
-                  <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#fff5ea</se:SvgParameter>
+                            <se:SvgParameter name="fill">#fff5ea</se:SvgParameter><!-- 8C4D07-->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#8C4D07</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#8C4D07</se:SvgParameter> <!-- 8C4D07-->
                           <se:SvgParameter name="stroke-opacity">0.15</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
+              </se:FeatureTypeStyle>
+              <se:FeatureTypeStyle>
                 <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                  <!--  <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
@@ -60,8 +51,8 @@
                                     </ogc:PropertyIsEqualTo>
                                 </ogc:Or>
                             </ogc:Not>
-                        </ogc:And>
-                    </ogc:Filter>
+                        </ogc:And> 
+                    </ogc:Filter> -->
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>400000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
@@ -88,7 +79,7 @@
                         <se:Halo>
                             <se:Radius>1</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#fff5ea</se:SvgParameter>
+                                <se:SvgParameter name="fill">#fff5ea</se:SvgParameter> <!-- fff5ea-->
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
