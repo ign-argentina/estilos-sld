@@ -35,7 +35,7 @@
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#688570</se:SvgParameter>
-                          <se:SvgParameter name="stroke-opacity">0.15</se:SvgParameter>
+                          <se:SvgParameter name="stroke-opacity">0.05</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
@@ -44,26 +44,26 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                 <!--  <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>3</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:Not>
+                          <ogc:Not>
                                 <ogc:Or>
                                     <ogc:PropertyIsEqualTo>
                                         <ogc:PropertyName>fna</ogc:PropertyName>
                                         <ogc:Literal>-1</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyIsEqualTo>
+                                    </ogc:PropertyIsEqualTo> 
+                                   <ogc:PropertyIsEqualTo>
                                         <ogc:PropertyName>fna</ogc:PropertyName>
                                         <ogc:Literal>-2</ogc:Literal>
                                     </ogc:PropertyIsEqualTo>
                                 </ogc:Or>
-                            </ogc:Not>
+                            </ogc:Not> 
                         </ogc:And>
-                    </ogc:Filter>
+                    </ogc:Filter> -->
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>400000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>

@@ -14,20 +14,12 @@
                     <se:Description>
                         <se:Title>isla</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                    </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#fff5ea</se:SvgParameter><!-- 8C4D07-->
                         </se:Fill>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#8C4D07</se:SvgParameter> <!-- 8C4D07-->
-                          <se:SvgParameter name="stroke-opacity">0.15</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                        </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
               </se:FeatureTypeStyle>
