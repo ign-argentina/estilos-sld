@@ -606,11 +606,11 @@
                         <se:Halo>
                             <se:Radius>2.5</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                <se:SvgParameter name="fill">#333333</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#333333</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>

@@ -974,6 +974,29 @@ xmlns:se="http://www.opengis.net/se">
         </se:Rule>
       </se:FeatureTypeStyle>
       <se:FeatureTypeStyle>
+                  <se:Rule>
+          <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
+          <se:Description>
+            <se:Title>living_street, pedestrian, raceway , residential , unclassified</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>highway</ogc:PropertyName>
+                <ogc:Literal>primary</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>110000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#D49F9F</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.7</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.4</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>
           <se:Rule>
           <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
           <se:Description>
