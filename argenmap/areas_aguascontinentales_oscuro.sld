@@ -5,7 +5,7 @@
     <UserStyle>
       <se:Name>areas_aguascontinentales_oscuro</se:Name>
       <se:FeatureTypeStyle>
-    
+
 
 		<se:Rule>
                   <se:Name/>
@@ -155,6 +155,80 @@
           </se:PolygonSymbolizer>
         </se:Rule>
 
+
+
+
+        <!-- prueba-->
+        <!-- rio de la plata y otros zoom 8 a zoom 10 -->
+                <se:Rule>
+                    <se:Name>areas_aguas_continentales_capa_base</se:Name>
+                    <se:Description>
+                        <se:Title>area_corriente_agua_5000k</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>entidad</ogc:PropertyName>
+                                    <ogc:Literal>1</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                            <ogc:Not>
+                                <ogc:Or>
+                                    <ogc:PropertyIsEqualTo>
+                                        <ogc:PropertyName>fna</ogc:PropertyName>
+                                        <ogc:Literal>&lt;Nulo></ogc:Literal>
+                                    </ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyIsEqualTo>
+                                        <ogc:PropertyName>fna</ogc:PropertyName>
+                                        <ogc:Literal>-1</ogc:Literal>
+                                    </ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyIsEqualTo>
+                                        <ogc:PropertyName>fna</ogc:PropertyName>
+                                        <ogc:Literal>-2</ogc:Literal>
+                                    </ogc:PropertyIsEqualTo>
+                                </ogc:Or>
+                            </ogc:Not>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>273001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#383838</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#383838</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+                </se:Rule>
+
+              <!-- desde z11 rio de la plata y otros-->
+
+                <se:Rule>
+                    <se:Name>areas_aguas_continentales_capa_base</se:Name>
+                    <se:Description>
+                        <se:Title>area_corriente_agua_273k</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>entidad</ogc:PropertyName>
+                            <ogc:Literal>1</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>300000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#383838</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#383838</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+                </se:Rule>
 
       </se:FeatureTypeStyle>
     </UserStyle>
