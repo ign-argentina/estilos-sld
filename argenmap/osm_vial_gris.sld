@@ -357,7 +357,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fbfbfb</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.18</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                             <se:SvgParameter name="stroke-opacity">0.75</se:SvgParameter>
@@ -399,10 +399,10 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#fbfbfb</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.12</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.45</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.9</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">1</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -539,6 +539,57 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
+           <!-- Avenidas z12 -->
+            <se:FeatureTypeStyle>
+                <se:Rule>
+                    <se:Name>ter, sec, prim, _link</se:Name>
+                    <se:Description>
+                        <se:Title>ter, sec, prim, _link</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>tertiary</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>tertiary_link</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>secondary</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>secondary_link</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>100001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                          <se:SvgParameter name="stroke-opacity">0.6</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                          <se:SvgParameter name="stroke-opacity">0.6</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                </se:Rule>
+            </se:FeatureTypeStyle>
+          
+          
           <!-- Avenidas z13 -->
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -579,7 +630,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.9</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                           <se:SvgParameter name="stroke-opacity">0.9</se:SvgParameter>
@@ -726,6 +777,48 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
+          <!-- Primary z12 -->
+            <se:FeatureTypeStyle>
+                <se:Rule>
+                    <se:Name>ter, sec, prim, _link</se:Name>
+                    <se:Description>
+                        <se:Title>ter, sec, prim, _link</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>primary</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>primary_link</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>100001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                          <se:SvgParameter name="stroke-opacity">0.7</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                          <se:SvgParameter name="stroke-opacity">0.9</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                </se:Rule>
+            </se:FeatureTypeStyle>
+          
           
                     <!-- Primary z13 -->
             <se:FeatureTypeStyle>
@@ -1668,4 +1761,3 @@
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>
-            
