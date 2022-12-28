@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
-xmlns:xlink="http://www.w3.org/1999/xlink" 
-xmlns:ogc="http://www.opengis.net/ogc" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
 xmlns:se="http://www.opengis.net/se">
   <NamedLayer>
     <se:Name>osm_vial</se:Name>
     <UserStyle>
       <se:Name>osm_vial</se:Name>
       <se:FeatureTypeStyle>
-        
+
         <!--RUTA LINK TERCIARIA ZOOM 12 -->
-        
+
          <se:Rule>
           <se:Name>tertiary_link</se:Name>
           <se:Description>
@@ -35,9 +35,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--RUTA LINK TERCIARIA ZOOM 13 -->
-        
+
         <se:Rule>
           <se:Name>tertiary_link</se:Name>
           <se:Description>
@@ -61,9 +61,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--RUTA LINK TERCIARIA ZOOM 14 Y 15 -->
-        
+
         <se:Rule>
           <se:Name>tertiary_link</se:Name>
           <se:Description>
@@ -87,9 +87,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
          <!--RUTA LINK TERCIARIA ZOOM 16 Y 17 -->
-        
+
         <se:Rule>
           <se:Name>tertiary_link</se:Name>
           <se:Description>
@@ -113,10 +113,10 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--RUTA LINK TERCIARIA ZOOM 18 Y 21-->
-        
-        
+
+
         <se:Rule>
           <se:Name>tertiary_link</se:Name>
           <se:Description>
@@ -138,11 +138,11 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-opacity">0.3</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>                
+        </se:Rule>
       </se:FeatureTypeStyle>
-      
+
       <!--RUTA LINK SECUNDARIA ZOOM 12 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>secondary_link</se:Name>
@@ -168,9 +168,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
       <!--RUTA LINK SECUNDARIA ZOOM 13 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>secondary_link</se:Name>
@@ -195,9 +195,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--RUTA LINK SECUNDARIA ZOOM 14 Y 15 -->
-        
+
         <se:Rule>
           <se:Name>secondary_link</se:Name>
           <se:Description>
@@ -221,10 +221,10 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--RUTA LINK SECUNDARIA ZOOM 16  -->
-        
-        
+
+
         <se:Rule>
           <se:Name>secondary_link</se:Name>
           <se:Description>
@@ -248,9 +248,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--RUTA LINK SECUNDARIA ZOOM 17 Y MÁS -->
-        
+
         <se:Rule>
           <se:Name>secondary_link</se:Name>
           <se:Description>
@@ -274,9 +274,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
       <!--RUTA LINK PRIMARIA ZOOM 13 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>primary_link</se:Name>
@@ -301,10 +301,10 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
-        
+
+
           <!--RUTA LINK PRIMARIA ZOOM 14 Y 15 -->
-        
+
         <se:Rule>
           <se:Name>primary_link</se:Name>
           <se:Description>
@@ -320,7 +320,7 @@ xmlns:se="http://www.opengis.net/se">
           <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#DFDFDF</se:SvgParameter> 
+              <se:SvgParameter name="stroke">#DFDFDF</se:SvgParameter>
               <se:SvgParameter name="stroke-width">1.3</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
@@ -328,10 +328,10 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
-        
+
+
         <!--RUTA LINK PRIMARIA ZOOM 16 -->
-        
+
         <se:Rule>
           <se:Name>primary_link</se:Name>
           <se:Description>
@@ -360,9 +360,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--RUTA LINK PRIMARIA ZOOM 17 Y MÁS -->
-        
+
         <se:Rule>
           <se:Name>primary_link</se:Name>
           <se:Description>
@@ -394,10 +394,10 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
-      
+
+
       <!--LINK RUTA PRINCIPAL ZOOM 13 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>trunk_link</se:Name>
@@ -421,11 +421,11 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
-        
+
+
         <!--LINK RUTA PRINCIPAL ZOOM 14 Y 15 -->
-        
-        
+
+
         <se:Rule>
           <se:Name>trunk_link</se:Name>
           <se:Description>
@@ -448,11 +448,11 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
-        
+
+
          <!--LINK RUTA PRINCIPAL ZOOM 16 -->
-        
-        
+
+
         <se:Rule>
           <se:Name>trunk_link</se:Name>
           <se:Description>
@@ -483,11 +483,11 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
-        
+
+
         <!--LINK RUTA PRINCIPAL ZOOM 17 O MÁS -->
-        
-        
+
+
         <se:Rule>
           <se:Name>trunk_link</se:Name>
           <se:Description>
@@ -518,10 +518,10 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
-      
+
+
       <!--LINK RUTA PRINCIPAL ZOOM 17 O MÁS -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>motorway_link</se:Name>
@@ -542,14 +542,14 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-              
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--LINK A AUTOPISTA ZOOM 14 Y 15 -->
-        
-        
+
+
         <se:Rule>
           <se:Name>motorway_link</se:Name>
           <se:Description>
@@ -569,14 +569,14 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">2.8</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-             
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
-        
+
+
         <!--LINK A AUTOPISTA ZOOM 16 -->
-        
+
         <se:Rule>
           <se:Name>motorway_link</se:Name>
           <se:Description>
@@ -600,7 +600,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke">#919191</se:SvgParameter>
               <se:SvgParameter name="stroke-width">4.5</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              
+
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer>
@@ -611,10 +611,10 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>  
-        
+        </se:Rule>
+
           <!--LINK A AUTOPISTA ZOOM 17 O MÁS -->
-        
+
         <se:Rule>
           <se:Name>motorway_link</se:Name>
           <se:Description>
@@ -641,11 +641,11 @@ xmlns:se="http://www.opengis.net/se">
 
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>              
+        </se:Rule>
       </se:FeatureTypeStyle>
-      
+
       <!--SENTIDO DE CIRCULACIÓN ZOOM 18 O MAS -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>sentido de circulación</se:Name>
@@ -690,9 +690,9 @@ xmlns:se="http://www.opengis.net/se">
             <se:VendorOption name="maxAngleDelta">1</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
-        
+
         <!--NOMBRE DE CALLES ZOOM 17 O MAS -->
-        
+
        <se:Rule>
           <se:Name>nombre</se:Name>
           <se:Description>
@@ -710,7 +710,7 @@ xmlns:se="http://www.opengis.net/se">
             <se:LabelPlacement>
               <se:LinePlacement>
                 <se:GeneralizeLine>true</se:GeneralizeLine>
-                
+
               </se:LinePlacement>
             </se:LabelPlacement>
             <se:Halo>
@@ -725,13 +725,13 @@ xmlns:se="http://www.opengis.net/se">
             <se:VendorOption name="group">yes</se:VendorOption>
             <se:VendorOption name="followLine">true</se:VendorOption>
           </se:TextSymbolizer>
-        </se:Rule> 
+        </se:Rule>
       </se:FeatureTypeStyle>
-      
+
       <!-- TUNELES -->
-      
+
       <!-- TUNELES EN RUTAS SECUNDARIAS ZOOM 17 O MÁS-->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>túneles secondary,secondary_link</se:Name>
@@ -775,9 +775,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
           <!-- TUNELES EN RUTAS PRIMARIA ZOOM 17 O MÁS-->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>túneles primary,primary_link</se:Name>
@@ -821,9 +821,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
       <!-- TUNELES EN AUTOPISTA ZOOM 16-->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>túneles en trunk, trunk_link</se:Name>
@@ -867,9 +867,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
                  <!-- TUNELES EN AUTOPISTA ZOOM 17 O MÁS-->
-        
+
         <se:Rule>
           <se:Name>túneles en trunk, trunk_link</se:Name>
           <se:Description>
@@ -912,10 +912,10 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
-      
+
+
        <!-- TUNELES EN AUTOPISTA ZOOM 17 O MÁS -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>túneles en motorway, motorway_link</se:Name>
@@ -959,9 +959,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
        <!-- TRAZADO URBANO ZOOM 12 -->
-      
+
       <se:FeatureTypeStyle>
           <se:Rule>
           <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
@@ -1001,13 +1001,13 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                <se:SvgParameter name="opacity">0.6</se:SvgParameter>
-             
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- TRAZADO URBANO ZOOM 13 O 14 -->
-        
+
         <se:Rule>
           <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
           <se:Description>
@@ -1049,9 +1049,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- TRAZADO URBANO ZOOM 15 -->
-        
+
         <se:Rule>
           <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
           <se:Description>
@@ -1089,13 +1089,13 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
-              
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- TRAZADO URBANO ZOOM 16 -->
-        
+
         <se:Rule>
           <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
           <se:Description>
@@ -1133,13 +1133,13 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
-             
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- TRAZADO URBANO ZOOM 17 O MÁS -->
-        
+
         <se:Rule>
           <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
           <se:Description>
@@ -1176,14 +1176,14 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
               <!-- <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> -->
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-             
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
       <!-- TERCIARIO ZOOM 12 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>tertiary</se:Name>
@@ -1213,9 +1213,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- TERCIARIO ZOOM 13 -->
-        
+
         <se:Rule>
           <se:Name>tertiary</se:Name>
           <se:Description>
@@ -1239,9 +1239,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- TERCIARIO ZOOM 14 Y 15 -->
-        
+
         <se:Rule>
           <se:Name>tertiary</se:Name>
           <se:Description>
@@ -1271,9 +1271,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
          <!-- TERCIARIO ZOOM 16-->
-        
+
         <se:Rule>
           <se:Name>tertiary</se:Name>
           <se:Description>
@@ -1302,10 +1302,10 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
-        
+
+
         <!-- TERCIARIO ZOOM 17 O MÁS-->
-        
+
         <se:Rule>
           <se:Name>tertiary</se:Name>
           <se:Description>
@@ -1332,11 +1332,11 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-opacity">0.7</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>                
+        </se:Rule>
       </se:FeatureTypeStyle>
-      
+
        <!-- SECUNDARIO ZOOM 12 -->
-      
+
       <se:FeatureTypeStyle>
                 <se:Rule>
           <se:Name>secondary</se:Name>
@@ -1361,9 +1361,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
          <!-- SECUNDARIO ZOOM 13 -->
-        
+
         <se:Rule>
           <se:Name>secondary</se:Name>
           <se:Description>
@@ -1387,9 +1387,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
          <!-- SECUNDARIO ZOOM 14 Y 15 -->
-        
+
         <se:Rule>
           <se:Name>secondary</se:Name>
           <se:Description>
@@ -1413,9 +1413,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
          <!-- SECUNDARIO ZOOM 16 -->
-        
+
         <se:Rule>
           <se:Name>secondary</se:Name>
           <se:Description>
@@ -1447,9 +1447,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
          <!-- SECUNDARIO ZOOM 17 O MÁS -->
-        
+
         <se:Rule>
           <se:Name>secondary</se:Name>
           <se:Description>
@@ -1481,9 +1481,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
        <!-- PRIMARIO ZOOM 13 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>primary</se:Name>
@@ -1497,7 +1497,7 @@ xmlns:se="http://www.opengis.net/se">
               </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>50001</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#AFAFAF</se:SvgParameter>
@@ -1508,9 +1508,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
           <!-- PRIMARIO ZOOM 14 Y 15 -->
-        
+
         <se:Rule>
           <se:Name>primary</se:Name>
           <se:Description>
@@ -1534,9 +1534,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- PRIMARIO ZOOM 16 -->
-        
+
         <se:Rule>
           <se:Name>primary</se:Name>
           <se:Description>
@@ -1565,9 +1565,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
          <!-- PRIMARIO ZOOM 17 O MAS -->
-        
+
         <se:Rule>
           <se:Name>primary</se:Name>
           <se:Description>
@@ -1599,9 +1599,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
        <!-- RUTA PRINCIPAL ZOOM 13 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>trunk</se:Name>
@@ -1622,13 +1622,13 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
-         
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- RUTA PRINCIPAL ZOOM 14 Y 15 -->
-        
+
         <se:Rule>
           <se:Name>trunk</se:Name>
           <se:Description>
@@ -1651,9 +1651,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- RUTA PRINCIPAL ZOOM 16 -->
-        
+
         <se:Rule>
           <se:Name>trunk</se:Name>
           <se:Description>
@@ -1684,9 +1684,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- RUTA PRINCIPAL ZOOM 17 O MAS -->
-        
+
         <se:Rule>
           <se:Name>trunk</se:Name>
           <se:Description>
@@ -1717,9 +1717,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
       <!-- AUTOPISTA ZOOM 13 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>motorway</se:Name>
@@ -1740,13 +1740,13 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-             
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- AUTOPISTA ZOOM 15 Y 14-->
-        
+
         <se:Rule>
           <se:Name>motorway</se:Name>
           <se:Description>
@@ -1766,13 +1766,13 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">2.8</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-              
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!-- AUTOPISTA ZOOM 16 -->
-        
+
         <se:Rule>
           <se:Name>motorway</se:Name>
           <se:Description>
@@ -1796,7 +1796,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke">#919191</se:SvgParameter>
               <se:SvgParameter name="stroke-width">4.5</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-               
+
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer>
@@ -1805,13 +1805,13 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">4</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-             
+
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>  
-        
+        </se:Rule>
+
         <!-- AUTOPISTA ZOOM 17 O MÁS -->
-        
+
         <se:Rule>
           <se:Name>motorway</se:Name>
           <se:Description>
@@ -1834,7 +1834,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke">#919191</se:SvgParameter>
               <se:SvgParameter name="stroke-width">6.2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              
+
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1843,18 +1843,18 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">6</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-             
+
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>              
+        </se:Rule>
       </se:FeatureTypeStyle>
-      
-      
-      
+
+
+
       <!-- bridge -->
-      
+
       <!--   PUENTE TRAZADO URBANO ZOOM 16 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
@@ -1889,7 +1889,7 @@ xmlns:se="http://www.opengis.net/se">
                 <ogc:PropertyIsNull>
                   <ogc:PropertyName>bridge</ogc:PropertyName>
                 </ogc:PropertyIsNull>
-              </ogc:Not>  
+              </ogc:Not>
             </ogc:And>
           </ogc:Filter>
           <se:MinScaleDenominator>5001</se:MinScaleDenominator>
@@ -1900,7 +1900,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
-              
+
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer>
@@ -1912,9 +1912,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
          <!--   PUENTE TRAZADO URBANO ZOOM 17 O MÁS -->
-        
+
         <se:Rule>
           <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
           <se:Description>
@@ -1948,7 +1948,7 @@ xmlns:se="http://www.opengis.net/se">
                 <ogc:PropertyIsNull>
                   <ogc:PropertyName>bridge</ogc:PropertyName>
                 </ogc:PropertyIsNull>
-              </ogc:Not> 
+              </ogc:Not>
             </ogc:And>
           </ogc:Filter>
           <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
@@ -1968,11 +1968,11 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-      </se:FeatureTypeStyle> 
-      
+      </se:FeatureTypeStyle>
+
        <!--   PUENTE EN RUTAS TERCIARIAS ZOOM 16 -->
-        
-      
+
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>tertiary, tertiary_link</se:Name>
@@ -2018,12 +2018,12 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
-        
+
+
          <!--   PUENTE EN RUTAS TERCIARIAS ZOOM 17 O MÁS-->
-        
-        
-        <se:Rule>         
+
+
+        <se:Rule>
           <se:Name>tertiary, tertiary_link</se:Name>
           <se:Description>
             <se:Title>tertiary, tertiary_link</se:Title>
@@ -2067,9 +2067,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
       <!--   PUENTE EN RUTAS SECUNDARIAS ZOOM 16 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>secondary,secondary_link</se:Name>
@@ -2115,9 +2115,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
          <!--   PUENTE EN RUTAS SECUNDARIAS ZOOM 17 O MAS -->
-        
+
         <se:Rule>
           <se:Name>secondary,secondary_link</se:Name>
           <se:Description>
@@ -2162,9 +2162,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
        <!--   PUENTE EN RUTAS PRIMARIAS ZOOM 16 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>primary,primary_link</se:Name>
@@ -2201,9 +2201,9 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-opacity">0.7</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-          
-          
-          
+
+
+
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#DFDFDF</se:SvgParameter>
@@ -2214,9 +2214,9 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--   PUENTE EN RUTAS PRIMARIAS ZOOM 17 O MÁS -->
-        
+
         <se:Rule>
           <se:Name>primary,primary_link</se:Name>
           <se:Description>
@@ -2262,9 +2262,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
        <!--   PUENTE EN RUTAS PRINCIPAL ZOOM 16 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>trunk , trunk_link</se:Name>
@@ -2309,10 +2309,10 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
-         
+
+
        <!--   PUENTE EN RUTAS PRINCIPAL ZOOM 17 O MÁS -->
-        
+
         <se:Rule>
           <se:Name>trunk , trunk_link</se:Name>
           <se:Description>
@@ -2355,9 +2355,9 @@ xmlns:se="http://www.opengis.net/se">
           </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
-      
+
        <!--   PUENTE EN AUTOPISTAS ZOOM 16 -->
-      
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>puentes en motorway, motorway_link</se:Name>
@@ -2390,7 +2390,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke">#919191</se:SvgParameter>
               <se:SvgParameter name="stroke-width">4.5</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-             
+
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer>
@@ -2399,13 +2399,13 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">4</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-          
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <!--   PUENTE EN AUTOPISTAS ZOOM 17 O MÁS -->
-        
+
         <se:Rule>
           <se:Name>puentes en motorway, motorway_link</se:Name>
           <se:Description>
@@ -2436,7 +2436,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke">#919191</se:SvgParameter>
               <se:SvgParameter name="stroke-width">6.2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-          
+
             </se:Stroke>
           </se:LineSymbolizer>
           <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -2445,17 +2445,17 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-width">6</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-        
+
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
      </se:FeatureTypeStyle>
-      
-      
-      
+
+
+
       <!-- Fin bridge -->
-      
-      
+
+
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
