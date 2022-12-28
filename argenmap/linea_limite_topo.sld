@@ -568,10 +568,10 @@
                                 <ogc:PropertyName>entidad</ogc:PropertyName><!--limite mar territorial argentino nam u objeto igual -->
                                 <ogc:Literal>4</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName> <!-- limite de aguas interiores nam u objeto igual -->
+                          <!--  <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>  limite de aguas interiores nam u objeto igual 
                                 <ogc:Literal>3</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            </ogc:PropertyIsEqualTo> -->
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite lateral maritimo argentino-uruguayo a etiquetar: objeto-->
                                 <ogc:Literal>2</ogc:Literal>

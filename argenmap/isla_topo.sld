@@ -14,17 +14,11 @@
                     <se:Description>
                         <se:Title>isla</se:Title>
                     </se:Description>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>3</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>Isla Grande de Tierra del Fuego</ogc:Literal>
+                       <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                             <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>gid</ogc:PropertyName>
+                                <ogc:Literal>3912</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
-                        </ogc:And>
                     </ogc:Filter>
                   <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>

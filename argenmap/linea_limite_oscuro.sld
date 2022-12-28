@@ -519,10 +519,10 @@
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>4</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
+                          <!--  <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>3</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
+                            </ogc:PropertyIsEqualTo> -->
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>2</ogc:Literal>
@@ -541,7 +541,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11.5</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -551,13 +551,13 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>2.5</se:Radius>
+                            <se:Radius>1.5</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                <se:SvgParameter name="fill">#333333</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#333333</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
