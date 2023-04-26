@@ -20,7 +20,7 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Trebuchet MS Bold Italic</se:SvgParameter>
                             <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -33,9 +33,10 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>1.1</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
@@ -43,7 +44,7 @@
                         </se:Fill>
                       <se:VendorOption name="autoWrap">70</se:VendorOption>
                       <se:VendorOption name="spaceAround">80</se:VendorOption>
-                      <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                      <se:VendorOption name="charSpacing">0.25</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
                <!-- Etiquetas glaciares z12 - 136k-->
@@ -55,7 +56,7 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Trebuchet MS Bold Italic</se:SvgParameter>
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -68,7 +69,7 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>1.1</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                             </se:Fill>
@@ -76,12 +77,12 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
-                      <se:VendorOption name="autoWrap">70</se:VendorOption>
-                      <se:VendorOption name="spaceAround">50</se:VendorOption>
-                      <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                      <se:VendorOption name="autoWrap">60</se:VendorOption>
+                      <se:VendorOption name="spaceAround">40</se:VendorOption>
+                      <se:VendorOption name="charSpacing">0.1</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-               <!-- Etiquetas cerros desde z13 - 68k-->
+               <!-- Etiquetas  desde z13 - 68k-->
                 <se:Rule>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
@@ -90,8 +91,8 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Trebuchet MS Bold Italic</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -103,7 +104,7 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>1.1</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                             </se:Fill>
@@ -111,9 +112,9 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
-                      <se:VendorOption name="autoWrap">70</se:VendorOption>
+                      <se:VendorOption name="autoWrap">60</se:VendorOption>
                       <se:VendorOption name="spaceAround">5</se:VendorOption>
-                      <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                      <se:VendorOption name="charSpacing">0.1</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

@@ -56,7 +56,7 @@
                             <ogc:Literal>10</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator> <!-- 2M - z8 -->
+                    <se:MaxScaleDenominator>2800000</se:MaxScaleDenominator> <!-- 2M - z8 -->
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#f7f7f7</se:SvgParameter>
@@ -107,8 +107,8 @@
                     <se:MaxScaleDenominator>40000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#f7f7f7</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.05</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.38</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">3 1</se:SvgParameter>
@@ -522,20 +522,21 @@
                     <se:MaxScaleDenominator>75000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.3</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#880ffa</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.7</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#5f0b99</se:SvgParameter> <!--5f0b99 160024 -->
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter> <!--5f0b99 160024 -->
                             <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                          <se:SvgParameter name="stroke-dasharray">5 3 1 3</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -562,20 +563,21 @@
                     <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.3</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#880ffa</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.6</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#5f0b99</se:SvgParameter> <!--5f0b99 160024 -->
-                            <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter> <!--5f0b99 160024 -->
+                            <se:SvgParameter name="stroke-opacity">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1.6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                          <se:SvgParameter name="stroke-dasharray">5 5 1 5</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -642,7 +644,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -653,15 +655,18 @@
                         <se:Halo>
                             <se:Radius>2.5</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                <se:SvgParameter name="fill">#03293e</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.35</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#007af2</se:SvgParameter>
+                            <se:SvgParameter name="fill">#d2edf5</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.5</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.05</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
@@ -673,7 +678,7 @@
                                 <ogc:Literal>7</ogc:Literal><!-- limite exterior de la plataforma continental  -->
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName> 
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>14</ogc:Literal> <!-- 200 millas desde la costa del sector antartico argentino-->
                             </ogc:PropertyIsEqualTo>
                           <!--  <ogc:PropertyIsEqualTo>
@@ -693,7 +698,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -704,15 +709,18 @@
                         <se:Halo>
                             <se:Radius>2.5</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                <se:SvgParameter name="fill">#03293e</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.35</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#007af2</se:SvgParameter>
+                            <se:SvgParameter name="fill">#d2edf5</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.5</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.05</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
@@ -735,7 +743,7 @@
                                     <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName> 
+                                    <ogc:PropertyName>nam</ogc:PropertyName>
                                     <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                               </ogc:Or>
@@ -749,7 +757,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -760,15 +768,18 @@
                         <se:Halo>
                             <se:Radius>1</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#130f16</se:SvgParameter>
+                                <se:SvgParameter name="fill">#03293e</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.35</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                            <se:SvgParameter name="fill">#d2edf5</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.5</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.05</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
