@@ -9,30 +9,33 @@
           <se:Name>area_vuelos_dsr</se:Name>
           <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#001cff</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
-            </se:Fill>
+
+
+          <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#001cff</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
+              <se:SvgParameter name="stroke">#1edf47</se:SvgParameter>
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
-          </se:PolygonSymbolizer>
+          </se:LineSymbolizer>
         </se:Rule>
+
+
         <se:Rule>
           <se:Name>area_vuelos_dsr</se:Name>
           <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
-          <se:PolygonSymbolizer>
+
+          <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#001cff</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+              <se:SvgParameter name="stroke">#1edf47</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
-          </se:PolygonSymbolizer>
+          </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
     </UserStyle>
