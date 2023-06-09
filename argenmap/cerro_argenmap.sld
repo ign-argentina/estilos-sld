@@ -295,7 +295,7 @@
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[]]>
-                            (<ogc:PropertyName>entidad</ogc:PropertyName>)
+                            (<ogc:PropertyName>alt</ogc:PropertyName>)
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
@@ -472,7 +472,7 @@
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[]]>
-                            (<ogc:PropertyName>entidad</ogc:PropertyName>)
+                            (<ogc:PropertyName>alt</ogc:PropertyName>)
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
@@ -641,7 +641,7 @@
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[]]>
-                            (<ogc:PropertyName>entidad</ogc:PropertyName>)
+                            (<ogc:PropertyName>alt</ogc:PropertyName>)
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
@@ -763,7 +763,7 @@
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[]]>
-                            (<ogc:PropertyName>entidad</ogc:PropertyName>)
+                            (<ogc:PropertyName>alt</ogc:PropertyName>)
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
@@ -859,7 +859,7 @@
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[]]>
-                            (<ogc:PropertyName>entidad</ogc:PropertyName>)
+                            (<ogc:PropertyName>alt</ogc:PropertyName>)
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
