@@ -211,10 +211,12 @@
                                 <se:Stroke>
                                     <se:SvgParameter name="stroke">#232323</se:SvgParameter>
                                     <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+
                                 </se:Stroke>
                             </se:Mark>
                             <se:Size>12</se:Size>
                         </se:Graphic>
+
                     </se:PointSymbolizer>
                     <se:PointSymbolizer>
                         <se:Graphic>
@@ -365,7 +367,7 @@
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
-                </se:Rule> 
+                </se:Rule>
             </se:FeatureTypeStyle>
 
             <se:FeatureTypeStyle>
@@ -619,11 +621,12 @@
                             <se:SvgParameter name="fill">#464646</se:SvgParameter>
                           <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
                         </se:Fill>
+                        <se:Priority>4</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
                <!--Etiquetas capitales provinciales corrientes z7-->
 
                 <se:Rule>
@@ -659,7 +662,7 @@
                                 <se:Displacement>
                                     <se:DisplacementX>25</se:DisplacementX>
                                     <se:DisplacementY>25</se:DisplacementY>
-                                </se:Displacement> 
+                                </se:Displacement>
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
@@ -673,6 +676,7 @@
                             <se:SvgParameter name="fill">#464646</se:SvgParameter>
                           <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
                         </se:Fill>
+                         <se:Priority>4</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
@@ -712,7 +716,7 @@
                                 <se:Displacement>
                                     <se:DisplacementX>25</se:DisplacementX>
                                     <se:DisplacementY>30</se:DisplacementY>
-                                </se:Displacement> 
+                                </se:Displacement>
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
@@ -724,11 +728,12 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#464646</se:SvgParameter>
                         </se:Fill>
+                         <se:Priority>4</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
                 <!--Etiquetas capitales provinciales parana z7-->
 
                 <se:Rule>
@@ -764,7 +769,7 @@
                                 <se:Displacement>
                                     <se:DisplacementX>25</se:DisplacementX>
                                     <se:DisplacementY>25</se:DisplacementY>
-                                </se:Displacement> 
+                                </se:Displacement>
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
@@ -778,11 +783,12 @@
                             <se:SvgParameter name="fill">#464646</se:SvgParameter>
                           <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
                         </se:Fill>
+                          <se:Priority>4</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
                 <!--Etiquetas capitales provinciales SMT z7-->
 
                 <se:Rule>
@@ -818,7 +824,7 @@
                                 <se:Displacement>
                                     <se:DisplacementX>15</se:DisplacementX>
                                     <se:DisplacementY>55</se:DisplacementY>
-                                </se:Displacement> 
+                                </se:Displacement>
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
@@ -832,11 +838,12 @@
                             <se:SvgParameter name="fill">#464646</se:SvgParameter>
                           <se:SvgParameter name="fill-opacity">0.65</se:SvgParameter>
                         </se:Fill>
+                        <se:Priority>4</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
               <!--Etiquetas capitales provinicales desde z8-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -845,6 +852,7 @@
                             <ogc:Literal>2</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                  <se:MinScaleDenominator>60000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
@@ -872,12 +880,62 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#464646</se:SvgParameter>
                         </se:Fill>
+                        <se:Priority>4</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                      <se:VendorOption name="conflictResolution">false</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
+
+             <!--Cabecera departamento o partido ca1=1 z9-->
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ca1</ogc:PropertyName>
+                            <ogc:Literal>1</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>400000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>850000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                           <!-- <se:SvgParameter name="font-weight">bold</se:SvgParameter> -->
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.6</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>0.5</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFF7EE</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.75</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#575757</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">0.75</se:SvgParameter>
+                        </se:Fill>
+                        <se:Priority>3</se:Priority>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.1</se:VendorOption>
+                        <se:VendorOption name="spaceAround">20</se:VendorOption>
+                      <se:VendorOption name="partials">true</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+
               <!--Cabecera departamento o partido ca1=1 z11 y z12-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -887,7 +945,7 @@
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>350000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
@@ -914,6 +972,7 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#575757</se:SvgParameter>
                         </se:Fill>
+                        <se:Priority>3</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.1</se:VendorOption>
                     </se:TextSymbolizer>
@@ -990,10 +1049,12 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#464646</se:SvgParameter>
                         </se:Fill>
+                        <se:Priority>2</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+
 
             <!-- Etiquetas localidades zoom 11 -->
             <se:FeatureTypeStyle>
@@ -1059,8 +1120,9 @@
                         </se:Halo>
                         <se:Fill>
                             <se:SvgParameter name="fill">#464646 </se:SvgParameter>
-                            <se:SvgParameter name="fill-opacity">0.7</se:SvgParameter>
+                            <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
                         </se:Fill>
+                        <se:Priority>2</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="spaceAround">50</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.7</se:VendorOption>
@@ -1114,7 +1176,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11.5</se:SvgParameter>
                             <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -1135,6 +1197,7 @@
                             <se:SvgParameter name="fill">#676767 </se:SvgParameter>
                             <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                         </se:Fill>
+                        <se:Priority>2</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="spaceAround">40</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.6</se:VendorOption>
@@ -1201,6 +1264,7 @@
                             <se:SvgParameter name="fill">#787878</se:SvgParameter>
                             <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
                         </se:Fill>
+                        <se:Priority>2</se:Priority>
                         <se:VendorOption name="autoWrap">80</se:VendorOption>
                         <se:VendorOption name="spaceAround">15</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.35</se:VendorOption>

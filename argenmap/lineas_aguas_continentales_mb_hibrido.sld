@@ -60,7 +60,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#B0D1EE</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.02</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -88,9 +88,9 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#B0D1EE</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.02</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.02</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -166,8 +166,8 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Serif.bolditalic</se:SvgParameter>
+                            <se:SvgParameter name="font-size">10</se:SvgParameter>
                             <se:SvgParameter name="font-style">normal</se:SvgParameter>
                             <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
@@ -177,19 +177,19 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>2</se:Radius>
+                            <se:Radius>1.5</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#d3e9fc</se:SvgParameter>
+                                <se:SvgParameter name="fill">#dbe5ed</se:SvgParameter>
                                 <se:SvgParameter name="fill-opacity">0.60</se:SvgParameter> <!-- 79B0DE  243d53 d3e9fc-->
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#584B83</se:SvgParameter>
+                            <se:SvgParameter name="fill">#315289</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
-                        <se:VendorOption name="charSpacing">2.3</se:VendorOption>
+                        <se:VendorOption name="charSpacing">4</se:VendorOption>
                         <se:VendorOption name="wordSpacing">3</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:se="http://www.opengis.net/se" 
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:se="http://www.opengis.net/se"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
         <se:Name>areas_de_aguas_continentales</se:Name>
@@ -20,7 +20,7 @@
                       <ogc:PropertyIsEqualTo>
                         <ogc:PropertyName>fna</ogc:PropertyName>
                         <ogc:Literal>Lago Argentino</ogc:Literal>
-                      </ogc:PropertyIsEqualTo>                                  
+                      </ogc:PropertyIsEqualTo>
                       <ogc:PropertyIsEqualTo>
                         <ogc:PropertyName>fna</ogc:PropertyName>
                         <ogc:Literal>Lago Viedma</ogc:Literal>
@@ -123,6 +123,30 @@
                       </ogc:PropertyIsEqualTo>
                       <ogc:PropertyIsEqualTo>
                         <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Rí­o Paraná</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Río Paranacito</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                       <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Río Paraná Miní</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                       <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Río Paraná Guazú</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                       <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Río Paraná de las Palmas</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                       <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Río Paraná Bravo</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
                         <ogc:Literal>Río Neuquén</ogc:Literal>
                       </ogc:PropertyIsEqualTo>
                       <ogc:PropertyIsEqualTo>
@@ -135,7 +159,7 @@
                       </ogc:PropertyIsEqualTo>
                       <ogc:PropertyIsEqualTo>
                         <ogc:PropertyName>fna</ogc:PropertyName>
-                        <ogc:Literal>Laguna Mar Chiquita (Ansenusa)</ogc:Literal>
+                        <ogc:Literal>Laguna Mar Chiquita (Ansenuza)</ogc:Literal>
                       </ogc:PropertyIsEqualTo>
                       <ogc:PropertyIsEqualTo>
                         <ogc:PropertyName>fna</ogc:PropertyName>
@@ -145,18 +169,89 @@
                         <ogc:PropertyName>fna</ogc:PropertyName>
                         <ogc:Literal>Laguna Galarza</ogc:Literal>
                       </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Laguna del Monte</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Laguna Alsina</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Laguna del Venado</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Laguna Cochicó</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
                     </ogc:Or>
                   </ogc:Filter>
                   <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
                   <se:MaxScaleDenominator>33000000</se:MaxScaleDenominator>
                   <se:PolygonSymbolizer>
                     <se:Fill>
-                      <se:SvgParameter name="fill">#c6dff5</se:SvgParameter>  
+                      <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter>
+                      <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
+                    </se:Fill>
+                  </se:PolygonSymbolizer>
+                </se:Rule>
+
+               <!-- <se:Rule>
+                   zoom 5 a zoom 7 Lagos principales
+                  <se:Name/>
+                   <se:Description>
+                        <se:Title>principales</se:Title>
+                   </se:Description>
+                  <ogc:Filter>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Río Paraná</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                  </ogc:Filter>
+                  <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
+                  <se:MaxScaleDenominator>33000000</se:MaxScaleDenominator>
+                  <se:PolygonSymbolizer>
+                    <se:Fill>
+                      <se:SvgParameter name="fill">#9b00ff</se:SvgParameter>
+                      <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
+                    </se:Fill>
+                  </se:PolygonSymbolizer>
+                </se:Rule> -->
+
+              <se:Rule>
+                  <!-- zoom 5 en adelante Lagos intermitentes principales -->
+                  <se:Name/>
+                   <se:Description>
+                        <se:Title>principales</se:Title>
+                   </se:Description>
+                  <ogc:Filter>
+                    <ogc:Or>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Laguna La Picasa</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Lago Colhué Huapi</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+
+
+  	                  </ogc:Or>
+                  </ogc:Filter>
+                  <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                  <se:MaxScaleDenominator>33000000</se:MaxScaleDenominator>
+                  <se:PolygonSymbolizer>
+                    <se:Fill>
+                      <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter> <!--c6dff5-->
                       <se:SvgParameter name="fill-opacity">0.75</se:SvgParameter>
                     </se:Fill>
                   </se:PolygonSymbolizer>
                 </se:Rule>
-              <!-- zoom 8 a zoom 10 rio de la plata y otros-->
+
+
+
+              <!-- zoom 8 a zoom 10 rio de la plata y otros -->
                 <se:Rule>
                     <se:Name>areas_aguas_continentales_capa_base</se:Name>
                     <se:Description>
@@ -190,12 +285,12 @@
                     <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter> <!--C6DFF5 -->
+                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter>
                           <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
                         </se:Fill>
                     </se:PolygonSymbolizer>
                 </se:Rule>
-              
+
               <!-- desde z11 rio de la plata y otros-->
                 <se:Rule>
                     <se:Name>areas_aguas_continentales_capa_base</se:Name>
@@ -212,11 +307,11 @@
                     <se:MaxScaleDenominator>300000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter> 
+                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter>
                         </se:Fill>
                     </se:PolygonSymbolizer>
                 </se:Rule>
-              
+
               <!--Esteros desde z10-->
                 <se:Rule>
                     <se:Name>areas_aguas_continentales_capa_base</se:Name>
@@ -231,9 +326,9 @@
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
-                   <se:PolygonSymbolizer>      
+                   <se:PolygonSymbolizer>
                  <se:Stroke>
-                   <se:SvgParameter name="stroke">#B5A77C</se:SvgParameter> <!--B5A77C -->
+                   <se:SvgParameter name="stroke">#C6DFF5</se:SvgParameter> <!--B5A77C -->
                    <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                    <se:SvgParameter name="stroke-dasharray">10 2 1 2</se:SvgParameter>
                  </se:Stroke>
@@ -245,7 +340,7 @@
                            <se:Mark>
                              <se:WellKnownName>shape://horline</se:WellKnownName>
                              <se:Stroke>
-                               <se:SvgParameter name="stroke">#E9DAAB</se:SvgParameter>
+                               <se:SvgParameter name="stroke">#C6DFF5</se:SvgParameter>
                                <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                              </se:Stroke>
                            </se:Mark>
@@ -253,9 +348,51 @@
                          </se:Graphic>
                        </se:GraphicFill>
                      </se:Fill>
-                  </se:PolygonSymbolizer>                   
+                  </se:PolygonSymbolizer>
                 </se:Rule>
-              
+
+               <!--Esteros z8 a z10-->
+
+               <se:Rule>
+                    <se:Name>areas_aguas_continentales_capa_base</se:Name>
+                    <se:Description>
+                        <se:Title>estero</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                            <ogc:Literal>Estero del Iberá</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>1000001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
+                   <se:PolygonSymbolizer>
+                  <se:Stroke>
+                   <se:SvgParameter name="stroke">#C6DFF5</se:SvgParameter>
+                   <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                   <se:SvgParameter name="stroke-dasharray">10 2 1 2</se:SvgParameter>
+                   <se:SvgParameter name="stroke-opacity">0.18</se:SvgParameter>
+                 </se:Stroke>
+                  </se:PolygonSymbolizer>
+                    <se:PolygonSymbolizer>
+                     <se:Fill>
+                       <se:GraphicFill>
+                         <se:Graphic>
+                           <se:Mark>
+                             <se:WellKnownName>shape://horline</se:WellKnownName>
+                             <se:Stroke>
+                               <se:SvgParameter name="stroke">#C6DFF5</se:SvgParameter>
+                               <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+                             </se:Stroke>
+                           </se:Mark>
+                           <se:Size>5</se:Size>
+                         </se:Graphic>
+                       </se:GraphicFill>
+                     </se:Fill>
+                  </se:PolygonSymbolizer>
+                </se:Rule>
+
+
               <!-- Bañados desde z7  - humedales
                 <se:Rule>
                     <se:Name>areas_aguas_continentales_capa_base</se:Name>
@@ -277,7 +414,7 @@
                            <se:Mark>
                              <se:WellKnownName>shape://horline</se:WellKnownName>
                              <se:Stroke>
-                               <se:SvgParameter name="stroke">#C6DFF5</se:SvgParameter> 
+                               <se:SvgParameter name="stroke">#C6DFF5</se:SvgParameter>
                                <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                              </se:Stroke>
                            </se:Mark>
@@ -285,11 +422,11 @@
                          </se:Graphic>
                        </se:GraphicFill>
                      </se:Fill>
-                   </se:PolygonSymbolizer>                   
+                   </se:PolygonSymbolizer>
                 </se:Rule>
-              
+
               Etiquetas bañados - humedales
-              
+
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>
@@ -329,7 +466,7 @@
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
                             <se:SvgParameter name="font-size">13</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
-                            <se:SvgParameter name="font-weight">regular</se:SvgParameter> 
+                            <se:SvgParameter name="font-weight">regular</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
                             <se:PointPlacement>
@@ -346,7 +483,7 @@
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#006bc2</se:SvgParameter> 
+                            <se:SvgParameter name="fill">#006bc2</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="group">yes</se:VendorOption>
                         <se:VendorOption name="autoWrap">50</se:VendorOption>

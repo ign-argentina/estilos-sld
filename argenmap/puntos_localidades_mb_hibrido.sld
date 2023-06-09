@@ -627,15 +627,9 @@
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-
-
-
-
-            <se:FeatureTypeStyle>
-
-
                               <!--Cabecera departamento o partido ca1=1 z9-->
 
+            <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -651,8 +645,8 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
-                          <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+                            <se:SvgParameter name="font-size">10.5</se:SvgParameter>
+                         <se:SvgParameter name="font-weight">bold</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:PointPlacement>
@@ -663,18 +657,19 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>1.2</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#262626</se:SvgParameter>
-                              <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
+                                <se:SvgParameter name="fill">#222222</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#f6f6f3</se:SvgParameter>
+                            <se:SvgParameter name="fill">#fafaf9</se:SvgParameter>
                             <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
-                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.5</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.1</se:VendorOption>
                         <se:VendorOption name="spaceAround">55</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -717,7 +712,7 @@
                             <se:SvgParameter name="fill">#f6f6f3</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
-                        <se:VendorOption name="charSpacing">0.1</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                         <se:VendorOption name="spaceAround">45</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -758,7 +753,7 @@
                             <se:SvgParameter name="fill">#f6f6f3</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
-                        <se:VendorOption name="charSpacing">0.1</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
               <!--Filtro etiquetas z8 a z11-->
@@ -813,7 +808,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12.5</se:SvgParameter>
                             <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -834,7 +829,7 @@
                             <se:SvgParameter name="fill">#f6f6f3</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
-                      <se:VendorOption name="charSpacing">0.1</se:VendorOption>
+                      <se:VendorOption name="charSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
@@ -874,7 +869,7 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
                            <!-- <se:SvgParameter name="font-weight">bold</se:SvgParameter> -->
                         </se:Font>
                         <se:LabelPlacement>
@@ -886,15 +881,15 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1.2</se:Radius>
+                            <se:Radius>1.4</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#262626</se:SvgParameter>
+                                <se:SvgParameter name="fill">#131313</se:SvgParameter>
                                 <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
                             <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-                          <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="spaceAround">150</se:VendorOption>
@@ -926,7 +921,7 @@
                             </ogc:PropertyIsNotEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>200000</se:MinScaleDenominator>
+                    <se:MinScaleDenominator>180000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>350000</se:MaxScaleDenominator> <!-- Localidades desde zoom 11 -->
                     <se:TextSymbolizer>
                         <se:Label>
@@ -946,10 +941,10 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1.2</se:Radius>
+                            <se:Radius>1.4</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
-                                <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
+                                <se:SvgParameter name="fill">#131313</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
@@ -987,7 +982,7 @@
                         </ogc:And>
                     </ogc:Filter>
                   <se:MinScaleDenominator>100000</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>170000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
@@ -1006,7 +1001,7 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1.2</se:Radius>
+                            <se:Radius>1.3</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#000000</se:SvgParameter>
                                 <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
@@ -1045,7 +1040,7 @@
                         </ogc:And>
                     </ogc:Filter>
                   <se:MinScaleDenominator>0</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>70000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>90000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
@@ -1053,7 +1048,7 @@
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>
-                           <!-- <se:SvgParameter name="font-weight">bold</se:SvgParameter> -->
+                            <se:SvgParameter name="font-weight">bold</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:PointPlacement>
@@ -1064,10 +1059,10 @@
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1.1</se:Radius>
+                            <se:Radius>1.5</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#000000</se:SvgParameter>
-                                <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.95</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
@@ -1075,7 +1070,7 @@
                         </se:Fill>
                         <se:VendorOption name="autoWrap">80</se:VendorOption>
                         <se:VendorOption name="spaceAround">15</se:VendorOption>
-                        <se:VendorOption name="charSpacing">1</se:VendorOption>
+                        <se:VendorOption name="charSpacing">1.1</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

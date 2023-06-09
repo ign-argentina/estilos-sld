@@ -24,7 +24,7 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                                <se:SvgParameter name="fill">#edf2f7</se:SvgParameter>
-                               <se:SvgParameter name="fill-opacity">0.99</se:SvgParameter>
+                               <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
                         </se:Fill>
                     </se:PolygonSymbolizer>
                 </se:Rule>
@@ -45,11 +45,11 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                                <se:SvgParameter name="fill">#f5f5f5</se:SvgParameter>
-                               <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
+                               <se:SvgParameter name="fill-opacity">0.3</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
                                <se:SvgParameter name="stroke">#d0e2f4</se:SvgParameter>
-                               <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                               <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
                         </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>

@@ -74,13 +74,12 @@
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
-
-                       <ogc:PropertyIsGreaterThan>
+                      <!-- <ogc:PropertyIsGreaterThan>
                                     <ogc:Function name="area">
                                     <ogc:PropertyName>geom</ogc:PropertyName>
                                     </ogc:Function>
                                     <ogc:Literal>5000000000000</ogc:Literal>
-                           </ogc:PropertyIsGreaterThan>
+                           </ogc:PropertyIsGreaterThan> -->
                           </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>24001</se:MinScaleDenominator>
@@ -117,12 +116,6 @@
                             <ogc:PropertyName>entidad</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
-                        <ogc:PropertyIsGreaterThan>
-                                    <ogc:Function name="area">
-                                    <ogc:PropertyName>geom</ogc:PropertyName>
-                                    </ogc:Function>
-                                    <ogc:Literal>5000000000000</ogc:Literal>
-                           </ogc:PropertyIsGreaterThan>
                           </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>

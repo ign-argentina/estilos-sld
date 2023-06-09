@@ -87,6 +87,11 @@
       <se:Label>
        <ogc:PropertyName>fna</ogc:PropertyName>
       </se:Label>
+             <se:Font>
+       <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+       <se:SvgParameter name="font-size">12</se:SvgParameter>
+      </se:Font>
+       
       <se:LabelPlacement>
        <se:PointPlacement>
         <se:AnchorPoint>
@@ -96,13 +101,15 @@
        </se:PointPlacement>
       </se:LabelPlacement>
       <se:Halo>
-       <se:Radius>1.5</se:Radius>
+       <se:Radius>1.3</se:Radius>
        <se:Fill>
-        <se:SvgParameter name="fill">#FEFEFE</se:SvgParameter>
+        <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+         <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
        </se:Fill>
       </se:Halo>
       <se:Fill>
        <se:SvgParameter name="fill">#000000</se:SvgParameter>
+        <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
       </se:Fill>
       <se:VendorOption name="maxDisplacement">1</se:VendorOption>
       <se:VendorOption name="autoWrap">100</se:VendorOption>
@@ -297,10 +304,12 @@
        <se:Radius>1.5</se:Radius>
        <se:Fill>
         <se:SvgParameter name="fill">#FEFEFE</se:SvgParameter>
+         <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
        </se:Fill>
       </se:Halo>
       <se:Fill>
        <se:SvgParameter name="fill">#000000</se:SvgParameter>
+        <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
       </se:Fill>
       <se:VendorOption name="maxDisplacement">1</se:VendorOption>
       <se:VendorOption name="autoWrap">100</se:VendorOption>

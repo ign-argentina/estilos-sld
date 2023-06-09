@@ -213,7 +213,7 @@
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">11</se:SvgParameter>
-                            
+
                         </se:Font>
                         <se:LabelPlacement>
                             <se:PointPlacement>
@@ -419,7 +419,7 @@
                                 <se:Displacement>
                                     <se:DisplacementX>25</se:DisplacementX>
                                     <se:DisplacementY>25</se:DisplacementY>
-                                </se:Displacement> 
+                                </se:Displacement>
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
@@ -437,10 +437,10 @@
                     </se:TextSymbolizer>
                 </se:Rule>
           </se:FeatureTypeStyle>
-          
+
                           <!--Etiquetas capitales provinciales parana z7-->
 
-          <se:FeatureTypeStyle>     
+          <se:FeatureTypeStyle>
               <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                       <ogc:And>
@@ -474,7 +474,7 @@
                                 <se:Displacement>
                                     <se:DisplacementX>25</se:DisplacementX>
                                     <se:DisplacementY>25</se:DisplacementY>
-                                </se:Displacement> 
+                                </se:Displacement>
                             </se:PointPlacement>
                         </se:LabelPlacement>
                         <se:Halo>
@@ -491,7 +491,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
           </se:FeatureTypeStyle>
-          
+
                 <!-- ETIQUETAS -->
                 <!-- PUNTO  CABA -->
 

@@ -75,7 +75,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#FCB36F</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>          
+                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -90,13 +90,13 @@
                     </se:Description>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
-                     
+
                           <ogc:PropertyIsEqualTo>
                               <ogc:PropertyName>rst</ogc:PropertyName>
                               <ogc:Literal>1</ogc:Literal>
                           </ogc:PropertyIsEqualTo>
-                               
-                       
+
+
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
@@ -115,12 +115,12 @@
                         <se:Title>Rutas Nacionales</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-          
+
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>rst</ogc:PropertyName>
                                 <ogc:Literal>2</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                              
+
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
@@ -184,9 +184,9 @@
                     <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                        
+
                             <ogc:PropertyName>rtn</ogc:PropertyName>
-                          
+
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
@@ -265,7 +265,7 @@
                                     <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
-                                    <se:SvgParameter name="stroke">#414141</se:SvgParameter>
+                                    <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
                                     <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
                                     <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
                                 </se:Stroke>

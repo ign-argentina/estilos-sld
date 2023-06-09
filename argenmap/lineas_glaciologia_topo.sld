@@ -25,10 +25,11 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#19b6f5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">11 7</se:SvgParameter>
+                           <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -50,10 +51,11 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#19b6f5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">2 7</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>

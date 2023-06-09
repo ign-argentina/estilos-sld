@@ -27,7 +27,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#C09B07</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.50</se:SvgParameter>
-                          <se:SvgParameter name="stroke-opacity">0.50</se:SvgParameter>
+                          <se:SvgParameter name="stroke-opacity">0.80</se:SvgParameter>
 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
@@ -36,7 +36,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#6C6C6A</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.20</se:SvgParameter>
-                          <se:SvgParameter name="stroke-opacity">0.60</se:SvgParameter>
+                          <se:SvgParameter name="stroke-opacity">0.80</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">2 3</se:SvgParameter>
                         </se:Stroke>
@@ -59,11 +59,11 @@
                     <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#6C6C6A</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#585857</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">3 1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">3.5 2</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -83,8 +83,8 @@
                     <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#4C4C4A</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#353533</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.15</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">3 1</se:SvgParameter>

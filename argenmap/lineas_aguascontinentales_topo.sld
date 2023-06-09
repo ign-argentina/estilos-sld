@@ -59,7 +59,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#B0D1EE</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
                             <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
@@ -88,7 +88,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#B0D1EE</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -118,7 +118,8 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#B0D1EE</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
+                          <se:SvgParameter name="stroke-opacity">0.7</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">5 2.5</se:SvgParameter>
@@ -185,15 +186,17 @@
                             <se:Radius>1</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
                             <se:SvgParameter name="fill">#073763</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
-                        <se:VendorOption name="charSpacing">5</se:VendorOption>
+                        <se:VendorOption name="charSpacing">4.5</se:VendorOption>
                         <se:VendorOption name="wordSpacing">8</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>

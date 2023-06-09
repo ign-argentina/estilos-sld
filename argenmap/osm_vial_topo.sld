@@ -349,17 +349,60 @@
        </ogc:PropertyIsEqualTo>
       </ogc:Or>
      </ogc:Filter>
-     <se:MinScaleDenominator>10001</se:MinScaleDenominator>
-     <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
+     <se:MinScaleDenominator>150001</se:MinScaleDenominator>
+     <se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
      <se:LineSymbolizer>
       <se:Stroke>
-       <se:SvgParameter name="stroke">#B9B6B6</se:SvgParameter>
-       <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+       <se:SvgParameter name="stroke">#949191</se:SvgParameter>
+       <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
+        <se:SvgParameter name="stroke-opacity">0.4</se:SvgParameter>
        <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
        <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
       </se:Stroke>
      </se:LineSymbolizer>
     </se:Rule>
+     
+         <se:Rule>
+     <se:Name>living_street, pedestrian, raceway , residential , unclassified</se:Name>
+     <se:Description>
+      <se:Title>living_street, pedestrian, raceway , residential , unclassified</se:Title>
+     </se:Description>
+     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+      <ogc:Or>
+       <ogc:PropertyIsEqualTo>
+        <ogc:PropertyName>highway</ogc:PropertyName>
+        <ogc:Literal>living_street</ogc:Literal>
+       </ogc:PropertyIsEqualTo>
+       <ogc:PropertyIsEqualTo>
+        <ogc:PropertyName>highway</ogc:PropertyName>
+        <ogc:Literal>pedestrian</ogc:Literal>
+       </ogc:PropertyIsEqualTo>
+       <ogc:PropertyIsEqualTo>
+        <ogc:PropertyName>highway</ogc:PropertyName>
+        <ogc:Literal>residential</ogc:Literal>
+       </ogc:PropertyIsEqualTo>
+       <ogc:PropertyIsEqualTo>
+        <ogc:PropertyName>highway</ogc:PropertyName>
+        <ogc:Literal>unclassified</ogc:Literal>
+       </ogc:PropertyIsEqualTo>
+       <ogc:PropertyIsEqualTo>
+        <ogc:PropertyName>highway</ogc:PropertyName>
+        <ogc:Literal>raceway</ogc:Literal>
+       </ogc:PropertyIsEqualTo>
+      </ogc:Or>
+     </ogc:Filter>
+     <se:MinScaleDenominator>10001</se:MinScaleDenominator>
+     <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
+     <se:LineSymbolizer>
+      <se:Stroke>
+       <se:SvgParameter name="stroke">#949191</se:SvgParameter>
+       <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+       <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+       <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+      </se:Stroke>
+     </se:LineSymbolizer>
+    </se:Rule>
+     
    </se:FeatureTypeStyle>
    <se:FeatureTypeStyle>
     <se:Rule>
@@ -483,14 +526,14 @@
      <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#dddddd</se:SvgParameter>
-       <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+       <se:SvgParameter name="stroke-width">1</se:SvgParameter>
        <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
       </se:Stroke>
      </se:LineSymbolizer>
      <se:LineSymbolizer>
       <se:Stroke>
        <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-       <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+       <se:SvgParameter name="stroke-width">1</se:SvgParameter>
        <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
        <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
       </se:Stroke>
@@ -637,6 +680,7 @@
        </ogc:PropertyIsEqualTo>
       </ogc:Or>
      </ogc:Filter>
+     <se:MinScaleDenominator>0</se:MinScaleDenominator>
      <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
      <se:LineSymbolizer>
       <se:Stroke>

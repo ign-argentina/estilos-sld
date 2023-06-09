@@ -68,6 +68,7 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>embalse_espejo_agua_capa_base</se:Name>
@@ -102,10 +103,12 @@
                     <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
+
                             <se:SvgParameter name="fill">#c6dff5</se:SvgParameter>                  
                       </se:Fill>
                     </se:PolygonSymbolizer>
                 </se:Rule>
+              
                 <se:Rule>
                     <se:Name>embalse_espejo_agua_capa_base</se:Name>
                     <se:Description>
@@ -127,6 +130,7 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+          
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">

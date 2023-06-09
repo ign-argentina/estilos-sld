@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-    xmlns:se="http://www.opengis.net/se" 
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:se="http://www.opengis.net/se"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
         <se:Name>area_protegida</se:Name>
@@ -19,9 +19,9 @@
                     <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#25cc71</se:SvgParameter> 
+                            <se:SvgParameter name="fill">#25cc71</se:SvgParameter>
                             <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>
-                        </se:Fill>         
+                        </se:Fill>
                       <se:Stroke>
                             <se:SvgParameter name="stroke">#385638</se:SvgParameter>
                         <se:SvgParameter name="stroke-opacity">0.1</se:SvgParameter>
@@ -30,11 +30,11 @@
                             <se:SvgParameter name="stroke-dasharray">2 2 1 2 1 2 1 2 1 2</se:SvgParameter>
                         </se:Stroke>
 
-                  </se:PolygonSymbolizer>   
+                  </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
           <se:FeatureTypeStyle>
-            
+
         <!--Etiquetas z10 nacionales y provinciales + sitios ramsar  - 545k-->
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -66,9 +66,9 @@
                  <ogc:PropertyIsLike  wildCard="%" singleChar="\" escapeChar="_">
                       <ogc:PropertyName>fna</ogc:PropertyName>
                       <ogc:Literal>Sitios%</ogc:Literal>
-                 </ogc:PropertyIsLike>                
+                 </ogc:PropertyIsLike>
               </ogc:Or>
-           </ogc:Filter>         
+           </ogc:Filter>
           <se:MinScaleDenominator>400000</se:MinScaleDenominator>
           <se:MaxScaleDenominator>850000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
@@ -76,12 +76,12 @@
                  <ogc:Function name="centroid">
                    <ogc:PropertyName>geom</ogc:PropertyName>
                  </ogc:Function>
-              </se:Geometry> 
+              </se:Geometry>
             <se:Label>
               <ogc:PropertyName>fna</ogc:PropertyName>
             </se:Label>
             <se:Font>
-              <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+              <se:SvgParameter name="font-family">SansSerif.plain</se:SvgParameter>
               <se:SvgParameter name="font-size">11</se:SvgParameter>
               <se:SvgParameter name="font-style">italic</se:SvgParameter>
             </se:Font>
@@ -94,14 +94,14 @@
                 <se:Displacement>
                   <se:DisplacementX>0.5</se:DisplacementX>
                   <se:DisplacementY>0.5</se:DisplacementY>
-                </se:Displacement> 
+                </se:Displacement>
                 <se:Rotation>360</se:Rotation>
-              </se:PointPlacement> 
+              </se:PointPlacement>
             </se:LabelPlacement>
             <se:Halo>
               <se:Radius>0.8</se:Radius>
               <se:Fill>
-                <se:SvgParameter name="fill">#ffffff</se:SvgParameter> 
+                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
               </se:Fill>
             </se:Halo>
             <se:Fill>
@@ -113,11 +113,11 @@
            <!-- <se:VendorOption name="maxDisplacement">1</se:VendorOption> -->
             <se:VendorOption name="charSpacing">0.6</se:VendorOption>
             <se:VendorOption name="wordSpacing">0.3</se:VendorOption>
-            <se:VendorOption name="labelAllGroup">true</se:VendorOption> 
+            <se:VendorOption name="labelAllGroup">true</se:VendorOption>
            <!-- <se:VendorOption name="goodnessOfFit">0.3</se:VendorOption> -->
           </se:TextSymbolizer>
         </se:Rule>
-            
+
             <!--Etiquetas z11 - 273k-->
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -133,19 +133,19 @@
                     </ogc:PropertyIsEqualTo>
                   </ogc:Or>
                </ogc:Not>
-           </ogc:Filter>         
+           </ogc:Filter>
           <se:MaxScaleDenominator>350000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
              <se:Geometry>
                 <ogc:Function name="centroid">
                    <ogc:PropertyName>geom</ogc:PropertyName>
                </ogc:Function>
-             </se:Geometry> 
+             </se:Geometry>
             <se:Label>
               <ogc:PropertyName>fna</ogc:PropertyName>
             </se:Label>
             <se:Font>
-              <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+              <se:SvgParameter name="font-family">SansSerif.plain</se:SvgParameter>
               <se:SvgParameter name="font-size">11</se:SvgParameter>
               <se:SvgParameter name="font-style">italic</se:SvgParameter>
             </se:Font>
@@ -181,9 +181,9 @@
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
-          
+
                    <!--   Etiquetas mayor area - z10 -->
-          
+
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                    <ogc:And>
@@ -225,7 +225,7 @@
                  </ogc:PropertyIsLike>
               </ogc:Or>
                       </ogc:Not>
-                        </ogc:And>   
+                        </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>400000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>850000</se:MaxScaleDenominator>
@@ -234,7 +234,7 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-family">SansSerif.plain</se:SvgParameter>
                             <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -253,7 +253,7 @@
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#385638</se:SvgParameter> 
+                            <se:SvgParameter name="fill">#385638</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="maxDisplacement">1</se:VendorOption>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
@@ -261,7 +261,7 @@
                         <se:VendorOption name="labelAllGroup">true</se:VendorOption>
                       <se:VendorOption name="charSpacing">0.6</se:VendorOption>
                     </se:TextSymbolizer>
-                </se:Rule>  
+                </se:Rule>
 </se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>

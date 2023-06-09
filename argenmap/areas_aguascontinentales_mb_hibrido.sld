@@ -337,6 +337,7 @@
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
+                           <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
                             <se:PointPlacement>

@@ -89,7 +89,7 @@
                         <se:Title>area_espejo_agua_3000k</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                               
+
                                               <ogc:And>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>entidad</ogc:PropertyName>

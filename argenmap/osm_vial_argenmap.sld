@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
-xmlns:xlink="http://www.w3.org/1999/xlink" 
-xmlns:ogc="http://www.opengis.net/ogc" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
 xmlns:se="http://www.opengis.net/se">
   <NamedLayer>
     <se:Name>osm_vial</se:Name>
@@ -95,7 +95,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>                
+        </se:Rule>
       </se:FeatureTypeStyle>
       <se:FeatureTypeStyle>
         <se:Rule>
@@ -471,7 +471,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>  
+        </se:Rule>
         <se:Rule>
           <se:Name>motorway_link</se:Name>
           <se:Description>
@@ -497,12 +497,12 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>              
+        </se:Rule>
       </se:FeatureTypeStyle>
       <se:FeatureTypeStyle>
-        
-        
-        
+
+
+
         <se:Rule>
           <se:Name>sentido de circulación</se:Name>
           <se:Description>
@@ -557,6 +557,7 @@ xmlns:se="http://www.opengis.net/se">
             <se:LabelPlacement>
               <se:LinePlacement>
                 <se:GeneralizeLine>true</se:GeneralizeLine>
+
               </se:LinePlacement>
             </se:LabelPlacement>
             <se:Halo>
@@ -572,7 +573,7 @@ xmlns:se="http://www.opengis.net/se">
             <se:VendorOption name="followLine">true</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
-        
+
         <!-- Etiquetas Rutas Provinciales zoom 13 -->
         <se:Rule>
           <se:Name>referencia ruta provincial</se:Name>
@@ -632,7 +633,7 @@ xmlns:se="http://www.opengis.net/se">
             <se:VendorOption name="conflictResolution">true</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
-        
+
         <!-- Etiquetas Rutas Nacionales zoom 13 -->
         <se:Rule>
           <se:Name>referencia ruta nacional</se:Name>
@@ -670,7 +671,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:ExternalGraphic>
                 <se:OnlineResource xlink:href="numeracion_rutanacional.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>                
+              </se:ExternalGraphic>
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
@@ -1308,7 +1309,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>                
+        </se:Rule>
       </se:FeatureTypeStyle>
       <se:FeatureTypeStyle>
                 <se:Rule>
@@ -1723,7 +1724,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>  
+        </se:Rule>
         <se:Rule>
           <se:Name>motorway</se:Name>
           <se:Description>
@@ -1756,7 +1757,7 @@ xmlns:se="http://www.opengis.net/se">
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>              
+        </se:Rule>
       </se:FeatureTypeStyle>
       <!-- bridge -->
       <se:FeatureTypeStyle>
@@ -1793,7 +1794,7 @@ xmlns:se="http://www.opengis.net/se">
                 <ogc:PropertyIsNull>
                   <ogc:PropertyName>bridge</ogc:PropertyName>
                 </ogc:PropertyIsNull>
-              </ogc:Not>  
+              </ogc:Not>
             </ogc:And>
           </ogc:Filter>
           <se:MinScaleDenominator>5001</se:MinScaleDenominator>
@@ -1847,7 +1848,7 @@ xmlns:se="http://www.opengis.net/se">
                 <ogc:PropertyIsNull>
                   <ogc:PropertyName>bridge</ogc:PropertyName>
                 </ogc:PropertyIsNull>
-              </ogc:Not> 
+              </ogc:Not>
             </ogc:And>
           </ogc:Filter>
           <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
@@ -1867,7 +1868,7 @@ xmlns:se="http://www.opengis.net/se">
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-      </se:FeatureTypeStyle>            
+      </se:FeatureTypeStyle>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>tertiary, tertiary_link</se:Name>

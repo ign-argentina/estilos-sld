@@ -29,18 +29,18 @@
         <ogc:Literal>1</ogc:Literal>
        </ogc:PropertyIsEqualTo>
         <ogc:PropertyIsGreaterThan>
-                                    <ogc:Function name="area">
-                                    <ogc:PropertyName>geom</ogc:PropertyName>
-                                    </ogc:Function>
-                                    <ogc:Literal>5000000000000</ogc:Literal>
-                           </ogc:PropertyIsGreaterThan>
+              <ogc:Function name="area">
+               <ogc:PropertyName>geom</ogc:PropertyName>
+               </ogc:Function>
+               <ogc:Literal>5000000000000</ogc:Literal>
+           </ogc:PropertyIsGreaterThan>
       </ogc:Or>
      </ogc:Filter>
      <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
      <se:PolygonSymbolizer>
       <se:Fill>
        <se:SvgParameter name="fill">#F1F1F0 </se:SvgParameter>
-       <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
+       <se:SvgParameter name="fill-opacity">0.4</se:SvgParameter>
       </se:Fill>
      </se:PolygonSymbolizer>
     </se:Rule>
@@ -66,11 +66,11 @@
         <ogc:Literal>1</ogc:Literal>
        </ogc:PropertyIsEqualTo>
         <ogc:PropertyIsGreaterThan>
-                                    <ogc:Function name="area">
-                                    <ogc:PropertyName>geom</ogc:PropertyName>
-                                    </ogc:Function>
-                                    <ogc:Literal>5000000000000</ogc:Literal>
-                           </ogc:PropertyIsGreaterThan>
+              <ogc:Function name="area">
+               <ogc:PropertyName>geom</ogc:PropertyName>
+               </ogc:Function>
+              <ogc:Literal>5000000000000</ogc:Literal>
+          </ogc:PropertyIsGreaterThan>
       </ogc:Or>
      </ogc:Filter>
      <se:MinScaleDenominator>24001</se:MinScaleDenominator>
@@ -78,7 +78,7 @@
      <se:PolygonSymbolizer>
       <se:Fill>
        <se:SvgParameter name="fill">#F1F1F0 </se:SvgParameter>
-       <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
+       <se:SvgParameter name="fill-opacity">0.3</se:SvgParameter>
       </se:Fill>
      </se:PolygonSymbolizer>
     </se:Rule>
@@ -104,18 +104,18 @@
         <ogc:Literal>1</ogc:Literal>
        </ogc:PropertyIsEqualTo>
         <ogc:PropertyIsGreaterThan>
-                                    <ogc:Function name="area">
-                                    <ogc:PropertyName>geom</ogc:PropertyName>
-                                    </ogc:Function>
-                                    <ogc:Literal>5000000000000</ogc:Literal>
-                           </ogc:PropertyIsGreaterThan>
+                   <ogc:Function name="area">
+                  <ogc:PropertyName>geom</ogc:PropertyName>
+                </ogc:Function>
+                <ogc:Literal>5000000000000</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
       </ogc:Or>
      </ogc:Filter>
      <se:MaxScaleDenominator>24000</se:MaxScaleDenominator>
      <se:PolygonSymbolizer>
       <se:Fill>
        <se:SvgParameter name="fill">#F1F1F0 </se:SvgParameter>
-       <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
+       <se:SvgParameter name="fill-opacity">0.4</se:SvgParameter>
       </se:Fill>
      </se:PolygonSymbolizer>
     </se:Rule>

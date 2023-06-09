@@ -75,15 +75,18 @@
        </se:PointPlacement>
       </se:LabelPlacement>
       <se:Halo>
-       <se:Radius>1.5</se:Radius>
+       <se:Radius>1.4</se:Radius>
        <se:Fill>
         <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-        <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
+        <se:SvgParameter name="stroke-opacity">0.3</se:SvgParameter>
        </se:Fill>
       </se:Halo>
       <se:Fill>
-       <se:SvgParameter name="fill">#0c343d</se:SvgParameter>  <!-- 4a0a0a -->
+       <se:SvgParameter name="fill">#3d370c</se:SvgParameter>  <!-- 4a0a0a -->
       </se:Fill>
+            <se:VendorOption name="autoWrap">50</se:VendorOption>
+            <se:VendorOption name="spaceAround">20</se:VendorOption>
+            <se:VendorOption name="charSpacing">0.02</se:VendorOption>
      </se:TextSymbolizer>
     </se:Rule>
    </se:FeatureTypeStyle>

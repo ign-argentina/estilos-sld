@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:se="http://www.opengis.net/se" 
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:se="http://www.opengis.net/se"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
         <se:Name>areas_de_zona_costera</se:Name>
@@ -15,10 +15,16 @@
                         <se:Title>isla</se:Title>
                     </se:Description>
                           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                              <ogc:And>
                              <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>gid</ogc:PropertyName>
                                 <ogc:Literal>3912</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                		<ogc:PropertyName>entidad</ogc:PropertyName>
+                                		<ogc:Literal>1</ogc:Literal>
+                           	</ogc:PropertyIsNotEqualTo>
+                            </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
@@ -49,7 +55,7 @@
                                     </ogc:PropertyIsEqualTo>
                                 </ogc:Or>
                             </ogc:Not>
-                        </ogc:And> 
+                        </ogc:And>
                     </ogc:Filter> -->
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>400000</se:MaxScaleDenominator>

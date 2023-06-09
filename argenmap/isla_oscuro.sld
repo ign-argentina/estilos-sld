@@ -27,10 +27,16 @@
                         </ogc:And>
                     </ogc:Filter> --> <!--filtro roto no se ven las islas cerca de Martin Garcia-->
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                              <ogc:And>
                              <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>gid</ogc:PropertyName>
                                 <ogc:Literal>3912</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                		<ogc:PropertyName>entidad</ogc:PropertyName>
+                                		<ogc:Literal>1</ogc:Literal>
+                           	</ogc:PropertyIsNotEqualTo>
+                            </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>

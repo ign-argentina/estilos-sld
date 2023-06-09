@@ -10,9 +10,9 @@
         <UserStyle>
             <se:Name>linea_de_limite.geom</se:Name>
             <se:FeatureTypeStyle>
-              
+
               <!--Limite interdepartamental  z8-->
-              
+
                  <se:Rule>
                     <se:Name>Límite Interdepartamental</se:Name>
                     <se:Description>
@@ -45,9 +45,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-              
+
            <!--Limite interdepartamental de z9 a z11-->
-              
+
                 <se:Rule>
                     <se:Name>Límite Interdepartamental</se:Name>
                     <se:Description>
@@ -80,9 +80,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-              
+
         <!--Limite interdepartamental desde z12-->
-              
+
                 <se:Rule>
                     <se:Name>Límite Interdepartamental</se:Name>
                     <se:Description>
@@ -115,9 +115,9 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
           <!--Limite interprovincial desde z9-->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Límite Interprovincial</se:Name>
@@ -142,9 +142,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-              
+
                 <!--Limite interprovincial z8 -->
-              
+
                <se:Rule>
                     <se:Name>Límite Interprovincial</se:Name>
                     <se:Description>
@@ -161,7 +161,7 @@
                     <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#353533</se:SvgParameter> 
+                            <se:SvgParameter name="stroke">#353533</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.46</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
@@ -169,9 +169,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-              
+
               <!--Limite interprovincial desde z6 y z7-->
-              
+
                <se:Rule>
                     <se:Name>Límite Interprovincial</se:Name>
                     <se:Description>
@@ -188,7 +188,7 @@
                     <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#4C4C4A</se:SvgParameter> 
+                            <se:SvgParameter name="stroke">#4C4C4A</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.16</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
@@ -196,9 +196,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-              
+
               <!--Limite interprovincial desde z4 y z5-->
-              
+
               <se:Rule>
                     <se:Name>Límite Interprovincial</se:Name>
                     <se:Description>
@@ -215,7 +215,7 @@
                     <se:MaxScaleDenominator>40000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#8C8C8A</se:SvgParameter> 
+                            <se:SvgParameter name="stroke">#8C8C8A</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.006</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
@@ -224,7 +224,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Límite exterior de la Plataforma Continental</se:Name>
@@ -449,7 +449,7 @@
                         <ogc:Literal>14</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                  
+
                  <se:LineSymbolizer>
                     <se:Stroke>
                         <se:SvgParameter name="stroke">#596685</se:SvgParameter>
@@ -680,7 +680,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
               <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter
@@ -703,8 +703,8 @@
                                 <ogc:Literal>4</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                         <!--    <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>  limite de aguas interiores -nam u objeto  
-                                <ogc:Literal>3</ogc:Literal>                 
+                                <ogc:PropertyName>entidad</ogc:PropertyName>  limite de aguas interiores -nam u objeto
+                                <ogc:Literal>3</ogc:Literal>
                             </ogc:PropertyIsEqualTo>-->
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite lateral maritimo argentino-uruguayo -objeto-->
@@ -742,7 +742,7 @@
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
-                        <se:VendorOption name="group">yes</se:VendorOption> 
+                        <se:VendorOption name="group">yes</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.4</se:VendorOption>
                       <se:VendorOption name="wordSpacing">0.01</se:VendorOption>
                     </se:TextSymbolizer>
@@ -752,21 +752,21 @@
                         xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:Or>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName> 
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>7</ogc:Literal> <!-- limite exterior de la plataforma continental  -->
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName> 
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>14</ogc:Literal> <!-- 200 millas desde la costa del sector antartico argentino-->
                             </ogc:PropertyIsEqualTo>
                           <!--   <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>nam</ogc:PropertyName> 
+                                <ogc:PropertyName>nam</ogc:PropertyName>
                                 <ogc:Literal>Límite argentino-chileno</ogc:Literal>
-                            </ogc:PropertyIsEqualTo> -->  
+                            </ogc:PropertyIsEqualTo> -->
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>nam</ogc:PropertyName> 
+                                <ogc:PropertyName>nam</ogc:PropertyName>
                                 <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
-                            </ogc:PropertyIsEqualTo> 
+                            </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
@@ -801,7 +801,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -811,22 +811,22 @@
                                     <ogc:Literal>11.5</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             <ogc:Not>
-                              <ogc:Or>  
+                              <ogc:Or>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>nam</ogc:PropertyName>
                                     <ogc:Literal>Límite argentino-chileno</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                                 <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName> 
+                                    <ogc:PropertyName>nam</ogc:PropertyName>
                                     <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName> 
+                                    <ogc:PropertyName>nam</ogc:PropertyName>
                                     <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                               </ogc:Or>
                             </ogc:Not>
-                        </ogc:And>                            
+                        </ogc:And>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>

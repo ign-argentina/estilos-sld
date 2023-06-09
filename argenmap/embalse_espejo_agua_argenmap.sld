@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:se="http://www.opengis.net/se" 
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:se="http://www.opengis.net/se"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
         <se:Name>areas_de_aguas_continentales</se:Name>
@@ -109,7 +109,7 @@
                     <se:MaxScaleDenominator>4500000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter> <!--C6DFF5-->    
+                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter> <!--C6DFF5-->
                             <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
                       </se:Fill>
                     </se:PolygonSymbolizer>
@@ -150,7 +150,7 @@
                     <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter>                
+                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter>
                       </se:Fill>
                     </se:PolygonSymbolizer>
                 </se:Rule>
@@ -172,7 +172,7 @@
                                        <ogc:PropertyIsEqualTo>
                                           <ogc:PropertyName>fna</ogc:PropertyName>
                                           <ogc:Literal>&lt;Nulo></ogc:Literal>
-                                      </ogc:PropertyIsEqualTo> 
+                                      </ogc:PropertyIsEqualTo>
                                       <ogc:PropertyIsEqualTo>
                                           <ogc:PropertyName>fna</ogc:PropertyName>
                                           <ogc:Literal>-1</ogc:Literal>
@@ -180,7 +180,7 @@
                                       <ogc:PropertyIsEqualTo>
                                           <ogc:PropertyName>fna</ogc:PropertyName>
                                           <ogc:Literal>-2</ogc:Literal>
-                                      </ogc:PropertyIsEqualTo> 
+                                      </ogc:PropertyIsEqualTo>
                                   </ogc:Or>
                               </ogc:Not> -->
                     </ogc:Filter>
@@ -188,14 +188,14 @@
                     <se:MaxScaleDenominator>273000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter>   
+                            <se:SvgParameter name="fill">#C6DFF5</se:SvgParameter>
                       </se:Fill>
                     </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
 
             <!-- ETIQUETAS lagos o embalses zoom 11 -->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -225,7 +225,7 @@
                                         <ogc:PropertyName>fna</ogc:PropertyName>
                                         <ogc:Literal>-2</ogc:Literal>
                                     </ogc:PropertyIsEqualTo>
-                                  
+
                                     <ogc:PropertyIsLessThan>
                                     <ogc:Function name="area">
                                     <ogc:PropertyName>geom</ogc:PropertyName>
@@ -276,9 +276,10 @@
                         <se:VendorOption name="wordSpacing">5</se:VendorOption>
                         <se:VendorOption name="goodnessOfFit">1</se:VendorOption>
                         <se:VendorOption name="conflictResolution">true</se:VendorOption>
+                        <se:VendorOption name="spaceAround">50</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
               <!-- ETIQUETAS lagos o embalses zoom 12 -->
               <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -307,7 +308,6 @@
                                         <ogc:PropertyName>fna</ogc:PropertyName>
                                         <ogc:Literal>-2</ogc:Literal>
                                     </ogc:PropertyIsEqualTo>
-                                  
                                     <ogc:PropertyIsLessThan>
                                     <ogc:Function name="area">
                                     <ogc:PropertyName>geom</ogc:PropertyName>
@@ -320,6 +320,63 @@
                     </ogc:Filter>
                     <se:MinScaleDenominator>100000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Geometry>
+                            <ogc:Function name="centroid">
+                                <ogc:PropertyName>geom</ogc:PropertyName>
+                            </ogc:Function>
+                        </se:Geometry>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13</se:SvgParameter>
+                            <se:SvgParameter name="font-style">italic</se:SvgParameter>
+                         <!--   <se:SvgParameter name="font-weight">bold</se:SvgParameter> -->
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>0.5</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>0.1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#006bc2</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="group">yes</se:VendorOption>
+                        <se:VendorOption name="autoWrap">50</se:VendorOption>
+                        <se:VendorOption name="charSpacing">2.2</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">5</se:VendorOption>
+                        <se:VendorOption name="goodnessOfFit">1</se:VendorOption>
+                        <se:VendorOption name="conflictResolution">true</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+
+              <!-- ETIQUETAS lagos intermitentes desde zoom 13 -->
+              <se:Rule>
+                    <ogc:Filter>
+                    <ogc:Or>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Laguna La Picasa</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Lago Colhué Huapi</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+      				</ogc:Or>
+                  </ogc:Filter>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>700000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="centroid">
@@ -360,8 +417,8 @@
                         <se:VendorOption name="conflictResolution">true</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
-              <!-- ETIQUETAS lagos o embalses desde zoom 13 -->
+
+              <!-- ETIQUETAS desde zoom 11-->
               <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>
@@ -394,7 +451,7 @@
                         </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>70000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>400000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="centroid">
@@ -433,6 +490,7 @@
                         <se:VendorOption name="wordSpacing">5</se:VendorOption>
                         <se:VendorOption name="goodnessOfFit">1</se:VendorOption>
                         <se:VendorOption name="conflictResolution">true</se:VendorOption>
+                      <se:VendorOption name="spaceAround">50</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

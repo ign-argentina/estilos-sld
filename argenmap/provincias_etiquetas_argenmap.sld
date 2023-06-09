@@ -33,7 +33,7 @@
                       </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>10000001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>18000000</se:MaxScaleDenominator>                   
+                    <se:MaxScaleDenominator>18000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="centroid">
@@ -43,7 +43,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -62,7 +62,7 @@
                         <se:Halo>
                             <se:Radius>0.65</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>                  
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
@@ -71,14 +71,14 @@
                         <se:VendorOption name="maxDisplacement">5</se:VendorOption>
                         <se:VendorOption name="autoWrap">60</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.2</se:VendorOption>
-                        <se:VendorOption name="wordSpacing">0.1</se:VendorOption> 
+                        <se:VendorOption name="wordSpacing">0.1</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
               <!-- Provincias z6 sin CABA ni T.del Fuego -->
-              
+
                 <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">     
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                        <ogc:And>
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>fna</ogc:PropertyName>
@@ -92,7 +92,7 @@
                                 <ogc:PropertyName>fna</ogc:PropertyName>
                                 <ogc:Literal>Provincia de Catamarca</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
-                       </ogc:And>      
+                       </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>8000000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>10000000</se:MaxScaleDenominator>
@@ -105,7 +105,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -124,7 +124,7 @@
                         <se:Halo>
                             <se:Radius>1</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>    
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
@@ -133,14 +133,14 @@
                         <se:VendorOption name="maxDisplacement">2</se:VendorOption>
                         <se:VendorOption name="autoWrap">70</se:VendorOption>
                        <se:VendorOption name="charSpacing">0.6</se:VendorOption>
-                        <se:VendorOption name="wordSpacing">0.5</se:VendorOption>      
+                        <se:VendorOption name="wordSpacing">0.5</se:VendorOption>
                     </se:TextSymbolizer>
-                </se:Rule> 
-              
+                </se:Rule>
+
                <!-- Provincias z7  sin CABA ni T.del Fuego -->
-              
+
                 <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">     
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                        <ogc:And>
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>fna</ogc:PropertyName>
@@ -154,7 +154,7 @@
                                 <ogc:PropertyName>fna</ogc:PropertyName>
                                 <ogc:Literal>Provincia de Catamarca</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
-                       </ogc:And>      
+                       </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>4500000</se:MaxScaleDenominator>
@@ -167,7 +167,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -186,7 +186,7 @@
                         <se:Halo>
                             <se:Radius>1</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                              <!--   <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter> -->
                             </se:Fill>
                         </se:Halo>
@@ -197,10 +197,10 @@
                         <se:VendorOption name="maxDisplacement">2</se:VendorOption>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                        <se:VendorOption name="charSpacing">0.6</se:VendorOption>
-                        <se:VendorOption name="wordSpacing">0.3</se:VendorOption>      
+                        <se:VendorOption name="wordSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
-                </se:Rule> 
-              
+                </se:Rule>
+
             <!--    <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>
@@ -225,7 +225,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -244,7 +244,7 @@
                         <se:Halo>
                             <se:Radius>1</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>    
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
@@ -253,13 +253,13 @@
                         <se:VendorOption name="maxDisplacement">1</se:VendorOption>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                        <se:VendorOption name="charSpacing">3</se:VendorOption>
-                        <se:VendorOption name="wordSpacing">4</se:VendorOption>      
+                        <se:VendorOption name="wordSpacing">4</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule> -->
             </se:FeatureTypeStyle>
-        
-              
-              
+
+
+
               <!-- CABA z7-->
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -388,7 +388,7 @@
                         <se:VendorOption name="wordSpacing">0.5</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
               <!-- Tierra del Fuego z5-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -403,12 +403,12 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">13</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
                             <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -434,11 +434,11 @@
                         </se:Fill>
                         <se:VendorOption name="maxDisplacement">1</se:VendorOption>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
-                        <se:VendorOption name="charSpacing">1</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.2</se:VendorOption>
                         <se:VendorOption name="wordSpacing">4</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
               <!-- Tierra del Fuego z6-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -453,7 +453,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -502,7 +502,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -539,9 +539,9 @@
                         <se:VendorOption name="wordSpacing">0.5</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
               <!-- Catamarca-->
-              
+
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -555,7 +555,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -603,7 +603,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -638,7 +638,7 @@
                         <se:VendorOption name="wordSpacing">0.5</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -652,7 +652,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -689,9 +689,9 @@
                         <se:VendorOption name="wordSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
                             <!-- Neuquen-->
-              
+
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -705,7 +705,7 @@
                         <se:Label>
                             <ogc:Function name="strSubstringStart">
                                 <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>13</ogc:Literal>  
+                                <ogc:Literal>13</ogc:Literal>
                             </ogc:Function>
                         </se:Label>
                         <se:Font>
@@ -740,7 +740,7 @@
                         <se:VendorOption name="wordSpacing">0.1</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
             </se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>

@@ -157,8 +157,55 @@
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:MinScaleDenominator>100001</se:MinScaleDenominator>
+                    <se:MinScaleDenominator>1500000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>rtn</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">9.5</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>0.5</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                        </se:Fill>
+                        <se:Graphic>
+                            <se:ExternalGraphic>
+                                <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional_mb_h.svg"/>
+                                <se:Format>image/svg+xml</se:Format>
+                            </se:ExternalGraphic> 
+                            <se:Mark>
+                                <se:WellKnownName>square</se:WellKnownName>
+                                <se:Fill>
+                                    <se:SvgParameter name="fill">#1e1e1e</se:SvgParameter>
+                                    <se:SvgParameter name="fill-opacity">0.55</se:SvgParameter>
+                                </se:Fill>
+                                <se:Stroke>
+                                    <se:SvgParameter name="stroke">#696969</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
+                                </se:Stroke>
+                            </se:Mark>
+                            <se:Size>3</se:Size>
+                        </se:Graphic>
+                        <se:VendorOption name="group">yes</se:VendorOption>
+                        <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
+                        <se:VendorOption name="graphic-margin">7 7</se:VendorOption>
+                        <se:VendorOption name="spaceAround">30</se:VendorOption>
+                        <se:VendorOption name="conflictResolution">true</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+               <se:Rule>
+                    <se:MinScaleDenominator>100001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>1400000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>rtn</ogc:PropertyName>
@@ -181,18 +228,18 @@
                         </se:Fill>
                         <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional.svg"/>
+                                <se:OnlineResource xlink:type="simple" xlink:href="numeracion_rutanacional_mb_h.svg"/>
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic> 
                             <se:Mark>
                                 <se:WellKnownName>square</se:WellKnownName>
                                 <se:Fill>
                                     <se:SvgParameter name="fill">#1e1e1e</se:SvgParameter>
-                                    <se:SvgParameter name="fill-opacity">0.85</se:SvgParameter>
+                                    <se:SvgParameter name="fill-opacity">0.75</se:SvgParameter>
                                 </se:Fill>
                                 <se:Stroke>
                                     <se:SvgParameter name="stroke">#696969</se:SvgParameter>
-                                    <se:SvgParameter name="stroke-width">0.9</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
                                 </se:Stroke>
                             </se:Mark>
                             <se:Size>8</se:Size>

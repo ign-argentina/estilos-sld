@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
         <se:Name>puntos_de_geomorfologia</se:Name>
         <UserStyle>
             <se:Name>cerro_capa_base</se:Name>
             <se:FeatureTypeStyle>
-
+             
               <!-- Etiquetas Cerros principales-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -101,7 +101,7 @@
                       <se:VendorOption name="charSpacing">0.02</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-
+              
                   Etiquetas 2 - zoom 9-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -117,7 +117,7 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Cerro San Lorenzo</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
-                        <!-- Chubut  2515m
+                        <!-- Chubut  2515m 
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Cerro Dos Picos</ogc:Literal>
@@ -132,12 +132,12 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Volcán Domuyo</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
-                        <!-- La Pampa  1200m
+                        <!-- La Pampa  1200m 
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Cerro Negro</ogc:Literal>
                         </ogc:PropertyIsEqualTo> -->
-                        <!-- Buenos Aires 1239m
+                        <!-- Buenos Aires 1239m 
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Cerro Tres Picos</ogc:Literal>
@@ -157,15 +157,15 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Cerro Champaquí</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
-                        <!-- Santa Fe       133m
+                        <!-- Santa Fe       133m 
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Morrito de Monasterio</ogc:Literal>
                         </ogc:PropertyIsEqualTo>-->
-                        <!-- Entre Ríos      103m
+                        <!-- Entre Ríos      103m 
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>fna</ogc:PropertyName>
-                            <ogc:Literal>Seguí</ogc:Literal>
+                            <ogc:Literal>Seguí</ogc:Literal> 
                         </ogc:PropertyIsEqualTo> -->
                         <!-- San Juan      6770 -->
                         <ogc:PropertyIsEqualTo>
@@ -187,16 +187,16 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Cerro del Bolsón</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
-                        <!--    Santiago del Estero, Chaco,  s/d -->
+                        <!--    Santiago del Estero, Chaco,  s/d -->  
                         <!--    Corrientes 203 -->
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Loma San Carlos</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                        <!--    Misiones     843
+                        </ogc:PropertyIsEqualTo>   
+                        <!--    Misiones     843 
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>fna</ogc:PropertyName>
-                            <ogc:Literal>Cerro Rincón</ogc:Literal>
+                            <ogc:Literal>Cerro Rincón</ogc:Literal> 
                         </ogc:PropertyIsEqualTo>   -->
                         <!--    Jujuy 5896-->
                         <ogc:PropertyIsEqualTo>
@@ -207,8 +207,8 @@
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Volcán Llullaillaco</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-
+                        </ogc:PropertyIsEqualTo> 
+                        
                         <!-- Otros significativos-->
                              <!-- Santa Cruz -->
                         <ogc:PropertyIsEqualTo>
@@ -233,7 +233,7 @@
                          <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>fna</ogc:PropertyName>
                             <ogc:Literal>Cerro Vallecitos</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>    -->
+                        </ogc:PropertyIsEqualTo>    -->           
                       </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100000</se:MinScaleDenominator>
@@ -243,7 +243,7 @@
                             <ogc:PropertyName>fna</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-family">Trebuchet MS Bold Italic</se:SvgParameter>
+                            <se:SvgParameter name="font-family">Trebuchet MS Bold Italic</se:SvgParameter> <!--Trebuchet MS Bold Italic-->
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
                         </se:Font>
@@ -269,9 +269,9 @@
                       <se:VendorOption name="charSpacing">0.1</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-
-
-
+      
+          
+          
                <!-- Etiquetas cerros z11 - 273k-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -416,7 +416,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-
+          
 
         </UserStyle>
     </NamedLayer>

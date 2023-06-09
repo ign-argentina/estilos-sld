@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-    xmlns:ogc="http://www.opengis.net/ogc" 
-    xmlns:se="http://www.opengis.net/se" 
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:se="http://www.opengis.net/se"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
         <se:Name>lineas_de_aguas_continentales.geom</se:Name>
@@ -50,7 +50,7 @@
                                     <ogc:PropertyIsEqualTo>
                                         <ogc:PropertyName>fna</ogc:PropertyName>
                                         <ogc:Literal>null</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>                                    
+                                    </ogc:PropertyIsEqualTo>
                                 </ogc:Or>
                             </ogc:Not>
                         </ogc:And>
@@ -67,7 +67,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-           
+
               <!-- Rios permanentes  desde z12-->
                 <se:Rule>
                     <se:Name>linea_agua_perenne_273k</se:Name>
@@ -86,7 +86,7 @@
                         </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>0</se:MinScaleDenominator>                    
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>273000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -99,9 +99,9 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
           <!--Linea agua intermitente z12-->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>linea_agua_intermitente_5000000</se:Name>
@@ -120,7 +120,7 @@
                         </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>100000</se:MinScaleDenominator> 
+                    <se:MinScaleDenominator>100000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -151,7 +151,7 @@
                         </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>0</se:MinScaleDenominator> 
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>70000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -165,9 +165,9 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-          
+
           <!--Etiquetas-->
-          
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -206,7 +206,7 @@
                             </ogc:Not>
                         </ogc:And>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>0</se:MinScaleDenominator> 
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>

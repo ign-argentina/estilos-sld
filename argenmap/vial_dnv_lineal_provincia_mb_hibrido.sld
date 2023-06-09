@@ -27,7 +27,7 @@
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#ffd966</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.45</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
@@ -49,7 +49,7 @@
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#ffd966</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.25</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
@@ -77,7 +77,7 @@
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f9cb9c</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.25</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.35</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
@@ -104,8 +104,8 @@
           <se:MaxScaleDenominator>1500000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#e9a362</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.25</se:SvgParameter>
+              <se:SvgParameter name="stroke">#ff9737</se:SvgParameter> <!--e9a362-->
+              <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
@@ -176,6 +176,7 @@
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
                   <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                  <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#808080</se:SvgParameter>
@@ -188,6 +189,7 @@
             <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
             <se:VendorOption name="graphic-margin">8 8</se:VendorOption>
             <se:VendorOption name="spaceAround">100</se:VendorOption>
+            <se:VendorOption name="charSpacing">0.3</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
         <se:Rule>
@@ -253,7 +255,7 @@
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
                   <se:SvgParameter name="fill">#313131</se:SvgParameter>
-                  <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
+                  <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#696969</se:SvgParameter>
@@ -264,8 +266,9 @@
             </se:Graphic>
             <se:VendorOption name="group">yes</se:VendorOption>
             <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
-            <se:VendorOption name="graphic-margin">6 6</se:VendorOption>
+            <se:VendorOption name="graphic-margin">5 6</se:VendorOption>
             <se:VendorOption name="spaceAround">50</se:VendorOption>
+            <se:VendorOption name="charSpacing">0.3</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>

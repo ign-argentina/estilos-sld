@@ -448,7 +448,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -456,7 +456,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.05</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.07</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">5 4 1 4</se:SvgParameter>
@@ -678,7 +678,7 @@
                                 <ogc:Literal>7</ogc:Literal><!-- limite exterior de la plataforma continental  -->
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:PropertyName>entidad</ogc:PropertyName> 
                                 <ogc:Literal>14</ogc:Literal> <!-- 200 millas desde la costa del sector antartico argentino-->
                             </ogc:PropertyIsEqualTo>
                           <!--  <ogc:PropertyIsEqualTo>
@@ -743,7 +743,7 @@
                                     <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName>
+                                    <ogc:PropertyName>nam</ogc:PropertyName> 
                                     <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                               </ogc:Or>
@@ -757,8 +757,9 @@
                         </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">13</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13.5</se:SvgParameter>
                             <se:SvgParameter name="font-style">italic</se:SvgParameter>
+                          <se:SvgParameter name="font-weight">bold</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement>
@@ -766,10 +767,10 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>1.2</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#03293e</se:SvgParameter>
-                                <se:SvgParameter name="fill-opacity">0.35</se:SvgParameter>
+                                <se:SvgParameter name="fill">#011018</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
@@ -778,7 +779,7 @@
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
-                        <se:VendorOption name="charSpacing">0.5</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.7</se:VendorOption>
                         <se:VendorOption name="wordSpacing">0.05</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>

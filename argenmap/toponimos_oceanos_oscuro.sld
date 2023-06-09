@@ -48,20 +48,22 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>0.2</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#C9EEFA</se:SvgParameter>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#031450</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
                       <se:VendorOption name="charSpacing">0.2</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
+
                <!-- Etiquetas Islas Malvinas,orcadas,sandwich,shetland,georgias-->
+
                 <se:Rule>
                     <ogc:Filter
                         xmlns:ogc="http://www.opengis.net/ogc">
@@ -110,13 +112,13 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>0.2</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#C9EEFA</se:SvgParameter>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#031450</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                       <se:VendorOption name="group">yes</se:VendorOption>
@@ -171,13 +173,13 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>0.2</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#C9EEFA</se:SvgParameter>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#031450</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="followLine">true</se:VendorOption>
@@ -225,13 +227,13 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>0.2</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#F4F4ED</se:SvgParameter>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#031450</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
@@ -281,13 +283,13 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>1</se:Radius>
+                            <se:Radius>0.2</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#C9EEFA</se:SvgParameter>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#031450</se:SvgParameter>
+                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
@@ -357,12 +359,12 @@
                         <se:Halo>
                             <se:Radius>1</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#C9EEFA</se:SvgParameter> <!--C9EEFA -->
-                              <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
+                                <se:SvgParameter name="fill">#000000</se:SvgParameter> <!--C9EEFA -->
+                              <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#031450</se:SvgParameter> <!--031450 -->
+                            <se:SvgParameter name="fill">#ffffff</se:SvgParameter> <!--031450 -->
                           <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>

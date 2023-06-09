@@ -9,7 +9,142 @@
         <UserStyle>
             <se:Name>area_geomorfologia_capa_base</se:Name>
             <se:FeatureTypeStyle>
-              
+
+                <!-- salares zoom 10-->
+                <se:Rule>
+                    <se:Description>
+                        <se:Title>salares</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salinas de Ambargasta</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                         		 <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salinas Grandes</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                        		  <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar de Olaroz</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                          		<ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salina del Rincón</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                         		 <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar Pocitos o Quirón</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                         		 <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar de Arizaro</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                          		<ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar del Hombre Muerto</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                          		<ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar de Antofalla</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                          		<ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar Pozuelos</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+
+
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>2000001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
+                  <se:PolygonSymbolizer>
+                     <se:Fill>
+                       <se:GraphicFill>
+                         <se:Graphic>
+                           <se:Mark>
+                             <se:WellKnownName>shape://times</se:WellKnownName>
+                             <se:Stroke>
+                               <se:SvgParameter name="stroke">#d9e1ed</se:SvgParameter>
+                               <se:SvgParameter name="stroke-width">0.35</se:SvgParameter>
+
+                             </se:Stroke>
+                           </se:Mark>
+                           <se:Size>7</se:Size>
+                         </se:Graphic>
+                       </se:GraphicFill>
+                     </se:Fill>
+                   </se:PolygonSymbolizer>
+                </se:Rule>
+               <se:Rule>
+                    <se:Description>
+                        <se:Title>salares</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                                 <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salinas de Ambargasta</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                         		 <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salinas Grandes</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                        		  <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar de Olaroz</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                          		<ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salina del Rincón</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                         		 <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar Pocitos o Quirón</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                         		 <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar de Arizaro</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                          		<ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar del Hombre Muerto</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                          		<ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar de Antofalla</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                          		<ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>fna</ogc:PropertyName>
+                                    <ogc:Literal>Salar Pozuelos</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+
+
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>1000001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
+                  <se:PolygonSymbolizer>
+                     <se:Fill>
+                       <se:GraphicFill>
+                         <se:Graphic>
+                           <se:Mark>
+                             <se:WellKnownName>shape://times</se:WellKnownName>
+                             <se:Stroke>
+                               <se:SvgParameter name="stroke">#d9e1ed</se:SvgParameter>
+                               <se:SvgParameter name="stroke-width">0.35</se:SvgParameter>
+
+                             </se:Stroke>
+                           </se:Mark>
+                           <se:Size>7</se:Size>
+                         </se:Graphic>
+                       </se:GraphicFill>
+                     </se:Fill>
+                   </se:PolygonSymbolizer>
+
+                </se:Rule>
+
               <!-- salares zoom 10-->
                 <se:Rule>
                     <se:Description>
@@ -48,7 +183,7 @@
                            <se:Mark>
                              <se:WellKnownName>shape://times</se:WellKnownName>
                              <se:Stroke>
-                               <se:SvgParameter name="stroke">#C6DFF5</se:SvgParameter>
+                               <se:SvgParameter name="stroke">#d9e1ed</se:SvgParameter>
                                <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                              </se:Stroke>
                            </se:Mark>
@@ -99,7 +234,7 @@
                       <se:VendorOption name="spaceAround">20</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
+
               <!-- salares zoom 11-->
                  <se:Rule>
                     <se:Description>
@@ -188,8 +323,8 @@
                         <se:VendorOption name="conflictResolution">true</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
-              
-              
+
+
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>

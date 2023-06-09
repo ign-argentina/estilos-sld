@@ -24,7 +24,7 @@
                                 <ogc:PropertyName>hyp</ogc:PropertyName>
                                 <ogc:Literal>1</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
-                          
+
                             </ogc:And>
                       </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>

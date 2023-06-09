@@ -33,7 +33,7 @@
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        
+
         <se:Rule>
           <se:Name>Autopista</se:Name>
           <se:Description>
@@ -83,8 +83,8 @@
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule> 
-        
+        </se:Rule>
+
         <se:Rule>
           <se:Name>RP tierra</se:Name>
           <se:Description>
@@ -113,8 +113,8 @@
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-      </se:FeatureTypeStyle>  
-      
+      </se:FeatureTypeStyle>
+
       <se:FeatureTypeStyle>
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -149,7 +149,7 @@
               </ogc:PropertyIsNotEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
+          <se:MinScaleDenominator>900000</se:MinScaleDenominator>
           <se:MaxScaleDenominator>1500000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
@@ -168,13 +168,13 @@
               </se:PointPlacement>
             </se:LabelPlacement>
             <se:Fill>
-              <se:SvgParameter name="fill">#000000</se:SvgParameter>
+              <se:SvgParameter name="fill">#444444</se:SvgParameter>
             </se:Fill>
             <se:Graphic>
-              <se:ExternalGraphic>
+           <!--   <se:ExternalGraphic>
                 <se:OnlineResource xlink:href="numeracion_rutaprovincial.svg" xlink:type="simple" />
                 <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic> 
+              </se:ExternalGraphic>  -->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
@@ -184,15 +184,16 @@
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#808080</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                  <se:SvgParameter name="stroke-opacity">0.9</se:SvgParameter>
+                  <se:SvgParameter name="stroke-opacity">0.85</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
               <se:Size>7</se:Size>
             </se:Graphic>
             <se:VendorOption name="group">yes</se:VendorOption>
             <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
-            <se:VendorOption name="graphic-margin">8 8</se:VendorOption>
-            <se:VendorOption name="spaceAround">35</se:VendorOption>
+            <se:VendorOption name="graphic-margin">4 5</se:VendorOption>
+            <se:VendorOption name="spaceAround">95</se:VendorOption>
+            <se:VendorOption name="charSpacing">0.4</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
         <se:Rule>
@@ -272,7 +273,7 @@
             <se:VendorOption name="graphic-resize">stretch</se:VendorOption>
             <se:VendorOption name="graphic-margin">4 5</se:VendorOption>
             <se:VendorOption name="spaceAround">40</se:VendorOption>
-            <se:VendorOption name="charSpacing">0.35</se:VendorOption>
+            <se:VendorOption name="charSpacing">0.4</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
