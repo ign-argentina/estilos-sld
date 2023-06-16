@@ -808,7 +808,7 @@
                         <ogc:And>
                                 <ogc:PropertyIsEqualTo>
                                     <ogc:PropertyName>entidad</ogc:PropertyName>  <!-- Limite internacional -->
-                                    <ogc:Literal>11.5</ogc:Literal>
+                                    <ogc:Literal>11</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             <ogc:Not>
                               <ogc:Or>
