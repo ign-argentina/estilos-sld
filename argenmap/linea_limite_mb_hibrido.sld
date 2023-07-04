@@ -9,11 +9,8 @@
         <se:Name>linea_de_limite.geom</se:Name>
         <UserStyle>
             <se:Name>linea_de_limite.geom</se:Name>
-            <se:FeatureTypeStyle>
-
-              <!--Limite interdepartamental  z8-->
-
-                 <se:Rule>
+   <!--         <se:FeatureTypeStyle>
+                <se:Rule>
                     <se:Name>Límite Interdepartamental</se:Name>
                     <se:Description>
                         <se:Title>Límite Interdepartamental</se:Title>
@@ -25,19 +22,19 @@
                             <ogc:Literal>9</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>1500000</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#C09B07</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.50</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.50</se:SvgParameter>
+                          <se:SvgParameter name="stroke-opacity">0.50</se:SvgParameter>
+
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#7c4402</se:SvgParameter> <!--945103  -->
+                            <se:SvgParameter name="stroke">#945103</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.20</se:SvgParameter>
                           <se:SvgParameter name="stroke-opacity">0.60</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
@@ -45,79 +42,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-
-           <!--Limite interdepartamental de z9 a z11-->
-
-                <se:Rule>
-                    <se:Name>Límite Interdepartamental</se:Name>
-                    <se:Description>
-                        <se:Title>Límite Interdepartamental</se:Title>
-                    </se:Description>
-                    <ogc:Filter
-                        xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>9</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>200000</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>1400000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#C09B07</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.60</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.70</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#7c4402</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.40</se:SvgParameter>
-                          <se:SvgParameter name="stroke-opacity">0.80</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">2 3.5</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                </se:Rule>
-
-        <!--Limite interdepartamental desde z12-->
-
-                <se:Rule>
-                    <se:Name>Límite Interdepartamental</se:Name>
-                    <se:Description>
-                        <se:Title>Límite Interdepartamental</se:Title>
-                    </se:Description>
-                    <ogc:Filter
-                        xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>9</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#C09B07</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.70</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.50</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#945103</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.40</se:SvgParameter>
-                          <se:SvgParameter name="stroke-opacity">0.60</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">2 3</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                </se:Rule>
-            </se:FeatureTypeStyle>
-
-          <!--Limite interprovincial desde z9-->
-
+            </se:FeatureTypeStyle> -->
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Límite Interprovincial</se:Name>
@@ -131,20 +56,17 @@
                             <ogc:Literal>10</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>1400000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>2800000</se:MaxScaleDenominator> <!-- 2M - z8 -->
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#565654</se:SvgParameter> <!-- 6C6C6A-->
-                            <se:SvgParameter name="stroke-width">1.1</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#f7f7f7</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">3 1.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">3 2</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-
-                <!--Limite interprovincial z8 -->
-
                <se:Rule>
                     <se:Name>Límite Interprovincial</se:Name>
                     <se:Description>
@@ -157,48 +79,18 @@
                             <ogc:Literal>10</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                  <se:MinScaleDenominator>1500000</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke">#353533</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.46</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">3 1.5</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                </se:Rule>
-
-              <!--Limite interprovincial desde z6 y z7-->
-
-               <se:Rule>
-                    <se:Name>Límite Interprovincial</se:Name>
-                    <se:Description>
-                        <se:Title>Límite Interprovincial</se:Title>
-                    </se:Description>
-                    <ogc:Filter
-                        xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>entidad</ogc:PropertyName>
-                            <ogc:Literal>10</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                  <se:MinScaleDenominator>3000001</se:MinScaleDenominator>
+                  <se:MinScaleDenominator>3000000</se:MinScaleDenominator>   <!-- 4M y 9M-->
                     <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#4C4C4A</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.16</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#f7f7f7</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">3 1.5</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-
-              <!--Limite interprovincial desde z4 y z5-->
-
               <se:Rule>
                     <se:Name>Límite Interprovincial</se:Name>
                     <se:Description>
@@ -215,8 +107,8 @@
                     <se:MaxScaleDenominator>40000000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#8C8C8A</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.006</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.38</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">3 1</se:SvgParameter>
@@ -224,7 +116,6 @@
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Límite exterior de la Plataforma Continental</se:Name>
@@ -240,17 +131,18 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1.1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#2fa6b3</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.7</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                         </se:Stroke>
@@ -270,10 +162,11 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.65</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
@@ -283,6 +176,7 @@
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">4 4 1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.7</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -452,7 +346,7 @@
 
                  <se:LineSymbolizer>
                     <se:Stroke>
-                        <se:SvgParameter name="stroke">#596685</se:SvgParameter>
+                        <se:SvgParameter name="stroke">#8f9ec1</se:SvgParameter>
                         <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
                         <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                         <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
@@ -552,17 +446,17 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#4E0892</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.05</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.07</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">5 4 1 4</se:SvgParameter>
@@ -585,19 +479,21 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.1</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.05</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">5 4 1 4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.9</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -622,41 +518,68 @@
                             </ogc:Not>
                         </ogc:And>
                     </ogc:Filter>
-                     <se:LineSymbolizer>
+                    <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>75000000</se:MaxScaleDenominator>
+                    <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#c29ed7</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">1.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#880ffa</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.7</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter> <!--5f0b99 160024 -->
+                            <se:SvgParameter name="stroke-opacity">0.8</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">5 4 1 4</se:SvgParameter>
+                          <se:SvgParameter name="stroke-dasharray">5 3 1 3</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                    <!-- <se:LineSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>Límite internacional</se:Name>
+                    <se:Description>
+                        <se:Title>Límite internacional</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>entidad</ogc:PropertyName>
+                                    <ogc:Literal>11</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                            <ogc:Not>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>nam</ogc:PropertyName>
+                                    <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                            </ogc:Not>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
+                    <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#4E0892</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.4</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#880ffa</se:SvgParameter>
+                            <se:SvgParameter name="stroke-opacity">0.6</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter> <!--5f0b99 160024 -->
+                            <se:SvgParameter name="stroke-opacity">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1.6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">5 7 5 7</se:SvgParameter>
+                          <se:SvgParameter name="stroke-dasharray">5 5 1 5</se:SvgParameter>
                         </se:Stroke>
-                    </se:LineSymbolizer> -->
+                    </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
                     <se:Name>Limite sector antartico</se:Name>
@@ -671,162 +594,48 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#737373</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
-                            <se:SvgParameter name="stroke-opacity">0.6</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-
-              <se:FeatureTypeStyle>
-                <se:Rule>
-                    <ogc:Filter
-                        xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite exterior del rio de la plata -nam u objeto -->
-                                <ogc:Literal>15</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- zona economica exclusiva -nam u objeto -->
-                                <ogc:Literal>6</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite de la zona contigua -nam u objeto -->
-                                <ogc:Literal>5</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName><!--limite mar territorial argentino -nam u objeto  -->
-                                <ogc:Literal>4</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        <!--    <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>  limite de aguas interiores -nam u objeto
-                                <ogc:Literal>3</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>-->
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite lateral maritimo argentino-uruguayo -objeto-->
-                                <ogc:Literal>2</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName><!-- limite del lecho y subsuelo del rio de la plata -objeto-->
-                                <ogc:Literal>1</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:Or>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
-                    <se:TextSymbolizer>
-                        <se:Label>
-                            <ogc:PropertyName>objeto</ogc:PropertyName>
-                        </se:Label>
-                        <se:Font>
-                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">11.5</se:SvgParameter>
-                            <se:SvgParameter name="font-style">italic</se:SvgParameter>
-                        </se:Font>
-                        <se:LabelPlacement>
-                            <se:LinePlacement>
-                                <se:GeneralizeLine>true</se:GeneralizeLine>
-                            </se:LinePlacement>
-                        </se:LabelPlacement>
-                        <se:Halo>
-                            <se:Radius>2.5</se:Radius>
-                            <se:Fill>
-                                <se:SvgParameter name="fill">#f9fcfe</se:SvgParameter>
-                            </se:Fill>
-                        </se:Halo>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#0055a9</se:SvgParameter> <!-- 007af2-->
-                        </se:Fill>
-                        <se:VendorOption name="followLine">true</se:VendorOption>
-                        <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
-                        <se:VendorOption name="group">yes</se:VendorOption>
-                        <se:VendorOption name="charSpacing">0.4</se:VendorOption>
-                      <se:VendorOption name="wordSpacing">0.01</se:VendorOption>
-                    </se:TextSymbolizer>
-                </se:Rule>
-                <se:Rule>
-                    <ogc:Filter
-                        xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:Or>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>7</ogc:Literal> <!-- limite exterior de la plataforma continental  -->
-                            </ogc:PropertyIsEqualTo>
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>14</ogc:Literal> <!-- 200 millas desde la costa del sector antartico argentino-->
-                            </ogc:PropertyIsEqualTo>
-                          <!--   <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>nam</ogc:PropertyName>
-                                <ogc:Literal>Límite argentino-chileno</ogc:Literal>
-                            </ogc:PropertyIsEqualTo> -->
-                            <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>nam</ogc:PropertyName>
-                                <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
-                            </ogc:PropertyIsEqualTo>
-                        </ogc:Or>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
-                    <se:TextSymbolizer>
-                        <se:Label>
-                            <ogc:PropertyName>nam</ogc:PropertyName>
-                        </se:Label>
-                        <se:Font>
-                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
-                            <se:SvgParameter name="font-size">11.5</se:SvgParameter>
-                            <se:SvgParameter name="font-style">italic</se:SvgParameter>
-                        </se:Font>
-                        <se:LabelPlacement>
-                            <se:LinePlacement>
-                                <se:GeneralizeLine>true</se:GeneralizeLine>
-                            </se:LinePlacement>
-                        </se:LabelPlacement>
-                        <se:Halo>
-                            <se:Radius>2.6</se:Radius>
-                            <se:Fill>
-                                <se:SvgParameter name="fill">#f9fcfe</se:SvgParameter>
-                            </se:Fill>
-                        </se:Halo>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#0055a9</se:SvgParameter>
-                        </se:Fill>
-                        <se:VendorOption name="followLine">true</se:VendorOption>
-                        <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
-                        <se:VendorOption name="group">yes</se:VendorOption>
-                      <se:VendorOption name="charSpacing">0.2</se:VendorOption>
-                      <se:VendorOption name="wordSpacing">0.1</se:VendorOption>
-                    </se:TextSymbolizer>
-                </se:Rule>
-            </se:FeatureTypeStyle>
-
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:And>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>entidad</ogc:PropertyName>  <!-- Limite internacional -->
-                                    <ogc:Literal>11.5</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            <ogc:Not>
-                              <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName>
-                                    <ogc:Literal>Límite argentino-chileno</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName>
-                                    <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>15</ogc:Literal> <!-- limite exterior del rio de la plata -nam u objeto -->
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>nam</ogc:PropertyName>
-                                    <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>6</ogc:Literal> <!-- zona economica exclusiva -nam u objeto -->
                             </ogc:PropertyIsEqualTo>
-                              </ogc:Or>
-                            </ogc:Not>
-                        </ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>5</ogc:Literal> <!-- limite de la zona contigua -nam u objeto -->
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>4</ogc:Literal> <!--limite mar territorial argentino -nam u objeto  -->
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>3</ogc:Literal>  <!-- limite de aguas interiores -nam u objeto  -->
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>2</ogc:Literal>  <!-- limite lateral maritimo argentino-uruguayo -objeto-->
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>1</ogc:Literal> <!-- limite del lecho y subsuelo del rio de la plata -objeto-->
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
@@ -844,18 +653,134 @@
                             </se:LinePlacement>
                         </se:LabelPlacement>
                         <se:Halo>
-                            <se:Radius>2.6</se:Radius>
+                            <se:Radius>2.5</se:Radius>
                             <se:Fill>
-                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                <se:SvgParameter name="fill">#03293e</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.35</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                            <se:SvgParameter name="fill">#d2edf5</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="followLine">true</se:VendorOption>
                         <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
                         <se:VendorOption name="group">yes</se:VendorOption>
-                      <se:VendorOption name="charSpacing">0.2</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.5</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.05</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <ogc:Filter
+                        xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>7</ogc:Literal><!-- limite exterior de la plataforma continental  -->
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName> 
+                                <ogc:Literal>14</ogc:Literal> <!-- 200 millas desde la costa del sector antartico argentino-->
+                            </ogc:PropertyIsEqualTo>
+                          <!--  <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nam</ogc:PropertyName>
+                                <ogc:Literal>Límite argentino-chileno</ogc:Literal>
+                            </ogc:PropertyIsEqualTo> -->
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>nam</ogc:PropertyName>
+                                <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>nam</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13</se:SvgParameter>
+                            <se:SvgParameter name="font-style">italic</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:LinePlacement>
+                                <se:GeneralizeLine>true</se:GeneralizeLine>
+                            </se:LinePlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>2.5</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#03293e</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.35</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#d2edf5</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="followLine">true</se:VendorOption>
+                        <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
+                        <se:VendorOption name="group">yes</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.5</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.05</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+            </se:FeatureTypeStyle>
+            <se:FeatureTypeStyle>
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>entidad</ogc:PropertyName><!-- Limite internacional -->
+                                    <ogc:Literal>11</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                            <ogc:Not>
+                              <ogc:Or>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>nam</ogc:PropertyName>
+                                    <ogc:Literal>Límite argentino-chileno</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>nam</ogc:PropertyName>
+                                    <ogc:Literal>Límite del Sector Antártico Argentino</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>nam</ogc:PropertyName> 
+                                    <ogc:Literal>Sector Antártico Argentino</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                              </ogc:Or>
+                            </ogc:Not>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>objeto</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Times New Roman</se:SvgParameter>
+                            <se:SvgParameter name="font-size">13.5</se:SvgParameter>
+                            <se:SvgParameter name="font-style">italic</se:SvgParameter>
+                          <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:LinePlacement>
+                                <se:GeneralizeLine>true</se:GeneralizeLine>
+                            </se:LinePlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1.2</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#011018</se:SvgParameter>
+                                <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#d2edf5</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="followLine">true</se:VendorOption>
+                        <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
+                        <se:VendorOption name="group">yes</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.7</se:VendorOption>
+                        <se:VendorOption name="wordSpacing">0.05</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
