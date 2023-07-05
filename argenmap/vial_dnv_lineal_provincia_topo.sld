@@ -79,7 +79,7 @@
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule> 
+        </se:Rule>
         <se:Rule>
           <se:Name>RP tierra</se:Name>
           <se:Description>
@@ -109,7 +109,7 @@
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-      </se:FeatureTypeStyle>    
+      </se:FeatureTypeStyle>
       <se:FeatureTypeStyle>
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -142,6 +142,14 @@
                 <ogc:PropertyName>rtn</ogc:PropertyName>
                 <ogc:Literal>Travesía Las Cumbre</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
+
+              <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>rtn</ogc:PropertyName>
+               <ogc:Function name="strLength">
+               <ogc:Literal>6</ogc:Literal>
+			      	</ogc:Function>
+              </ogc:PropertyIsLessThan>
+
             </ogc:And>
           </ogc:Filter>
           <se:MinScaleDenominator>100001</se:MinScaleDenominator>
