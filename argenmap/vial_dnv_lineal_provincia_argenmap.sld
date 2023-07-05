@@ -147,6 +147,14 @@
                 <ogc:PropertyName>rtn</ogc:PropertyName>
                 <ogc:Literal>Travesía Las Cumbre</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
+
+              <ogc:PropertyIsLessThan>
+                <ogc:Function name="strLength">
+                  <ogc:PropertyName>rtn</ogc:PropertyName>
+				</ogc:Function>
+                <ogc:Literal>6</ogc:Literal>
+              </ogc:PropertyIsLessThan>
+
             </ogc:And>
           </ogc:Filter>
           <se:MinScaleDenominator>900000</se:MinScaleDenominator>
@@ -227,6 +235,14 @@
                 <ogc:PropertyName>rtn</ogc:PropertyName>
                 <ogc:Literal>Travesía Las Cumbre</ogc:Literal>
               </ogc:PropertyIsNotEqualTo>
+
+              <ogc:PropertyIsLessThan>
+              <ogc:PropertyName>rtn</ogc:PropertyName>
+               <ogc:Function name="strLength">
+               <ogc:Literal>6</ogc:Literal>
+				       </ogc:Function>
+              </ogc:PropertyIsLessThan>
+
             </ogc:And>
           </ogc:Filter>
           <se:MinScaleDenominator>100001</se:MinScaleDenominator>
