@@ -183,6 +183,7 @@
                         </ogc:Not>
                     </ogc:Filter>
                   <!-- z 12 -->
+                   <se:MinScaleDenominator>70000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Geometry>

@@ -149,7 +149,6 @@
                     </se:PointSymbolizer>
                 </se:Rule>
 
-                <!--Etiquetas-->
 
               <!--Cabecera de Departamento o Partido z8 a z10-->
                 <se:Rule>
@@ -270,7 +269,7 @@
                             </ogc:PropertyIsNotEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>20000</se:MinScaleDenominator>
+                    <se:MinScaleDenominator>50000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
@@ -586,10 +585,16 @@
 
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                         <ogc:And>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
                             <ogc:Literal>2</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
+                             <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Corrientes</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>4500000</se:MaxScaleDenominator>
@@ -631,6 +636,7 @@
 
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                             
                       <ogc:And>
                       <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
@@ -679,6 +685,9 @@
                          <se:Priority>4</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                        <se:VendorOption name="group">yes</se:VendorOption>
+                       
+
                     </se:TextSymbolizer>
                 </se:Rule>
                <!--Etiquetas capitales provinciales corrientes z8-->
@@ -696,7 +705,7 @@
                         </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>900000</se:MinScaleDenominator>
+                    <se:MinScaleDenominator>70000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
@@ -731,6 +740,7 @@
                          <se:Priority>4</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                        <se:VendorOption name="group">yes</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -847,12 +857,18 @@
               <!--Etiquetas capitales provinicales desde z8-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:And>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
                             <ogc:Literal>2</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Corrientes</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            </ogc:And>
                     </ogc:Filter>
-                  <se:MinScaleDenominator>60000</se:MinScaleDenominator>
+                  <se:MinScaleDenominator>70000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
@@ -887,56 +903,9 @@
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
-            <se:FeatureTypeStyle>
 
-             <!--Cabecera departamento o partido ca1=1 z9-->
-                <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ca1</ogc:PropertyName>
-                            <ogc:Literal>1</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <se:MinScaleDenominator>400000</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>850000</se:MaxScaleDenominator>
-                    <se:TextSymbolizer>
-                        <se:Label>
-                            <ogc:PropertyName>fna</ogc:PropertyName>
-                        </se:Label>
-
-                        <se:Font>
-                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-                            <se:SvgParameter name="font-size">11</se:SvgParameter>
-                           <!-- <se:SvgParameter name="font-weight">bold</se:SvgParameter> -->
-                        </se:Font>
-                        <se:LabelPlacement>
-                            <se:PointPlacement>
-                                <se:AnchorPoint>
-                                    <se:AnchorPointX>0.5</se:AnchorPointX>
-                                    <se:AnchorPointY>1.6</se:AnchorPointY>
-                                </se:AnchorPoint>
-                            </se:PointPlacement>
-                        </se:LabelPlacement>
-                        <se:Halo>
-                            <se:Radius>0.5</se:Radius>
-                            <se:Fill>
-                                <se:SvgParameter name="fill">#FFF7EE</se:SvgParameter>
-                              <se:SvgParameter name="fill-opacity">0.75</se:SvgParameter>
-                            </se:Fill>
-                        </se:Halo>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#575757</se:SvgParameter>
-                          <se:SvgParameter name="fill-opacity">0.75</se:SvgParameter>
-                        </se:Fill>
-                        <se:Priority>3</se:Priority>
-                        <se:VendorOption name="autoWrap">100</se:VendorOption>
-                        <se:VendorOption name="charSpacing">0.1</se:VendorOption>
-                        <se:VendorOption name="spaceAround">20</se:VendorOption>
-                      <se:VendorOption name="partials">true</se:VendorOption>
-                    </se:TextSymbolizer>
-                </se:Rule>
-
-              <!--Cabecera departamento o partido ca1=1 z11 y z12-->
+           <se:FeatureTypeStyle>
+             <!--Cabecera departamento o partido ca1=1 z11 y z12-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -945,7 +914,7 @@
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>350000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
@@ -972,11 +941,12 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#575757</se:SvgParameter>
                         </se:Fill>
-                        <se:Priority>3</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.1</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
+
+
                 <!--Filtro etiquetas z8 a z11-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -1049,13 +1019,97 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#464646</se:SvgParameter>
                         </se:Fill>
-                        <se:Priority>2</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+
+
+            <!--Cabecera departamento o partido ca1=1 z10 - 545k -->
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                   <ogc:And>          
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>ca1</ogc:PropertyName>
+                                <ogc:Literal>1</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:Not>
+                            <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Bahía Blanca</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Mar del Plata</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>San Carlos de Bariloche</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>San Rafael</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comodoro Rivadavia</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Río Grande</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Alta Gracia</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Rosario</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                      </ogc:Not>
+                    </ogc:And>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>400000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>850000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                           <!-- <se:SvgParameter name="font-weight">bold</se:SvgParameter> -->
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1.6</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>0.5</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFF7EE</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.75</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#464646</se:SvgParameter>
+                          <se:SvgParameter name="fill-opacity">0.75</se:SvgParameter>
+                        </se:Fill>
+                        <se:Priority>3</se:Priority>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.1</se:VendorOption>
+                        <se:VendorOption name="spaceAround">12</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
 
-
+          
             <!-- Etiquetas localidades zoom 11 -->
             <se:FeatureTypeStyle>
                 <se:Rule>
@@ -1071,8 +1125,8 @@
                                     <ogc:Literal>9</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                                 <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>entidad</ogc:PropertyName>
-                                    <ogc:Literal>3</ogc:Literal>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>3</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                             </ogc:Or>
                             <ogc:PropertyIsNotEqualTo>
@@ -1124,7 +1178,7 @@
                         </se:Fill>
                         <se:Priority>2</se:Priority>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
-                        <se:VendorOption name="spaceAround">50</se:VendorOption>
+                        <se:VendorOption name="spaceAround">40</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.7</se:VendorOption>
                         <se:VendorOption name="wordSpacing">0.6</se:VendorOption>
                     </se:TextSymbolizer>
@@ -1268,6 +1322,7 @@
                         <se:VendorOption name="autoWrap">80</se:VendorOption>
                         <se:VendorOption name="spaceAround">15</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.35</se:VendorOption>
+
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

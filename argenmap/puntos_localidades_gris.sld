@@ -329,10 +329,16 @@
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                         <ogc:And>
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ca1</ogc:PropertyName>
+                            <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
                             <ogc:Literal>2</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
+                             <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Corrientes</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>4500000</se:MaxScaleDenominator>
@@ -587,10 +593,16 @@
                <!--Etiquetas capitales provinicales desde z8-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                         <ogc:And>
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ca1</ogc:PropertyName>
+                            <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
                             <ogc:Literal>2</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
+                             <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Corrientes</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            </ogc:And>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>

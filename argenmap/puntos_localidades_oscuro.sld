@@ -345,10 +345,16 @@
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                         <ogc:And>
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>ca1</ogc:PropertyName>
+                            <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
                             <ogc:Literal>2</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
+                             <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Corrientes</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            </ogc:And>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
@@ -399,7 +405,7 @@
                         </ogc:PropertyIsEqualTo>
                         </ogc:And>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>900000</se:MinScaleDenominator>
+                    <se:MinScaleDenominator>800</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>4500000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
