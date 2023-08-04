@@ -17,8 +17,8 @@
                           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                               <ogc:And>
                              <ogc:PropertyIsNotEqualTo>
-                                <ogc:PropertyName>gid</ogc:PropertyName>
-                                <ogc:Literal>3912</ogc:Literal>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Isla Grande de Tierra del Fuego</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyIsNotEqualTo>
                                 		<ogc:PropertyName>entidad</ogc:PropertyName>
