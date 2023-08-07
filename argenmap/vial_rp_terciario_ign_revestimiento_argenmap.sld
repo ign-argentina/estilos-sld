@@ -27,7 +27,7 @@
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-        <se:Rule>
+   <!--     <se:Rule>
           <se:Name>Camino terciario</se:Name>
           <se:Description>
             <se:Title>Camino terciario</se:Title>
@@ -42,20 +42,20 @@
                 <ogc:PropertyName>entidad</ogc:PropertyName>
                 <ogc:Literal>0</ogc:Literal>
               </ogc:PropertyIsEqualTo>
-                                <ogc:Or>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>rst</ogc:PropertyName>
-                                        <ogc:Literal>13</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>rst</ogc:PropertyName>
-                                        <ogc:Literal>-1</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>rst</ogc:PropertyName>
-                                        <ogc:Literal>-2</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                </ogc:Or>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>rst</ogc:PropertyName>
+                      <ogc:Literal>13</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>rst</ogc:PropertyName>
+                      <ogc:Literal>-1</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                       <ogc:PropertyName>rst</ogc:PropertyName>
+                       <ogc:Literal>-2</ogc:Literal>
+                   </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
             </ogc:And>
           </ogc:Filter>
           <se:MinScaleDenominator>100001</se:MinScaleDenominator>
@@ -68,7 +68,8 @@
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-        </se:Rule>
+        </se:Rule> -->
+        
         <se:Rule>
           <se:Name>vial_capa_base</se:Name>
           <se:Description>
