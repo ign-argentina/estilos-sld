@@ -7,93 +7,51 @@
     <NamedLayer>
         <se:Name>areas_de_zona_costera</se:Name>
         <UserStyle>
-            <se:Name>isla_gris_v2</se:Name>
+            <se:Name>isla_oscuro</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>isla_gris_v2</se:Name>
+                    <se:Name>isla_oscuro</se:Name>
                     <se:Description>
                         <se:Title>isla</se:Title>
                     </se:Description>
-                       <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                             <ogc:And>
-                             <ogc:PropertyIsNotEqualTo>
-                                  <ogc:PropertyName>fna</ogc:PropertyName>
-                                <ogc:Literal>Isla Grande de Tierra del Fuego</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyIsNotEqualTo>
-                                        <ogc:PropertyName>entidad</ogc:PropertyName>
-                                        <ogc:Literal>1</ogc:Literal>
-                            </ogc:PropertyIsNotEqualTo>
-                            </ogc:And>
-                    </ogc:Filter>
-                    <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
-                    <se:PolygonSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#f0f0f0</se:SvgParameter> <!--f0f0f0 -->
-                        </se:Fill>
-                    </se:PolygonSymbolizer>
-                </se:Rule>
-            </se:FeatureTypeStyle>
-            <!-- <se:FeatureTypeStyle>
-                <se:Rule>
-                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                    <!-- <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>3</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
-                            <ogc:Not>
-                                <ogc:Or>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>fna</ogc:PropertyName>
-                                        <ogc:Literal>-1</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyIsEqualTo>
-                                        <ogc:PropertyName>fna</ogc:PropertyName>
-                                        <ogc:Literal>-2</ogc:Literal>
-                                    </ogc:PropertyIsEqualTo>
-                                </ogc:Or>
-                            </ogc:Not>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Isla Grande de Tierra del Fuego</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
                         </ogc:And>
+                    </ogc:Filter> --> <!--filtro roto no se ven las islas cerca de Martin Garcia-->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                              <ogc:And>
+                             <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Isla Grande de Tierra del Fuego</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                		<ogc:PropertyName>entidad</ogc:PropertyName>
+                                		<ogc:Literal>1</ogc:Literal>
+                           	</ogc:PropertyIsNotEqualTo>
+                            </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>400000</se:MaxScaleDenominator>
-                    <se:TextSymbolizer>
-                        <se:Geometry>
-                            <ogc:Function name="centroid">
-                                <ogc:PropertyName>geom</ogc:PropertyName>
-                            </ogc:Function>
-                        </se:Geometry>
-                        <se:Label>
-                            <ogc:PropertyName>fna</ogc:PropertyName>
-                        </se:Label>
-                        <se:Font>
-                            <se:SvgParameter name="font-family">Chaparral Pro</se:SvgParameter>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>
-                        </se:Font>
-                        <se:LabelPlacement>
-                            <se:PointPlacement>
-                                <se:AnchorPoint>
-                                    <se:AnchorPointX>0.5</se:AnchorPointX>
-                                    <se:AnchorPointY>0.5</se:AnchorPointY>
-                                </se:AnchorPoint>
-                            </se:PointPlacement>
-                        </se:LabelPlacement>
-                        <se:Halo>
-                            <se:Radius>2</se:Radius>
-                            <se:Fill>
-                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-                            </se:Fill>
-                        </se:Halo>
+                    <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#672c0f</se:SvgParameter>
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
-                        <se:VendorOption name="maxDisplacement">1</se:VendorOption>
-                        <se:VendorOption name="autoWrap">70</se:VendorOption>
-                        <se:VendorOption name="group">true</se:VendorOption>
-                    </se:TextSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.0001</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                        </se:Stroke>
+                    </se:PolygonSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle> -->
+            </se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>
