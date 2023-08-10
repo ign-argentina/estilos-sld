@@ -17,10 +17,10 @@
                     <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#adf294</se:SvgParameter>
+                            <se:SvgParameter name="fill">#c8facc</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#adf294</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#c8facc</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                         </se:Stroke>
