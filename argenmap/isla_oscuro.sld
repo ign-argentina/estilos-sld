@@ -32,6 +32,14 @@
                                 <ogc:PropertyName>fna</ogc:PropertyName>
                                 <ogc:Literal>Isla Grande de Tierra del Fuego</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Isla Soledad</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Isla Gran Malvina</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyIsNotEqualTo>
                                 		<ogc:PropertyName>entidad</ogc:PropertyName>
                                 		<ogc:Literal>1</ogc:Literal>
