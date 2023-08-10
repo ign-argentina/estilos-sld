@@ -15,10 +15,12 @@
                         <se:Title>Capital de Provincia</se:Title>
                     </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                      
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>ca1</ogc:PropertyName>
                             <ogc:Literal>2</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
+                      
                     </ogc:Filter>
                     <!--Capital de Provincia z6 -->
                     <se:MinScaleDenominator>9500001</se:MinScaleDenominator>
@@ -580,6 +582,194 @@
                 </se:Rule>
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
+              
+              <!--Casos especiales zoom 9 a 13-->
+               <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                      <ogc:Or>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> 
+                            <ogc:Literal>Puerto Argentino</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> 
+                            <ogc:Literal>El Calafate</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>70000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>1500000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11.5</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.4</se:AnchorPointX>
+                                    <se:AnchorPointY>-0.4</se:AnchorPointY>
+                                </se:AnchorPoint>
+                              <se:Displacement>
+                                    <se:DisplacementX>20</se:DisplacementX>
+                                    <se:DisplacementY>-15</se:DisplacementY>
+                                </se:Displacement>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>0.3</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFF5EA</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#676767 </se:SvgParameter>
+                            <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
+                        </se:Fill>
+                        <se:Priority>1</se:Priority>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="spaceAround">40</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.6</se:VendorOption>
+                      <se:VendorOption name="maxDisplacement">35</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+              <se:Rule>
+                    <se:Name>puntos_localidades_capa_base</se:Name>
+                    <se:Description>
+                        <se:Title>Localidad</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                       <ogc:Or>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> 
+                            <ogc:Literal>Puerto Argentino</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> 
+                            <ogc:Literal>El Calafate</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>70000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+                    <se:PointSymbolizer>
+                        <se:Graphic>
+                            <se:Mark>
+                                <se:WellKnownName>circle</se:WellKnownName>
+                                <se:Fill>
+                                    <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                    <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
+                                </se:Fill>
+                                <se:Stroke>
+                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
+                                </se:Stroke>
+                            </se:Mark>
+                            <se:Size>4</se:Size>
+                        </se:Graphic>
+                    </se:PointSymbolizer>
+                </se:Rule>
+              <!--Casos especiales: Carmen de Patagones-->
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                   
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> 
+                            <ogc:Literal>Carmen de Patagones</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                       
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">11.5</se:SvgParameter>
+                            <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.2</se:AnchorPointX>
+                                    <se:AnchorPointY>-0.4</se:AnchorPointY>
+                                </se:AnchorPoint>
+                              <se:Displacement>
+                                    <se:DisplacementX>-10</se:DisplacementX>
+                                    <se:DisplacementY>6</se:DisplacementY>
+                                </se:Displacement>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>0.3</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFF5EA</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#676767 </se:SvgParameter>
+                            <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
+                        </se:Fill>
+                        <se:Priority>1</se:Priority>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="spaceAround">40</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.6</se:VendorOption>
+                      <se:VendorOption name="maxDisplacement">25</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+              <se:Rule>
+                    <se:Name>puntos_localidades_capa_base</se:Name>
+                    <se:Description>
+                        <se:Title>Localidad</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                  
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> 
+                            <ogc:Literal>Carmen de Patagones</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+                     <se:PointSymbolizer>
+                        <se:Graphic>
+                            <se:Mark>
+                                <se:WellKnownName>circle</se:WellKnownName>
+                                <se:Fill>
+                                    <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                </se:Fill>
+                                <se:Stroke>
+                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                                </se:Stroke>
+                            </se:Mark>
+                            <se:Size>12</se:Size>
+                        </se:Graphic>
+                    </se:PointSymbolizer>
+                    <se:PointSymbolizer>
+                        <se:Graphic>
+                            <se:Mark>
+                                <se:WellKnownName>circle</se:WellKnownName>
+                                <se:Fill>
+                                    <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                </se:Fill>
+                                <se:Stroke>
+                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                                </se:Stroke>
+                            </se:Mark>
+                            <se:Size>5.3</se:Size>
+                        </se:Graphic>
+                    </se:PointSymbolizer>
+                </se:Rule>
+              
 
                 <!--Etiquetas capitales provinciales z7-->
 
@@ -691,6 +881,10 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                <!--Etiquetas capitales provinciales corrientes z8-->
+              
+              
+              
+              
 
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -908,10 +1102,16 @@
              <!--Cabecera departamento o partido ca1=1 z11 y z12-->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                      <ogc:And>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>ca1</ogc:PropertyName>
                             <ogc:Literal>1</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsNotEqualTo>
+                            	<ogc:PropertyName>fna</ogc:PropertyName> 
+                            		<ogc:Literal>Carmen de Patagones</ogc:Literal>
+                        		</ogc:PropertyIsNotEqualTo>
+                          </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>100001</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
@@ -955,7 +1155,12 @@
                                 <ogc:PropertyName>ca1</ogc:PropertyName>
                                 <ogc:Literal>1</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            	<ogc:PropertyName>fna</ogc:PropertyName> 
+                            		<ogc:Literal>Carmen de Patagones</ogc:Literal>
+                        		</ogc:PropertyIsEqualTo>
                           <ogc:Or>
+                          
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>fna</ogc:PropertyName>
                                 <ogc:Literal>Bahía Blanca</ogc:Literal>
@@ -1034,6 +1239,10 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:Not>
                             <ogc:Or>
+                              <ogc:PropertyIsEqualTo>
+                            	<ogc:PropertyName>fna</ogc:PropertyName> 
+                            		<ogc:Literal>Carmen de Patagones</ogc:Literal>
+                        		</ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>fna</ogc:PropertyName>
                                 <ogc:Literal>Bahía Blanca</ogc:Literal>
@@ -1125,9 +1334,13 @@
                                     <ogc:Literal>9</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                                 <ogc:PropertyIsEqualTo>
-                                <ogc:PropertyName>entidad</ogc:PropertyName>
-                                <ogc:Literal>3</ogc:Literal>
+                                	<ogc:PropertyName>entidad</ogc:PropertyName>
+                                	<ogc:Literal>3</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsNotEqualTo>
+                            	<ogc:PropertyName>fna</ogc:PropertyName> 
+                            		<ogc:Literal>Carmen de Patagones</ogc:Literal>
+                        		</ogc:PropertyIsNotEqualTo>
                             </ogc:Or>
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>ahb</ogc:PropertyName>
@@ -1145,6 +1358,7 @@
                                 <ogc:PropertyName>ca1</ogc:PropertyName> <!-- zoom 7-->
                                 <ogc:Literal>2</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
+                      
                         </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>200000</se:MinScaleDenominator>
@@ -1203,6 +1417,10 @@
                                     <ogc:PropertyName>entidad</ogc:PropertyName>
                                     <ogc:Literal>3</ogc:Literal> <!--otros asentamientos-->
                                 </ogc:PropertyIsEqualTo>
+                                     <ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> 
+                            <ogc:Literal>Carmen de Patagones</ogc:Literal>
+                        </ogc:PropertyIsNotEqualTo>
                             </ogc:Or>
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>ahb</ogc:PropertyName>
@@ -1278,6 +1496,7 @@
                                     <ogc:PropertyName>entidad</ogc:PropertyName>
                                     <ogc:Literal>3</ogc:Literal> <!--otros asentamientos-->
                                 </ogc:PropertyIsEqualTo>
+                             
                             </ogc:Or>
                             <ogc:PropertyIsNotEqualTo>
                                 <ogc:PropertyName>ahb</ogc:PropertyName>
@@ -1287,10 +1506,16 @@
                                 <ogc:PropertyName>ahb</ogc:PropertyName>
                                 <ogc:Literal>5</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
+                           <ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyName>fna</ogc:PropertyName> 
+                            <ogc:Literal>Carmen de Patagones</ogc:Literal>
+                      		 </ogc:PropertyIsNotEqualTo>
+                          
                         </ogc:And>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>70000</se:MaxScaleDenominator>
+                  
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>fna</ogc:PropertyName>
@@ -1322,8 +1547,8 @@
                         <se:VendorOption name="autoWrap">80</se:VendorOption>
                         <se:VendorOption name="spaceAround">15</se:VendorOption>
                         <se:VendorOption name="charSpacing">0.35</se:VendorOption>
-
                     </se:TextSymbolizer>
+                  
                 </se:Rule>
             </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
