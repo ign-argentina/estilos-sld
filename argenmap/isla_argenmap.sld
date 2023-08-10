@@ -20,6 +20,14 @@
                                 <ogc:PropertyName>fna</ogc:PropertyName>
                                 <ogc:Literal>Isla Grande de Tierra del Fuego</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Isla Soledad</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Isla Gran Malvina</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyIsNotEqualTo>
                                 		<ogc:PropertyName>entidad</ogc:PropertyName>
                                 		<ogc:Literal>1</ogc:Literal>
@@ -89,9 +97,10 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#672c0f</se:SvgParameter>
                         </se:Fill>
-                        <se:VendorOption name="maxDisplacement">1</se:VendorOption>
+                        <se:VendorOption name="maxDisplacement">20</se:VendorOption>
                         <se:VendorOption name="autoWrap">70</se:VendorOption>
                         <se:VendorOption name="group">true</se:VendorOption>
+                        <se:VendorOption name="spaceAround">30</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
