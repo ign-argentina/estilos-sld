@@ -16,9 +16,18 @@
                     </se:Description>
                        <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                              <ogc:And>
+                             
                              <ogc:PropertyIsNotEqualTo>
-                                  <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
                                 <ogc:Literal>Isla Grande de Tierra del Fuego</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Isla Soledad</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Isla Gran Malvina</ogc:Literal>
                             </ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyIsNotEqualTo>
                                         <ogc:PropertyName>entidad</ogc:PropertyName>
