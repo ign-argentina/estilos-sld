@@ -123,7 +123,7 @@
                       </ogc:PropertyIsEqualTo>
                       <ogc:PropertyIsEqualTo>
                         <ogc:PropertyName>fna</ogc:PropertyName>
-                        <ogc:Literal>Rí­o Paraná</ogc:Literal>
+                        <ogc:Literal>Río Paraná</ogc:Literal>
                       </ogc:PropertyIsEqualTo>
                       <ogc:PropertyIsEqualTo>
                         <ogc:PropertyName>fna</ogc:PropertyName>
@@ -187,8 +187,8 @@
                       </ogc:PropertyIsEqualTo>
                     </ogc:Or>
                   </ogc:Filter>
-                  <se:MinScaleDenominator>3000000</se:MinScaleDenominator>
-                  <se:MaxScaleDenominator>33000000</se:MaxScaleDenominator>
+                  <se:MinScaleDenominator>4000001</se:MinScaleDenominator>
+                  <se:MaxScaleDenominator>34000000</se:MaxScaleDenominator>
                   <se:PolygonSymbolizer>
                     <se:Fill>
                       <se:SvgParameter name="fill">#cfd3d4</se:SvgParameter>   <!-- cfd3d4-->
@@ -196,6 +196,37 @@
                     </se:Fill>
                   </se:PolygonSymbolizer>
                 </se:Rule>
+               <se:Rule>
+                  <!-- zoom 5 en adelante Lagos intermitentes principales -->
+                  <se:Name/>
+                   <se:Description>
+                        <se:Title>Lagunas intermitentes principales</se:Title>
+                   </se:Description>
+                  <ogc:Filter>
+                    <ogc:Or>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Laguna La Picasa</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>fna</ogc:PropertyName>
+                        <ogc:Literal>Lago Colhué Huapi</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+
+
+  	                  </ogc:Or>
+                  </ogc:Filter>
+                  <se:MinScaleDenominator>0</se:MinScaleDenominator>
+                  <se:MaxScaleDenominator>33000000</se:MaxScaleDenominator>
+                  <se:PolygonSymbolizer>
+                    <se:Fill>
+                      <se:SvgParameter name="fill">#cfd3d4</se:SvgParameter> <!--c6dff5-->
+                      <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
+                    </se:Fill>
+                  </se:PolygonSymbolizer>
+                </se:Rule>
+
+              
               <!-- rio de la plata y otros zoom 8 a zoom 10 -->
                 <se:Rule>
                     <se:Name>areas_aguas_continentales_capa_base</se:Name>
@@ -226,8 +257,8 @@
                             </ogc:Not>
                         </ogc:And>
                     </ogc:Filter>
-                    <se:MinScaleDenominator>273001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>2500000</se:MaxScaleDenominator>
+                    <se:MinScaleDenominator>500001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#cfd3d4</se:SvgParameter>
@@ -250,7 +281,7 @@
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>300000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#cfd3d4</se:SvgParameter>
@@ -276,7 +307,7 @@
                     <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
                    <se:PolygonSymbolizer>
                  <se:Stroke>
-                   <se:SvgParameter name="stroke">#cfd3d4</se:SvgParameter>
+                   <se:SvgParameter name="stroke">#cfd3d4</se:SvgParameter> <!--cfd3d4-->
                    <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
                    <se:SvgParameter name="stroke-dasharray">10 2 1 2</se:SvgParameter>
                    <se:SvgParameter name="stroke-opacity">0.7</se:SvgParameter>
@@ -315,7 +346,7 @@
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MinScaleDenominator>1000001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>5000001</se:MaxScaleDenominator>
                    <se:PolygonSymbolizer>      
                  <se:Stroke>
                    <se:SvgParameter name="stroke">#cfd3d4</se:SvgParameter> <!--B5A77C -->
