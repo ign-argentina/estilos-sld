@@ -73,6 +73,10 @@
                                     <ogc:PropertyName>fna</ogc:PropertyName>
                                     <ogc:Literal>Comuna 9</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
+                                 <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>gid</ogc:PropertyName>
+                                    <ogc:Literal>740</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
                             </ogc:Or>
                         </ogc:Not>
                     </ogc:Filter>
@@ -179,6 +183,11 @@
                                     <ogc:PropertyName>fna</ogc:PropertyName>
                                     <ogc:Literal>Comuna 9</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
+                                  <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>gid</ogc:PropertyName>
+                                    <ogc:Literal>740</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+  
                             </ogc:Or>
                         </ogc:Not>
                     </ogc:Filter>
