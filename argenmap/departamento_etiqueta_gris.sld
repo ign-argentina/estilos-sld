@@ -1,82 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" 
-    xmlns:ogc="http://www.opengis.net/ogc" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" 
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
+    xmlns:ogc="http://www.opengis.net/ogc" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:se="http://www.opengis.net/se">
     <NamedLayer>
         <se:Name>area_de_limites</se:Name>
         <UserStyle>
-            <se:Name>departamento_etiqueta_gris</se:Name>
+            <se:Name>departamento_etiqueta_gris_v2</se:Name>
             <se:FeatureTypeStyle>
+
+              <!-- Departamento z 10 -->
+
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                        <ogc:Not>
-                            <ogc:Or>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 1</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 10</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 11</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 12</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 13</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 14</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 15</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 2</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 3</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 4</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 5</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 6</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 7</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 8</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <ogc:PropertyName>fna</ogc:PropertyName>
-                                    <ogc:Literal>Comuna 9</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                            </ogc:Or>
-                        </ogc:Not>
+                       <ogc:PropertyIsLike wildCard="%" escapeChar="\" singleChar="_">
+                          <ogc:PropertyName>fna</ogc:PropertyName>
+                          <ogc:Literal>Departamento%</ogc:Literal>
+                        </ogc:PropertyIsLike>
                     </ogc:Filter>
+                    <se:MinScaleDenominator>500000</se:MinScaleDenominator>
                     <se:MaxScaleDenominator>550000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Geometry>
+                            <ogc:Function name="centroid">
+                                <ogc:PropertyName>geom</ogc:PropertyName>
+                            </ogc:Function>
+                        </se:Geometry>
+                        <se:Label>
+                            <ogc:Function name="strSubstringStart">
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>13</ogc:Literal>
+                            </ogc:Function>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>0.5</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#f0f0f0</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#909090</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="maxDisplacement">1</se:VendorOption>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="spaceAround">45</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.4</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+
+              <!-- Partido z 10-->
+
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                       <ogc:PropertyIsLike wildCard="%" escapeChar="\" singleChar="_">
+                          <ogc:PropertyName>fna</ogc:PropertyName>
+                          <ogc:Literal>Partido de %</ogc:Literal>
+                        </ogc:PropertyIsLike>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>500001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>550000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Geometry>
+                            <ogc:Function name="centroid">
+                                <ogc:PropertyName>geom</ogc:PropertyName>
+                            </ogc:Function>
+                        </se:Geometry>
+                        <se:Label>
+                            <ogc:Function name="strSubstringStart">
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>11</ogc:Literal>
+                            </ogc:Function>
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>0.5</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#f0f0f0</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#909090</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="maxDisplacement">1</se:VendorOption>
+                        <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="spaceAround">45</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.4</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+
+
+            <!-- Departamento y Partido z 10 -->
+
+                <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                       <ogc:Not>
+                        <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 1</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 2</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 3</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 4</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 5</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 6</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 7</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 8</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 9</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 10</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 11</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 12</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 13</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 14</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>Comuna 15</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                      </ogc:Not>
+                    <!-- </ogc:Filter>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                      <ogc:And>
+                        <ogc:PropertyIsLike wildCard="%" escapeChar="\" singleChar="_">
+                          <ogc:PropertyName>fna</ogc:PropertyName>
+                          <ogc:Literal>Departamento%</ogc:Literal>
+                        </ogc:PropertyIsLike>
+                        <ogc:PropertyIsLike wildCard="%" escapeChar="\" singleChar="_">
+                          <ogc:PropertyName>fna</ogc:PropertyName>
+                          <ogc:Literal>Partido de%</ogc:Literal>
+                        </ogc:PropertyIsLike>
+                      </ogc:And> -->
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>200000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="centroid">
@@ -98,14 +217,23 @@
                                 </se:AnchorPoint>
                             </se:PointPlacement>
                         </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#f0f0f0</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#333333</se:SvgParameter>
+                            <se:SvgParameter name="fill">#909090</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="maxDisplacement">1</se:VendorOption>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
+                        <se:VendorOption name="spaceAround">45</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.4</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
+
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -172,6 +300,8 @@
                             </ogc:PropertyIsEqualTo>
                         </ogc:Or>
                     </ogc:Filter>
+
+                  <!-- z 12 -->
                     <se:MaxScaleDenominator>200000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Geometry>
@@ -194,11 +324,18 @@
                                 </se:AnchorPoint>
                             </se:PointPlacement>
                         </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>1</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#f0f0f0</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#333333</se:SvgParameter>
+                            <se:SvgParameter name="fill">#909090</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="maxDisplacement">1</se:VendorOption>
                         <se:VendorOption name="autoWrap">100</se:VendorOption>
+                      <se:VendorOption name="charSpacing">0.4</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>

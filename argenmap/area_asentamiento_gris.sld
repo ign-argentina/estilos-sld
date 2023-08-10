@@ -6,10 +6,52 @@
     xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0"
     xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
     <NamedLayer>
-        <se:Name>areas_de_asentamientos_y_edificios</se:Name>
+        <se:Name>areas_de_asentamientos_y_edificios_gris_v2</se:Name>
         <UserStyle>
-            <se:Name>area_asentamiento_capa_base</se:Name>
+            <se:Name>area_asentamiento_capa_base_gris_v2</se:Name>
             <se:FeatureTypeStyle>
+              <!-- Mancha urbana z9 -->
+                <se:Rule>
+                    <se:Name>Ejido, planta, otros</se:Name>
+                    <se:Description>
+                        <se:Title>Ejido, planta, otros</se:Title>
+                    </se:Description>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                      <ogc:Or>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>3</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>1</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                         <ogc:PropertyIsGreaterThan>
+                                    <ogc:Function name="area">
+                                    <ogc:PropertyName>geom</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>5000000000000</ogc:Literal>
+                           </ogc:PropertyIsGreaterThan>
+                          </ogc:Or>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>900000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>1400000</se:MaxScaleDenominator>
+                     <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#e1e1dd</se:SvgParameter>
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#e1e1dd</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+                        </se:Stroke>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+              <!-- Mancha urbana desde z10 -->
                 <se:Rule>
                     <se:Name>Ejido, planta, otros</se:Name>
                     <se:Description>
@@ -29,10 +71,16 @@
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>1</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
+                                                   <ogc:PropertyIsGreaterThan>
+                                    <ogc:Function name="area">
+                                    <ogc:PropertyName>geom</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>5000000000000</ogc:Literal>
+                           </ogc:PropertyIsGreaterThan>
                         </ogc:Or>
                     </ogc:Filter>
                     <se:MinScaleDenominator>0</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>3000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>850000</se:MaxScaleDenominator>
                      <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#e1e1dd</se:SvgParameter>
@@ -70,7 +118,7 @@
                         </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle> -->
+            </se:FeatureTypeStyle>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Sitio de Interés</se:Name>
@@ -96,7 +144,7 @@
                         </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
-            </se:FeatureTypeStyle>
+            </se:FeatureTypeStyle>-->
         </UserStyle>
     </NamedLayer>
 </StyledLayerDescriptor>

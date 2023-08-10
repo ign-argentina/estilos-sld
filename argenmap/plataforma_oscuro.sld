@@ -9,8 +9,9 @@
           <se:Name>plataforma_oscuro</se:Name>
           <se:PolygonSymbolizer>
             <se:Fill>
-              <se:SvgParameter name="fill">#4c4c4f</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>
+              <se:SvgParameter name="fill">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.01</se:SvgParameter>
+              <se:SvgParameter name="fill-opacity">0.05</se:SvgParameter>
             </se:Fill>
           </se:PolygonSymbolizer>
         </se:Rule>

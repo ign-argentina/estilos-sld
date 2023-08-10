@@ -7,6 +7,7 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>bacara</se:Name>
+          <se:MinScaleDenominator>15000000</se:MinScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
@@ -19,7 +20,27 @@
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>9</se:Size>
+              <se:Size>3</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>bacara</se:Name>
+          <se:MinScaleDenominator>0</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>circle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#0123ff</se:SvgParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#0123ff</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>8</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>

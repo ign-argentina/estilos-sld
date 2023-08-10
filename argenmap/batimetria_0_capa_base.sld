@@ -13,10 +13,12 @@
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#e3f4ff</se:SvgParameter>
+              <se:SvgParameter name="fill-opacity">1</se:SvgParameter>
             </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#e3f4ff</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>

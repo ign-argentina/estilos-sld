@@ -7,6 +7,26 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>doscientas_millas</se:Name>
+          <!--Zoom nivel 3 a 5-->
+           <se:MinScaleDenominator>15000000</se:MinScaleDenominator>
+           <se:MaxScaleDenominator>600000000</se:MaxScaleDenominator>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#8ad4ed</se:SvgParameter>
+              <se:SvgParameter name="fill-opacity">0.7</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>doscientas_millas</se:Name>
+          <!--Zoom desde nivel 6 -->
+            <se:MinScaleDenominator>0</se:MinScaleDenominator>
+            <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#8ad4ed</se:SvgParameter>

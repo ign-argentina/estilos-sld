@@ -26,12 +26,10 @@
           <se:MaxScaleDenominator>600000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
                 <se:OnlineResource xlink:type="simple" xlink:href="localidad.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
-              <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
               </se:Mark>
@@ -60,12 +58,10 @@
           <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-             <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
                 <se:OnlineResource xlink:type="simple" xlink:href="localidad.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
-              <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
               </se:Mark>
@@ -93,12 +89,10 @@
           <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-                            <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
                 <se:OnlineResource xlink:type="simple" xlink:href="localidad.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
-              <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
               </se:Mark>

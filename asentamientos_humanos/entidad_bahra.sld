@@ -18,7 +18,7 @@
           </ogc:Filter>
           <se:MinScaleDenominator>9000001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>600000000</se:MaxScaleDenominator>
-  <se:PointSymbolizer>
+          <se:PointSymbolizer>
             <se:Graphic>
              <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
@@ -33,7 +33,7 @@
             </se:Graphic>
           </se:PointSymbolizer>
            </se:Rule>
-        <se:Rule>
+           <se:Rule>
           <se:Name>Entidad_9.000.000_1.000.000</se:Name>
           <se:Description>
             <se:Title>Entidad_9.000.000_1.000.000</se:Title>
@@ -46,7 +46,7 @@
           </ogc:Filter>
           <se:MinScaleDenominator>1000001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
-       <se:PointSymbolizer>
+          <se:PointSymbolizer>
             <se:Graphic>
              <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
@@ -61,7 +61,7 @@
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
- <se:Rule>
+        <se:Rule>
           <se:Name>Entidad_1.000.000_0</se:Name>
           <se:Description>
             <se:Title>Entidad_1.000.000_0</se:Title>
@@ -74,7 +74,7 @@
           </ogc:Filter>
           <se:MinScaleDenominator>0</se:MinScaleDenominator>
           <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
-       <se:PointSymbolizer>
+         <se:PointSymbolizer>
             <se:Graphic>
             <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>

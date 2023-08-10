@@ -3,8 +3,11 @@
   <NamedLayer>
     <se:Name>lineas_de_transporte_ferroviario</se:Name>
     <UserStyle>
-      <se:Name>lineas_de_transporte_ferroviario</se:Name>
+      <se:Name>lineas_de_transporte_ferroviario_OSCURO</se:Name>
       <se:FeatureTypeStyle>
+
+        <!-- Linea ferroviaria Abandonada -->
+
         <se:Rule>
           <se:Name>Línea ferroviaria abandonada</se:Name>
           <se:Description>
@@ -20,9 +23,9 @@
           <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#6c6c6a</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0.25</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
+              <se:SvgParameter name="stroke">#B7B7B7</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.1</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -34,23 +37,76 @@
                   <se:Mark>
                     <se:WellKnownName>line</se:WellKnownName>
                     <se:Fill>
-                      <se:SvgParameter name="fill">#ff0000</se:SvgParameter>
+                      <se:SvgParameter name="fill">#B7B7B7</se:SvgParameter>
                     </se:Fill>
                     <se:Stroke>
-                      <se:SvgParameter name="stroke">#6c6c6a</se:SvgParameter>
-                      <se:SvgParameter name="stroke-opacity">0.25</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">.4</se:SvgParameter>
+                      <se:SvgParameter name="stroke">#B7B7B7</se:SvgParameter>
+                      <se:SvgParameter name="stroke-opacity">0.1</se:SvgParameter>
+                      <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
-                  <se:Size>4</se:Size>
+                  <se:Size>3</se:Size>
                 </se:Graphic>
                 <se:Gap>
-                  <ogc:Literal>5</ogc:Literal>
+                  <ogc:Literal>2</ogc:Literal>
                 </se:Gap>
               </se:GraphicStroke>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
+
+
+        <!--Línea ferroviaria nivel 10 -->
+
+        <se:Rule>
+          <se:Name>Línea ferroviario</se:Name>
+          <se:Description>
+            <se:Title>Línea ferroviario</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>fun</ogc:PropertyName>
+              <ogc:Literal>6</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MinScaleDenominator>200001</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#A1A1A1</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.05</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:GraphicStroke>
+                <se:Graphic>
+                  <se:Mark>
+                    <se:WellKnownName>line</se:WellKnownName>
+                    <se:Fill>
+                      <se:SvgParameter name="fill">#A1A1A1</se:SvgParameter>
+                    </se:Fill>
+                    <se:Stroke>
+                      <se:SvgParameter name="stroke">#A1A1A1</se:SvgParameter>
+                      <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
+                      <se:SvgParameter name="stroke-opacity">0.05</se:SvgParameter>
+                    </se:Stroke>
+                  </se:Mark>
+                  <se:Size>2</se:Size>
+                </se:Graphic>
+                <se:Gap>
+                  <ogc:Literal>2</ogc:Literal>
+                </se:Gap>
+              </se:GraphicStroke>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>
+
+        <!--Línea ferroviaria nivel 11 y 12 -->
+
         <se:Rule>
           <se:Name>Línea ferroviario</se:Name>
           <se:Description>
@@ -63,12 +119,12 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>70000</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>640000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>200000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#6c6c6a</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0.36</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+              <se:SvgParameter name="stroke">#f0f0f0</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.1</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -80,23 +136,26 @@
                   <se:Mark>
                     <se:WellKnownName>line</se:WellKnownName>
                     <se:Fill>
-                      <se:SvgParameter name="fill">#ff0000</se:SvgParameter>
+                      <se:SvgParameter name="fill">#f0f0f0</se:SvgParameter>
                     </se:Fill>
                     <se:Stroke>
-                      <se:SvgParameter name="stroke">#6c6c6a</se:SvgParameter>
-                      <se:SvgParameter name="stroke-opacity">0.34</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
+                      <se:SvgParameter name="stroke">#f0f0f0</se:SvgParameter>
+                      <se:SvgParameter name="stroke-opacity">0.2</se:SvgParameter>
+                      <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
-                  <se:Size>2</se:Size>
+                  <se:Size>3.4</se:Size>
                 </se:Graphic>
                 <se:Gap>
-                  <ogc:Literal>5</ogc:Literal>
+                  <ogc:Literal>2</ogc:Literal>
                 </se:Gap>
               </se:GraphicStroke>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
+
+        <!--Línea ferroviaria nivel 11 a 21-->
+
         <se:Rule>
           <se:Name>Línea ferroviario</se:Name>
           <se:Description>
@@ -113,8 +172,8 @@
           <se:LineSymbolizer>
              <se:Stroke>
               <se:SvgParameter name="stroke">#6c6c6a</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.1</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
@@ -130,19 +189,21 @@
                     </se:Fill>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#6c6c6a</se:SvgParameter>
-                      <se:SvgParameter name="stroke-opacity">0.34</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">1.2</se:SvgParameter>
+                      <se:SvgParameter name="stroke-opacity">0.1</se:SvgParameter>
+                      <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
-                  <se:Size>4</se:Size>
+                  <se:Size>3.4</se:Size>
                 </se:Graphic>
                 <se:Gap>
-                  <ogc:Literal>5</ogc:Literal>
+                  <ogc:Literal>2</ogc:Literal>
                 </se:Gap>
               </se:GraphicStroke>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
+
+
       <!--  <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -173,6 +234,9 @@
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule> -->
+
+        <!-- ETIQUETAS-->
+
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -208,6 +272,8 @@
             <se:VendorOption name="group">yes</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
+
+
       </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
