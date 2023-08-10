@@ -333,10 +333,12 @@
                             <se:Radius>1</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                 <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
                             <se:SvgParameter name="fill">#4a0a0a</se:SvgParameter>
+                             <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">50</se:VendorOption>
                         <se:VendorOption name="spaceAround">10</se:VendorOption>
@@ -437,10 +439,12 @@
                             <se:Radius>1</se:Radius>
                             <se:Fill>
                                 <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                                 <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                             </se:Fill>
                         </se:Halo>
                         <se:Fill>
                             <se:SvgParameter name="fill">#4a0a0a</se:SvgParameter>
+                             <se:SvgParameter name="fill-opacity">0.9</se:SvgParameter>
                         </se:Fill>
                         <se:VendorOption name="autoWrap">50</se:VendorOption>
                         <se:VendorOption name="spaceAround">10</se:VendorOption>
@@ -1340,8 +1344,9 @@
                     <se:MaxScaleDenominator>350000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[ ]]>(<ogc:PropertyName>alt</ogc:PropertyName>)
-            </se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[ ]]>
+                            (<ogc:PropertyName>alt</ogc:PropertyName>)
+                    </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
@@ -1373,9 +1378,19 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <!--  Etiquetas cerros z12 - 136k -->
+                <!-- Etiquetas sin altura -->
                 <se:Rule>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:And>
+                            <ogc:Or>
+                                <ogc:PropertyIsNull>
+                                    <ogc:PropertyName>alt</ogc:PropertyName>
+                                </ogc:PropertyIsNull>
+                                <ogc:PropertyIsLessThanOrEqualTo>
+                                    <ogc:PropertyName>alt</ogc:PropertyName>
+                                    <ogc:Literal>0</ogc:Literal>
+                                </ogc:PropertyIsLessThanOrEqualTo>
+                            </ogc:Or>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>entidad</ogc:PropertyName>
                                 <ogc:Literal>2</ogc:Literal>
@@ -1423,6 +1438,63 @@
                         <se:VendorOption name="charSpacing">0.3</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
+<!-- Etiquetas con altura -->
+               <se:Rule>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:And>
+                            <ogc:PropertyIsGreaterThan>
+                                <ogc:PropertyName>alt</ogc:PropertyName>
+                                <ogc:Literal>0</ogc:Literal>
+                            </ogc:PropertyIsGreaterThan>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>entidad</ogc:PropertyName>
+                                <ogc:Literal>2</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>fna</ogc:PropertyName>
+                                <ogc:Literal>-2</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:MinScaleDenominator>100000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
+                        <se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[ ]]>
+                            (<ogc:PropertyName>alt</ogc:PropertyName> <![CDATA[m]]>)
+                        </se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+                            <se:SvgParameter name="font-size">10</se:SvgParameter>
+                            <se:SvgParameter name="font-style">italic</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:AnchorPoint>
+                                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                                    <se:AnchorPointY>1</se:AnchorPointY>
+                                </se:AnchorPoint>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Halo>
+                            <se:Radius>0.5</se:Radius>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#4a0a0a</se:SvgParameter>
+                        </se:Fill>
+                        <se:Priority>
+                            <ogc:PropertyName>alt</ogc:PropertyName>
+                        </se:Priority>
+                        <!-- <se:Priority>2</se:Priority> -->
+                        <se:VendorOption name="autoWrap">50</se:VendorOption>
+                        <se:VendorOption name="spaceAround">50</se:VendorOption>
+                        <se:VendorOption name="charSpacing">0.3</se:VendorOption>
+                    </se:TextSymbolizer>
+                </se:Rule>
+
                 <!-- Etiquetas cerros desde z13 - 68k -->
                 <!-- Etiquetas sin altura -->
                 <se:Rule>
@@ -1505,7 +1577,9 @@
                     <se:MaxScaleDenominator>70000</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
-                            <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[ ]]>(<ogc:PropertyName>alt</ogc:PropertyName>)</se:Label>
+                            <ogc:PropertyName>fna</ogc:PropertyName><![CDATA[ ]]>
+                            (<ogc:PropertyName>alt</ogc:PropertyName> <![CDATA[m]]>)
+                        </se:Label>
                         <se:Font>
                             <se:SvgParameter name="font-family">Arial</se:SvgParameter>
                             <se:SvgParameter name="font-size">10</se:SvgParameter>
