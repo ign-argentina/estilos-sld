@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+  <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0"
   xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ogc="http://www.opengis.net/ogc"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -16,16 +16,10 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:Or>
                 <ogc:PropertyIsEqualTo>
                   <ogc:PropertyName>highway</ogc:PropertyName>
                   <ogc:Literal>service</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>highway</ogc:PropertyName>
-                  <ogc:Literal>service_link</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
                   <ogc:PropertyName>tunnel</ogc:PropertyName>
@@ -52,7 +46,7 @@
               <se:SvgParameter name="stroke">#fafcd7</se:SvgParameter>
               <se:SvgParameter name="stroke-width">4</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -65,16 +59,10 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
-              <ogc:Or>
                 <ogc:PropertyIsEqualTo>
                   <ogc:PropertyName>highway</ogc:PropertyName>
                   <ogc:Literal>residential</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>highway</ogc:PropertyName>
-                  <ogc:Literal>residential_link</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
                   <ogc:PropertyName>tunnel</ogc:PropertyName>
@@ -101,7 +89,7 @@
               <se:SvgParameter name="stroke">#fafcd7</se:SvgParameter>
               <se:SvgParameter name="stroke-width">9</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -144,7 +132,7 @@
               <se:SvgParameter name="stroke">#fafcd7</se:SvgParameter>
               <se:SvgParameter name="stroke-width">9</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -187,7 +175,7 @@
               <se:SvgParameter name="stroke">#fafcd7</se:SvgParameter>
               <se:SvgParameter name="stroke-width">10</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -230,7 +218,7 @@
               <se:SvgParameter name="stroke">#feecd5</se:SvgParameter>
               <se:SvgParameter name="stroke-width">11</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -315,7 +303,7 @@
               <se:SvgParameter name="stroke">#fbb299</se:SvgParameter>
               <se:SvgParameter name="stroke-width">10</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -358,7 +346,7 @@
               <se:SvgParameter name="stroke">#ea91a0</se:SvgParameter>
               <se:SvgParameter name="stroke-width">13</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -903,7 +891,7 @@
               <se:SvgParameter name="stroke">#c29a4d</se:SvgParameter>
               <se:SvgParameter name="stroke-width">5</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -930,7 +918,7 @@
               <se:SvgParameter name="stroke">#c29a4d</se:SvgParameter>
               <se:SvgParameter name="stroke-width">7</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -959,7 +947,7 @@
               <se:SvgParameter name="stroke">#c29a4d</se:SvgParameter>
               <se:SvgParameter name="stroke-width">8</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -981,7 +969,7 @@
               <se:SvgParameter name="stroke">#c29a4d</se:SvgParameter>
               <se:SvgParameter name="stroke-width">1.8</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -1003,7 +991,7 @@
               <se:SvgParameter name="stroke">#c29a4d</se:SvgParameter>
               <se:SvgParameter name="stroke-width">5</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -1030,7 +1018,7 @@
               <se:SvgParameter name="stroke">#c29a4d</se:SvgParameter>
               <se:SvgParameter name="stroke-width">7</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -1059,7 +1047,7 @@
               <se:SvgParameter name="stroke">#c29a4d</se:SvgParameter>
               <se:SvgParameter name="stroke-width">11</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -1184,7 +1172,7 @@
               <se:SvgParameter name="stroke">#dd2f6a</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -1206,7 +1194,7 @@
               <se:SvgParameter name="stroke">#dd2f6a</se:SvgParameter>
               <se:SvgParameter name="stroke-width">4</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -1233,7 +1221,7 @@
               <se:SvgParameter name="stroke">#dd2f6a</se:SvgParameter>
               <se:SvgParameter name="stroke-width">7</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -1259,7 +1247,7 @@
               <se:SvgParameter name="stroke">#dd2f6a</se:SvgParameter>
               <se:SvgParameter name="stroke-width">13</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -1575,7 +1563,7 @@
               <se:SvgParameter name="stroke">#ea91a0</se:SvgParameter>
               <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -2992,7 +2980,7 @@
               <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">6</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -3045,7 +3033,7 @@
               <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">12</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -3087,7 +3075,7 @@
               <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">6</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -3128,7 +3116,7 @@
               <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">12</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -3170,7 +3158,7 @@
               <se:SvgParameter name="stroke">#f7fabf</se:SvgParameter>
               <se:SvgParameter name="stroke-width">6</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -3211,7 +3199,7 @@
               <se:SvgParameter name="stroke">#f7fabf</se:SvgParameter>
               <se:SvgParameter name="stroke-width">12</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -3253,7 +3241,7 @@
               <se:SvgParameter name="stroke">#fcd6a4</se:SvgParameter>
               <se:SvgParameter name="stroke-width">6</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -3285,16 +3273,71 @@
           <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <se:Stroke>
               <se:SvgParameter name="stroke">#0d0a0a</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">13</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">11</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+              <!-- <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> -->
             </se:Stroke>
           </se:LineSymbolizer>
+          <!-- Prueba para agregar líneas diagonales abiertas al final de los bordes oscuros de los
+          puentes -->
+          <!-- <se:PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <se:Geometry>
+              <ogc:Function name="startPoint">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              </ogc:Function>
+            </se:Geometry>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>shape://oarrow</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#0d0a0a</se:SvgParameter>
+                  <se:SvgParameter name="fill-opacity">0</se:SvgParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#0d0a0a</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>50</se:Size>
+              <se:Rotation>
+                <ogc:Function name="endAngle">
+                  <ogc:PropertyName>geom</ogc:PropertyName>
+                </ogc:Function>
+              </se:Rotation>
+            </se:Graphic>
+          </se:PointSymbolizer>
+          <se:PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <se:Geometry>
+              <ogc:Function name="endPoint">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              </ogc:Function>
+            </se:Geometry>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>shape://oarrow</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#0d0a0a</se:SvgParameter>
+                  <se:SvgParameter name="fill-opacity">0</se:SvgParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#ff0f00</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>50</se:Size>
+              <se:Rotation>
+                <ogc:Function name="endAngle">
+                  <ogc:PropertyName>geom</ogc:PropertyName>
+                </ogc:Function>
+              </se:Rotation>
+            </se:Graphic>
+          </se:PointSymbolizer> -->
           <se:LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <se:Stroke>
               <se:SvgParameter name="stroke">#fcd6a4</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">12</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">10</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -3759,77 +3802,77 @@
           </se:TextSymbolizer>
         </se:Rule>
         <!-- <se:Rule>
-          <se:Name>Vel Maxima</se:Name>
-          <se:Description>
-            <se:Title>Velociad Máxima</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>highway</ogc:PropertyName>
-                <ogc:Literal>motorway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>highway</ogc:PropertyName>
-                <ogc:Literal>trunk</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>highway</ogc:PropertyName>
-                <ogc:Literal>primary</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>highway</ogc:PropertyName>
-                <ogc:Literal>secondary</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>highway</ogc:PropertyName>
-                <ogc:Literal>tertiary</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>
-          </ogc:Filter>
-          <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-          <se:TextSymbolizer>
-            <se:Label>
-              <ogc:PropertyName>maxspeed</ogc:PropertyName>
-            </se:Label>
-            <se:Font>
-              <se:SvgParameter name="font-family">Roadgeek 2000 Series C</se:SvgParameter>
-              <se:SvgParameter name="font-style">Regular</se:SvgParameter>
-              <se:SvgParameter name="font-size">11</se:SvgParameter>
-              <se:SvgParameter name="font-weight">bold</se:SvgParameter>
-            </se:Font>
-            <se:LabelPlacement>
-              <se:PointPlacement>
-                <se:AnchorPoint>
-                  <se:AnchorPointX>0.5</se:AnchorPointX>
-                  <se:AnchorPointY>0.5</se:AnchorPointY>
-                </se:AnchorPoint>
-              </se:PointPlacement>
-            </se:LabelPlacement>
-            <se:Fill>
-              <se:SvgParameter name="fill">#000000</se:SvgParameter>
-            </se:Fill>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#cc2128</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">3</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-            <se:VendorOption name="group">yes</se:VendorOption>
-            <se:VendorOption name="graphic-resize">proportional</se:VendorOption>
-            <se:VendorOption name="graphic-margin">5 5</se:VendorOption>
-            <se:VendorOption name="spaceAround">30</se:VendorOption>
-            <se:VendorOption name="goodnessOfFit">1</se:VendorOption>
-            <se:VendorOption name="conflictResolution">true</se:VendorOption>
-          </se:TextSymbolizer>
-        </se:Rule> -->
+            <se:Name>Vel Maxima</se:Name>
+            <se:Description>
+              <se:Title>Velociad Máxima</se:Title>
+            </se:Description>
+            <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>highway</ogc:PropertyName>
+                  <ogc:Literal>motorway</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>highway</ogc:PropertyName>
+                  <ogc:Literal>trunk</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>highway</ogc:PropertyName>
+                  <ogc:Literal>primary</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>highway</ogc:PropertyName>
+                  <ogc:Literal>secondary</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>highway</ogc:PropertyName>
+                  <ogc:Literal>tertiary</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:Filter>
+            <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
+            <se:TextSymbolizer>
+              <se:Label>
+                <ogc:PropertyName>maxspeed</ogc:PropertyName>
+              </se:Label>
+              <se:Font>
+                <se:SvgParameter name="font-family">Roadgeek 2000 Series C</se:SvgParameter>
+                <se:SvgParameter name="font-style">Regular</se:SvgParameter>
+                <se:SvgParameter name="font-size">11</se:SvgParameter>
+                <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+              </se:Font>
+              <se:LabelPlacement>
+                <se:PointPlacement>
+                  <se:AnchorPoint>
+                    <se:AnchorPointX>0.5</se:AnchorPointX>
+                    <se:AnchorPointY>0.5</se:AnchorPointY>
+                  </se:AnchorPoint>
+                </se:PointPlacement>
+              </se:LabelPlacement>
+              <se:Fill>
+                <se:SvgParameter name="fill">#000000</se:SvgParameter>
+              </se:Fill>
+              <se:Graphic>
+                <se:Mark>
+                  <se:WellKnownName>circle</se:WellKnownName>
+                  <se:Fill>
+                    <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                  </se:Fill>
+                  <se:Stroke>
+                    <se:SvgParameter name="stroke">#cc2128</se:SvgParameter>
+                    <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+                  </se:Stroke>
+                </se:Mark>
+                <se:Size>7</se:Size>
+              </se:Graphic>
+              <se:VendorOption name="group">yes</se:VendorOption>
+              <se:VendorOption name="graphic-resize">proportional</se:VendorOption>
+              <se:VendorOption name="graphic-margin">5 5</se:VendorOption>
+              <se:VendorOption name="spaceAround">30</se:VendorOption>
+              <se:VendorOption name="goodnessOfFit">1</se:VendorOption>
+              <se:VendorOption name="conflictResolution">true</se:VendorOption>
+            </se:TextSymbolizer>
+          </se:Rule> -->
         <se:Rule>
           <se:Name>referencia ruta provincial</se:Name>
           <se:Description>
